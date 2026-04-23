@@ -1,26 +1,30 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html,
+  body {
+    /* Grungier, less yellow newsprint background */
+    @apply h-full w-full overflow-hidden m-0 p-0 antialiased bg-[#dcdad2]; 
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Make text look printed onto the paper by blending it */
+  h1, h2, h3, h4, p, span, a {
+    mix-blend-mode: multiply;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .bg-paper {
+    /* Increased noise opacity and added a subtle uneven vignette for real paper feel */
+    background-color: #dcdad2;
+    background-image: 
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.18'/%3E%3C/svg%3E"),
+      radial-gradient(circle at 50% 50%, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0.08) 120%);
+    box-shadow: inset 0 0 40px rgba(0,0,0,0.05);
+  }
 }

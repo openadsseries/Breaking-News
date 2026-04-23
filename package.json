@@ -1,5 +1,5 @@
 {
-  "name": "temp-app",
+  "name": "breaking-news",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,30 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^3.0.53",
+    "@rainbow-me/rainbowkit": "^2.2.10",
+    "@tanstack/react-query": "^5.99.2",
+    "ai": "^6.0.168",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.8.0",
     "next": "16.2.4",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "rss-parser": "^3.13.0",
+    "viem": "^2.48.4",
+    "wagmi": "^3.6.4"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "@openzeppelin/contracts": "^5.6.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
+    "hardhat": "^3.4.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
