@@ -1,86 +1,119 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useAccount, useWriteContract } from 'wagmi';
 import { signalTokenAbi } from '@/lib/abi';
-import sdk from '@farcaster/miniapp-sdk';
 import mockFeed from "@/data/mock-feed.json";
 
-// Initialize Farcaster Mini App SDK (tell Warpcast we're ready)
-if (typeof window !== 'undefined') {
-  sdk.actions.ready();
-}
+const READS_TO_CLAIM = 5;
+const READ_TIME_MS = 5000; // 5 seconds to "read" an article
+const CONTRACT_ADDRESS = "0x1d705c7cb1bbe119f83f48520234f074e9157907";
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [points, setPoints] = useState(0);
+  const [readCount, setReadCount] = useState(0);
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
   const [shared, setShared] = useState<Record<string, boolean>>({});
+  const [canClaim, setCanClaim] = useState(false);
+  const [readProgress, setReadProgress] = useState(0);
 
   const { isConnected } = useAccount();
   const { writeContract, isPending, isSuccess } = useWriteContract();
 
-  // SignalToken deployed on Base mainnet
-  const CONTRACT_ADDRESS = "0x1d705c7cb1bbe119f83f48520234f074e9157907";
+  // Initialize Farcaster Mini App SDK
+  useEffect(() => {
+    import('@farcaster/miniapp-sdk').then((mod) => {
+      mod.default.actions.ready();
+    }).catch(() => {
+      // Not in Farcaster context, ignore
+    });
+  }, []);
 
-  // Filter out already-read articles
+  // Filter unread articles
   const unreadArticles = useMemo(() => {
     return mockFeed.filter(a => !readIds.has(a.id));
   }, [readIds]);
 
   // Load persisted state
   useEffect(() => {
-    const savedPoints = localStorage.getItem("signal_points");
-    if (savedPoints) setPoints(parseInt(savedPoints, 10));
-
-    const savedReadIds = localStorage.getItem("signal_read_ids");
-    if (savedReadIds) setReadIds(new Set(JSON.parse(savedReadIds)));
+    const saved = localStorage.getItem("bn_read_ids");
+    if (saved) {
+      const ids = JSON.parse(saved);
+      setReadIds(new Set(ids));
+      setReadCount(ids.length);
+    }
+    const savedClaim = localStorage.getItem("bn_can_claim");
+    if (savedClaim === "true") setCanClaim(true);
   }, []);
 
-  // Mark article as read after 3 seconds
+  // Auto-read timer: 5 seconds → mark as read → auto-advance
   useEffect(() => {
     if (unreadArticles.length === 0) return;
     const currentArticle = unreadArticles[currentIndex];
-    if (!currentArticle) return;
+    if (!currentArticle || readIds.has(currentArticle.id)) return;
 
-    const timer = setTimeout(() => {
-      if (!readIds.has(currentArticle.id)) {
-        const newReadIds = new Set(readIds);
-        newReadIds.add(currentArticle.id);
-        setReadIds(newReadIds);
-        localStorage.setItem("signal_read_ids", JSON.stringify([...newReadIds]));
+    setReadProgress(0);
 
-        const newPoints = points + 5;
-        setPoints(newPoints);
-        localStorage.setItem("signal_points", newPoints.toString());
+    // Progress bar animation (updates every 100ms)
+    const progressInterval = setInterval(() => {
+      setReadProgress(prev => Math.min(prev + (100 / (READ_TIME_MS / 100)), 100));
+    }, 100);
+
+    // Mark as read after READ_TIME_MS
+    const readTimer = setTimeout(() => {
+      const newReadIds = new Set(readIds);
+      newReadIds.add(currentArticle.id);
+      setReadIds(newReadIds);
+      localStorage.setItem("bn_read_ids", JSON.stringify([...newReadIds]));
+
+      const newCount = readCount + 1;
+      setReadCount(newCount);
+
+      // Check if eligible for claim
+      if (newCount >= READS_TO_CLAIM && !canClaim) {
+        setCanClaim(true);
+        localStorage.setItem("bn_can_claim", "true");
       }
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, [currentIndex, points, readIds, unreadArticles]);
+
+      // Auto-advance to next article after a small delay
+      setTimeout(() => {
+        if (currentIndex < unreadArticles.length - 1) {
+          setCurrentIndex(prev => prev + 1);
+        }
+      }, 500);
+    }, READ_TIME_MS);
+
+    return () => {
+      clearTimeout(readTimer);
+      clearInterval(progressInterval);
+    };
+  }, [currentIndex, readIds, unreadArticles, readCount, canClaim]);
 
   // Handle successful claim
   useEffect(() => {
     if (isSuccess) {
-      const newPoints = points - 69;
-      setPoints(newPoints);
-      localStorage.setItem("signal_points", newPoints.toString());
-      alert("Transaction successful! You claimed 69 $SIGNAL.");
+      setCanClaim(false);
+      setReadCount(0);
+      setReadIds(new Set());
+      localStorage.removeItem("bn_read_ids");
+      localStorage.removeItem("bn_can_claim");
+      alert("You claimed 69 Breaking News tokens!");
     }
   }, [isSuccess]);
 
-  const handleClaim = () => {
-    if (points >= 69) {
+  const handleClaim = useCallback(() => {
+    if (canClaim) {
       writeContract({
         address: CONTRACT_ADDRESS,
         abi: signalTokenAbi,
         functionName: 'claim',
       });
     }
-  };
+  }, [canClaim, writeContract]);
 
-  const handleDragEnd = (e: any, { offset }: any) => {
+  const handleDragEnd = useCallback((e: any, { offset }: any) => {
     if (unreadArticles.length === 0) return;
     const swipeThreshold = 50;
     if (offset.x < -swipeThreshold && currentIndex < unreadArticles.length - 1) {
@@ -88,44 +121,37 @@ export default function Home() {
     } else if (offset.x > swipeThreshold && currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
-  };
+  }, [currentIndex, unreadArticles.length]);
 
-  const handleShare = async (article: typeof mockFeed[0]) => {
+  const handleShare = useCallback(async (article: typeof mockFeed[0]) => {
     const shareData = {
       title: article.title,
-      text: "Found this signal on Breaking News: " + article.url,
+      text: "Found this on Breaking News: " + article.url,
       url: article.url
     };
-
     try {
       if (navigator.share) {
         await navigator.share(shareData);
       } else {
         await navigator.clipboard.writeText(`${shareData.title}\n${shareData.url}`);
-        alert("Link copied to clipboard!");
+        alert("Link copied!");
       }
-
       if (!shared[article.id]) {
         setShared(prev => ({ ...prev, [article.id]: true }));
-        const newPoints = points + 15;
-        setPoints(newPoints);
-        localStorage.setItem("signal_points", newPoints.toString());
       }
     } catch (err) {
-      console.error("Error sharing:", err);
+      console.error("Share error:", err);
     }
-  };
+  }, [shared]);
 
   // ─── "All Caught Up" screen ───
   if (unreadArticles.length === 0) {
     return (
       <main className="fixed inset-0 bg-paper text-[#1c1b18] overflow-hidden font-serif flex flex-col items-center justify-center">
         <div className="w-full h-full max-w-2xl px-4 py-6 flex flex-col relative z-10">
-
           <header className="border-b-[5px] border-[#1c1b18] pb-2 mb-3 flex flex-col items-center shrink-0">
             <div className="w-full flex justify-between items-end border-b-2 border-[#1c1b18] pb-1 mb-1 px-1">
-              <span className="text-[10px] uppercase font-sans tracking-widest font-bold">Pts: {points}</span>
-              <span className="text-[10px] uppercase font-sans tracking-widest font-bold hidden sm:inline-block">{new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              <span className="text-[10px] uppercase font-sans tracking-widest font-bold">{readCount}/{READS_TO_CLAIM} Read</span>
               <ConnectButton.Custom>
                 {({ account, chain, openConnectModal, openAccountModal, mounted }) => {
                   const ready = mounted;
@@ -158,23 +184,22 @@ export default function Home() {
               No new signals right now.<br />
               Fresh news drops every hour.
             </p>
-            <div className="border-[3px] border-[#1c1b18] px-6 py-3">
-              <span className="font-black uppercase tracking-widest text-sm">
-                {mockFeed.length} articles read · {points} pts earned
-              </span>
-            </div>
 
-            {points >= 69 && isConnected && (
+            {canClaim && isConnected && (
               <button
                 onClick={handleClaim}
                 disabled={isPending}
-                className="mt-6 w-full max-w-xs border-[3px] border-[#1c1b18] py-3 text-lg font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors"
+                className="w-full max-w-xs border-[3px] border-[#1c1b18] py-3 text-lg font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors"
               >
-                {isPending ? "Claiming..." : "CLAIM 69 $SIGNAL"}
+                {isPending ? "Claiming..." : "CLAIM 69 TOKENS"}
               </button>
             )}
+            {canClaim && !isConnected && (
+              <p className="text-sm font-bold uppercase tracking-widest border-2 border-[#1c1b18] px-4 py-2">
+                Connect wallet to claim your tokens
+              </p>
+            )}
           </div>
-
         </div>
       </main>
     );
@@ -185,13 +210,12 @@ export default function Home() {
 
   return (
     <main className="fixed inset-0 bg-paper text-[#1c1b18] overflow-hidden font-serif selection:bg-[#1c1b18] selection:text-[#dcdad2] flex flex-col items-center justify-center">
-
       <div className="w-full h-full max-w-2xl px-4 py-6 flex flex-col relative z-10">
 
         {/* Newspaper Masthead */}
         <header className="border-b-[5px] border-[#1c1b18] pb-2 mb-3 flex flex-col items-center shrink-0">
           <div className="w-full flex justify-between items-end border-b-2 border-[#1c1b18] pb-1 mb-1 px-1">
-            <span className="text-[10px] uppercase font-sans tracking-widest font-bold">Pts: {points}</span>
+            <span className="text-[10px] uppercase font-sans tracking-widest font-bold">{readCount}/{READS_TO_CLAIM} Read</span>
             <span className="text-[10px] uppercase font-sans tracking-widest font-bold hidden sm:inline-block">{new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
 
             <ConnectButton.Custom>
@@ -248,8 +272,17 @@ export default function Home() {
               className="absolute inset-0 w-full h-full bg-paper border-[3px] border-[#1c1b18] p-4 sm:p-5 shadow-[6px_6px_0px_rgba(28,27,24,1)] flex flex-col cursor-grab active:cursor-grabbing overflow-hidden"
             >
 
+              {/* Reading Progress Bar */}
+              <div className="absolute top-0 left-0 right-0 h-1 bg-transparent">
+                <motion.div
+                  className="h-full bg-[#1c1b18]"
+                  style={{ width: `${readProgress}%` }}
+                  transition={{ duration: 0.1 }}
+                />
+              </div>
+
               {/* Meta Info Bar */}
-              <div className="flex justify-between items-center border-b-[3px] border-[#1c1b18] pb-1 mb-3 shrink-0">
+              <div className="flex justify-between items-center border-b-[3px] border-[#1c1b18] pb-1 mb-3 shrink-0 mt-1">
                 <span className="font-bold text-sm uppercase tracking-tight bg-[#1c1b18] text-[#dcdad2] px-2 py-0.5">
                   {currentArticle.source}
                 </span>
@@ -299,19 +332,19 @@ export default function Home() {
                       : "hover:bg-[#1c1b18] hover:text-[#dcdad2] bg-transparent text-[#1c1b18]"
                   }`}
                 >
-                  {shared[currentArticle.id] ? "Shared (+15)" : "Share"}
+                  {shared[currentArticle.id] ? "Shared" : "Share"}
                 </button>
               </div>
 
-              {/* Claim Action (Conditional) */}
-              {points >= 69 && isConnected && (
+              {/* Claim Action */}
+              {canClaim && isConnected && (
                 <div className="mt-3 shrink-0 w-full flex">
                   <button
                     onClick={handleClaim}
                     disabled={isPending}
                     className="w-full border-[3px] border-[#1c1b18] py-3 text-lg font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors"
                   >
-                    {isPending ? "Claiming..." : "CLAIM 69 $SIGNAL"}
+                    {isPending ? "Claiming..." : "CLAIM 69 TOKENS"}
                   </button>
                 </div>
               )}
