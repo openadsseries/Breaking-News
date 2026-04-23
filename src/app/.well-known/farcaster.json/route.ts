@@ -10,12 +10,20 @@ export async function GET() {
     frame: {
       version: "1",
       name: "Breaking News",
+      subtitle: "Read-to-Earn Crypto Signals",
+      description: "Swipe through curated crypto signals from RSS, Farcaster, Reddit & GitHub. Read news and earn $SIGNAL tokens on Base. Zero cost, zero database.",
       iconUrl: "https://breaking-news-omega.vercel.app/icon.png",
       homeUrl: "https://breaking-news-omega.vercel.app",
       imageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
       splashImageUrl: "https://breaking-news-omega.vercel.app/splash.png",
       splashBackgroundColor: "#dcdad2",
       buttonTitle: "📰 Read & Earn",
+      primaryCategory: "news",
+      tags: ["crypto", "news", "defi", "base", "read-to-earn"],
+      tagline: "Consume signals. Earn tokens.",
+      ogTitle: "Breaking News — Read to Earn",
+      ogDescription: "Swipe crypto signals. Earn $SIGNAL tokens on Base.",
+      ogImageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
     },
   };
 
