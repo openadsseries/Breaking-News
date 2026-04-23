@@ -8,7 +8,6 @@ import { signalTokenAbi } from '@/lib/abi';
 import mockFeed from "@/data/mock-feed.json";
 
 const READS_TO_CLAIM = 5;
-const READ_TIME_MS = 5000;
 const CONTRACT_ADDRESS = "0x1d705c7cb1bbe119f83f48520234f074e9157907";
 
 export default function Home() {
@@ -17,23 +16,19 @@ export default function Home() {
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
   const [shared, setShared] = useState<Record<string, boolean>>({});
   const [canClaim, setCanClaim] = useState(false);
-  const [readProgress, setReadProgress] = useState(0);
-  const [sdkReady, setSdkReady] = useState(false);
 
   const { isConnected } = useAccount();
   const { writeContract, isPending, isSuccess } = useWriteContract();
 
-  // Initialize Farcaster SDK safely
+  // Farcaster SDK
   useEffect(() => {
     try {
       import('@farcaster/miniapp-sdk').then((mod) => {
         mod.default.actions.ready();
-        setSdkReady(true);
       }).catch(() => {});
     } catch {}
   }, []);
 
-  // Filter unread
   const unreadArticles = useMemo(() => {
     return mockFeed.filter(a => !readIds.has(a.id));
   }, [readIds]);
@@ -52,39 +47,6 @@ export default function Home() {
     } catch {}
   }, []);
 
-  // Read timer (progress bar only, NO auto-advance)
-  useEffect(() => {
-    if (unreadArticles.length === 0) return;
-    const currentArticle = unreadArticles[currentIndex];
-    if (!currentArticle || readIds.has(currentArticle.id)) return;
-
-    setReadProgress(0);
-
-    const progressInterval = setInterval(() => {
-      setReadProgress(prev => Math.min(prev + (100 / (READ_TIME_MS / 100)), 100));
-    }, 100);
-
-    const readTimer = setTimeout(() => {
-      const newReadIds = new Set(readIds);
-      newReadIds.add(currentArticle.id);
-      setReadIds(newReadIds);
-      localStorage.setItem("bn_read_ids", JSON.stringify([...newReadIds]));
-
-      const newCount = readCount + 1;
-      setReadCount(newCount);
-
-      if (newCount >= READS_TO_CLAIM && !canClaim) {
-        setCanClaim(true);
-        localStorage.setItem("bn_can_claim", "true");
-      }
-    }, READ_TIME_MS);
-
-    return () => {
-      clearTimeout(readTimer);
-      clearInterval(progressInterval);
-    };
-  }, [currentIndex, readIds, unreadArticles, readCount, canClaim]);
-
   // Claim success
   useEffect(() => {
     if (isSuccess) {
@@ -96,6 +58,26 @@ export default function Home() {
     }
   }, [isSuccess]);
 
+  // Mark read on swipe
+  const markCurrentAsRead = useCallback(() => {
+    if (unreadArticles.length === 0) return;
+    const article = unreadArticles[currentIndex];
+    if (!article || readIds.has(article.id)) return;
+
+    const newReadIds = new Set(readIds);
+    newReadIds.add(article.id);
+    setReadIds(newReadIds);
+    localStorage.setItem("bn_read_ids", JSON.stringify([...newReadIds]));
+
+    const newCount = readCount + 1;
+    setReadCount(newCount);
+
+    if (newCount >= READS_TO_CLAIM && !canClaim) {
+      setCanClaim(true);
+      localStorage.setItem("bn_can_claim", "true");
+    }
+  }, [currentIndex, readIds, unreadArticles, readCount, canClaim]);
+
   const handleClaim = useCallback(() => {
     if (canClaim) {
       writeContract({
@@ -106,21 +88,22 @@ export default function Home() {
     }
   }, [canClaim, writeContract]);
 
-  // Manual swipe only
+  // Swipe → mark read → advance
   const handleDragEnd = useCallback((e: any, { offset }: any) => {
     if (unreadArticles.length === 0) return;
     const swipeThreshold = 50;
     if (offset.x < -swipeThreshold && currentIndex < unreadArticles.length - 1) {
+      markCurrentAsRead();
       setCurrentIndex(currentIndex + 1);
     } else if (offset.x > swipeThreshold && currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
-  }, [currentIndex, unreadArticles.length]);
+  }, [currentIndex, unreadArticles.length, markCurrentAsRead]);
 
   const handleShare = useCallback(async (article: typeof mockFeed[0]) => {
     try {
       if (navigator.share) {
-        await navigator.share({ title: article.title, text: "Breaking News: " + article.url, url: article.url });
+        await navigator.share({ title: article.title, url: article.url });
       } else {
         await navigator.clipboard.writeText(`${article.title}\n${article.url}`);
       }
@@ -128,41 +111,45 @@ export default function Home() {
     } catch {}
   }, [shared]);
 
-  // ─── ALL CAUGHT UP (simple, no complex components) ───
+  // ─── ALL CAUGHT UP ───
   if (unreadArticles.length === 0) {
     return (
       <main className="fixed inset-0 bg-paper text-[#1c1b18] overflow-hidden font-serif flex flex-col items-center justify-center p-6">
         <div className="max-w-md text-center">
-          <div className="text-6xl mb-6">📰</div>
-          <h1 className="text-4xl font-black uppercase tracking-tighter mb-4" style={{ fontFamily: 'Georgia, serif' }}>
+          <h1 className="text-4xl font-black uppercase tracking-tighter mb-2" style={{ fontFamily: 'Georgia, serif', transform: 'scaleY(1.1)' }}>
             Breaking News
           </h1>
-          <div className="border-t-[3px] border-b-[3px] border-[#1c1b18] py-4 mb-6">
-            <h2 className="text-2xl font-black uppercase tracking-tight mb-2">You&apos;re all caught up!</h2>
-            <p className="text-base leading-relaxed">
-              Fresh signals drop every hour.<br/>Come back soon for more alpha.
-            </p>
-          </div>
+          <div className="border-t-[3px] border-[#1c1b18] my-4"></div>
+          <p className="text-xl font-black uppercase tracking-tight mb-2">
+            That&apos;s the latest edition.
+          </p>
+          <p className="text-sm leading-relaxed mb-6">
+            The next edition arrives within the hour.<br />Check back shortly.
+          </p>
 
           {canClaim && (
-            <div className="border-[3px] border-[#1c1b18] p-4 mb-4 bg-[#1c1b18] text-[#dcdad2]">
-              <p className="text-sm font-bold uppercase tracking-widest mb-3">You earned 69 tokens!</p>
+            <div className="border-[3px] border-[#1c1b18] p-5 mb-4">
+              <p className="text-xs uppercase tracking-widest font-bold mb-3">Your reward is ready</p>
               {isConnected ? (
-                <button
-                  onClick={handleClaim}
-                  disabled={isPending}
-                  className="w-full border-[2px] border-[#dcdad2] py-2 text-sm font-black uppercase tracking-widest hover:bg-[#dcdad2] hover:text-[#1c1b18] transition-colors"
-                >
-                  {isPending ? "Claiming..." : "CLAIM NOW"}
+                <button onClick={handleClaim} disabled={isPending}
+                  className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
+                  {isPending ? "Processing..." : "Collect 69 Tokens"}
                 </button>
               ) : (
-                <p className="text-xs">Connect wallet to claim →</p>
+                <ConnectButton.Custom>
+                  {({ openConnectModal, mounted }) => (
+                    <button onClick={openConnectModal} disabled={!mounted}
+                      className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest hover:bg-[#1c1b18] hover:text-[#dcdad2] transition-colors">
+                      Connect Wallet to Collect
+                    </button>
+                  )}
+                </ConnectButton.Custom>
               )}
             </div>
           )}
 
-          <p className="text-xs uppercase tracking-widest font-bold mt-4">
-            {readCount} articles read today
+          <p className="text-[10px] uppercase tracking-widest font-sans font-bold mt-4">
+            {readCount} articles read this session
           </p>
         </div>
       </main>
@@ -171,7 +158,6 @@ export default function Home() {
 
   // ─── ARTICLE VIEW ───
   const currentArticle = unreadArticles[currentIndex];
-  const remaining = READS_TO_CLAIM - readCount;
 
   return (
     <main className="fixed inset-0 bg-paper text-[#1c1b18] overflow-hidden font-serif selection:bg-[#1c1b18] selection:text-[#dcdad2] flex flex-col items-center justify-center">
@@ -180,9 +166,8 @@ export default function Home() {
         {/* Masthead */}
         <header className="border-b-[5px] border-[#1c1b18] pb-2 mb-3 flex flex-col items-center shrink-0">
           <div className="w-full flex justify-between items-end border-b-2 border-[#1c1b18] pb-1 mb-1 px-1">
-            {/* Token earning info - always visible */}
             <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
-              {canClaim ? "✦ CLAIM READY" : `${readCount}/${READS_TO_CLAIM} → 69 Tokens`}
+              {canClaim ? "Reward Ready" : `Read ${readCount} of ${READS_TO_CLAIM}`}
             </span>
 
             <ConnectButton.Custom>
@@ -222,7 +207,7 @@ export default function Home() {
           </h1>
         </header>
 
-        {/* Swipeable Content */}
+        {/* Article Card */}
         <div className="flex-1 relative w-full h-full">
           <AnimatePresence mode="wait">
             <motion.div
@@ -238,13 +223,8 @@ export default function Home() {
               style={{ transformOrigin: "left center" }}
               className="absolute inset-0 w-full h-full bg-paper border-[3px] border-[#1c1b18] p-4 sm:p-5 shadow-[6px_6px_0px_rgba(28,27,24,1)] flex flex-col cursor-grab active:cursor-grabbing overflow-hidden"
             >
-              {/* Reading Progress */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-transparent">
-                <motion.div className="h-full bg-[#1c1b18]" style={{ width: `${readProgress}%` }} />
-              </div>
-
               {/* Source + Time */}
-              <div className="flex justify-between items-center border-b-[3px] border-[#1c1b18] pb-1 mb-3 shrink-0 mt-1">
+              <div className="flex justify-between items-center border-b-[3px] border-[#1c1b18] pb-1 mb-3 shrink-0">
                 <span className="font-bold text-sm uppercase tracking-tight bg-[#1c1b18] text-[#dcdad2] px-2 py-0.5">
                   {currentArticle.source}
                 </span>
@@ -267,7 +247,7 @@ export default function Home() {
                     const cleanLine = line.replace(/^\d+\.\s*/, '');
                     return (
                       <p key={i} className="relative pl-5">
-                        <span className="absolute left-0 font-black text-lg">•</span>
+                        <span className="absolute left-0 font-black text-lg">·</span>
                         {cleanLine}
                       </p>
                     );
@@ -275,7 +255,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Buttons */}
+              {/* Actions */}
               <div className="mt-auto shrink-0 w-full grid grid-cols-2 gap-3 pt-3 border-t-2 border-[#1c1b18]">
                 <a href={currentArticle.url} target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center w-full border-[3px] border-[#1c1b18] py-2.5 text-xs sm:text-sm font-black uppercase tracking-widest hover:bg-[#1c1b18] hover:text-[#dcdad2] transition-colors bg-transparent text-[#1c1b18]">
@@ -289,12 +269,12 @@ export default function Home() {
                 </button>
               </div>
 
-              {/* Claim banner */}
+              {/* Claim */}
               {canClaim && isConnected && (
                 <div className="mt-3 shrink-0 w-full">
                   <button onClick={handleClaim} disabled={isPending}
-                    className="w-full border-[3px] border-[#1c1b18] py-3 text-lg font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
-                    {isPending ? "Claiming..." : "CLAIM 69 TOKENS"}
+                    className="w-full border-[3px] border-[#1c1b18] py-3 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
+                    {isPending ? "Processing..." : "Collect 69 Tokens"}
                   </button>
                 </div>
               )}
@@ -302,7 +282,7 @@ export default function Home() {
           </AnimatePresence>
         </div>
 
-        {/* Footer dots */}
+        {/* Page indicator */}
         <div className="mt-4 flex justify-center items-center gap-1 shrink-0">
           {unreadArticles.map((_, i) => (
             <div key={i} className={`h-1.5 border border-[#1c1b18] transition-all duration-300 ${
