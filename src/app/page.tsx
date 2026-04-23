@@ -5,7 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useAccount, useWriteContract } from 'wagmi';
 import { signalTokenAbi } from '@/lib/abi';
+import sdk from '@farcaster/miniapp-sdk';
 import mockFeed from "@/data/mock-feed.json";
+
+// Initialize Farcaster Mini App SDK (tell Warpcast we're ready)
+if (typeof window !== 'undefined') {
+  sdk.actions.ready();
+}
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
