@@ -163,44 +163,15 @@ export default function Home() {
     <main className="fixed inset-0 bg-paper text-[#1c1b18] overflow-hidden font-serif selection:bg-[#1c1b18] selection:text-[#dcdad2] flex flex-col items-center justify-center">
       <div className="w-full h-full max-w-2xl px-4 py-6 flex flex-col relative z-10">
 
-        {/* Masthead */}
+        {/* Masthead — no wallet here, articles are free */}
         <header className="border-b-[5px] border-[#1c1b18] pb-2 mb-3 flex flex-col items-center shrink-0">
           <div className="w-full flex justify-between items-end border-b-2 border-[#1c1b18] pb-1 mb-1 px-1">
             <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
               {canClaim ? "Reward Ready" : `Read ${readCount} of ${READS_TO_CLAIM}`}
             </span>
-
-            <ConnectButton.Custom>
-              {({ account, chain, openChainModal, openConnectModal, openAccountModal, mounted }) => {
-                const ready = mounted;
-                const connected = ready && account && chain;
-                return (
-                  <div {...(!ready && { 'aria-hidden': true, style: { opacity: 0, pointerEvents: 'none', userSelect: 'none' } })}>
-                    {(() => {
-                      if (!connected) {
-                        return (
-                          <button onClick={openConnectModal} type="button" className="text-[10px] uppercase font-sans tracking-widest font-bold hover:bg-[#1c1b18] hover:text-[#dcdad2] px-1 transition-colors">
-                            [ Connect Wallet ]
-                          </button>
-                        );
-                      }
-                      if (chain.unsupported) {
-                        return (
-                          <button onClick={openChainModal} type="button" className="text-[10px] uppercase font-sans tracking-widest font-bold hover:bg-[#1c1b18] hover:text-[#dcdad2] px-1 transition-colors">
-                            [ Wrong network ]
-                          </button>
-                        );
-                      }
-                      return (
-                        <button onClick={openAccountModal} type="button" className="text-[10px] uppercase font-sans tracking-widest font-bold hover:bg-[#1c1b18] hover:text-[#dcdad2] px-1 transition-colors">
-                          {account.displayName}
-                        </button>
-                      );
-                    })()}
-                  </div>
-                );
-              }}
-            </ConnectButton.Custom>
+            <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
+              {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+            </span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-black uppercase tracking-tighter mt-1 text-center" style={{ fontFamily: 'Georgia, serif', transform: 'scaleY(1.1)' }}>
             Breaking News
