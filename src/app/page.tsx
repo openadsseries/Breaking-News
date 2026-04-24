@@ -30,19 +30,26 @@ export default function Home() {
 
   // 1. Load session
   useEffect(() => {
+    const today = new Date().toISOString().slice(0, 10); // "2026-04-24"
+
     try {
+      // Check daily claim status first
+      const claimDate = localStorage.getItem("bn_claim_date");
+      if (claimDate === today) {
+        setClaimed(true);
+      }
+
+      // Check if this is a new edition (articles refreshed by cron)
       const savedSession = localStorage.getItem("bn_session");
       if (savedSession !== SESSION_ID) {
-        // New edition → reset everything
+        // New edition → reset reading progress (but NOT daily claim)
         localStorage.setItem("bn_session", SESSION_ID);
         localStorage.removeItem("bn_read_count");
         localStorage.removeItem("bn_shared");
-        localStorage.removeItem("bn_claimed");
       } else {
         const rc = localStorage.getItem("bn_read_count");
         if (rc) setReadCount(parseInt(rc, 10));
         if (localStorage.getItem("bn_shared") === "true") setHasShared(true);
-        if (localStorage.getItem("bn_claimed") === "true") setClaimed(true);
       }
     } catch {}
     setMounted(true);
@@ -60,11 +67,12 @@ export default function Home() {
     }
   }, [mounted, isConnected, connectors, connect]);
 
-  // 3. Claim success
+  // 3. Claim success → lock for today
   useEffect(() => {
     if (isSuccess) {
       setClaimed(true);
-      localStorage.setItem("bn_claimed", "true");
+      const today = new Date().toISOString().slice(0, 10);
+      localStorage.setItem("bn_claim_date", today);
     }
   }, [isSuccess]);
 
