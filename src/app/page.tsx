@@ -15,33 +15,32 @@ export default function Home() {
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
   const [hasShared, setHasShared] = useState(false);
   const [canClaim, setCanClaim] = useState(false);
+  const [saved, setSaved] = useState<Record<string, boolean>>({});
 
-  const { isConnected, address } = useAccount();
+  const { isConnected } = useAccount();
   const { connect, connectors } = useConnect();
   const { writeContract, isPending, isSuccess } = useWriteContract();
 
   const readEnough = readCount >= READS_TO_CLAIM;
 
-  // Farcaster SDK + auto-connect wallet
+  // Farcaster SDK + auto-connect
   useEffect(() => {
     import('@farcaster/miniapp-sdk').then((mod) => {
       mod.default.actions.ready();
     }).catch(() => {});
-
-    // Auto-connect Farcaster wallet
     if (!isConnected && connectors.length > 0) {
-      const fcConnector = connectors.find(c => c.id === 'farcasterMiniApp') || connectors[0];
-      connect({ connector: fcConnector });
+      const fc = connectors.find(c => c.id === 'farcasterMiniApp') || connectors[0];
+      connect({ connector: fc });
     }
   }, [isConnected, connectors, connect]);
 
   const unreadArticles = useMemo(() => mockFeed.filter(a => !readIds.has(a.id)), [readIds]);
 
-  // Load state
+  // Load
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("bn_read_ids");
-      if (saved) { const ids = JSON.parse(saved); setReadIds(new Set(ids)); setReadCount(ids.length); }
+      const s = localStorage.getItem("bn_read_ids");
+      if (s) { const ids = JSON.parse(s); setReadIds(new Set(ids)); setReadCount(ids.length); }
       if (localStorage.getItem("bn_shared") === "true") setHasShared(true);
       if (localStorage.getItem("bn_can_claim") === "true") setCanClaim(true);
     } catch {}
@@ -50,7 +49,7 @@ export default function Home() {
   // Claim success
   useEffect(() => {
     if (isSuccess) {
-      setCanClaim(false); setHasShared(false); setReadCount(0); setReadIds(new Set());
+      setCanClaim(false); setHasShared(false); setReadCount(0); setReadIds(new Set()); setSaved({});
       localStorage.removeItem("bn_read_ids"); localStorage.removeItem("bn_shared"); localStorage.removeItem("bn_can_claim");
     }
   }, [isSuccess]);
@@ -59,24 +58,35 @@ export default function Home() {
     if (unreadArticles.length === 0) return;
     const article = unreadArticles[currentIndex];
     if (!article || readIds.has(article.id)) return;
-    const newReadIds = new Set(readIds);
-    newReadIds.add(article.id);
-    setReadIds(newReadIds);
-    localStorage.setItem("bn_read_ids", JSON.stringify([...newReadIds]));
+    const nr = new Set(readIds); nr.add(article.id); setReadIds(nr);
+    localStorage.setItem("bn_read_ids", JSON.stringify([...nr]));
     setReadCount(prev => prev + 1);
   }, [currentIndex, readIds, unreadArticles]);
 
   const handleDragEnd = useCallback((e: any, { offset }: any) => {
     if (unreadArticles.length === 0) return;
     if (offset.x < -50 && currentIndex < unreadArticles.length - 1) {
-      markCurrentAsRead();
-      setCurrentIndex(currentIndex + 1);
+      markCurrentAsRead(); setCurrentIndex(currentIndex + 1);
     } else if (offset.x > 50 && currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
   }, [currentIndex, unreadArticles.length, markCurrentAsRead]);
 
-  const handleShare = useCallback(async () => {
+  // Save = share individual article
+  const handleSave = useCallback(async (article: typeof mockFeed[0]) => {
+    const url = "https://breaking-news-omega.vercel.app";
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: article.title, text: article.title, url });
+      } else {
+        await navigator.clipboard.writeText(`${article.title}\n${url}`);
+      }
+      setSaved(prev => ({ ...prev, [article.id]: true }));
+    } catch {}
+  }, []);
+
+  // Share app (unlocks reward)
+  const handleShareApp = useCallback(async () => {
     const url = "https://breaking-news-omega.vercel.app";
     try {
       if (navigator.share) {
@@ -84,167 +94,175 @@ export default function Home() {
       } else {
         await navigator.clipboard.writeText(`Breaking News — Read crypto signals, earn tokens.\n${url}`);
       }
-      setHasShared(true);
-      localStorage.setItem("bn_shared", "true");
-      if (readCount >= READS_TO_CLAIM) {
-        setCanClaim(true);
-        localStorage.setItem("bn_can_claim", "true");
-      }
+      setHasShared(true); localStorage.setItem("bn_shared", "true");
+      if (readCount >= READS_TO_CLAIM) { setCanClaim(true); localStorage.setItem("bn_can_claim", "true"); }
     } catch {}
   }, [readCount]);
 
   const handleClaim = useCallback(() => {
-    if (canClaim) {
-      writeContract({ address: CONTRACT_ADDRESS, abi: signalTokenAbi, functionName: 'claim' });
-    }
+    if (canClaim) writeContract({ address: CONTRACT_ADDRESS, abi: signalTokenAbi, functionName: 'claim' });
   }, [canClaim, writeContract]);
 
-  // ─── ALL CAUGHT UP ───
+  // ─────────────────────────────────────
+  // END SCREEN
+  // ─────────────────────────────────────
   if (unreadArticles.length === 0) {
     return (
-      <main className="fixed inset-0 bg-paper text-[#1c1b18] overflow-hidden font-serif flex flex-col items-center justify-center p-8">
+      <main className="fixed inset-0 bg-paper text-[#1c1b18] font-serif flex flex-col items-center justify-center p-8">
         <div className="max-w-sm w-full text-center">
-          <h1 className="text-3xl font-black uppercase tracking-tighter mb-6" style={{ fontFamily: 'Georgia, serif' }}>
+
+          <h1 className="text-3xl font-black uppercase tracking-tighter" style={{ fontFamily: 'Georgia, serif' }}>
             Breaking News
           </h1>
-          <div className="border-t-[3px] border-[#1c1b18] mb-8"></div>
+          <div className="border-t-[3px] border-[#1c1b18] mt-3 mb-6"></div>
 
           {(() => {
-            if (canClaim) {
-              return (
-                <div className="space-y-4">
-                  <p className="text-lg font-black uppercase tracking-tight">
-                    Your reward is ready.
-                  </p>
-                  <button onClick={handleClaim} disabled={isPending}
-                    className="w-full border-[3px] border-[#1c1b18] py-4 text-base font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
-                    {isPending ? "Processing..." : "Collect 69 Tokens"}
-                  </button>
-                  <p className="text-xs leading-relaxed">
-                    Next edition within the hour.
-                  </p>
-                </div>
-              );
-            }
+            // 1) Can claim → show collect
+            if (canClaim) return (
+              <div className="space-y-5">
+                <p className="text-base font-bold uppercase tracking-tight">Your reward is ready</p>
+                <button onClick={handleClaim} disabled={isPending}
+                  className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
+                  {isPending ? "Processing..." : "Collect 69 Tokens"}
+                </button>
+                <p className="text-xs">Next edition arrives within the hour.</p>
+              </div>
+            );
 
-            if (readEnough && !hasShared) {
-              return (
-                <div className="space-y-4">
-                  <p className="text-lg font-black uppercase tracking-tight">
-                    That&apos;s the latest edition.
-                  </p>
-                  <p className="text-sm leading-relaxed">
-                    Share to unlock your reward.
-                  </p>
-                  <button onClick={handleShare}
-                    className="w-full border-[3px] border-[#1c1b18] py-4 text-base font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
-                    Share
-                  </button>
-                </div>
-              );
-            }
+            // 2) Read enough → must share
+            if (readEnough && !hasShared) return (
+              <div className="space-y-5">
+                <p className="text-base font-bold uppercase tracking-tight">
+                  You read {readCount} articles
+                </p>
+                <p className="text-sm">Share Breaking News to collect your reward.</p>
+                <button onClick={handleShareApp}
+                  className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
+                  Share Breaking News
+                </button>
+              </div>
+            );
 
+            // 3) Not enough reads
             return (
-              <div className="space-y-4">
-                <p className="text-lg font-black uppercase tracking-tight">
-                  That&apos;s the latest edition.
-                </p>
-                <p className="text-sm leading-relaxed">
-                  Next edition within the hour.
-                </p>
+              <div className="space-y-3">
+                <p className="text-base font-bold uppercase tracking-tight">No more articles</p>
+                <p className="text-sm">Next edition arrives within the hour.</p>
               </div>
             );
           })()}
-
-          <p className="text-[10px] uppercase tracking-widest font-sans font-bold mt-8">
-            {readCount} read
-          </p>
         </div>
       </main>
     );
   }
 
-  // ─── ARTICLE VIEW ───
+  // ─────────────────────────────────────
+  // ARTICLE VIEW
+  // ─────────────────────────────────────
   const currentArticle = unreadArticles[currentIndex];
 
   return (
-    <main className="fixed inset-0 bg-paper text-[#1c1b18] overflow-hidden font-serif flex flex-col items-center justify-center">
-      <div className="w-full h-full max-w-2xl px-4 py-5 flex flex-col relative z-10">
+    <main className="fixed inset-0 bg-paper text-[#1c1b18] font-serif flex flex-col">
+      <div className="w-full flex-1 max-w-lg mx-auto px-4 py-4 flex flex-col">
 
-        {/* Masthead */}
-        <header className="border-b-[4px] border-[#1c1b18] pb-2 mb-3 flex flex-col items-center shrink-0">
-          <div className="w-full flex justify-between items-end border-b border-[#1c1b18] pb-1 mb-1 px-1">
-            <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
-              {readCount}/{READS_TO_CLAIM}
-            </span>
-            <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
-              {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
-            </span>
+        {/* ── HEADER ── */}
+        <header className="shrink-0 mb-3">
+          {/* Reward banner — always visible so user knows the goal */}
+          <div className="bg-[#1c1b18] text-[#dcdad2] px-3 py-2 flex justify-between items-center text-[10px] uppercase font-sans tracking-widest font-bold">
+            <span>Read {READS_TO_CLAIM} articles</span>
+            <span>Earn 69 Tokens</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-black uppercase tracking-tighter mt-1" style={{ fontFamily: 'Georgia, serif' }}>
-            Breaking News
-          </h1>
+
+          {/* Masthead */}
+          <div className="border-b-[4px] border-[#1c1b18] pb-2 mt-2">
+            <div className="flex justify-between items-end px-1 mb-1">
+              <span className="text-[10px] uppercase font-sans tracking-widest font-bold">{readCount}/{READS_TO_CLAIM}</span>
+              <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
+                {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+              </span>
+            </div>
+            <h1 className="text-2xl font-black uppercase tracking-tighter text-center" style={{ fontFamily: 'Georgia, serif' }}>
+              Breaking News
+            </h1>
+          </div>
         </header>
 
-        {/* Article */}
-        <div className="flex-1 relative w-full h-full">
+        {/* ── ARTICLE CARD ── */}
+        <div className="flex-1 relative w-full min-h-0">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentIndex}
-              initial={{ opacity: 0, x: 60 }}
+              initial={{ opacity: 0, x: 80 }}
               animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -60 }}
-              transition={{ duration: 0.25, ease: "easeOut" }}
+              exit={{ opacity: 0, x: -80 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
               drag="x"
               dragConstraints={{ left: 0, right: 0 }}
-              dragElastic={0.15}
+              dragElastic={0.12}
               onDragEnd={handleDragEnd}
-              className="absolute inset-0 w-full h-full bg-paper border-[3px] border-[#1c1b18] p-4 sm:p-5 shadow-[4px_4px_0px_rgba(28,27,24,1)] flex flex-col cursor-grab active:cursor-grabbing overflow-hidden"
+              className="absolute inset-0 bg-paper border-[2px] border-[#1c1b18] shadow-[3px_3px_0px_rgba(28,27,24,0.8)] flex flex-col cursor-grab active:cursor-grabbing overflow-hidden"
             >
-              {/* Source */}
-              <div className="flex justify-between items-center border-b-[2px] border-[#1c1b18] pb-1 mb-3 shrink-0">
-                <span className="font-bold text-xs uppercase tracking-tight bg-[#1c1b18] text-[#dcdad2] px-2 py-0.5">
+              {/* Source bar */}
+              <div className="flex justify-between items-center border-b-[2px] border-[#1c1b18] px-4 py-2 shrink-0">
+                <span className="text-[10px] font-bold uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] px-2 py-0.5">
                   {currentArticle.source}
                 </span>
-                <span className="font-mono text-[10px] font-bold">
+                <span className="text-[10px] font-mono font-bold">
                   {new Date(currentArticle.created_at).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
                 </span>
               </div>
 
-              {/* Headline */}
-              <h2 className="text-xl sm:text-2xl font-black leading-tight tracking-tight mb-3 shrink-0">
-                {currentArticle.title}
-              </h2>
+              {/* Content area */}
+              <div className="flex-1 px-4 py-4 flex flex-col min-h-0 overflow-y-auto">
+                {/* Headline */}
+                <h2 className="text-xl font-black leading-tight tracking-tight mb-4">
+                  {currentArticle.title}
+                </h2>
 
-              <div className="w-full border-t border-[#1c1b18] mb-3 shrink-0"></div>
+                <div className="border-t border-[#1c1b18] mb-4"></div>
 
-              {/* Summary */}
-              <div className="flex-1 overflow-hidden flex flex-col justify-center">
-                <div className="text-sm sm:text-base leading-relaxed font-medium space-y-2">
+                {/* Summary */}
+                <div className="text-sm leading-relaxed space-y-3 flex-1">
                   {currentArticle.summary.split('\n').map((line, i) => {
-                    const cleanLine = line.replace(/^\d+\.\s*/, '');
-                    return <p key={i} className="pl-4 border-l-2 border-[#1c1b18]">{cleanLine}</p>;
+                    const clean = line.replace(/^\d+\.\s*/, '');
+                    return (
+                      <p key={i} className="pl-3 border-l-2 border-[#1c1b18]">
+                        {clean}
+                      </p>
+                    );
                   })}
                 </div>
               </div>
 
-              {/* Swipe hint */}
-              <div className="mt-auto shrink-0 pt-3 border-t border-[#1c1b18] text-center">
-                <p className="text-[10px] uppercase tracking-widest font-sans font-bold">
-                  Swipe to continue
-                </p>
+              {/* Bottom bar */}
+              <div className="shrink-0 border-t-[2px] border-[#1c1b18] px-4 py-3 flex items-center justify-between">
+                <span className="text-[10px] uppercase tracking-widest font-sans font-bold">
+                  ← Swipe →
+                </span>
+                <button
+                  onClick={() => handleSave(currentArticle)}
+                  className={`text-[10px] uppercase tracking-widest font-sans font-bold px-3 py-1.5 border-[2px] border-[#1c1b18] transition-colors ${
+                    saved[currentArticle.id]
+                      ? "bg-[#1c1b18] text-[#dcdad2]"
+                      : "bg-transparent hover:bg-[#1c1b18] hover:text-[#dcdad2]"
+                  }`}>
+                  {saved[currentArticle.id] ? "Saved" : "Save"}
+                </button>
               </div>
             </motion.div>
           </AnimatePresence>
         </div>
 
-        {/* Dots */}
+        {/* ── DOTS ── */}
         <div className="mt-3 flex justify-center items-center gap-1 shrink-0">
-          {unreadArticles.slice(0, 10).map((_, i) => (
-            <div key={i} className={`h-1 rounded-full transition-all duration-300 ${
-              i === currentIndex ? "w-4 bg-[#1c1b18]" : "w-1 bg-[#1c1b18]/30"
+          {unreadArticles.slice(0, 12).map((_, i) => (
+            <div key={i} className={`h-1 rounded-full transition-all duration-200 ${
+              i === currentIndex ? "w-4 bg-[#1c1b18]" : "w-1 bg-[#1c1b18]/25"
             }`} />
           ))}
+          {unreadArticles.length > 12 && (
+            <span className="text-[8px] font-sans font-bold ml-1">+{unreadArticles.length - 12}</span>
+          )}
         </div>
       </div>
     </main>
