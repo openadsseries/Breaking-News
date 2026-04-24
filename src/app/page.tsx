@@ -117,28 +117,35 @@ export default function Home() {
           <div className="border-t-[3px] border-[#1c1b18] mt-3 mb-6"></div>
 
           {(() => {
-            // 1) Can claim → show collect
+            // 1) Shared → surprise reveal
             if (canClaim) return (
               <div className="space-y-5">
-                <p className="text-base font-bold uppercase tracking-tight">Your reward is ready</p>
+                <p className="text-lg font-black uppercase tracking-tight">
+                  You earned it.
+                </p>
+                <p className="text-sm leading-relaxed">
+                  Not everyone finishes the briefing.<br/>You did. Here&apos;s what that&apos;s worth.
+                </p>
                 <button onClick={handleClaim} disabled={isPending}
                   className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
-                  {isPending ? "Processing..." : "Collect 69 Tokens"}
+                  {isPending ? "Processing..." : "Open Reward"}
                 </button>
                 <p className="text-xs">Next edition arrives within the hour.</p>
               </div>
             );
 
-            // 2) Read enough → must share
+            // 2) Read enough → share to unlock
             if (readEnough && !hasShared) return (
               <div className="space-y-5">
-                <p className="text-base font-bold uppercase tracking-tight">
-                  You read {readCount} articles
+                <p className="text-lg font-black uppercase tracking-tight">
+                  Briefing complete.
                 </p>
-                <p className="text-sm">Share Breaking News to collect your reward.</p>
+                <p className="text-sm leading-relaxed">
+                  You&apos;re faster than 90% of readers.<br/>Share to unlock what&apos;s waiting for you.
+                </p>
                 <button onClick={handleShareApp}
                   className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
-                  Share Breaking News
+                  Share to Unlock
                 </button>
               </div>
             );
@@ -146,11 +153,11 @@ export default function Home() {
             // 3) Not enough reads
             return (
               <div className="space-y-3">
-                <p className="text-base font-bold uppercase tracking-tight">No more articles</p>
-                <p className="text-sm">Next edition arrives within the hour.</p>
+                <p className="text-lg font-black uppercase tracking-tight">End of edition.</p>
+                <p className="text-sm leading-relaxed">Next briefing drops within the hour.</p>
               </div>
             );
-          })()}
+          })()
         </div>
       </main>
     );
@@ -167,10 +174,10 @@ export default function Home() {
 
         {/* ── HEADER ── */}
         <header className="shrink-0 mb-3">
-          {/* Reward banner — always visible so user knows the goal */}
+          {/* Briefing banner — storytelling hook */}
           <div className="bg-[#1c1b18] text-[#dcdad2] px-3 py-2 flex justify-between items-center text-[10px] uppercase font-sans tracking-widest font-bold">
-            <span>Read {READS_TO_CLAIM} articles</span>
-            <span>Earn 69 Tokens</span>
+            <span>Today&apos;s briefing</span>
+            <span>{READS_TO_CLAIM - readCount > 0 ? `${READS_TO_CLAIM - readCount} left` : "Complete"}</span>
           </div>
 
           {/* Masthead */}
