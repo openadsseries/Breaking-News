@@ -1,22 +1,22 @@
-export const signalTokenAbi = [
+export const distributorAbi = [
   {
     type: "function",
-    name: "balanceOf",
+    name: "claim",
+    inputs: [{ name: "signature", type: "bytes" }],
+    outputs: [],
+    stateMutability: "nonpayable",
+  },
+  {
+    type: "function",
+    name: "lastClaimed",
     inputs: [{ name: "account", type: "address" }],
     outputs: [{ name: "", type: "uint256" }],
     stateMutability: "view",
   },
   {
     type: "function",
-    name: "claim",
+    name: "remaining",
     inputs: [],
-    outputs: [],
-    stateMutability: "nonpayable",
-  },
-  {
-    type: "function",
-    name: "totalClaimed",
-    inputs: [{ name: "account", type: "address" }],
     outputs: [{ name: "", type: "uint256" }],
     stateMutability: "view",
   },

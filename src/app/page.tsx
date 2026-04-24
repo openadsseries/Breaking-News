@@ -3,11 +3,11 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useAccount, useConnect, useWriteContract } from 'wagmi';
-import { signalTokenAbi } from '@/lib/abi';
+import { distributorAbi } from '@/lib/abi';
 import mockFeed from "@/data/mock-feed.json";
 
 const READS_TO_CLAIM = 5;
-const CONTRACT_ADDRESS = "0xe0475db34e1bf2c305c5aff2805bbd999a418ae2"; // BNDistributor v2
+const CONTRACT_ADDRESS = "0x9e6ea0c8871287d2d4c83d1e5c0602bbe0b97a82"; // BNDistributor v3
 const APP_URL = "https://breaking-news-omega.vercel.app";
 const SHARE_TEXT = `I just finished today's crypto briefing on Breaking News.\n\nRead 5 signals. Stay ahead of the market.\n\n${APP_URL}`;
 
@@ -24,7 +24,7 @@ export default function Home() {
   const [claimedToday, setClaimedToday] = useState(false);
   const [saved, setSaved] = useState<Record<string, boolean>>({});
 
-  const { isConnected } = useAccount();
+  const { isConnected, address } = useAccount();
   const { connect, connectors } = useConnect();
   const { writeContract, isPending, isSuccess } = useWriteContract();
 
@@ -156,9 +156,23 @@ export default function Home() {
     } catch {}
   }, []);
 
-  const handleClaim = useCallback(() => {
-    writeContract({ address: CONTRACT_ADDRESS, abi: signalTokenAbi, functionName: 'claim' });
-  }, [writeContract]);
+  const handleClaim = useCallback(async () => {
+    if (!address) return;
+    try {
+      // 1. Get server signature (proves user read through the app)
+      const res = await fetch(`/api/claim-signature?address=${address}`);
+      const { signature } = await res.json();
+      if (!signature) return;
+
+      // 2. Call contract with signature
+      writeContract({
+        address: CONTRACT_ADDRESS,
+        abi: distributorAbi,
+        functionName: 'claim',
+        args: [signature],
+      });
+    } catch {}
+  }, [address, writeContract]);
 
   const handleContinueReading = useCallback(() => {
     // After claiming, go back to reading from where we left off

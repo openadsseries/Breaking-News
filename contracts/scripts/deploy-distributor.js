@@ -31,7 +31,7 @@ async function main() {
   const hash = await walletClient.deployContract({
     abi: artifact.abi,
     bytecode: artifact.bytecode,
-    args: [TOKEN_ADDRESS],
+    args: [TOKEN_ADDRESS, account.address], // token, signer (= deployer)
   });
 
   console.log(`⏳ Tx: ${hash}`);
