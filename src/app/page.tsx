@@ -14,11 +14,14 @@ export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [readCount, setReadCount] = useState(0);
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
-  const [shared, setShared] = useState<Record<string, boolean>>({});
+  const [hasShared, setHasShared] = useState(false);
   const [canClaim, setCanClaim] = useState(false);
 
   const { isConnected } = useAccount();
   const { writeContract, isPending, isSuccess } = useWriteContract();
+
+  // Derived state
+  const readEnough = readCount >= READS_TO_CLAIM;
 
   // Farcaster SDK
   useEffect(() => {
@@ -42,18 +45,20 @@ export default function Home() {
         setReadIds(new Set(ids));
         setReadCount(ids.length);
       }
-      const savedClaim = localStorage.getItem("bn_can_claim");
-      if (savedClaim === "true") setCanClaim(true);
+      if (localStorage.getItem("bn_shared") === "true") setHasShared(true);
+      if (localStorage.getItem("bn_can_claim") === "true") setCanClaim(true);
     } catch {}
   }, []);
 
-  // Claim success
+  // Claim success → reset
   useEffect(() => {
     if (isSuccess) {
       setCanClaim(false);
+      setHasShared(false);
       setReadCount(0);
       setReadIds(new Set());
       localStorage.removeItem("bn_read_ids");
+      localStorage.removeItem("bn_shared");
       localStorage.removeItem("bn_can_claim");
     }
   }, [isSuccess]);
@@ -68,15 +73,8 @@ export default function Home() {
     newReadIds.add(article.id);
     setReadIds(newReadIds);
     localStorage.setItem("bn_read_ids", JSON.stringify([...newReadIds]));
-
-    const newCount = readCount + 1;
-    setReadCount(newCount);
-
-    if (newCount >= READS_TO_CLAIM && !canClaim) {
-      setCanClaim(true);
-      localStorage.setItem("bn_can_claim", "true");
-    }
-  }, [currentIndex, readIds, unreadArticles, readCount, canClaim]);
+    setReadCount(prev => prev + 1);
+  }, [currentIndex, readIds, unreadArticles]);
 
   const handleClaim = useCallback(() => {
     if (canClaim) {
@@ -88,28 +86,37 @@ export default function Home() {
     }
   }, [canClaim, writeContract]);
 
-  // Swipe → mark read → advance
+  // Swipe left → read + advance. Swipe right → go back.
   const handleDragEnd = useCallback((e: any, { offset }: any) => {
     if (unreadArticles.length === 0) return;
-    const swipeThreshold = 50;
-    if (offset.x < -swipeThreshold && currentIndex < unreadArticles.length - 1) {
+    if (offset.x < -50 && currentIndex < unreadArticles.length - 1) {
       markCurrentAsRead();
       setCurrentIndex(currentIndex + 1);
-    } else if (offset.x > swipeThreshold && currentIndex > 0) {
+    } else if (offset.x > 50 && currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
   }, [currentIndex, unreadArticles.length, markCurrentAsRead]);
 
-  const handleShare = useCallback(async (article: typeof mockFeed[0]) => {
+  // Share → unlocks reward
+  const handleShare = useCallback(async () => {
+    const shareUrl = "https://breaking-news-omega.vercel.app";
+    const shareText = "Breaking News — Read crypto signals, earn tokens.";
     try {
       if (navigator.share) {
-        await navigator.share({ title: article.title, url: article.url });
+        await navigator.share({ title: "Breaking News", text: shareText, url: shareUrl });
       } else {
-        await navigator.clipboard.writeText(`${article.title}\n${article.url}`);
+        await navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
       }
-      if (!shared[article.id]) setShared(prev => ({ ...prev, [article.id]: true }));
+      setHasShared(true);
+      localStorage.setItem("bn_shared", "true");
+
+      // Read enough + shared → can claim
+      if (readCount >= READS_TO_CLAIM) {
+        setCanClaim(true);
+        localStorage.setItem("bn_can_claim", "true");
+      }
     } catch {}
-  }, [shared]);
+  }, [readCount]);
 
   // ─── ALL CAUGHT UP ───
   if (unreadArticles.length === 0) {
@@ -120,36 +127,66 @@ export default function Home() {
             Breaking News
           </h1>
           <div className="border-t-[3px] border-[#1c1b18] my-4"></div>
-          <p className="text-xl font-black uppercase tracking-tight mb-2">
-            That&apos;s the latest edition.
-          </p>
-          <p className="text-sm leading-relaxed mb-6">
-            The next edition arrives within the hour.<br />Check back shortly.
-          </p>
 
-          {canClaim && (
-            <div className="border-[3px] border-[#1c1b18] p-5 mb-4">
-              <p className="text-xs uppercase tracking-widest font-bold mb-3">Your reward is ready</p>
-              {isConnected ? (
-                <button onClick={handleClaim} disabled={isPending}
-                  className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
-                  {isPending ? "Processing..." : "Collect 69 Tokens"}
-                </button>
-              ) : (
-                <ConnectButton.Custom>
-                  {({ openConnectModal, mounted }) => (
-                    <button onClick={openConnectModal} disabled={!mounted}
-                      className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest hover:bg-[#1c1b18] hover:text-[#dcdad2] transition-colors">
-                      Connect Wallet to Collect
-                    </button>
-                  )}
-                </ConnectButton.Custom>
-              )}
-            </div>
+          {/* State 1: Read enough but haven't shared yet */}
+          {readEnough && !hasShared && (
+            <>
+              <p className="text-xl font-black uppercase tracking-tight mb-2">
+                That&apos;s the latest edition.
+              </p>
+              <p className="text-sm leading-relaxed mb-6">
+                Share Breaking News to unlock your reward.
+              </p>
+              <button onClick={handleShare}
+                className="w-full border-[3px] border-[#1c1b18] py-3 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
+                Share to Unlock Reward
+              </button>
+            </>
           )}
 
-          <p className="text-[10px] uppercase tracking-widest font-sans font-bold mt-4">
-            {readCount} articles read this session
+          {/* State 2: Shared → can claim */}
+          {canClaim && (
+            <>
+              <p className="text-xl font-black uppercase tracking-tight mb-2">
+                Your reward is ready.
+              </p>
+              <p className="text-sm leading-relaxed mb-6">
+                The next edition arrives within the hour.
+              </p>
+              <div className="border-[3px] border-[#1c1b18] p-5 mb-4">
+                {isConnected ? (
+                  <button onClick={handleClaim} disabled={isPending}
+                    className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
+                    {isPending ? "Processing..." : "Collect 69 Tokens"}
+                  </button>
+                ) : (
+                  <ConnectButton.Custom>
+                    {({ openConnectModal, mounted }) => (
+                      <button onClick={openConnectModal} disabled={!mounted}
+                        className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest hover:bg-[#1c1b18] hover:text-[#dcdad2] transition-colors">
+                        Connect Wallet to Collect
+                      </button>
+                    )}
+                  </ConnectButton.Custom>
+                )}
+              </div>
+            </>
+          )}
+
+          {/* State 3: Haven't read enough yet (shouldn't normally reach here but just in case) */}
+          {!readEnough && (
+            <>
+              <p className="text-xl font-black uppercase tracking-tight mb-2">
+                That&apos;s the latest edition.
+              </p>
+              <p className="text-sm leading-relaxed">
+                The next edition arrives within the hour.<br/>Check back shortly.
+              </p>
+            </>
+          )}
+
+          <p className="text-[10px] uppercase tracking-widest font-sans font-bold mt-6">
+            {readCount} articles read
           </p>
         </div>
       </main>
@@ -163,11 +200,11 @@ export default function Home() {
     <main className="fixed inset-0 bg-paper text-[#1c1b18] overflow-hidden font-serif selection:bg-[#1c1b18] selection:text-[#dcdad2] flex flex-col items-center justify-center">
       <div className="w-full h-full max-w-2xl px-4 py-6 flex flex-col relative z-10">
 
-        {/* Masthead — no wallet here, articles are free */}
+        {/* Masthead */}
         <header className="border-b-[5px] border-[#1c1b18] pb-2 mb-3 flex flex-col items-center shrink-0">
           <div className="w-full flex justify-between items-end border-b-2 border-[#1c1b18] pb-1 mb-1 px-1">
             <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
-              {canClaim ? "Reward Ready" : `Read ${readCount} of ${READS_TO_CLAIM}`}
+              Read {readCount} of {READS_TO_CLAIM}
             </span>
             <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
               {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
@@ -226,29 +263,13 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Actions */}
-              <div className="mt-auto shrink-0 w-full grid grid-cols-2 gap-3 pt-3 border-t-2 border-[#1c1b18]">
+              {/* Read Full button only */}
+              <div className="mt-auto shrink-0 w-full pt-3 border-t-2 border-[#1c1b18]">
                 <a href={currentArticle.url} target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center w-full border-[3px] border-[#1c1b18] py-2.5 text-xs sm:text-sm font-black uppercase tracking-widest hover:bg-[#1c1b18] hover:text-[#dcdad2] transition-colors bg-transparent text-[#1c1b18]">
-                  Read Full
+                  Read Full Article
                 </a>
-                <button onClick={() => handleShare(currentArticle)}
-                  className={`flex items-center justify-center w-full border-[3px] border-[#1c1b18] py-2.5 text-xs sm:text-sm font-black uppercase tracking-widest transition-all ${
-                    shared[currentArticle.id] ? "bg-[#1c1b18] text-[#dcdad2]" : "hover:bg-[#1c1b18] hover:text-[#dcdad2] bg-transparent text-[#1c1b18]"
-                  }`}>
-                  {shared[currentArticle.id] ? "Shared" : "Share"}
-                </button>
               </div>
-
-              {/* Claim */}
-              {canClaim && isConnected && (
-                <div className="mt-3 shrink-0 w-full">
-                  <button onClick={handleClaim} disabled={isPending}
-                    className="w-full border-[3px] border-[#1c1b18] py-3 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
-                    {isPending ? "Processing..." : "Collect 69 Tokens"}
-                  </button>
-                </div>
-              )}
             </motion.div>
           </AnimatePresence>
         </div>
