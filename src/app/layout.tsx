@@ -26,6 +26,23 @@ export const metadata: Metadata = {
     title: "Breaking News — Read to Earn",
     description: "Swipe through curated crypto signals. Earn $SIGNAL tokens.",
   },
+  other: {
+    // Frame v2 embed — renders as mini app launch button in casts
+    "fc:frame": JSON.stringify({
+      version: "next",
+      imageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
+      button: {
+        title: "Read and Earn",
+        action: {
+          type: "launch_frame",
+          name: "Breaking News",
+          url: "https://breaking-news-omega.vercel.app",
+          splashImageUrl: "https://breaking-news-omega.vercel.app/splash.png",
+          splashBackgroundColor: "#dcdad2",
+        },
+      },
+    }),
+  },
 };
 
 export default function RootLayout({
