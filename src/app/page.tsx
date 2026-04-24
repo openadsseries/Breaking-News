@@ -164,8 +164,11 @@ export default function Home() {
     } catch {}
   }, []);
 
+  const [claimError, setClaimError] = useState<string | null>(null);
+
   const handleClaim = useCallback(async () => {
     if (!address) return;
+    setClaimError(null);
     try {
       // 1. Get server signature (verifies FID + Neynar score)
       const params = new URLSearchParams({ address });
@@ -173,7 +176,7 @@ export default function Home() {
       const res = await fetch(`/api/claim-signature?${params}`);
       const data = await res.json();
       if (!data.signature) {
-        console.error('Claim denied:', data.error);
+        setClaimError(data.error || "Verification failed");
         return;
       }
 
@@ -184,7 +187,9 @@ export default function Home() {
         functionName: 'claim',
         args: [data.signature],
       });
-    } catch {}
+    } catch {
+      setClaimError("Something went wrong. Try again.");
+    }
   }, [address, fid, writeContract]);
 
   const handleContinueReading = useCallback(() => {
@@ -239,6 +244,9 @@ export default function Home() {
                 className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
                 {isPending ? "Processing..." : "Open Reward"}
               </button>
+              {claimError && (
+                <p className="text-xs text-red-700 text-center">{claimError}</p>
+              )}
               {currentIndex < totalArticles && (
                 <button onClick={handleContinueReading}
                   className="text-xs underline uppercase tracking-widest">
