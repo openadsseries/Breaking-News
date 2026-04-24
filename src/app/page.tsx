@@ -10,6 +10,7 @@ const READS_TO_CLAIM = 5;
 const CONTRACT_ADDRESS = "0x1d705c7cb1bbe119f83f48520234f074e9157907";
 
 export default function Home() {
+  const [mounted, setMounted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [readCount, setReadCount] = useState(0);
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
@@ -36,7 +37,7 @@ export default function Home() {
 
   const unreadArticles = useMemo(() => mockFeed.filter(a => !readIds.has(a.id)), [readIds]);
 
-  // Load
+  // Load + mark mounted
   useEffect(() => {
     try {
       const s = localStorage.getItem("bn_read_ids");
@@ -44,7 +45,19 @@ export default function Home() {
       if (localStorage.getItem("bn_shared") === "true") setHasShared(true);
       if (localStorage.getItem("bn_can_claim") === "true") setCanClaim(true);
     } catch {}
+    setMounted(true);
   }, []);
+
+  // Prevent hydration mismatch
+  if (!mounted) {
+    return (
+      <main className="fixed inset-0 bg-paper text-[#1c1b18] font-serif flex flex-col items-center justify-center">
+        <h1 className="text-2xl font-black uppercase tracking-tighter" style={{ fontFamily: 'Georgia, serif' }}>
+          Breaking News
+        </h1>
+      </main>
+    );
+  }
 
   // Claim success
   useEffect(() => {
