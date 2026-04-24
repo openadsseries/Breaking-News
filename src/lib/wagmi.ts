@@ -1,11 +1,12 @@
-import { getDefaultConfig } from '@rainbow-me/rainbowkit';
+import { createConfig, http } from 'wagmi';
 import { base } from 'wagmi/chains';
+import { farcasterMiniApp } from '@farcaster/miniapp-wagmi-connector';
 
-export const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || '93680eae03382d7cfcc6091599167187';
-
-export const config = getDefaultConfig({
-  appName: 'Breaking News - Read to Earn',
-  projectId,
+export const config = createConfig({
   chains: [base],
+  transports: {
+    [base.id]: http(),
+  },
+  connectors: [farcasterMiniApp()],
   ssr: true,
 });
