@@ -8,18 +8,20 @@ import mockFeed from "@/data/mock-feed.json";
 
 const READS_TO_CLAIM = 5;
 const CONTRACT_ADDRESS = "0xd8161af72117d05d6bb578211417c047a13849a6";
+const APP_URL = "https://breaking-news-omega.vercel.app";
+const SHARE_TEXT = `I just finished today's crypto briefing on Breaking News.\n\nRead 5 signals. Stay ahead of the market.\n\n${APP_URL}`;
 
-// Session ID = first article ID. When cron fetches new articles, session resets.
+// Session ID = first article ID
 const SESSION_ID = mockFeed.length > 0 ? mockFeed[0].id : "empty";
 
-type AppState = "READING" | "SHARE_GATE" | "CLAIMABLE" | "DONE" | "NO_REWARD";
+type Phase = "READING" | "SHARE_GATE" | "CLAIMABLE" | "READING_CONTINUED" | "ALL_READ";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [readCount, setReadCount] = useState(0);
   const [hasShared, setHasShared] = useState(false);
-  const [claimed, setClaimed] = useState(false);
+  const [claimedToday, setClaimedToday] = useState(false);
   const [saved, setSaved] = useState<Record<string, boolean>>({});
 
   const { isConnected } = useAccount();
@@ -28,34 +30,28 @@ export default function Home() {
 
   // ── ALL HOOKS ──
 
-  // 1. Load session
   useEffect(() => {
-    const today = new Date().toISOString().slice(0, 10); // "2026-04-24"
-
+    const today = new Date().toISOString().slice(0, 10);
     try {
-      // Check daily claim status first
-      const claimDate = localStorage.getItem("bn_claim_date");
-      if (claimDate === today) {
-        setClaimed(true);
-      }
+      if (localStorage.getItem("bn_claim_date") === today) setClaimedToday(true);
 
-      // Check if this is a new edition (articles refreshed by cron)
       const savedSession = localStorage.getItem("bn_session");
       if (savedSession !== SESSION_ID) {
-        // New edition → reset reading progress (but NOT daily claim)
         localStorage.setItem("bn_session", SESSION_ID);
         localStorage.removeItem("bn_read_count");
         localStorage.removeItem("bn_shared");
+        localStorage.removeItem("bn_index");
       } else {
         const rc = localStorage.getItem("bn_read_count");
         if (rc) setReadCount(parseInt(rc, 10));
         if (localStorage.getItem("bn_shared") === "true") setHasShared(true);
+        const idx = localStorage.getItem("bn_index");
+        if (idx) setCurrentIndex(parseInt(idx, 10));
       }
     } catch {}
     setMounted(true);
   }, []);
 
-  // 2. Farcaster + auto-connect
   useEffect(() => {
     if (!mounted) return;
     import('@farcaster/miniapp-sdk').then((mod) => {
@@ -67,69 +63,80 @@ export default function Home() {
     }
   }, [mounted, isConnected, connectors, connect]);
 
-  // 3. Claim success → lock for today
   useEffect(() => {
     if (isSuccess) {
-      setClaimed(true);
+      setClaimedToday(true);
       const today = new Date().toISOString().slice(0, 10);
       localStorage.setItem("bn_claim_date", today);
     }
   }, [isSuccess]);
 
-  // Derived state
-  const readEnough = readCount >= READS_TO_CLAIM;
-  const displayCount = Math.min(readCount, READS_TO_CLAIM);
+  // Derived
   const totalArticles = mockFeed.length;
+  const displayCount = Math.min(readCount, READS_TO_CLAIM);
 
-  // Determine app state
-  const appState: AppState = useMemo(() => {
-    if (claimed) return "DONE";
-    if (hasShared && readEnough) return "CLAIMABLE";
-    // Only show share gate when user reaches the end of ALL articles
-    if (currentIndex >= totalArticles - 1 && readEnough && !hasShared) return "SHARE_GATE";
-    if (currentIndex >= totalArticles - 1 && !readEnough) return "NO_REWARD";
+  // Phase logic
+  const phase: Phase = useMemo(() => {
+    // Already read all articles
+    if (currentIndex >= totalArticles) return "ALL_READ";
+    // Hit 5 reads and haven't shared yet → gate
+    if (readCount >= READS_TO_CLAIM && !hasShared && !claimedToday) return "SHARE_GATE";
+    // Shared but haven't claimed → claimable
+    if (readCount >= READS_TO_CLAIM && hasShared && !claimedToday) return "CLAIMABLE";
+    // Shared and claimed (or already claimed today) → keep reading
+    if (readCount >= READS_TO_CLAIM && (claimedToday || hasShared)) return currentIndex >= totalArticles ? "ALL_READ" : "READING_CONTINUED";
     return "READING";
-  }, [claimed, hasShared, readEnough, currentIndex, totalArticles]);
+  }, [readCount, hasShared, claimedToday, currentIndex, totalArticles]);
 
-  // 4. Callbacks
   const advanceArticle = useCallback(() => {
-    if (currentIndex >= totalArticles - 1) return;
-
-    // Count this read
-    const newCount = readCount + 1;
-    setReadCount(newCount);
-    localStorage.setItem("bn_read_count", String(newCount));
-
-    setCurrentIndex(currentIndex + 1);
+    if (currentIndex >= totalArticles - 1) {
+      // Mark last article read
+      const nc = readCount + 1;
+      setReadCount(nc);
+      localStorage.setItem("bn_read_count", String(nc));
+      setCurrentIndex(totalArticles); // trigger ALL_READ
+      localStorage.setItem("bn_index", String(totalArticles));
+      return;
+    }
+    const nc = readCount + 1;
+    setReadCount(nc);
+    localStorage.setItem("bn_read_count", String(nc));
+    const ni = currentIndex + 1;
+    setCurrentIndex(ni);
+    localStorage.setItem("bn_index", String(ni));
   }, [currentIndex, totalArticles, readCount]);
 
   const handleDragEnd = useCallback((e: any, { offset }: any) => {
-    if (offset.x < -50) {
-      advanceArticle();
-    } else if (offset.x > 50 && currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
+    if (offset.x < -50) advanceArticle();
+    else if (offset.x > 50 && currentIndex > 0) {
+      const ni = currentIndex - 1;
+      setCurrentIndex(ni);
+      localStorage.setItem("bn_index", String(ni));
     }
   }, [currentIndex, advanceArticle]);
 
   const handleSave = useCallback(async (article: typeof mockFeed[0]) => {
-    const url = "https://breaking-news-omega.vercel.app";
     try {
       if (navigator.share) {
-        await navigator.share({ title: article.title, text: article.title, url });
+        await navigator.share({ title: article.title, text: article.title, url: APP_URL });
       } else {
-        await navigator.clipboard.writeText(`${article.title}\n${url}`);
+        await navigator.clipboard.writeText(`${article.title}\n${APP_URL}`);
       }
       setSaved(prev => ({ ...prev, [article.id]: true }));
     } catch {}
   }, []);
 
-  const handleShareApp = useCallback(async () => {
-    const url = "https://breaking-news-omega.vercel.app";
+  const handleShare = useCallback(async () => {
     try {
-      if (navigator.share) {
-        await navigator.share({ title: "Breaking News", text: "Stay ahead. Read the signals.", url });
+      // Try Farcaster composeCast first
+      const sdk = await import('@farcaster/miniapp-sdk').catch(() => null);
+      if (sdk?.default?.actions?.openUrl) {
+        const castUrl = `https://warpcast.com/~/compose?text=${encodeURIComponent(SHARE_TEXT)}`;
+        sdk.default.actions.openUrl(castUrl);
+      } else if (navigator.share) {
+        await navigator.share({ title: "Breaking News", text: SHARE_TEXT, url: APP_URL });
       } else {
-        await navigator.clipboard.writeText(`Breaking News — Stay ahead. Read the signals.\n${url}`);
+        await navigator.clipboard.writeText(SHARE_TEXT);
       }
       setHasShared(true);
       localStorage.setItem("bn_shared", "true");
@@ -140,7 +147,14 @@ export default function Home() {
     writeContract({ address: CONTRACT_ADDRESS, abi: signalTokenAbi, functionName: 'claim' });
   }, [writeContract]);
 
-  // ── EARLY RETURNS (all hooks above) ──
+  const handleContinueReading = useCallback(() => {
+    // After claiming, go back to reading from where we left off
+    // Phase will resolve to READING_CONTINUED
+    setHasShared(true);
+    setClaimedToday(true);
+  }, []);
+
+  // ── RENDERS ──
 
   if (!mounted) {
     return (
@@ -152,8 +166,8 @@ export default function Home() {
     );
   }
 
-  // ── END SCREENS ──
-  if (appState === "DONE" || appState === "CLAIMABLE" || appState === "SHARE_GATE" || appState === "NO_REWARD") {
+  // ── INTERSTITIAL SCREENS ──
+  if (phase === "SHARE_GATE" || phase === "CLAIMABLE" || phase === "ALL_READ") {
     return (
       <main className="fixed inset-0 bg-paper text-[#1c1b18] font-serif flex items-center justify-center p-8">
         <div className="max-w-sm w-full text-center">
@@ -162,20 +176,20 @@ export default function Home() {
           </h1>
           <div className="border-t-[3px] border-[#1c1b18] mt-3 mb-8"></div>
 
-          {appState === "SHARE_GATE" && (
+          {phase === "SHARE_GATE" && (
             <div className="space-y-5">
               <p className="text-lg font-black uppercase tracking-tight">Briefing complete.</p>
               <p className="text-sm leading-relaxed">
                 You&apos;re faster than 90% of readers.<br/>Share to unlock what&apos;s waiting for you.
               </p>
-              <button onClick={handleShareApp}
+              <button onClick={handleShare}
                 className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
                 Share to Unlock
               </button>
             </div>
           )}
 
-          {appState === "CLAIMABLE" && (
+          {phase === "CLAIMABLE" && (
             <div className="space-y-5">
               <p className="text-lg font-black uppercase tracking-tight">You earned it.</p>
               <p className="text-sm leading-relaxed">
@@ -185,20 +199,21 @@ export default function Home() {
                 className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
                 {isPending ? "Processing..." : "Open Reward"}
               </button>
+              {currentIndex < totalArticles && (
+                <button onClick={handleContinueReading}
+                  className="text-xs underline uppercase tracking-widest">
+                  Skip &amp; keep reading
+                </button>
+              )}
             </div>
           )}
 
-          {appState === "DONE" && (
+          {phase === "ALL_READ" && (
             <div className="space-y-3">
-              <p className="text-lg font-black uppercase tracking-tight">Reward collected.</p>
-              <p className="text-sm leading-relaxed">Come back for the next edition within the hour.</p>
-            </div>
-          )}
-
-          {appState === "NO_REWARD" && (
-            <div className="space-y-3">
-              <p className="text-lg font-black uppercase tracking-tight">End of edition.</p>
-              <p className="text-sm leading-relaxed">Next briefing drops within the hour.</p>
+              <p className="text-lg font-black uppercase tracking-tight">
+                {claimedToday ? "Reward collected." : "End of edition."}
+              </p>
+              <p className="text-sm leading-relaxed">Come back for the next edition.</p>
             </div>
           )}
         </div>
@@ -206,20 +221,21 @@ export default function Home() {
     );
   }
 
-  // ── READING STATE ──
+  // ── ARTICLE VIEW (READING or READING_CONTINUED) ──
   const currentArticle = mockFeed[currentIndex];
   if (!currentArticle) return null;
+
+  const isPostReward = phase === "READING_CONTINUED";
 
   return (
     <main className="fixed inset-0 bg-paper text-[#1c1b18] font-serif flex flex-col">
       <div className="w-full flex-1 max-w-lg mx-auto px-4 py-4 flex flex-col">
 
-        {/* Header */}
         <header className="shrink-0 mb-3">
           <div className="border-b-[4px] border-[#1c1b18] pb-2">
             <div className="flex justify-between items-end px-1 mb-1">
               <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
-                {readEnough ? "Reward waiting" : `${displayCount}/${READS_TO_CLAIM}`}
+                {isPostReward ? "Bonus reading" : readCount >= READS_TO_CLAIM ? "Reward waiting" : `${displayCount}/${READS_TO_CLAIM}`}
               </span>
               <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
                 {currentIndex + 1} of {totalArticles}
@@ -231,7 +247,6 @@ export default function Home() {
           </div>
         </header>
 
-        {/* Article */}
         <div className="flex-1 relative w-full min-h-0">
           <AnimatePresence mode="wait">
             <motion.div
@@ -246,7 +261,6 @@ export default function Home() {
               onDragEnd={handleDragEnd}
               className="absolute inset-0 bg-paper border-[2px] border-[#1c1b18] shadow-[3px_3px_0px_rgba(28,27,24,0.8)] flex flex-col cursor-grab active:cursor-grabbing overflow-hidden"
             >
-              {/* Source */}
               <div className="flex justify-between items-center border-b-[2px] border-[#1c1b18] px-4 py-2 shrink-0">
                 <span className="text-[10px] font-bold uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] px-2 py-0.5">
                   {currentArticle.source}
@@ -256,7 +270,6 @@ export default function Home() {
                 </span>
               </div>
 
-              {/* Content */}
               <div className="flex-1 px-4 py-4 flex flex-col min-h-0 overflow-y-auto">
                 <h2 className="text-xl font-black leading-tight tracking-tight mb-4">
                   {currentArticle.title}
@@ -270,7 +283,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Footer */}
               <div className="shrink-0 border-t-[2px] border-[#1c1b18] px-4 py-3 flex items-center justify-between">
                 <span className="text-[10px] uppercase tracking-widest font-sans font-bold">← Swipe →</span>
                 <button
@@ -287,7 +299,6 @@ export default function Home() {
           </AnimatePresence>
         </div>
 
-        {/* Progress dots */}
         <div className="mt-3 flex justify-center items-center gap-0.5 shrink-0">
           {mockFeed.slice(0, 15).map((_, i) => (
             <div key={i} className={`h-1 rounded-full transition-all duration-200 ${
