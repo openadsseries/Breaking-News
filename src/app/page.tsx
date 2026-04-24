@@ -157,7 +157,7 @@ export default function Home() {
                 <p className="text-sm leading-relaxed">Next briefing drops within the hour.</p>
               </div>
             );
-          })()
+          })()}
         </div>
       </main>
     );
