@@ -23,6 +23,7 @@ export default function Home() {
   const [hasShared, setHasShared] = useState(false);
   const [claimedToday, setClaimedToday] = useState(false);
   const [saved, setSaved] = useState<Record<string, boolean>>({});
+  const [fid, setFid] = useState<string | null>(null);
 
   const { isConnected, address } = useAccount();
   const { connect, connectors } = useConnect();
@@ -54,8 +55,15 @@ export default function Home() {
 
   useEffect(() => {
     if (!mounted) return;
-    import('@farcaster/miniapp-sdk').then((mod) => {
+    import('@farcaster/miniapp-sdk').then(async (mod) => {
       mod.default.actions.ready();
+      // Get user's FID for claim verification
+      try {
+        const ctx = await mod.default.context;
+        if (ctx?.user?.fid) {
+          setFid(String(ctx.user.fid));
+        }
+      } catch {}
     }).catch(() => {});
     if (!isConnected && connectors.length > 0) {
       const fc = connectors.find(c => c.id === 'farcasterMiniApp') || connectors[0];
@@ -159,20 +167,25 @@ export default function Home() {
   const handleClaim = useCallback(async () => {
     if (!address) return;
     try {
-      // 1. Get server signature (proves user read through the app)
-      const res = await fetch(`/api/claim-signature?address=${address}`);
-      const { signature } = await res.json();
-      if (!signature) return;
+      // 1. Get server signature (verifies FID + Neynar score)
+      const params = new URLSearchParams({ address });
+      if (fid) params.set('fid', fid);
+      const res = await fetch(`/api/claim-signature?${params}`);
+      const data = await res.json();
+      if (!data.signature) {
+        console.error('Claim denied:', data.error);
+        return;
+      }
 
-      // 2. Call contract with signature
+      // 2. Call contract with verified signature
       writeContract({
         address: CONTRACT_ADDRESS,
         abi: distributorAbi,
         functionName: 'claim',
-        args: [signature],
+        args: [data.signature],
       });
     } catch {}
-  }, [address, writeContract]);
+  }, [address, fid, writeContract]);
 
   const handleContinueReading = useCallback(() => {
     // After claiming, go back to reading from where we left off
