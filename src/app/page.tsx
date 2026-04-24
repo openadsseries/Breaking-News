@@ -128,18 +128,26 @@ export default function Home() {
 
   const handleShare = useCallback(async () => {
     try {
-      // Try Farcaster composeCast first
       const sdk = await import('@farcaster/miniapp-sdk').catch(() => null);
-      if (sdk?.default?.actions?.openUrl) {
-        const castUrl = `https://warpcast.com/~/compose?text=${encodeURIComponent(SHARE_TEXT)}`;
-        sdk.default.actions.openUrl(castUrl);
+
+      if (sdk?.default?.actions?.composeCast) {
+        // composeCast returns result ONLY if user actually posts
+        const result = await sdk.default.actions.composeCast({
+          text: "I just finished today's crypto briefing on Breaking News.\n\nRead 5 signals. Stay ahead of the market.",
+          embeds: [APP_URL],
+        });
+
+        // Only mark as shared if cast was actually published
+        if (result?.hash) {
+          setHasShared(true);
+          localStorage.setItem("bn_shared", "true");
+        }
+        // If user cancelled, nothing happens → stays on SHARE_GATE
       } else if (navigator.share) {
         await navigator.share({ title: "Breaking News", text: SHARE_TEXT, url: APP_URL });
-      } else {
-        await navigator.clipboard.writeText(SHARE_TEXT);
+        setHasShared(true);
+        localStorage.setItem("bn_shared", "true");
       }
-      setHasShared(true);
-      localStorage.setItem("bn_shared", "true");
     } catch {}
   }, []);
 
