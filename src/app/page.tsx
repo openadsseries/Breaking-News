@@ -9,7 +9,7 @@ import mockFeed from "@/data/mock-feed.json";
 const READS_TO_CLAIM = 5;
 const CONTRACT_ADDRESS = "0x9e6ea0c8871287d2d4c83d1e5c0602bbe0b97a82"; // BNDistributor v3
 const APP_URL = "https://breaking-news-omega.vercel.app";
-const SHARE_TEXT = `I just finished today's crypto briefing on Breaking News.\n\nRead 5 signals. Stay ahead of the market.\n\n${APP_URL}`;
+const SHARE_TEXT = `* read it before warren buffett does.\n\n${APP_URL}`;
 
 // Session ID = first article ID
 const SESSION_ID = mockFeed.length > 0 ? mockFeed[0].id : "empty";
@@ -146,7 +146,7 @@ export default function Home() {
       if (sdk?.default?.actions?.composeCast) {
         // composeCast returns result ONLY if user actually posts
         const result = await sdk.default.actions.composeCast({
-          text: "I just finished today's crypto briefing on Breaking News.\n\nRead 5 signals. Stay ahead of the market.",
+          text: "* read it before warren buffett does.",
           embeds: [APP_URL],
         });
 
