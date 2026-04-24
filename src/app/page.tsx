@@ -7,7 +7,7 @@ import { signalTokenAbi } from '@/lib/abi';
 import mockFeed from "@/data/mock-feed.json";
 
 const READS_TO_CLAIM = 5;
-const CONTRACT_ADDRESS = "0x49c704b55b2df56c4e90196d1dc99dc971c6c728"; // BNDistributor
+const CONTRACT_ADDRESS = "0xe0475db34e1bf2c305c5aff2805bbd999a418ae2"; // BNDistributor v2
 const APP_URL = "https://breaking-news-omega.vercel.app";
 const SHARE_TEXT = `I just finished today's crypto briefing on Breaking News.\n\nRead 5 signals. Stay ahead of the market.\n\n${APP_URL}`;
 
