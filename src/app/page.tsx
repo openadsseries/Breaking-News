@@ -174,14 +174,7 @@ export default function Home() {
 
         {/* ── HEADER ── */}
         <header className="shrink-0 mb-3">
-          {/* Briefing banner — storytelling hook */}
-          <div className="bg-[#1c1b18] text-[#dcdad2] px-3 py-2 flex justify-between items-center text-[10px] uppercase font-sans tracking-widest font-bold">
-            <span>Today&apos;s briefing</span>
-            <span>{READS_TO_CLAIM - readCount > 0 ? `${READS_TO_CLAIM - readCount} left` : "Complete"}</span>
-          </div>
-
-          {/* Masthead */}
-          <div className="border-b-[4px] border-[#1c1b18] pb-2 mt-2">
+          <div className="border-b-[4px] border-[#1c1b18] pb-2">
             <div className="flex justify-between items-end px-1 mb-1">
               <span className="text-[10px] uppercase font-sans tracking-widest font-bold">{readCount}/{READS_TO_CLAIM}</span>
               <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
