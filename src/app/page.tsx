@@ -260,9 +260,9 @@ export default function Home() {
             <motion.div
               key={currentIndex}
               initial={{ opacity: 0, x: 80 }}
-              animate={{ opacity: 1, x: 0 }}
+              animate={{ opacity: 1, x: [0, -6, 3, 0] }}
               exit={{ opacity: 0, x: -80 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
+              transition={{ duration: 0.4, ease: "easeOut", x: { duration: 0.5, times: [0, 0.5, 0.75, 1] } }}
               drag="x"
               dragConstraints={{ left: 0, right: 0 }}
               dragElastic={0.12}
