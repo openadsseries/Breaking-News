@@ -271,9 +271,12 @@ export default function Home() {
     <main className="fixed inset-0 bg-paper text-[#1c1b18] font-serif flex flex-col">
       <div className="w-full flex-1 max-w-lg mx-auto px-4 py-4 flex flex-col">
 
-        <header className="shrink-0 mb-3">
-          <div className="border-b-[4px] border-[#1c1b18] pb-2">
-            <div className="flex justify-between items-end px-1 mb-1">
+        <header className="shrink-0 mb-2">
+          <div className="border-b-[4px] border-[#1c1b18] pb-1">
+            <h1 className="text-4xl font-black uppercase tracking-tighter text-center leading-none" style={{ fontFamily: 'Georgia, serif' }}>
+              Breaking News
+            </h1>
+            <div className="flex justify-between items-end px-1 mt-1">
               <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
                 {isPostReward ? "Bonus reading" : readCount >= READS_TO_CLAIM ? "Reward waiting" : `${displayCount}/${READS_TO_CLAIM}`}
               </span>
@@ -281,9 +284,6 @@ export default function Home() {
                 {currentIndex + 1} of {totalArticles}
               </span>
             </div>
-            <h1 className="text-2xl font-black uppercase tracking-tighter text-center" style={{ fontFamily: 'Georgia, serif' }}>
-              Breaking News
-            </h1>
           </div>
         </header>
 
