@@ -6,7 +6,10 @@ import crypto from 'crypto';
 
 dotenv.config({ path: '.env.local' });
 
-const parser = new Parser();
+const parser = new Parser({
+  timeout: 10000, // 10s timeout
+  headers: { 'User-Agent': 'BreakingNews/1.0' },
+});
 
 // ─── RSS Sources ───
 const RSS_FEEDS = [
@@ -106,6 +109,7 @@ async function fetchFarcaster(existingUrls) {
     try {
       const res = await fetch(`https://api.neynar.com/v2/farcaster/feed/user/${fid}/popular?limit=2`, {
         headers: { 'x-api-key': NEYNAR_KEY },
+        signal: AbortSignal.timeout(10000),
       });
       const data = await res.json();
       for (const cast of (data.casts || [])) {
@@ -137,6 +141,7 @@ async function fetchReddit(existingUrls) {
     try {
       const res = await fetch(`https://www.reddit.com/r/${sub}/hot.json?limit=3`, {
         headers: { 'User-Agent': 'BreakingNews/1.0' },
+        signal: AbortSignal.timeout(10000),
       });
       const data = await res.json();
       for (const { data: post } of (data?.data?.children || [])) {
@@ -166,6 +171,7 @@ async function fetchGitHub(existingUrls) {
     try {
       const res = await fetch(`https://api.github.com/repos/${repo}/releases?per_page=2`, {
         headers: { 'User-Agent': 'BreakingNews/1.0' },
+        signal: AbortSignal.timeout(10000),
       });
       const releases = await res.json();
       if (!Array.isArray(releases)) continue;

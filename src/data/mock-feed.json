@@ -1,5 +1,175 @@
 [
   {
+    "id": "205629aa-8444-4fd3-be6a-7c3a17e97ef2",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Critical Bitcoin trend change in works, but analysts say daily close above $80K required",
+    "summary": "1. Bitcoin’s rally above $79,000 may be a sign that the downtrend is ending, but a multi-day candle close above $80,000 would help strengthen the odds of a trend change holding.",
+    "url": "https://cointelegraph.com/markets/critical-bitcoin-trend-change-in-works-but-analysts-say-daily-close-above-dollar80k-required?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Antonio Oliveira",
+    "created_at": "2026-04-24T01:51:01.000Z"
+  },
+  {
+    "id": "8b0aaa6e-b1c0-4e66-b219-7c3e6852b518",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Altcoins have ‘30% to 60%’ upside if Bitcoin taps $86K: Analyst",
+    "summary": "1. MN Trading Capital founder Michael van de Poppe doesn’t expect Bitcoin to drop below $75,000 in the near term, even as Polymarket traders price in a different outcome.",
+    "url": "https://cointelegraph.com/news/altcoins-upside-if-bitcoin-taps-86k-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Ciaran Lyons",
+    "created_at": "2026-04-24T01:09:37.000Z"
+  },
+  {
+    "id": "b69a870a-be21-46cd-8947-b7d27b895973",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Bob Iger rejoins Thrive Capital as advisor after Disney exit",
+    "summary": "1. The former Disney CEO hold a stake in Thrive, and has previously held the role of the venture partner at the firm.",
+    "url": "https://techcrunch.com/2026/04/23/bob-iger-rejoins-thrive-capital-as-advisor-after-disney-exit/",
+    "author": "Marina Temkin",
+    "created_at": "2026-04-24T00:11:25.000Z"
+  },
+  {
+    "id": "803f35c3-899d-4327-96b9-405b0040e63f",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Authorities arrest special forces soldier who allegedly made $400K on Polymarket bet involving Maduro operation",
+    "summary": "1. The soldier is accused of using classified government information to inform a wager on the prediction market Polymarket.",
+    "url": "https://techcrunch.com/2026/04/23/authorities-arrest-special-forces-soldier-who-allegedly-made-400k-on-polymarket-bet-involving-maduro-operation/",
+    "author": "Lucas Ropek",
+    "created_at": "2026-04-23T23:32:33.000Z"
+  },
+  {
+    "id": "13299b15-c626-4d8b-b29a-52ab0c2a24b2",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "DOJ arrests soldier who made $400,000 betting on Maduro's removal",
+    "summary": "1. DOJ arrests soldier who made $400,000 betting on Maduro's removal",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1styesd/doj_arrests_soldier_who_made_400000_betting_on/",
+    "author": "u/rararatata",
+    "created_at": "2026-04-23T23:04:36.000Z"
+  },
+  {
+    "id": "6c685ddd-6b7f-4316-9853-925812732310",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "US Soldier Charged for Alleged $400K Polymarket Insider Trading on Maduro Removal",
+    "summary": "1. Federal prosecutors say an Army soldier made over $400K betting on Venezuela-related outcomes on Polymarket using classified intelligence.",
+    "url": "https://decrypt.co/365397/us-soldier-charged-400k-polymarket-insider-trading-maduro-removal",
+    "author": "Decrypt Agent",
+    "created_at": "2026-04-23T22:48:28.000Z"
+  },
+  {
+    "id": "70273f8d-812a-4af3-a614-bd9c42e1aecc",
+    "source": "The Block",
+    "type": "rss",
+    "title": "DOJ arrests US solider accused of using secret intel to make Polymarket bet on Nicolás Maduro’s capture",
+    "summary": "1. The DOJ arrested a U.S.\n2. Army soldier accused of using confidential information to place bets on the prediction market Polymarket.",
+    "url": "https://www.theblock.co/post/398725/doj-arrests-us-solider-accused-secret-intel-polymarket-bet-nicolas-maduros-capture?utm_source=rss&utm_medium=rss",
+    "author": "Sarah Wynn",
+    "created_at": "2026-04-23T22:44:58.000Z"
+  },
+  {
+    "id": "20ef8ff1-437f-450b-a504-fdcb6b4bcc21",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Redwood Materials loses COO amid layoffs, restructuring",
+    "summary": "1. Former Tesla executive Chris Lister is retiring, and at least three other VPs have left Redwood around the recent restructuring, TechCrunch has learned.",
+    "url": "https://techcrunch.com/2026/04/23/redwood-materials-loses-coo-amid-layoffs-restructuring/",
+    "author": "Sean O'Kane",
+    "created_at": "2026-04-23T22:44:12.000Z"
+  },
+  {
+    "id": "89a1b607-2e51-4796-a232-4385e7dabfbf",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Here’s what happened in crypto today",
+    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Cointelegraph",
+    "created_at": "2026-04-23T22:34:15.000Z"
+  },
+  {
+    "id": "40e2f7ee-bf1f-4033-bcd3-435a4cab27b0",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "U.S. arrests Army green beret for $400,000 Polymarket bets on Venezuela raid he was in",
+    "summary": "1. Master Sergeant Gannon Ken Van Dyke allegedly tried to conceal his bets about the raid on Venezuela that led to Nicolas Maduro's arrest.",
+    "url": "https://www.coindesk.com/policy/2026/04/23/u-s-arrests-soldier-for-polymarket-bets-on-nicolas-maduro-raid-he-participated-in",
+    "author": "Nikhilesh De",
+    "created_at": "2026-04-23T22:11:37.000Z"
+  },
+  {
+    "id": "76e2d814-3a5a-4eca-8255-d9a6a3f9b014",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Anthropic Beats OpenAI on Secondary Markets With $1 Trillion Implied Valuation",
+    "summary": "1. On Forge Global, Anthropic shares are hovering around $1 trillion while OpenAI trades at $880 billion — a reversal nobody saw coming three months ago.",
+    "url": "https://decrypt.co/365384/anthropic-1-trillion-valuation-secondary-markets-openai",
+    "author": "Jose Antonio Lanz",
+    "created_at": "2026-04-23T21:38:28.000Z"
+  },
+  {
+    "id": "e3bc8a03-5245-48a9-94b8-de1070a55405",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Google Maps Lets Filmmakers Scout Movie Scenes Using AI and Street View Data",
+    "summary": "1. Google unveiled a new AI tool in Maps that lets filmmakers preview scenes in real-world locations ahead (or instead) of scouting trips.",
+    "url": "https://decrypt.co/365326/google-maps-filmmakers-scout-movie-scenes-ai-street-view-data",
+    "author": "Jason Nelson",
+    "created_at": "2026-04-23T21:09:59.000Z"
+  },
+  {
+    "id": "59acebf5-989b-48a4-8166-86bae02e69ef",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Paradigm-backed Succinct launches iPhone camera app that combats AI fakes using cryptography",
+    "summary": "1. Succinct cited research predicting that generative AI could cause fraud losses to hit $40 billion in the U.S.",
+    "url": "https://www.theblock.co/post/398712/paradigm-backed-succinct-iphone-camera-app-combats-ai-fakes?utm_source=rss&utm_medium=rss",
+    "author": "RT Watson",
+    "created_at": "2026-04-23T21:06:30.000Z"
+  },
+  {
+    "id": "3e37504d-bf0d-4bba-bef2-d69ef9d5c53b",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Jane Street asks court to dismiss Terraform Labs’ insider trading lawsuit",
+    "summary": "1. Terraform Labs accused Jane Street of precipitating the collapse of the UST/LUNA algorithmic stablecoin through insider trading.",
+    "url": "https://www.theblock.co/post/398713/jane-street-asks-court-dismiss-terraform-labs-insider-trading-lawsuit?utm_source=rss&utm_medium=rss",
+    "author": "Daniel Kuhn",
+    "created_at": "2026-04-23T21:00:45.000Z"
+  },
+  {
+    "id": "e9f15bd7-a15b-4a58-82c6-d8474c38532e",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Aave rallies DeFi partners to contain fallout from $292 million KelpDAO hack",
+    "summary": "1. Industry players are coordinating a recovery effort as the year's biggest crypto theft rattled Aave, with Lido and EtherFi being firsts to offer aid.",
+    "url": "https://www.coindesk.com/business/2026/04/23/aave-rallies-defi-partners-to-contain-fallout-from-usd292-million-kelpdao-hack",
+    "author": "Krisztian Sandor",
+    "created_at": "2026-04-23T20:52:33.000Z"
+  },
+  {
+    "id": "b7603a3a-157b-4f01-a43f-0ae20e0c5a0e",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "the whole concept of DAOs is basically failing because we can't solve the sybil problem",
+    "summary": "1. honestly starting to get really cynical about the state of governance on eth right now.\n2. i was looking at some recent voting proposals and its just painfully obvious that everything is being manipulated by industrial scale airdrop farmers.\n3. The WHOLE web3 dream was supposed to be decentralized consensus and community ownership.",
+    "url": "https://reddit.com/r/ethereum/comments/1stujgt/the_whole_concept_of_daos_is_basically_failing/",
+    "author": "u/Fun-Celebration-700",
+    "created_at": "2026-04-23T20:31:50.000Z"
+  },
+  {
+    "id": "5e17e05b-6f06-4c30-a14f-b58c60445c2a",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Inside the $71 million freeze on Arbitrum that has the crypto world questioning what decentralization really means",
+    "summary": "1. The emergency response prevented stolen funds from moving, but sparked debate over governance, control and the limits of decentralization on Layer 2s.",
+    "url": "https://www.coindesk.com/tech/2026/04/22/inside-the-usd71-million-freeze-on-arbitrum-that-has-the-crypto-world-questioning-what-decentralization-really-means",
+    "author": "Margaux Nijkerk",
+    "created_at": "2026-04-23T18:35:32.000Z"
+  },
+  {
     "id": "4",
     "source": "X",
     "type": "x",
@@ -141,76 +311,5 @@
     "url": "https://techcrunch.com/2026/04/22/shade-lands-14m-to-let-creative-teams-search-their-video-libraries-in-plain-english/",
     "author": "Ivan Mehta",
     "created_at": "2026-04-23T04:17:52.000Z"
-  },
-  {
-    "id": "bf6ac538-c5d4-4a83-8cd4-8d90e5fad503",
-    "source": "r/ethereum",
-    "type": "reddit",
-    "title": "Why AI Agents Are Choosing Crypto for Payments and What It Means for Ethereum",
-    "summary": "1. Why AI Agents Are Choosing Crypto for Payments and What It Means for Ethereum",
-    "url": "https://reddit.com/r/ethereum/comments/1st59sq/why_ai_agents_are_choosing_crypto_for_payments/",
-    "author": "u/1stplacelastrunnerup",
-    "created_at": "2026-04-23T01:59:13.000Z"
-  },
-  {
-    "id": "107ba34d-70f7-4f20-ab28-fd28805c804e",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Tesla just increased its spending plan to $25B — here’s where the money is going",
-    "summary": "1. Tesla's planned capex for 2026 is three times higher than what the company has historically spent.\n2. Its CFO said, as a result, Tesla will have a negative free cash flow the rest of the year.",
-    "url": "https://techcrunch.com/2026/04/22/tesla-just-increased-its-capex-to-25b-heres-where-the-money-is-going/",
-    "author": "Kirsten Korosec",
-    "created_at": "2026-04-22T23:56:52.000Z"
-  },
-  {
-    "id": "aa730e4f-bd77-42d2-bdfa-3b8dd485b6c0",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "US Government Runs a Bitcoin Node, But Not Mining BTC: US Admiral",
-    "summary": "1. The commander of U.S.\n2. forces in the Pacific said the military is investigating Bitcoin’s ability to “secure and protect networks.”",
-    "url": "https://decrypt.co/365221/us-government-runs-bitcoin-node-not-mining-btc",
-    "author": "Sander Lutz",
-    "created_at": "2026-04-22T21:46:02.000Z"
-  },
-  {
-    "id": "f594a7a2-13ac-40e6-a61d-da294abf6c94",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "OpenAI Launches Workspace Agents Feature in ChatGPT",
-    "summary": "1. Codex-powered tools automate reports, code, Slack replies, and other workplace tasks.",
-    "url": "https://decrypt.co/365220/openai-workspace-agents-feature-chatgpt",
-    "author": "Jason Nelson",
-    "created_at": "2026-04-22T21:38:38.000Z"
-  },
-  {
-    "id": "fd6e4833-2eb6-4ef1-b5b5-376aae02b825",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Kalshi Fines Meme Coin Candidate Mark Moran, Others for Betting on Their Own Elections",
-    "summary": "1. Moran, a candidate running for U.S.\n2. Senate in Virginia, previously described self-wagers as “free advertising.”",
-    "url": "https://decrypt.co/365212/kalshi-fines-candidate-mark-moran-others-betting-own-elections",
-    "author": "André Beganski",
-    "created_at": "2026-04-22T20:50:52.000Z"
-  },
-  {
-    "id": "3",
-    "source": "GitHub Trending",
-    "type": "github",
-    "title": "Vercel AI SDK adds native Anthropic Tool calling",
-    "summary": "1. The Vercel AI SDK repository has a new merged PR that adds native tool calling support for Claude 3.5.\n2. This drastically simplifies the code required to build agentic workflows on Next.js.\n3. The repo gained 1,200 stars in the last 24 hours, indicating massive developer interest.",
-    "url": "https://github.com/vercel/ai",
-    "author": "vercel",
-    "created_at": "2026-04-22T20:30:00Z",
-    "score": 92
-  },
-  {
-    "id": "0cc7b069-6e29-406c-846b-66536d68bf0c",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Crypto billionaire Justin Sun sues Trump family’s World Liberty Financial",
-    "summary": "1. Crypto billionaire Justin Sun sues Trump family’s World Liberty Financial",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1ssx4ba/crypto_billionaire_justin_sun_sues_trump_familys/",
-    "author": "u/financialtimes",
-    "created_at": "2026-04-22T20:22:32.000Z"
   }
 ]

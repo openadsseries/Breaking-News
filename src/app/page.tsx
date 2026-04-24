@@ -7,7 +7,7 @@ import { signalTokenAbi } from '@/lib/abi';
 import mockFeed from "@/data/mock-feed.json";
 
 const READS_TO_CLAIM = 5;
-const CONTRACT_ADDRESS = "0x1d705c7cb1bbe119f83f48520234f074e9157907";
+const CONTRACT_ADDRESS = "0xd8161af72117d05d6bb578211417c047a13849a6";
 
 // Session ID = first article ID. When cron fetches new articles, session resets.
 const SESSION_ID = mockFeed.length > 0 ? mockFeed[0].id : "empty";
