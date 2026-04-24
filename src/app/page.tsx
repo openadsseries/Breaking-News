@@ -138,7 +138,7 @@ export default function Home() {
         });
 
         // Only mark as shared if cast was actually published
-        if (result?.hash) {
+        if (result) {
           setHasShared(true);
           localStorage.setItem("bn_shared", "true");
         }
