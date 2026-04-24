@@ -289,6 +289,23 @@ export default function Home() {
                     return <p key={i} className="pl-3 border-l-2 border-[#1c1b18]">{clean}</p>;
                   })}
                 </div>
+                {currentArticle.url && (
+                  <button
+                    onClick={async () => {
+                      try {
+                        const sdk = await import('@farcaster/miniapp-sdk').catch(() => null);
+                        if (sdk?.default?.actions?.openUrl) {
+                          sdk.default.actions.openUrl(currentArticle.url);
+                        } else {
+                          window.open(currentArticle.url, '_blank');
+                        }
+                      } catch { window.open(currentArticle.url, '_blank'); }
+                    }}
+                    className="mt-4 text-[10px] uppercase tracking-widest font-sans font-bold underline underline-offset-2 self-start"
+                  >
+                    Read original →
+                  </button>
+                )}
               </div>
 
               <div className="shrink-0 border-t-[2px] border-[#1c1b18] px-4 py-3 flex items-center justify-between">
