@@ -117,12 +117,17 @@ export default function Home() {
 
   const handleSave = useCallback(async (article: typeof mockFeed[0]) => {
     try {
-      if (navigator.share) {
+      const sdk = await import('@farcaster/miniapp-sdk').catch(() => null);
+      if (sdk?.default?.actions?.composeCast) {
+        const result = await sdk.default.actions.composeCast({
+          text: article.title,
+          embeds: [APP_URL],
+        });
+        if (result) setSaved(prev => ({ ...prev, [article.id]: true }));
+      } else if (navigator.share) {
         await navigator.share({ title: article.title, text: article.title, url: APP_URL });
-      } else {
-        await navigator.clipboard.writeText(`${article.title}\n${APP_URL}`);
+        setSaved(prev => ({ ...prev, [article.id]: true }));
       }
-      setSaved(prev => ({ ...prev, [article.id]: true }));
     } catch {}
   }, []);
 
