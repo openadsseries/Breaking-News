@@ -128,62 +128,69 @@ export default function Home() {
           </h1>
           <div className="border-t-[3px] border-[#1c1b18] my-4"></div>
 
-          {/* State 1: Read enough but haven't shared yet */}
-          {readEnough && !hasShared && (
-            <>
-              <p className="text-xl font-black uppercase tracking-tight mb-2">
-                That&apos;s the latest edition.
-              </p>
-              <p className="text-sm leading-relaxed mb-6">
-                Share Breaking News to unlock your reward.
-              </p>
-              <button onClick={handleShare}
-                className="w-full border-[3px] border-[#1c1b18] py-3 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
-                Share to Unlock Reward
-              </button>
-            </>
-          )}
-
-          {/* State 2: Shared → can claim */}
-          {canClaim && (
-            <>
-              <p className="text-xl font-black uppercase tracking-tight mb-2">
-                Your reward is ready.
-              </p>
-              <p className="text-sm leading-relaxed mb-6">
-                The next edition arrives within the hour.
-              </p>
-              <div className="border-[3px] border-[#1c1b18] p-5 mb-4">
-                {isConnected ? (
-                  <button onClick={handleClaim} disabled={isPending}
-                    className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
-                    {isPending ? "Processing..." : "Collect 69 Tokens"}
-                  </button>
-                ) : (
-                  <ConnectButton.Custom>
-                    {({ openConnectModal, mounted }) => (
-                      <button onClick={openConnectModal} disabled={!mounted}
-                        className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest hover:bg-[#1c1b18] hover:text-[#dcdad2] transition-colors">
-                        Connect Wallet to Collect
+          {/* Only ONE state is shown at a time */}
+          {(() => {
+            // Priority 1: Can claim (shared already)
+            if (canClaim) {
+              return (
+                <>
+                  <p className="text-xl font-black uppercase tracking-tight mb-2">
+                    Your reward is ready.
+                  </p>
+                  <p className="text-sm leading-relaxed mb-6">
+                    The next edition arrives within the hour.
+                  </p>
+                  <div className="border-[3px] border-[#1c1b18] p-5">
+                    {isConnected ? (
+                      <button onClick={handleClaim} disabled={isPending}
+                        className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
+                        {isPending ? "Processing..." : "Collect 69 Tokens"}
                       </button>
+                    ) : (
+                      <ConnectButton.Custom>
+                        {({ openConnectModal, mounted }) => (
+                          <button onClick={openConnectModal} disabled={!mounted}
+                            className="w-full border-[2px] border-[#1c1b18] py-2.5 text-sm font-black uppercase tracking-widest hover:bg-[#1c1b18] hover:text-[#dcdad2] transition-colors">
+                            Connect Wallet to Collect
+                          </button>
+                        )}
+                      </ConnectButton.Custom>
                     )}
-                  </ConnectButton.Custom>
-                )}
-              </div>
-            </>
-          )}
+                  </div>
+                </>
+              );
+            }
 
-          {/* State 3: Haven't read enough yet (shouldn't normally reach here but just in case) */}
-          {!readEnough && (
-            <>
-              <p className="text-xl font-black uppercase tracking-tight mb-2">
-                That&apos;s the latest edition.
-              </p>
-              <p className="text-sm leading-relaxed">
-                The next edition arrives within the hour.<br/>Check back shortly.
-              </p>
-            </>
-          )}
+            // Priority 2: Read enough, need to share
+            if (readEnough && !hasShared) {
+              return (
+                <>
+                  <p className="text-xl font-black uppercase tracking-tight mb-2">
+                    That&apos;s the latest edition.
+                  </p>
+                  <p className="text-sm leading-relaxed mb-6">
+                    Share Breaking News to unlock your reward.
+                  </p>
+                  <button onClick={handleShare}
+                    className="w-full border-[3px] border-[#1c1b18] py-3 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] hover:bg-transparent hover:text-[#1c1b18] transition-colors">
+                    Share to Unlock Reward
+                  </button>
+                </>
+              );
+            }
+
+            // Default: Not enough reads
+            return (
+              <>
+                <p className="text-xl font-black uppercase tracking-tight mb-2">
+                  That&apos;s the latest edition.
+                </p>
+                <p className="text-sm leading-relaxed">
+                  The next edition arrives within the hour.<br/>Check back shortly.
+                </p>
+              </>
+            );
+          })()}
 
           <p className="text-[10px] uppercase tracking-widest font-sans font-bold mt-6">
             {readCount} articles read
