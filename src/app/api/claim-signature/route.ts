@@ -43,19 +43,9 @@ export async function GET(req: NextRequest) {
       }
 
       // Verify the user's verified address matches the claim address
-      const verifiedAddresses: string[] = (user.verified_addresses?.eth_addresses || [])
-        .map((a: string) => a.toLowerCase());
-      const custodyAddress = (user.custody_address || "").toLowerCase();
-
-      if (
-        !verifiedAddresses.includes(address.toLowerCase()) &&
-        custodyAddress !== address.toLowerCase()
-      ) {
-        return NextResponse.json(
-          { error: "Wallet not linked to this Farcaster account" },
-          { status: 403 }
-        );
-      }
+      // Note: we intentionally do NOT check verified_addresses here.
+      // In Warpcast mini apps, the connected wallet may differ from
+      // the user's Farcaster verified address. FID + score is enough.
     } catch (e: any) {
       // If Neynar is down, fail open but log
       console.error("Neynar check failed:", e.message);
