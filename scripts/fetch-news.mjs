@@ -22,11 +22,12 @@ const RSS_FEEDS = [
 
 // ─── Farcaster: Curated builder list (FIDs) ───
 const FARCASTER_FIDS = [
-  3,      // Dan Romero (Farcaster co-founder)
-  2,      // Varun Srinivasan (Farcaster co-founder)
-  3621,   // Jesse Pollak (Base lead)
-  194,    // Vitalik Buterin
-  239,    // Balaji Srinivasan
+  194,     // @rish
+  1325,    // @cassie
+  1,       // @farcaster
+  8106,    // @project7
+  8151,    // @if
+  1439819, // @beeper
 ];
 
 // ─── Reddit Subreddits ───
@@ -37,6 +38,8 @@ const GITHUB_REPOS = [
   'ethereum/go-ethereum',
   'base-org/node',
   'paradigmxyz/reth',
+  'anthropics/claude-code',
+  'vbuterin/blog',
 ];
 
 const ARTICLES_PER_FEED = 3;
