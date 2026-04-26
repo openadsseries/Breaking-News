@@ -229,9 +229,9 @@ export default function Home() {
 
           {phase === "SHARE_GATE" && (
             <div className="space-y-5">
-              <p className="text-lg font-black uppercase tracking-tight">Briefing complete.</p>
+              <p className="text-lg font-black uppercase tracking-tight">You read it first.</p>
               <p className="text-sm leading-relaxed">
-                You&apos;re faster than 90% of readers.<br/>Share to unlock what&apos;s waiting for you.
+                Most people will see this tomorrow.<br/>You saw it now. Spread the word.
               </p>
               <button onClick={handleShare}
                 className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
@@ -244,7 +244,7 @@ export default function Home() {
             <div className="space-y-5">
               <p className="text-lg font-black uppercase tracking-tight">You earned it.</p>
               <p className="text-sm leading-relaxed">
-                Not everyone finishes the briefing.<br/>You did. Here&apos;s what that&apos;s worth.
+                You read it before everyone else.<br/>Here&apos;s what that&apos;s worth.
               </p>
               <button onClick={handleClaim} disabled={isPending}
                 className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
@@ -294,7 +294,7 @@ export default function Home() {
             </h1>
             <div className="flex justify-between items-end px-1 mt-1">
               <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
-                {isPostReward ? "Bonus reading" : readCount >= READS_TO_CLAIM ? "Reward waiting" : `${displayCount}/${READS_TO_CLAIM}`}
+                {isPostReward ? "Keep reading" : readCount >= READS_TO_CLAIM ? "⚡ Claim now" : `${displayCount}/${READS_TO_CLAIM}`}
               </span>
               <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
                 {currentIndex + 1} of {totalArticles}

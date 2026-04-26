@@ -14,17 +14,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Breaking News — Read to Earn",
-  description: "Consume crypto signals from RSS, Farcaster, Reddit & GitHub. Read news, earn $SIGNAL tokens. Zero cost, zero database.",
+  title: "Breaking News — Read It Before Everyone Else",
+  description: "Crypto moves fast. Read breaking news before anyone else. Swipe, share, earn $BREAKING NEWS tokens.",
   openGraph: {
-    title: "Breaking News — Read to Earn",
-    description: "Swipe through curated crypto signals. Earn $SIGNAL tokens for reading and sharing.",
+    title: "Breaking News — Read It First",
+    description: "Most people will read this tomorrow. You can read it now.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Breaking News — Read to Earn",
-    description: "Swipe through curated crypto signals. Earn $SIGNAL tokens.",
+    title: "Breaking News — Read It First",
+    description: "Most people will read this tomorrow. You can read it now.",
   },
   other: {
     // Frame v2 embed — renders as mini app launch button in casts
