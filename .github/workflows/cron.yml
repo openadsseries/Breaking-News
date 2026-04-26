@@ -9,6 +9,7 @@ on:
 jobs:
   fetch-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
@@ -19,10 +20,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install only fetch dependencies
+        run: npm install --no-save rss-parser dotenv
 
-      - name: Fetch news (no AI, $0 cost)
+      - name: Fetch news
         env:
           NEYNAR_API_KEY: ${{ secrets.NEYNAR_API_KEY }}
         run: node scripts/fetch-news.mjs
