@@ -6,14 +6,18 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY as Hex;
 const NEYNAR_KEY = process.env.NEYNAR_API_KEY || "";
 const MIN_SCORE = 0.3;
 
-// Cache account at module level — avoid re-deriving on every request
-const signerAccount = PRIVATE_KEY ? privateKeyToAccount(PRIVATE_KEY) : null;
+// Lazy cache — only initialize when first request arrives (avoids build-time crash)
+let _signer: ReturnType<typeof privateKeyToAccount> | null = null;
+function getSigner() {
+  if (!_signer && PRIVATE_KEY) _signer = privateKeyToAccount(PRIVATE_KEY);
+  return _signer;
+}
 
 export async function GET(req: NextRequest) {
   const address = req.nextUrl.searchParams.get("address");
   const fid = req.nextUrl.searchParams.get("fid");
 
-  if (!address || !signerAccount) {
+  if (!address || !getSigner()) {
     return NextResponse.json({ error: "Missing address" }, { status: 400 });
   }
 
@@ -54,7 +58,7 @@ export async function GET(req: NextRequest) {
     const hash = keccak256(
       encodePacked(["address", "uint256"], [address as Hex, day])
     );
-    const signature = await signerAccount.signMessage({ message: { raw: hash } });
+    const signature = await getSigner()!.signMessage({ message: { raw: hash } });
     return NextResponse.json({ signature, day: day.toString() });
   } catch (e: any) {
     return NextResponse.json({ error: e.message }, { status: 500 });
