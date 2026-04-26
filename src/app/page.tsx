@@ -265,9 +265,11 @@ export default function Home() {
           {phase === "ALL_READ" && (
             <div className="space-y-3">
               <p className="text-lg font-black uppercase tracking-tight">
-                {claimedToday ? "Reward collected." : "End of edition."}
+                {claimedToday ? "Reward collected." : "You're all caught up."}
               </p>
-              <p className="text-sm leading-relaxed">Come back for the next edition.</p>
+              <p className="text-sm leading-relaxed">
+                No breaking news right now.<br/>We&apos;ll be back when something drops.
+              </p>
             </div>
           )}
         </div>
