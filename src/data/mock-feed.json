@@ -30,6 +30,16 @@
     "created_at": "2026-04-26T02:29:28.000Z"
   },
   {
+    "id": "e08389f1-18a6-4103-902c-ee6afdb8868f",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Litecoin zero-day bug caused 13 block reorg",
+    "summary": "1. Litecoin update:\n\n- A zero-day bug caused a DoS attack that disrupted major mining pools.\n2. - Non-updated mining nodes allowed an invalid MWEB transaction allowing them to peg out coins to third party DEX’s\n- A 13-block reorg reversed those invalid transactions — they will not be included in the main chain\n- All valid transactions during that period remain unaffected\n- The bug is now fully patched, and the network continues to operate normally\n\nhttps://xcancel.com/litecoin/status/2048135554445832542",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1svqx8k/litecoin_zeroday_bug_caused_13_block_reorg/",
+    "author": "u/DangerHighVoltage111",
+    "created_at": "2026-04-25T23:11:01.000Z"
+  },
+  {
     "id": "f6fb93c4-b5bf-49a8-8ad0-7ce66b4ad36d",
     "source": "r/ethereum",
     "type": "reddit",
@@ -188,5 +198,15 @@
     "url": "https://www.theblock.co/post/398882/aave-kelp-layerzero-ask-arbitrum-dao-to-release-71-million-in-frozen-eth-to-rseth-recovery-effort?utm_source=rss&utm_medium=rss",
     "author": "Zack Abrams",
     "created_at": "2026-04-25T14:55:28.000Z"
+  },
+  {
+    "id": "9922f1b3-4ebc-428d-9ebd-8cd2f63c4571",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Here’s what happened in crypto today",
+    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Cointelegraph",
+    "created_at": "2026-04-25T14:38:50.000Z"
   }
 ]
