@@ -236,7 +236,7 @@ export default function Home() {
               </p>
               <button onClick={handleShare}
                 className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
-                Share to Unlock
+                Share to Unlock 69 $BREAKINGNEWS
               </button>
             </div>
           )}
