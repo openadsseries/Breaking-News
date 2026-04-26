@@ -2,8 +2,8 @@ name: Fetch News Feed
 
 on:
   schedule:
-    # Runs every 6 hours (4x/day) — minimal usage
-    - cron: '0 */6 * * *'
+    # Runs every 3 hours (8x/day, ~240 min/month)
+    - cron: '0 */3 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
