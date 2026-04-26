@@ -18,6 +18,7 @@ const RSS_FEEDS = [
   { url: 'https://decrypt.co/feed', source: 'Decrypt' },
   { url: 'https://www.coindesk.com/arc/outboundfeeds/rss/', source: 'CoinDesk' },
   { url: 'https://techcrunch.com/feed/', source: 'TechCrunch' },
+  { url: 'https://trumpstruth.org/feed', source: 'Trump Truth' },
 ];
 
 // ─── Farcaster: Curated builder list (FIDs) ───
