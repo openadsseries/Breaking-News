@@ -79,9 +79,9 @@ export default function Home() {
     }
   }, [isSuccess]);
 
-  // Filter: only show articles from the last 24 hours, newest first
+  // Filter: only show articles from the last 6 hours, newest first
   const todaysFeed = useMemo(() => {
-    const cutoff = Date.now() - 24 * 60 * 60 * 1000;
+    const cutoff = Date.now() - 6 * 60 * 60 * 1000;
     return mockFeed
       .filter(a => new Date(a.created_at).getTime() > cutoff)
       .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
@@ -332,14 +332,9 @@ export default function Home() {
                       ● Just In
                     </span>
                   );
-                  if (hrs < 6) return (
+                  return (
                     <span className="text-[10px] font-mono font-bold uppercase tracking-widest">
                       ⚡ Developing
-                    </span>
-                  );
-                  return (
-                    <span className="text-[10px] font-mono font-bold uppercase tracking-widest opacity-60">
-                      📌 ICYMI
                     </span>
                   );
                 })()}
