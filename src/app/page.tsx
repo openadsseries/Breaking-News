@@ -322,16 +322,25 @@ export default function Home() {
                 <span className="text-[10px] font-bold uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] px-2 py-0.5">
                   {currentArticle.source}
                 </span>
-                <span className="text-[10px] font-mono font-bold">
-                  {(() => {
-                    const diff = Date.now() - new Date(currentArticle.created_at).getTime();
-                    const mins = Math.floor(diff / 60000);
-                    if (mins < 5) return 'just now';
-                    if (mins < 60) return `${mins}m ago`;
-                    const hrs = Math.floor(mins / 60);
-                    return `${hrs}h ago`;
-                  })()}
-                </span>
+                {(() => {
+                  const diff = Date.now() - new Date(currentArticle.created_at).getTime();
+                  const hrs = diff / 3600000;
+                  if (hrs < 1) return (
+                    <span className="text-[10px] font-mono font-black uppercase tracking-widest bg-red-700 text-white px-2 py-0.5">
+                      ● Just In
+                    </span>
+                  );
+                  if (hrs < 6) return (
+                    <span className="text-[10px] font-mono font-bold uppercase tracking-widest">
+                      ⚡ Developing
+                    </span>
+                  );
+                  return (
+                    <span className="text-[10px] font-mono font-bold uppercase tracking-widest opacity-60">
+                      📌 ICYMI
+                    </span>
+                  );
+                })()}
               </div>
 
               <div className="flex-1 px-4 py-4 flex flex-col min-h-0 overflow-y-auto">
