@@ -199,10 +199,11 @@ export default function Home() {
   }, [address, fid, writeContract]);
 
   const handleContinueReading = useCallback(() => {
-    // After claiming, go back to reading from where we left off
-    // Phase will resolve to READING_CONTINUED
+    // User chose to skip reward — treat as claimed so interstitial won't block
     setHasShared(true);
     setClaimedToday(true);
+    const today = new Date().toISOString().slice(0, 10);
+    localStorage.setItem("bn_claim_date", today);
   }, []);
 
   // ── RENDERS ──
