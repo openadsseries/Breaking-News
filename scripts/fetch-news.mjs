@@ -82,7 +82,13 @@ async function fetchRSS(existingUrls) {
   const results = await Promise.allSettled(
     RSS_FEEDS.map(async (feed) => {
       const parsed = await parser.parseURL(feed.url);
-      return parsed.items.slice(0, ARTICLES_PER_FEED).filter(item => !existingUrls.has(item.link)).map(item => {
+      return parsed.items.slice(0, ARTICLES_PER_FEED).filter(item => {
+        if (existingUrls.has(item.link)) return false;
+        // Skip empty posts (image-only retweets, etc.)
+        const text = (item.title || '') + (item.contentSnippet || '');
+        if (text.length < 20 || text.includes('[No Title]')) return false;
+        return true;
+      }).map(item => {
         console.log(`  ✅ [RSS] ${feed.source}: ${item.title?.slice(0, 50)}...`);
         return {
           id: crypto.randomUUID(), source: feed.source, type: 'rss',
