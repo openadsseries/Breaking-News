@@ -79,8 +79,14 @@ export default function Home() {
     }
   }, [isSuccess]);
 
+  // Filter: only show articles from the last 24 hours (Breaking News = never yesterday)
+  const todaysFeed = useMemo(() => {
+    const cutoff = Date.now() - 24 * 60 * 60 * 1000;
+    return mockFeed.filter(a => new Date(a.created_at).getTime() > cutoff);
+  }, []);
+
   // Derived
-  const totalArticles = mockFeed.length;
+  const totalArticles = todaysFeed.length;
   const displayCount = Math.min(readCount, READS_TO_CLAIM);
 
   // Phase logic
@@ -270,7 +276,7 @@ export default function Home() {
   }
 
   // ── ARTICLE VIEW (READING or READING_CONTINUED) ──
-  const currentArticle = mockFeed[currentIndex];
+  const currentArticle = todaysFeed[currentIndex];
   if (!currentArticle) return null;
 
   const isPostReward = phase === "READING_CONTINUED";
@@ -314,7 +320,14 @@ export default function Home() {
                   {currentArticle.source}
                 </span>
                 <span className="text-[10px] font-mono font-bold">
-                  {new Date(currentArticle.created_at).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+                  {(() => {
+                    const diff = Date.now() - new Date(currentArticle.created_at).getTime();
+                    const mins = Math.floor(diff / 60000);
+                    if (mins < 5) return 'just now';
+                    if (mins < 60) return `${mins}m ago`;
+                    const hrs = Math.floor(mins / 60);
+                    return `${hrs}h ago`;
+                  })()}
                 </span>
               </div>
 
