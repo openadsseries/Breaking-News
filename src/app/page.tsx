@@ -79,10 +79,12 @@ export default function Home() {
     }
   }, [isSuccess]);
 
-  // Filter: only show articles from the last 24 hours (Breaking News = never yesterday)
+  // Filter: only show articles from the last 24 hours, newest first
   const todaysFeed = useMemo(() => {
     const cutoff = Date.now() - 24 * 60 * 60 * 1000;
-    return mockFeed.filter(a => new Date(a.created_at).getTime() > cutoff);
+    return mockFeed
+      .filter(a => new Date(a.created_at).getTime() > cutoff)
+      .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
   }, []);
 
   // Derived
