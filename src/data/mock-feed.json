@@ -1,5 +1,175 @@
 [
   {
+    "id": "54d41b0b-95cc-4a6c-8c6b-c805f263c602",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "I built an AI agent that charges $0.001 to protect other AI agents — and every blocked attack is permanently recorded onchain. Built solo in 5 days from Burkina Faso.",
+    "summary": "1. Hey r/ethereum,\n\nI just submitted ArcWarden to a lablab.ai hackathon on Arc L1.\n2. Wanted to share what I built because the concept is a bit different from what you usually see in the agentic space.\n3. The problem\n\nAutonomous AI agents managing USDC wallets on blockchain have zero native security layer.",
+    "url": "https://reddit.com/r/ethereum/comments/1swjmar/i_built_an_ai_agent_that_charges_0001_to_protect/",
+    "author": "u/Any_Good_2682",
+    "created_at": "2026-04-26T21:06:15.000Z"
+  },
+  {
+    "id": "3563eb53-c226-417a-93ad-3ceb646b27b0",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "What Tim Cook built",
+    "summary": "1. On the latest episode of Equity, we discuss how Apple has changed since Cook became CEO in 2011, and what challenges incoming CEO John Ternus will be facing.",
+    "url": "https://techcrunch.com/2026/04/26/what-tim-cook-built/",
+    "author": "Anthony Ha",
+    "created_at": "2026-04-26T20:22:51.000Z"
+  },
+  {
+    "id": "ed5164e0-52ca-4edf-88ab-70b96eaf4b16",
+    "source": "The Block",
+    "type": "rss",
+    "title": "22-year-old sentenced to 70 months for money laundering tied to $263 million crypto syndicate",
+    "summary": "1. The Lamborghini-laden money laundering operation was \"built on greed so brazen it borders on the cartoonish,\" according to prosecutors.",
+    "url": "https://www.theblock.co/post/398899/22-year-old-sentenced-to-70-months-for-money-laundering-tied-to-263-million-crypto-syndicate?utm_source=rss&utm_medium=rss",
+    "author": "Zack Abrams",
+    "created_at": "2026-04-26T20:15:12.000Z"
+  },
+  {
+    "id": "4dbb008e-b989-4ecd-8e0c-5205c14e0673",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Strategy's Michael Saylor again hints at impending BTC purchase",
+    "summary": "1. The biggest Bitcoin treasury company's data shows holdings are profitable, having gained about 3.3% amid Bitcoin's rally to about $78,000.",
+    "url": "https://cointelegraph.com/news/strategy-michael-saylor-bitcoin-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Vince Quill",
+    "created_at": "2026-04-26T20:09:09.000Z"
+  },
+  {
+    "id": "9f4ee23b-b553-45e5-8d77-d96c27681a43",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "I will be interviewed on 60 Minutes tonight at 7 P.M. EST — CBS Television Network. Enjoy! President DONALD J. TRUMP",
+    "summary": "1. I will be interviewed on 60 Minutes tonight at 7 P.M.\n2. EST — CBS Television Network.\n3. President DONALD J.",
+    "url": "https://trumpstruth.org/statuses/38062",
+    "author": "Trump Truth",
+    "created_at": "2026-04-26T19:46:01.000Z"
+  },
+  {
+    "id": "68f47a37-3c5a-43b0-9c9f-c151e97adc8c",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "US Treasury Adds Venmo for Debt as Bitcoin Reserve Stalls",
+    "summary": "1. US Treasury Adds Venmo for Debt as Bitcoin Reserve Stalls",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1swgmjg/us_treasury_adds_venmo_for_debt_as_bitcoin/",
+    "author": "u/partymsl",
+    "created_at": "2026-04-26T19:12:40.000Z"
+  },
+  {
+    "id": "cab4c658-111b-4639-9dc9-6ff25dfdb09a",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Coachella Uses Google DeepMind AI to Test the Future of Live Entertainment",
+    "summary": "1. Coachella is experimenting with AI-built artist tools, immersive digital worlds, and 3D performance archives that could shape future fan experiences.",
+    "url": "https://decrypt.co/365532/coachella-google-deepmind-ai-test-future-live-entertainment",
+    "author": "Jason Nelson",
+    "created_at": "2026-04-26T19:04:43.000Z"
+  },
+  {
+    "id": "a829a2b7-fb91-4285-81fc-f803b1f4fba6",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Running out of time on Clarity: State of Crypto ",
+    "summary": "1. April is almost over.\n2. May is the month to watch.",
+    "url": "https://www.coindesk.com/policy/2026/04/26/running-out-of-time-on-clarity-state-of-crypto",
+    "author": "Nikhilesh De",
+    "created_at": "2026-04-26T18:30:00.000Z"
+  },
+  {
+    "id": "4ebfca4e-39ba-4daf-ac04-0b1af4e99175",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Litecoin gives post-attack update, but other devs doubt zero-day theory",
+    "summary": "1. Valid transactions that occurred during the affected blocks were not impacted and remain on the main chain, the Litecoin development team said.",
+    "url": "https://cointelegraph.com/news/litecoin-post-mortem-chain-reorganization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Vince Quill",
+    "created_at": "2026-04-26T18:15:30.000Z"
+  },
+  {
+    "id": "336052b8-e5ed-426f-ade1-8fb348980eea",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Aave raises nearly 80% of the $200 million it needs to cover bad debt left by Kelp DAO exploit",
+    "summary": "1. Blockchain analytics platform Arkham said that the largest contributors are Mantle and Aave DAO, having raised a combined $127 million.",
+    "url": "https://www.coindesk.com/business/2026/04/26/aave-raises-nearly-80-of-the-usd200-million-it-needs-to-cover-bad-debt-left-by-kelp-dao-exploit",
+    "author": "Olivier Acuna",
+    "created_at": "2026-04-26T16:21:01.000Z"
+  },
+  {
+    "id": "c5412a0c-0eb2-4cd0-a35c-b9016fc6d26e",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "TechCrunch Mobility: Elon’s admission",
+    "summary": "1. Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+    "url": "https://techcrunch.com/2026/04/26/techcrunch-mobility-elons-admission/",
+    "author": "Kirsten Korosec",
+    "created_at": "2026-04-26T16:03:00.000Z"
+  },
+  {
+    "id": "2b0cf6d2-e271-4bca-ac0d-61058a85efdb",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "INTEL: US COAST GUARD HAS SEIZED AN ESTIMATED &#036;380 MILLION WORTH OF IRANIAN CRUDE OIL IN INDIAN...",
+    "summary": "1. INTEL: US COAST GUARD HAS SEIZED AN ESTIMATED &#036;380 MILLION WORTH OF IRANIAN CRUDE OIL IN INDIAN OCEAN AND APPEAR TO BE HEADING TOWARDS USA, ACCORDING TO TANKERTRACKERTwitter",
+    "url": "https://t.me/SolidIntelX",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-26T16:00:53+00:00"
+  },
+  {
+    "id": "ca7d4603-5484-4f35-af47-4400bdfeedee",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Why DeFi isn't dead despite massive exploits and $13 billion investor exodus",
+    "summary": "1. A $292 million exploit and $13 billion TVL drop looks catastrophic on the surface, but the data tells a different story.",
+    "url": "https://www.coindesk.com/business/2026/04/26/why-defi-isn-t-dead-despite-massive-exploits-and-usd13-billion-investor-exodus",
+    "author": "Oliver Knight",
+    "created_at": "2026-04-26T16:00:00.000Z"
+  },
+  {
+    "id": "0a43a6c9-eb16-4492-b838-d8f8e23c42df",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "To buy this Bay Area home, you’ll need Anthropic equity",
+    "summary": "1. Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
+    "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+    "author": "Anthony Ha",
+    "created_at": "2026-04-26T15:30:00.000Z"
+  },
+  {
+    "id": "5ebc84e3-19b4-4e44-8691-3875b3c71f42",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "$TRUMP Meme Coin Down Over 95% While Top Holders Get Exclusive Access",
+    "summary": "1. $TRUMP Meme Coin Down Over 95% While Top Holders Get Exclusive Access",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1sw92z3/trump_meme_coin_down_over_95_while_top_holders/",
+    "author": "u/Express_Classic_1569",
+    "created_at": "2026-04-26T14:31:09.000Z"
+  },
+  {
+    "id": "ef40c712-3e80-4c59-9b06-26ab204f6869",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Your AI Agent Can Now Groan While Untangling Your Vibe Coded Mess",
+    "summary": "1. A new GitHub plugin makes your coding agent emit escalating human moans as it suffers through your spaghetti code.",
+    "url": "https://decrypt.co/365511/ai-agent-groan-endless-toil-vibecoding-suffering",
+    "author": "Jose Antonio Lanz",
+    "created_at": "2026-04-26T13:01:02.000Z"
+  },
+  {
+    "id": "4922d807-791b-48e2-912c-9d2a2d42e698",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "What happened last night is exactly the reason that our great Military, Secret Service, Law Enforcement and, for different reasons, every President for the last 150 years, have been DEMANDING that a large, safe, and secure Ballroom be built ON THE GROUNDS OF THE WHITE HOUSE. This event would never have happened with the Militarily Top Secret Ballroom currently under construction at the White House. It cannot be built fast enough! While beautiful, it has every highest level security feature there is plus, there are no rooms sitting on top for unsecured people to pour in, and is inside the gates of the most secure building in the World, The White House. The ridiculous Ballroom lawsuit, brought by a woman walking her dog, who has absolutely No Standing to bring such a suit, must be dropped, immediately. Nothing should be allowed to interfere with with its construction, which is on budget and substantially ahead of schedule!!! Thank you for your attention to this matter. President DONALD J. TRUMP",
+    "summary": "1. What happened last night is exactly the reason that our great Military, Secret Service, Law Enforcement and, for different reasons, every President for the last 150 years, have been DEMANDING that a large, safe, and secure Ballroom be built ON THE GROUNDS OF THE WHITE HOUSE.\n2. This event would never have happened with the Militarily Top Secret Ballroom currently under construction at the White House.\n3. It cannot be built fast enough!",
+    "url": "https://trumpstruth.org/statuses/38061",
+    "author": "Trump Truth",
+    "created_at": "2026-04-26T12:46:04.000Z"
+  },
+  {
     "id": "05462ec7-ece2-45a2-9e0e-a60d164c5c81",
     "source": "CoinTelegraph",
     "type": "rss",
@@ -88,135 +258,5 @@
     "url": "https://reddit.com/r/CryptoCurrency/comments/1svorm7/trump_hosts_crypto_contest_winners_at_maralago_as/",
     "author": "u/TheGreatCryptopo",
     "created_at": "2026-04-25T21:39:05.000Z"
-  },
-  {
-    "id": "fcec528f-b95e-4d44-bc46-0bd3f4c96ad6",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Maine’s governor vetoes data center moratorium",
-    "summary": "1. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027.",
-    "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
-    "author": "Anthony Ha",
-    "created_at": "2026-04-25T20:57:08.000Z"
-  },
-  {
-    "id": "7f70a088-eceb-4652-bf6e-a10ddb347ec2",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Litecoin rewrites three hours of history to undo its first major privacy-layer exploit",
-    "summary": "1. Attackers used the more than three-hour fork window to attempt double-spends against cross-chain swap protocols.",
-    "url": "https://www.theblock.co/post/398892/litecoin-rewrites-three-hours-of-history-to-undo-its-first-major-privacy-layer-exploit?utm_source=rss&utm_medium=rss",
-    "author": "Zack Abrams",
-    "created_at": "2026-04-25T20:51:39.000Z"
-  },
-  {
-    "id": "e49846b4-505e-4398-82a4-529ca95ce317",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoiners cast doubt on the US military's understanding of the network",
-    "summary": "1. Bitcoin advocate Matthew Kratter said US Navy Admiral Samuel Paparo's Senate testimony on Tuesday sounded like it was written by an \"intern.\"",
-    "url": "https://cointelegraph.com/news/bitcoiners-cast-doubt-us-military-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Vince Quill",
-    "created_at": "2026-04-25T19:36:29.000Z"
-  },
-  {
-    "id": "032bdc89-df2a-4bb8-91b9-9d45367861cb",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Elon Musk’s Grok Most Likely Among Top AI Models to Reinforce Delusions: Study",
-    "summary": "1. Researchers found that xAI's Grok was the riskiest AI model tested, often validating delusions and offering dangerous advice.",
-    "url": "https://decrypt.co/365489/elon-musk-grok-most-likely-ai-reinforce-delusions-study",
-    "author": "Jason Nelson",
-    "created_at": "2026-04-25T19:01:03.000Z"
-  },
-  {
-    "id": "01ab0f7f-075b-40b8-a7b2-e50ba186aa4d",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Crypto is built for AI agents, not humans, says Alchemy's CEO",
-    "summary": "1. Alchemy CEO Nikil Viswanathan argues the global financial system was designed for humans, but the next wave of commerce will be driven by AI agents that operate natively in crypto.",
-    "url": "https://www.coindesk.com/tech/2026/04/25/crypto-is-built-for-ai-agents-not-humans-says-alchemy-s-ceo",
-    "author": "Will Canny",
-    "created_at": "2026-04-25T19:00:00.000Z"
-  },
-  {
-    "id": "358cf164-d9ce-4f0b-894b-4bfb3de6f46a",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Trump defends crypto legislation at private event featuring boxer Mike Tyson, Tether CEO",
-    "summary": "1. President Donald Trump, at a Mar-a-Lago gathering of investors in his self-branded memecoin, said crypto is mainstream and banks should back off the industry's bill.",
-    "url": "https://www.coindesk.com/policy/2026/04/25/trump-defends-crypto-legislation-at-private-event-featuring-boxer-mike-tyson-tether-ceo",
-    "author": "Helene Braun",
-    "created_at": "2026-04-25T18:53:48.000Z"
-  },
-  {
-    "id": "c84a65ca-4f5b-4659-8a42-28a515c9dc1a",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "We’re ab to squeeze to the upside",
-    "summary": "1. Ppl only looking at short term liquidity saying shorts have been liquidated.\n2. But have u paid attention to older liquidity?\n3. 3 month coinglass chart is just beginning to show it, u need smth like trading different to see it fully.",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1svk2g9/were_ab_to_squeeze_to_the_upside/",
-    "author": "u/oldlifeoldname",
-    "created_at": "2026-04-25T18:36:11.000Z"
-  },
-  {
-    "id": "df6368a7-ec2e-449b-806c-4abd1bb4c547",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "BlackRock’s bitcoin ETF just hit a massive milestone that proves crypto is now a mainstream bet",
-    "summary": "1. IBIT options open interest topped Deribit on Friday, signaling rapid institutional adoption of regulated crypto derivatives in the U.S.",
-    "url": "https://www.coindesk.com/markets/2026/04/25/blackrock-s-bitcoin-etf-just-hit-a-massive-milestone-that-proves-crypto-is-now-a-mainstream-bet",
-    "author": "Omkar Godbole",
-    "created_at": "2026-04-25T18:29:20.000Z"
-  },
-  {
-    "id": "089e331d-6536-43e2-96c4-f679515c0fdc",
-    "source": "The Block",
-    "type": "rss",
-    "title": "CFTC sues New York over prediction market crackdown as 38 AGs back Massachusetts’ Kalshi case",
-    "summary": "1. The dueling actions mark the fourth state the CFTC has sued in three weeks and come three days after New York's AG sued Coinbase and Gemini.",
-    "url": "https://www.theblock.co/post/398886/cftc-sues-new-york-over-prediction-market-crackdown-as-38-ags-back-massachusetts-kalshi-case?utm_source=rss&utm_medium=rss",
-    "author": "Zack Abrams",
-    "created_at": "2026-04-25T17:42:59.000Z"
-  },
-  {
-    "id": "8d92ee3a-2041-4082-9b05-a0c0dfe619de",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "OpenAI CEO apologizes to Tumbler Ridge community",
-    "summary": "1. In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
-    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-    "author": "Anthony Ha",
-    "created_at": "2026-04-25T17:17:56.000Z"
-  },
-  {
-    "id": "a5b3a0a0-f144-4e1d-bac4-642c6378cf3d",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Bitcoin Hit Its Highest Price Since January—Why VanEck Analysts See More Potential Gains",
-    "summary": "1. Bitcoin hash rate recovery and negative funding rates signal potential gains ahead, according to the ETF provider's latest network analysis.",
-    "url": "https://decrypt.co/365556/bitcoin-highest-price-january-why-vaneck-analysts-more-gains",
-    "author": "Decrypt Agent",
-    "created_at": "2026-04-25T16:31:33.000Z"
-  },
-  {
-    "id": "52c4357f-6c92-4a36-9a47-d3d6c759bc97",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Aave, Kelp, LayerZero ask Arbitrum DAO to release $71 million in frozen ETH to rsETH recovery effort",
-    "summary": "1. The standard Constitutional AIP lifecycle runs roughly 49 days from forum publication to onchain execution, a timeline some delegates say is too long.",
-    "url": "https://www.theblock.co/post/398882/aave-kelp-layerzero-ask-arbitrum-dao-to-release-71-million-in-frozen-eth-to-rseth-recovery-effort?utm_source=rss&utm_medium=rss",
-    "author": "Zack Abrams",
-    "created_at": "2026-04-25T14:55:28.000Z"
-  },
-  {
-    "id": "9922f1b3-4ebc-428d-9ebd-8cd2f63c4571",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Here’s what happened in crypto today",
-    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Cointelegraph",
-    "created_at": "2026-04-25T14:38:50.000Z"
   }
 ]

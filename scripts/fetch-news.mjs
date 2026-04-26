@@ -43,6 +43,11 @@ const GITHUB_REPOS = [
   'vbuterin/blog',
 ];
 
+// ─── Telegram Channels (public only) ───
+const TELEGRAM_CHANNELS = [
+  'SolidIntelX',
+];
+
 const ARTICLES_PER_FEED = 3;
 const MAX_AGE_HOURS = 24;
 const OUTPUT_PATH = path.join(process.cwd(), 'src', 'data', 'mock-feed.json');
@@ -194,7 +199,46 @@ async function fetchGitHub(existingUrls) {
   return results.filter(r => r.status === 'fulfilled').flatMap(r => r.value);
 }
 
-// ─── Main ───
+// ─── Fetch Telegram (public channels via web preview) ───
+async function fetchTelegram(existingUrls) {
+  const results = await Promise.allSettled(
+    TELEGRAM_CHANNELS.map(async (channel) => {
+      const res = await fetch(`https://t.me/s/${channel}`, {
+        headers: { 'User-Agent': 'BreakingNews/1.0' },
+        signal: AbortSignal.timeout(10000),
+      });
+      const html = await res.text();
+
+      // Parse messages
+      const msgRegex = /tgme_widget_message_text[^>]*>(.*?)<\/div>/gs;
+      const timeRegex = /datetime="([^"]+)"/g;
+      const texts = [...html.matchAll(msgRegex)].map(m =>
+        m[1].replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').trim()
+      );
+      const times = [...html.matchAll(timeRegex)].map(m => m[1]);
+
+      const articles = [];
+      for (let i = texts.length - 1; i >= Math.max(0, texts.length - ARTICLES_PER_FEED); i--) {
+        if (!texts[i] || texts[i].length < 20) continue;
+        const url = `https://t.me/s/${channel}#msg-${i}`;
+        if (existingUrls.has(url)) continue;
+
+        console.log(`  ✅ [Telegram] @${channel}: ${texts[i].slice(0, 50)}...`);
+        articles.push({
+          id: crypto.randomUUID(), source: `@${channel}`, type: 'telegram',
+          title: texts[i].slice(0, 100) + (texts[i].length > 100 ? '...' : ''),
+          summary: toThreeLines(texts[i]),
+          url: `https://t.me/${channel}`,
+          author: `@${channel}`,
+          created_at: times[i] || new Date().toISOString(),
+        });
+      }
+      return articles;
+    })
+  );
+  return results.filter(r => r.status === 'fulfilled').flatMap(r => r.value);
+}
+
 async function main() {
   const existing = await loadExisting();
   const existingUrls = new Set(existing.map(a => a.url));
@@ -203,14 +247,15 @@ async function main() {
   console.log(`📦 ${existing.length} existing articles\n`);
 
   // All sources in parallel
-  const [rss, farcaster, reddit, github] = await Promise.all([
+  const [rss, farcaster, reddit, github, telegram] = await Promise.all([
     fetchRSS(existingUrls).then(r => { console.log(`🔵 RSS: ${r.length}`); return r; }),
     fetchFarcaster(existingUrls).then(r => { console.log(`🟣 Farcaster: ${r.length}`); return r; }),
     fetchReddit(existingUrls).then(r => { console.log(`🟠 Reddit: ${r.length}`); return r; }),
     fetchGitHub(existingUrls).then(r => { console.log(`⚫ GitHub: ${r.length}`); return r; }),
+    fetchTelegram(existingUrls).then(r => { console.log(`🔷 Telegram: ${r.length}`); return r; }),
   ]);
 
-  const allNew = [...rss, ...farcaster, ...reddit, ...github];
+  const allNew = [...rss, ...farcaster, ...reddit, ...github, ...telegram];
   const merged = dedup([...allNew, ...existing]);
   const fresh = removeOld(merged);
   fresh.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
