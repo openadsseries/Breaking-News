@@ -7,7 +7,7 @@ import crypto from 'crypto';
 dotenv.config({ path: '.env.local' });
 
 const parser = new Parser({
-  timeout: 10000, // 10s timeout
+  timeout: 10000,
   headers: { 'User-Agent': 'BreakingNews/1.0' },
 });
 
@@ -21,7 +21,7 @@ const RSS_FEEDS = [
   { url: 'https://trumpstruth.org/feed', source: 'Trump Truth' },
 ];
 
-// ─── Farcaster: Curated builder list (FIDs) ───
+// ─── Farcaster: Curated list (FIDs) ───
 const FARCASTER_FIDS = [
   194,     // @rish
   1325,    // @cassie
@@ -68,135 +68,124 @@ function removeOld(articles) {
   return articles.filter(a => new Date(a.created_at).getTime() > cutoff);
 }
 
-// Split text into 3 clean lines for our UI
 function toThreeLines(text) {
   if (!text) return '1. No details available.';
-  // Clean HTML tags
   const clean = text.replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, ' ').trim();
-  // Split into sentences
   const sentences = clean.split(/(?<=[.!?])\s+/).filter(s => s.length > 10);
   const lines = sentences.slice(0, 3);
   if (lines.length === 0) return `1. ${clean.slice(0, 200)}`;
   return lines.map((s, i) => `${i + 1}. ${s.trim()}`).join('\n');
 }
 
-// ─── Fetch RSS ───
+// ─── Fetch RSS (parallel) ───
 async function fetchRSS(existingUrls) {
-  const articles = [];
-  for (const feed of RSS_FEEDS) {
-    try {
+  const results = await Promise.allSettled(
+    RSS_FEEDS.map(async (feed) => {
       const parsed = await parser.parseURL(feed.url);
-      for (const item of parsed.items.slice(0, ARTICLES_PER_FEED)) {
-        if (existingUrls.has(item.link)) continue;
+      return parsed.items.slice(0, ARTICLES_PER_FEED).filter(item => !existingUrls.has(item.link)).map(item => {
         console.log(`  ✅ [RSS] ${feed.source}: ${item.title?.slice(0, 50)}...`);
-        articles.push({
+        return {
           id: crypto.randomUUID(), source: feed.source, type: 'rss',
           title: item.title,
           summary: toThreeLines(item.contentSnippet || item.content || item.title),
           url: item.link,
           author: item.creator || feed.source,
           created_at: item.isoDate || new Date().toISOString(),
-        });
-      }
-    } catch (e) { console.error(`  ❌ ${feed.source}: ${e.message}`); }
-  }
-  return articles;
+        };
+      });
+    })
+  );
+  return results.filter(r => r.status === 'fulfilled').flatMap(r => r.value);
 }
 
-// ─── Fetch Farcaster ───
+// ─── Fetch Farcaster (single bulk API call) ───
 async function fetchFarcaster(existingUrls) {
   const NEYNAR_KEY = process.env.NEYNAR_API_KEY;
   if (!NEYNAR_KEY) { console.log('  ⏭ No NEYNAR_API_KEY, skipping'); return []; }
 
   const articles = [];
-  for (const fid of FARCASTER_FIDS) {
-    try {
-      const res = await fetch(`https://api.neynar.com/v2/farcaster/feed/user/${fid}/popular?limit=2`, {
-        headers: { 'x-api-key': NEYNAR_KEY },
-        signal: AbortSignal.timeout(10000),
+  try {
+    // Single bulk call instead of N individual calls
+    const fids = FARCASTER_FIDS.join(',');
+    const res = await fetch(`https://api.neynar.com/v2/farcaster/feed?feed_type=filter&filter_type=fids&fids=${fids}&limit=10`, {
+      headers: { 'x-api-key': NEYNAR_KEY },
+      signal: AbortSignal.timeout(10000),
+    });
+    const data = await res.json();
+    for (const cast of (data.casts || [])) {
+      const castUrl = `https://warpcast.com/${cast.author?.username || 'user'}/${cast.hash?.slice(0, 10)}`;
+      if (existingUrls.has(castUrl)) continue;
+      if (!cast.text || cast.text.length < 20) continue;
+
+      const name = cast.author?.display_name || 'Farcaster';
+      console.log(`  ✅ [Farcaster] ${name}: ${cast.text?.slice(0, 50)}...`);
+
+      articles.push({
+        id: crypto.randomUUID(), source: 'Farcaster', type: 'farcaster',
+        title: `${name}: ${cast.text.slice(0, 80)}${cast.text.length > 80 ? '...' : ''}`,
+        summary: toThreeLines(cast.text),
+        url: castUrl,
+        author: name,
+        created_at: cast.timestamp || new Date().toISOString(),
       });
-      const data = await res.json();
-      for (const cast of (data.casts || [])) {
-        const castUrl = `https://warpcast.com/${cast.author?.username || 'user'}/${cast.hash?.slice(0, 10)}`;
-        if (existingUrls.has(castUrl)) continue;
-        if (!cast.text || cast.text.length < 20) continue;
-
-        const name = cast.author?.display_name || `FID:${fid}`;
-        console.log(`  ✅ [Farcaster] ${name}: ${cast.text?.slice(0, 50)}...`);
-
-        articles.push({
-          id: crypto.randomUUID(), source: 'Farcaster', type: 'farcaster',
-          title: `${name}: ${cast.text.slice(0, 80)}${cast.text.length > 80 ? '...' : ''}`,
-          summary: toThreeLines(cast.text),
-          url: castUrl,
-          author: name,
-          created_at: cast.timestamp || new Date().toISOString(),
-        });
-      }
-    } catch (e) { console.error(`  ❌ Farcaster FID ${fid}: ${e.message}`); }
-  }
+    }
+  } catch (e) { console.error(`  ❌ Farcaster: ${e.message}`); }
   return articles;
 }
 
-// ─── Fetch Reddit ───
+// ─── Fetch Reddit (parallel) ───
 async function fetchReddit(existingUrls) {
-  const articles = [];
-  for (const sub of SUBREDDITS) {
-    try {
+  const results = await Promise.allSettled(
+    SUBREDDITS.map(async (sub) => {
       const res = await fetch(`https://www.reddit.com/r/${sub}/hot.json?limit=3`, {
         headers: { 'User-Agent': 'BreakingNews/1.0' },
         signal: AbortSignal.timeout(10000),
       });
       const data = await res.json();
-      for (const { data: post } of (data?.data?.children || [])) {
-        if (post.stickied) continue;
+      return (data?.data?.children || []).filter(({ data: post }) => {
+        if (post.stickied) return false;
+        return !existingUrls.has(`https://reddit.com${post.permalink}`);
+      }).map(({ data: post }) => {
         const url = `https://reddit.com${post.permalink}`;
-        if (existingUrls.has(url)) continue;
-
         console.log(`  ✅ [Reddit] r/${sub}: ${post.title?.slice(0, 50)}...`);
-        articles.push({
+        return {
           id: crypto.randomUUID(), source: `r/${sub}`, type: 'reddit',
           title: post.title,
           summary: toThreeLines(post.selftext || post.title),
           url,
           author: `u/${post.author}`,
           created_at: new Date(post.created_utc * 1000).toISOString(),
-        });
-      }
-    } catch (e) { console.error(`  ❌ Reddit r/${sub}: ${e.message}`); }
-  }
-  return articles;
+        };
+      });
+    })
+  );
+  return results.filter(r => r.status === 'fulfilled').flatMap(r => r.value);
 }
 
-// ─── Fetch GitHub ───
+// ─── Fetch GitHub (parallel) ───
 async function fetchGitHub(existingUrls) {
-  const articles = [];
-  for (const repo of GITHUB_REPOS) {
-    try {
+  const results = await Promise.allSettled(
+    GITHUB_REPOS.map(async (repo) => {
       const res = await fetch(`https://api.github.com/repos/${repo}/releases?per_page=2`, {
         headers: { 'User-Agent': 'BreakingNews/1.0' },
         signal: AbortSignal.timeout(10000),
       });
       const releases = await res.json();
-      if (!Array.isArray(releases)) continue;
+      if (!Array.isArray(releases)) return [];
 
-      for (const release of releases) {
-        const url = release.html_url;
-        if (existingUrls.has(url)) continue;
-
+      return releases.filter(r => !existingUrls.has(r.html_url)).map(release => {
         const title = `${repo}: ${release.name || release.tag_name}`;
         console.log(`  ✅ [GitHub] ${title.slice(0, 50)}...`);
-
-        articles.push({
+        return {
           id: crypto.randomUUID(), source: 'GitHub', type: 'github',
           title, summary: toThreeLines(release.body || title),
-          url, author: release.author?.login || repo,
+          url: release.html_url, author: release.author?.login || repo,
           created_at: release.published_at || new Date().toISOString(),
-        });
-      }
-    } catch (e) { console.error(`  ❌ GitHub ${repo}: ${e.message}`); }
-  }
-  return articles;
+        };
+      });
+    })
+  );
+  return results.filter(r => r.status === 'fulfilled').flatMap(r => r.value);
 }
 
 // ─── Main ───
@@ -204,20 +193,16 @@ async function main() {
   const existing = await loadExisting();
   const existingUrls = new Set(existing.map(a => a.url));
 
-  console.log(`\n📰 Breaking News — Feed Update (No AI, $0 cost)`);
+  console.log(`\n📰 Breaking News — Feed Update`);
   console.log(`📦 ${existing.length} existing articles\n`);
 
-  console.log('🔵 RSS Feeds...');
-  const rss = await fetchRSS(existingUrls);
-
-  console.log('🟣 Farcaster...');
-  const farcaster = await fetchFarcaster(existingUrls);
-
-  console.log('🟠 Reddit...');
-  const reddit = await fetchReddit(existingUrls);
-
-  console.log('⚫ GitHub...');
-  const github = await fetchGitHub(existingUrls);
+  // All sources in parallel
+  const [rss, farcaster, reddit, github] = await Promise.all([
+    fetchRSS(existingUrls).then(r => { console.log(`🔵 RSS: ${r.length}`); return r; }),
+    fetchFarcaster(existingUrls).then(r => { console.log(`🟣 Farcaster: ${r.length}`); return r; }),
+    fetchReddit(existingUrls).then(r => { console.log(`🟠 Reddit: ${r.length}`); return r; }),
+    fetchGitHub(existingUrls).then(r => { console.log(`⚫ GitHub: ${r.length}`); return r; }),
+  ]);
 
   const allNew = [...rss, ...farcaster, ...reddit, ...github];
   const merged = dedup([...allNew, ...existing]);
@@ -226,7 +211,6 @@ async function main() {
 
   await fs.writeFile(OUTPUT_PATH, JSON.stringify(fresh, null, 2));
   console.log(`\n🎉 Done! ${fresh.length} total (${allNew.length} new)`);
-  console.log(`   RSS: ${rss.length} | Farcaster: ${farcaster.length} | Reddit: ${reddit.length} | GitHub: ${github.length}`);
 }
 
 main().catch(console.error);
