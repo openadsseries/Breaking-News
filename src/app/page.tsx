@@ -313,7 +313,7 @@ export default function Home() {
           </div>
         </header>
 
-        <div className="flex-1 relative w-full min-h-0">
+        <div className="flex-1 relative w-full min-h-0" style={{ touchAction: "none", overscrollBehavior: "none" }}>
           <AnimatePresence mode="wait">
             <motion.div
               key={currentArticle.id}
@@ -323,8 +323,9 @@ export default function Home() {
               transition={{ type: "spring", stiffness: 400, damping: 30 }}
               drag="y"
               dragConstraints={{ top: 0, bottom: 0 }}
-              dragElastic={0.15}
+              dragElastic={{ top: 0.15, bottom: 0.05 }}
               onDragEnd={handleDragEnd}
+              style={{ touchAction: "none" }}
               className="absolute inset-0 bg-paper border-[2px] border-[#1c1b18] shadow-[3px_3px_0px_rgba(28,27,24,0.8)] flex flex-col cursor-grab active:cursor-grabbing overflow-hidden"
             >
               <div className="flex justify-between items-center border-b-[2px] border-[#1c1b18] px-4 py-2 shrink-0">
