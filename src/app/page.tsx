@@ -379,7 +379,7 @@ export default function Home() {
                       ? "bg-[#1c1b18] text-[#dcdad2]"
                       : "bg-transparent hover:bg-[#1c1b18] hover:text-[#dcdad2]"
                   }`}>
-                  {saved[currentArticle.id] ? "Saved" : "Save"}
+                  {saved[currentArticle.id] ? "Casted ✓" : "Cast"}
                 </button>
               </div>
             </motion.div>
