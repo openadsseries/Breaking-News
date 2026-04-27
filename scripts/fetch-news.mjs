@@ -249,55 +249,35 @@ async function fetchTelegram(existingUrls) {
         console.log(`  ✅ [Telegram] @${channel}: ${texts[i].slice(0, 50)}...`);
         let rawText = texts[i];
         let title = '';
-        let summaryText = rawText;
+        let body = '';
 
-        // 1) Bracketed format: [Title] body...
-        const bracketMatch = rawText.match(/^\[(.+?)\](.*)/s);
-        if (bracketMatch) {
-          title = bracketMatch[1].trim();
-          summaryText = bracketMatch[2].trim();
+        // 1) Bracketed: [Title] body...
+        const bm = rawText.match(/^\[(.+?)\](.*)/s);
+        if (bm) {
+          title = bm[1].trim();
+          body = bm[2].trim();
         } else {
-          // 2) Smart title: find a natural break point
-          //    - First sentence (ends with . ! ?)
-          //    - Before first emoji number (1️⃣ etc)
-          //    - Before first semicolon in a list
-          //    - Before first newline
-          const breakPatterns = [
-            /^(.{15,80}?[.!?])\s/,                    // first sentence
-            /^(.{10,80}?)(?=\d\ufe0f\u20e3|\ud83d\udd1f)/,             // before emoji number
-            /^(.{10,80}?)(?=;\s)/,                     // before semicolon list
-            /^(.{10,80}?)(?=\n)/,                      // before newline
-          ];
-          for (const pattern of breakPatterns) {
-            const m = rawText.match(pattern);
-            if (m) {
-              title = m[1].trim();
-              summaryText = rawText.slice(m[1].length).trim();
-              break;
-            }
-          }
-          // Fallback: first 80 chars at word boundary
-          if (!title) {
-            const cut = rawText.slice(0, 80);
-            const lastSpace = cut.lastIndexOf(' ');
-            title = (lastSpace > 20 ? cut.slice(0, lastSpace) : cut) + '...';
-            summaryText = rawText;
-          }
-        }
+          // 2) First sentence or first line — whichever comes first
+          const sentenceEnd = rawText.search(/[.!?]\s/);
+          const newlineEnd = rawText.indexOf('\n');
+          const breakAt = [sentenceEnd + 1, newlineEnd].filter(n => n > 10).sort((a, b) => a - b)[0];
 
-        // Remove title text from summary to prevent duplication
-        const titleClean = title.replace(/\.{3}$/, '').trim();
-        if (summaryText.startsWith(titleClean)) {
-          summaryText = summaryText.slice(titleClean.length).trim();
-          // Remove leading punctuation leftovers
-          summaryText = summaryText.replace(/^[;:,.\-–—]\s*/, '');
+          if (breakAt && breakAt < 120) {
+            title = rawText.slice(0, breakAt).trim();
+            body = rawText.slice(breakAt).trim();
+          } else {
+            // Short message — title IS the content
+            title = rawText.length > 80
+              ? rawText.slice(0, rawText.lastIndexOf(' ', 80)) + '...'
+              : rawText;
+            body = ''; // no separate body
+          }
         }
-        if (!summaryText || summaryText.length < 15) summaryText = rawText;
 
         articles.push({
           id: crypto.randomUUID(), source: `@${channel}`, type: 'telegram',
           title,
-          summary: toThreeLines(summaryText),
+          summary: body || '',
           url: `https://t.me/${channel}`,
           author: `@${channel}`,
           created_at: times[i] || new Date().toISOString(),

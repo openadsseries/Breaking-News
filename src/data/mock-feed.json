@@ -1,13 +1,43 @@
 [
   {
-    "id": "05f8a073-33a6-4a25-ad50-238c62b73515",
+    "id": "0ea62899-2d89-4eb8-b498-f4837a61cbbd",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "250 million USDC minted",
-    "summary": "1. Whale Alert reported that 250 million USDC has been minted at the USDC Treasury.",
+    "title": "Bernstein: Crypto yet to peak, sees $60K as clear floor for Bitcoin",
+    "summary": "U.S. investment bank Bernstein has projected that the cryptocurrency market has not yet reached its golden age, anticipating structurally higher peaks and a long-term bull market. According to The Block, a team of Bernstein analysts led by Gautam Chhugani stated that the crypto market, centered on Bitcoin, is building stronger fundamentals.The analysts noted that $60,000 is acting as a clear floor for Bitcoin, with the price expected to approach $80,000. They added that institutional demand for Bitcoin is ongoing and that consistent buying from MicroStrategy is a positive factor.Furthermore, they explained that while quantum computing could pose a long-term risk, the blockchain ecosystem has sufficient time to transition to post-quantum security.https://coinness.com/en/news/1155578",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-27T14:33:36+00:00"
+    "created_at": "2026-04-27T14:56:30+00:00"
+  },
+  {
+    "id": "88419d50-82ae-409d-a02b-85e9a49d0034",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Bitcoin ETFs Draw $824M as Blackrock’s IBIT Dominates Weekly Crypto Fund Inflows",
+    "summary": "1. Bitcoin led the week with $824 million in inflows, while ether maintained positive momentum despite a brief interruption.\n2. XRP and solana ETFs were not left, as they posted decent gains for the week.\n3. Key Takeaways: Bitcoin ETFs pulled $824 million for the week, led by Blackrock IBIT’s $732 million dominance.",
+    "url": "https://news.bitcoin.com/bitcoin-etfs-draw-824m-as-blackrocks-ibit-dominates-weekly-crypto-fund-inflows/",
+    "author": "Emmanuel Musa",
+    "created_at": "2026-04-27T14:44:11.000Z"
+  },
+  {
+    "id": "23be2cae-79fd-4aab-8a4a-b9cab9b394b4",
+    "source": "The Block",
+    "type": "rss",
+    "title": "‘The best days of crypto are ahead’: Bernstein sees asymmetric upside and structurally longer bull cycle",
+    "summary": "1. New institutional on-ramps, strong flows, and exhausted retail selling points to renewed asymmetric upside for bitcoin, Bernstein said.",
+    "url": "https://www.theblock.co/post/398996/the-best-days-of-crypto-are-ahead-bernstein-sees-asymmetric-upside-and-structurally-longer-bull-cycle?utm_source=rss&utm_medium=rss",
+    "author": "James Hunt",
+    "created_at": "2026-04-27T14:40:34.000Z"
+  },
+  {
+    "id": "030d4ee6-5f24-47c9-9a88-46de16cbedbb",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "As the bitcoin price rises, futures may look bearish, but they're not, analyst says",
+    "summary": "1. Research firm 10x says the negative funding rates reflect structural hedging by institutions, not a broad bearish play.",
+    "url": "https://www.coindesk.com/markets/2026/04/27/as-the-bitcoin-price-rises-futures-may-look-bearish-but-they-re-not-analyst-says",
+    "author": "Omkar Godbole",
+    "created_at": "2026-04-27T14:37:30.000Z"
   },
   {
     "id": "16788470-89f9-4c48-a04f-ad43485ffe60",
@@ -40,6 +70,26 @@
     "created_at": "2026-04-27T14:15:03.000Z"
   },
   {
+    "id": "00528dee-106e-4bf8-886b-280275008560",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Michael Saylor’s Strategy adds 3.2K Bitcoin at nearly $78K per BTC",
+    "summary": "1. Michael Saylor’s Strategy bought 3,273 Bitcoin for $255 million between April 20 and 26, bringing total holdings to 818,334 BTC.",
+    "url": "https://cointelegraph.com/news/michael-saylor-s-strategy-adds-3-2k-bitcoin-at-nearly-78k-per-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Helen Partz",
+    "created_at": "2026-04-27T14:05:14.000Z"
+  },
+  {
+    "id": "9b064779-2cdc-4690-9b25-9a2aaa1b2aea",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Here’s what happened in crypto today",
+    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Cointelegraph",
+    "created_at": "2026-04-27T14:01:41.000Z"
+  },
+  {
     "id": "cab7adde-bbf5-4635-8bda-e9644aa9f1d4",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -58,6 +108,16 @@
     "url": "https://decrypt.co/365620/bitcoin-giant-strategy-buying-pace-falls-strc-cooldown",
     "author": "André Beganski",
     "created_at": "2026-04-27T13:57:33.000Z"
+  },
+  {
+    "id": "86f54619-bd25-4f13-b0b7-7fbb45c4a446",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Ethereum’s EEZ could pull other blockchains into its orbit",
+    "summary": "1. The Ethereum Economic Zone aims to unify fragmented rollups, but its broader goal is to extend interoperability to other blockchains, says Ernst.",
+    "url": "https://cointelegraph.com/features/ethereum-eez-pull-other-blockchains-orbit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Yohan Yun",
+    "created_at": "2026-04-27T13:55:32.000Z"
   },
   {
     "id": "966fbdda-3969-47ed-8791-954030a5c34d",
@@ -100,11 +160,11 @@
     "created_at": "2026-04-27T13:43:09.000Z"
   },
   {
-    "id": "5c8b7e8c-2e03-4305-8d3e-4c66f9a71be6",
+    "id": "1775e382-3ab4-4675-b62f-0ea83ff9b6e9",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
-    "title": "LATEST: 🏦 JPMorgan’s global head of ETF product says tokenization could...",
-    "summary": "1. reshape the entire funds industry, though some good use cases are still years away.",
+    "title": "LATEST: 🏦 JPMorgan’s global head of ETF product says tokenization could reshape...",
+    "summary": "",
     "url": "https://t.me/CoinMarketCapAnnouncements",
     "author": "@CoinMarketCapAnnouncements",
     "created_at": "2026-04-27T13:39:12+00:00"
@@ -190,11 +250,11 @@
     "created_at": "2026-04-27T13:08:03.000Z"
   },
   {
-    "id": "4da1569a-f5ca-45d6-8682-cbb76ebd4e04",
+    "id": "544ef05a-8efb-4979-82ad-98b38bd87c3e",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "INTEL: Putin meets Iran FM Araqchi in St.",
-    "summary": "1. Petersburg as talks focus on Hormuz reopening deal amid stalled US-Iran ceasefire negotiationsTwitter",
+    "summary": "Petersburg as talks focus on Hormuz reopening deal amid stalled US-Iran ceasefire negotiationsTwitter",
     "url": "https://t.me/SolidIntelX",
     "author": "@SolidIntelX",
     "created_at": "2026-04-27T13:00:52+00:00"
@@ -260,11 +320,11 @@
     "created_at": "2026-04-27T12:11:46.000Z"
   },
   {
-    "id": "5fa1ee44-ded6-489e-9f32-86a498eaddd0",
+    "id": "3267b648-3902-4c1b-b2f4-fa48be1007dc",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "JUST IN: Michael Saylor's 'Strategy' buys 3,273 Bitcoin worth $255...",
-    "summary": "1. million.@WatcherGuru",
+    "summary": "",
     "url": "https://t.me/WatcherGuru",
     "author": "@WatcherGuru",
     "created_at": "2026-04-27T12:05:56+00:00"
@@ -448,25 +508,5 @@
     "url": "https://www.politico.com/news/2026/04/27/correspondents-dinner-political-violence-rhetoric-00892635",
     "author": "By Lisa Kashinsky",
     "created_at": "2026-04-27T09:00:00.000Z"
-  },
-  {
-    "id": "b98a2deb-a8b8-4e70-8f6a-0c9d50fc2982",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Luxor, MicroBT deepen ties with $100 million mining rig deal and planned investment",
-    "summary": "1. Luxor said it is committing $100 million to purchase MicroBT WhatsMiner rigs, while MicroBT has signed a term sheet to invest in Luxor.",
-    "url": "https://www.theblock.co/post/398933/luxor-microbt-100-million-rig-deal?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-04-27T08:47:44.000Z"
-  },
-  {
-    "id": "10e131a3-c5fb-4ce3-8ee4-e55d2b9b705c",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Polymarket didn’t kill crypto, it just exposed how most traders are actually terrible at this",
-    "summary": "1. everyone keeps saying prediction markets are killing crypto right and like no thats not even true dude.\n2. Q1 was shit yeah but april came back.\n3. like capital’s flowing again.",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1swxwzg/polymarket_didnt_kill_crypto_it_just_exposed_how/",
-    "author": "u/Repulsive_Counter_79",
-    "created_at": "2026-04-27T08:45:14.000Z"
   }
 ]
