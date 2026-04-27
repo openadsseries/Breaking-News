@@ -117,7 +117,7 @@ async function fetchRSS(existingUrls) {
         console.log(`  ✅ [RSS] ${feed.source}: ${item.title?.slice(0, 50)}...`);
         return {
           id: crypto.randomUUID(), source: feed.source, type: 'rss',
-          title: item.title,
+          title: feed.source === 'Trump Truth' ? 'New post from Donald Trump' : item.title,
           summary: toThreeLines(item.contentSnippet || item.content || item.title),
           url: item.link,
           author: item.creator || feed.source,
