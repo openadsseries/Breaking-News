@@ -1,5 +1,55 @@
 [
   {
+    "id": "0e4e459c-ccf5-43d3-86d9-3a0b760b6084",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Chainalysis: EU’s New Sanctions on Russia Mark ‘a New Era’ of Crypto Enforcement",
+    "summary": "1. The blockchain intelligence agency highlighted that the recently issued sanctions package against Russia was perhaps the most comprehensive crypto-focused action by the EU, targeting the whole Russian cryptocurrency sector rather than individual actors, including the digital ruble in full and the RUBx token.\n2. Key Takeaways: The EU launched its 20th sanctions package, strictly targeting the […]",
+    "url": "https://news.bitcoin.com/chainalysis-eus-new-sanctions-on-russia-mark-a-new-era-of-crypto-enforcement/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-04-27T03:30:37.000Z"
+  },
+  {
+    "id": "a7f54b02-585f-46c7-8d62-23e772eda7f2",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Western Union to launch stablecoin next month, with ‘Stable Card’ planned for global consumers",
+    "summary": "1. WU is also launching a network connecting digital wallets to its existing retail infrastructure, and a stablecoin card for payments.",
+    "url": "https://www.theblock.co/post/398905/western-union-stablecoin-next-month?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-04-27T03:29:58.000Z"
+  },
+  {
+    "id": "d8505544-10c7-4817-bc83-95ed26bd65dd",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Bitcoin climbs above $79,000, Asian equities rise amid ‘subdued’ geopolitical tensions",
+    "summary": "1. The Crypto Fear & Greed Index rose to 47, returning to the 'Neutral' zone from around 12 in 'Extreme Fear' last month.",
+    "url": "https://www.theblock.co/post/398908/bitcoin-climbs-above-79000?utm_source=rss&utm_medium=rss",
+    "author": "Timmy Shen",
+    "created_at": "2026-04-27T03:12:10.000Z"
+  },
+  {
+    "id": "b837d3a8-c98d-4625-894c-8127697ae2ea",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. GREAT IDEA!!!\n2. President DJT",
+    "url": "https://trumpstruth.org/statuses/38067",
+    "author": "Trump Truth",
+    "created_at": "2026-04-27T03:00:20.000Z"
+  },
+  {
+    "id": "7301ed50-4cc6-49fe-a188-7e9bbd29c9ad",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Truecaller faces mounting pressures as its growth matures",
+    "summary": "1. As growth slows, Truecaller is leaning on subscriptions, business services, and new features to sustain momentum beyond India.",
+    "url": "https://techcrunch.com/2026/04/26/truecaller-faces-mounting-pressures-as-its-growth-matures/",
+    "author": "Jagmeet Singh",
+    "created_at": "2026-04-27T03:00:00.000Z"
+  },
+  {
     "id": "a79f6913-06db-46ad-ac1c-3b55d233c41d",
     "source": "Trump Truth",
     "type": "rss",
@@ -30,7 +80,7 @@
     "created_at": "2026-04-27T01:30:28.000Z"
   },
   {
-    "id": "3564c026-f1af-4b8c-b9c5-ee38e4922bb0",
+    "id": "d6edfbae-9c0d-4263-88f1-a8d4c3f2a27b",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "JUST IN: $79,000 Bitcoin@WatcherGuru",
@@ -118,25 +168,5 @@
     "url": "https://techcrunch.com/2026/04/26/amazons-new-podcast-strategy-monetize-everything/",
     "author": "Anthony Ha",
     "created_at": "2026-04-26T21:38:08.000Z"
-  },
-  {
-    "id": "bcccc158-343d-4dfb-94b7-b18bd93bdb9d",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Ethereum Foundation Just Unstaked 17,000 ETH Worth $48.9 Million",
-    "summary": "1. Ethereum Foundation Just Unstaked 17,000 ETH Worth $48.9 Million",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1swjw5l/ethereum_foundation_just_unstaked_17000_eth_worth/",
-    "author": "u/Cratos007",
-    "created_at": "2026-04-26T21:17:08.000Z"
-  },
-  {
-    "id": "54d41b0b-95cc-4a6c-8c6b-c805f263c602",
-    "source": "r/ethereum",
-    "type": "reddit",
-    "title": "I built an AI agent that charges $0.001 to protect other AI agents — and every blocked attack is permanently recorded onchain. Built solo in 5 days from Burkina Faso.",
-    "summary": "1. Hey r/ethereum,\n\nI just submitted ArcWarden to a lablab.ai hackathon on Arc L1.\n2. Wanted to share what I built because the concept is a bit different from what you usually see in the agentic space.\n3. The problem\n\nAutonomous AI agents managing USDC wallets on blockchain have zero native security layer.",
-    "url": "https://reddit.com/r/ethereum/comments/1swjmar/i_built_an_ai_agent_that_charges_0001_to_protect/",
-    "author": "u/Any_Good_2682",
-    "created_at": "2026-04-26T21:06:15.000Z"
   }
 ]
