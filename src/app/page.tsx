@@ -253,13 +253,15 @@ export default function Home() {
           )}
 
           {phase === "ALL_READ" && (
-            <div className="space-y-3">
-              <p className="text-lg font-black uppercase tracking-tight">
-                {claimedToday ? "Reward collected." : "You're all caught up."}
-              </p>
+            <div className="space-y-5">
+              <p className="text-lg font-black uppercase tracking-tight">You read it first.</p>
               <p className="text-sm leading-relaxed">
-                No breaking news right now.<br/>We&apos;ll be back when something drops.
+                You&apos;ve read every breaking story before most people even woke up.<br/>Now help someone else stay ahead.
               </p>
+              <button onClick={handleShare}
+                className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
+                Share Breaking News
+              </button>
             </div>
           )}
         </div>
