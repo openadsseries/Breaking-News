@@ -248,15 +248,51 @@ async function fetchTelegram(existingUrls) {
 
         console.log(`  ✅ [Telegram] @${channel}: ${texts[i].slice(0, 50)}...`);
         let rawText = texts[i];
-        let title = rawText.slice(0, 100) + (rawText.length > 100 ? '...' : '');
+        let title = '';
         let summaryText = rawText;
 
-        // Parse format like "[BTC falls below $78,000] According to CoinNess..."
-        const match = rawText.match(/^\[(.*?)\](.*)/s);
-        if (match) {
-          title = match[1].trim();
-          summaryText = match[2].trim();
+        // 1) Bracketed format: [Title] body...
+        const bracketMatch = rawText.match(/^\[(.+?)\](.*)/s);
+        if (bracketMatch) {
+          title = bracketMatch[1].trim();
+          summaryText = bracketMatch[2].trim();
+        } else {
+          // 2) Smart title: find a natural break point
+          //    - First sentence (ends with . ! ?)
+          //    - Before first emoji number (1️⃣ etc)
+          //    - Before first semicolon in a list
+          //    - Before first newline
+          const breakPatterns = [
+            /^(.{15,80}?[.!?])\s/,                    // first sentence
+            /^(.{10,80}?)(?=\d\ufe0f\u20e3|\ud83d\udd1f)/,             // before emoji number
+            /^(.{10,80}?)(?=;\s)/,                     // before semicolon list
+            /^(.{10,80}?)(?=\n)/,                      // before newline
+          ];
+          for (const pattern of breakPatterns) {
+            const m = rawText.match(pattern);
+            if (m) {
+              title = m[1].trim();
+              summaryText = rawText.slice(m[1].length).trim();
+              break;
+            }
+          }
+          // Fallback: first 80 chars at word boundary
+          if (!title) {
+            const cut = rawText.slice(0, 80);
+            const lastSpace = cut.lastIndexOf(' ');
+            title = (lastSpace > 20 ? cut.slice(0, lastSpace) : cut) + '...';
+            summaryText = rawText;
+          }
         }
+
+        // Remove title text from summary to prevent duplication
+        const titleClean = title.replace(/\.{3}$/, '').trim();
+        if (summaryText.startsWith(titleClean)) {
+          summaryText = summaryText.slice(titleClean.length).trim();
+          // Remove leading punctuation leftovers
+          summaryText = summaryText.replace(/^[;:,.\-–—]\s*/, '');
+        }
+        if (!summaryText || summaryText.length < 15) summaryText = rawText;
 
         articles.push({
           id: crypto.randomUUID(), source: `@${channel}`, type: 'telegram',
