@@ -18,7 +18,7 @@ type Phase = "READING" | "SHARE_GATE" | "CLAIMABLE" | "READING_CONTINUED" | "ALL
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [readIds, setReadIds] = useState<Set<string>>(new Set());
   const [readCount, setReadCount] = useState(0);
   const [hasShared, setHasShared] = useState(false);
   const [claimedToday, setClaimedToday] = useState(false);
@@ -41,13 +41,13 @@ export default function Home() {
         localStorage.setItem("bn_session", SESSION_ID);
         localStorage.removeItem("bn_read_count");
         localStorage.removeItem("bn_shared");
-        localStorage.removeItem("bn_index");
+        localStorage.removeItem("bn_read_ids");
       } else {
         const rc = localStorage.getItem("bn_read_count");
         if (rc) setReadCount(parseInt(rc, 10));
         if (localStorage.getItem("bn_shared") === "true") setHasShared(true);
-        const idx = localStorage.getItem("bn_index");
-        if (idx) setCurrentIndex(parseInt(idx, 10));
+        const ids = localStorage.getItem("bn_read_ids");
+        if (ids) setReadIds(new Set(JSON.parse(ids)));
       }
     } catch {}
     setMounted(true);
@@ -79,13 +79,13 @@ export default function Home() {
     }
   }, [isSuccess]);
 
-  // Filter: only show articles from the last 6 hours, newest first
+  // Filter: only show UNREAD articles from the last 6 hours, newest first
   const todaysFeed = useMemo(() => {
     const cutoff = Date.now() - 6 * 60 * 60 * 1000;
     return mockFeed
-      .filter(a => new Date(a.created_at).getTime() > cutoff)
+      .filter(a => new Date(a.created_at).getTime() > cutoff && !readIds.has(a.id))
       .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
-  }, []);
+  }, [readIds]);
 
   // Derived
   const totalArticles = todaysFeed.length;
@@ -93,43 +93,30 @@ export default function Home() {
 
   // Phase logic
   const phase: Phase = useMemo(() => {
-    // Already read all articles
-    if (currentIndex >= totalArticles) return "ALL_READ";
-    // Hit 5 reads and haven't shared yet → gate
+    if (totalArticles === 0) return "ALL_READ";
     if (readCount >= READS_TO_CLAIM && !hasShared && !claimedToday) return "SHARE_GATE";
-    // Shared but haven't claimed → claimable
     if (readCount >= READS_TO_CLAIM && hasShared && !claimedToday) return "CLAIMABLE";
-    // Shared and claimed (or already claimed today) → keep reading
-    if (readCount >= READS_TO_CLAIM && (claimedToday || hasShared)) return currentIndex >= totalArticles ? "ALL_READ" : "READING_CONTINUED";
+    if (readCount >= READS_TO_CLAIM && (claimedToday || hasShared)) return totalArticles === 0 ? "ALL_READ" : "READING_CONTINUED";
     return "READING";
-  }, [readCount, hasShared, claimedToday, currentIndex, totalArticles]);
+  }, [readCount, hasShared, claimedToday, totalArticles]);
 
   const advanceArticle = useCallback(() => {
-    if (currentIndex >= totalArticles - 1) {
-      // Mark last article read
-      const nc = readCount + 1;
-      setReadCount(nc);
-      localStorage.setItem("bn_read_count", String(nc));
-      setCurrentIndex(totalArticles); // trigger ALL_READ
-      localStorage.setItem("bn_index", String(totalArticles));
-      return;
-    }
+    const currentArticle = todaysFeed[0];
+    if (!currentArticle) return;
     const nc = readCount + 1;
     setReadCount(nc);
     localStorage.setItem("bn_read_count", String(nc));
-    const ni = currentIndex + 1;
-    setCurrentIndex(ni);
-    localStorage.setItem("bn_index", String(ni));
-  }, [currentIndex, totalArticles, readCount]);
+    setReadIds(prev => {
+      const next = new Set(prev);
+      next.add(currentArticle.id);
+      localStorage.setItem("bn_read_ids", JSON.stringify([...next]));
+      return next;
+    });
+  }, [todaysFeed, readCount]);
 
   const handleDragEnd = useCallback((e: any, { offset }: any) => {
     if (offset.x < -50) advanceArticle();
-    else if (offset.x > 50 && currentIndex > 0) {
-      const ni = currentIndex - 1;
-      setCurrentIndex(ni);
-      localStorage.setItem("bn_index", String(ni));
-    }
-  }, [currentIndex, advanceArticle]);
+  }, [advanceArticle]);
 
   const handleSave = useCallback(async (article: typeof mockFeed[0]) => {
     try {
@@ -281,7 +268,7 @@ export default function Home() {
   }
 
   // ── ARTICLE VIEW (READING or READING_CONTINUED) ──
-  const currentArticle = todaysFeed[currentIndex];
+  const currentArticle = todaysFeed[0];
   if (!currentArticle) return null;
 
   const isPostReward = phase === "READING_CONTINUED";
@@ -300,7 +287,7 @@ export default function Home() {
                 {isPostReward ? "Keep reading" : readCount >= READS_TO_CLAIM ? "⚡ Claim now" : `${displayCount}/${READS_TO_CLAIM}`}
               </span>
               <span className="text-[10px] uppercase font-sans tracking-widest font-bold">
-                {currentIndex + 1} of {totalArticles}
+                {totalArticles} left
               </span>
             </div>
           </div>
@@ -309,7 +296,7 @@ export default function Home() {
         <div className="flex-1 relative w-full min-h-0">
           <AnimatePresence mode="wait">
             <motion.div
-              key={currentIndex}
+              key={currentArticle.id}
               initial={{ opacity: 0, x: 80 }}
               animate={{ opacity: 1, x: [0, -6, 3, 0] }}
               exit={{ opacity: 0, x: -80 }}
@@ -390,7 +377,7 @@ export default function Home() {
               </div>
 
               <div className="shrink-0 border-t-[2px] border-[#1c1b18] px-4 py-3 flex items-center justify-between">
-                <span className="text-[10px] uppercase tracking-widest font-sans font-bold">← Swipe →</span>
+                <span className="text-[10px] uppercase tracking-widest font-sans font-bold">Swipe →</span>
                 <button
                   onClick={() => handleSave(currentArticle)}
                   className={`text-[10px] uppercase tracking-widest font-sans font-bold px-3 py-1.5 border-[2px] border-[#1c1b18] transition-colors ${
@@ -406,9 +393,9 @@ export default function Home() {
         </div>
 
         <div className="mt-3 flex justify-center items-center gap-0.5 shrink-0">
-          {todaysFeed.slice(0, 15).map((_, i) => (
-            <div key={i} className={`h-1 rounded-full transition-all duration-200 ${
-              i === currentIndex ? "w-3 bg-[#1c1b18]" : i < currentIndex ? "w-1 bg-[#1c1b18]/50" : "w-1 bg-[#1c1b18]/15"
+          {todaysFeed.slice(0, 15).map((a, i) => (
+            <div key={a.id} className={`h-1 rounded-full transition-all duration-200 ${
+              i === 0 ? "w-3 bg-[#1c1b18]" : "w-1 bg-[#1c1b18]/15"
             }`} />
           ))}
           {totalArticles > 15 && (
