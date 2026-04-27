@@ -348,6 +348,25 @@ export default function Home() {
                 <div className="text-sm leading-relaxed space-y-3 flex-1">
                   {currentArticle.summary.split('\n').map((line, i) => {
                     const clean = line.replace(/^\d+\.\s*/, '');
+                    // Replace [...] with clickable link
+                    if (clean.includes('[...]') || clean.includes('[…]')) {
+                      const parts = clean.split(/\[\.{3}\]|\[…\]/);
+                      return (
+                        <p key={i} className="pl-3 border-l-2 border-[#1c1b18]">
+                          {parts[0]}
+                          <button
+                            onClick={async () => {
+                              try {
+                                const sdk = await import('@farcaster/miniapp-sdk').catch(() => null);
+                                if (sdk?.default?.actions?.openUrl) sdk.default.actions.openUrl(currentArticle.url);
+                                else window.open(currentArticle.url, '_blank');
+                              } catch { window.open(currentArticle.url, '_blank'); }
+                            }}
+                            className="underline underline-offset-2 font-bold"
+                          >read more →</button>
+                        </p>
+                      );
+                    }
                     return <p key={i} className="pl-3 border-l-2 border-[#1c1b18]">{clean}</p>;
                   })}
                 </div>
