@@ -406,10 +406,10 @@ export default function Home() {
             </motion.div>
           </AnimatePresence>
 
-          {/* Floating Next — right edge, thumb-friendly for right-handed users */}
+          {/* Floating Next — centered on right edge */}
           <button
             onClick={advanceArticle}
-            className="absolute right-[-1px] top-1/2 -translate-y-1/2 z-10 w-8 h-16 flex items-center justify-center bg-[#1c1b18]/80 text-[#dcdad2] rounded-l-lg active:bg-[#1c1b18] transition-colors"
+            className="absolute right-[-15px] top-1/2 -translate-y-1/2 z-10 w-8 h-10 flex items-center justify-center bg-[#1c1b18] text-[#dcdad2] rounded-full active:scale-90 transition-transform shadow-md"
             aria-label="Next article"
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
