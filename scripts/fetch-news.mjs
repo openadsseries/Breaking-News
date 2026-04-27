@@ -58,6 +58,7 @@ const TELEGRAM_CHANNELS = [
   'WatcherGuru',
   'crypto_breaking_news',
   'CoinnessGL',
+  'CoinMarketCapAnnouncements',
 ];
 
 const ARTICLES_PER_FEED = 3;
