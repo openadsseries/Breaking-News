@@ -95,7 +95,7 @@ function decodeEntities(str) {
 
 function toThreeLines(text) {
   if (!text) return '1. No details available.';
-  const clean = decodeEntities(text.replace(/<[^>]*>/g, '')).trim();
+  const clean = decodeEntities(text.replace(/<[^>]*>/g, '')).replace(/https?:\/\/\S+/g, '').trim();
   const sentences = clean.split(/(?<=[.!?])\s+/).filter(s => s.length > 10);
   const lines = sentences.slice(0, 3);
   if (lines.length === 0) return `1. ${clean.slice(0, 200)}`;
