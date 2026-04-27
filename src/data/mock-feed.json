@@ -1,6 +1,136 @@
 [
   {
-    "id": "167999b0-546f-4fbc-9ce8-d8736091e7ee",
+    "id": "8d1035cf-c12b-4ae4-b090-25794789d6f8",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "Anthropic Built a Hacking AI Too Dangerous to Release. A Discord Group Got It Anyway. Experts Warn It Could Put Crypto Wallets and Blockchain Assets at Immediate Risk.",
+    "summary": "1. Anthropic Built a Hacking AI Too Dangerous to Release.\n2. A Discord Group Got It Anyway.\n3. Experts Warn It Could Put Crypto Wallets and Blockchain Assets at Immediate Risk.",
+    "url": "https://reddit.com/r/ethereum/comments/1sx0la3/anthropic_built_a_hacking_ai_too_dangerous_to/",
+    "author": "u/zakoal",
+    "created_at": "2026-04-27T11:14:56.000Z"
+  },
+  {
+    "id": "93d0b069-e630-45fe-a08b-52e002579e62",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin hits wall at $80,000, one analyst says the pullback is temporary",
+    "summary": "1. What you need to know for April 27, 2026",
+    "url": "https://www.coindesk.com/daybook-us/2026/04/27/bitcoin-hits-wall-at-usd80-000-one-analyst-says-the-pullback-is-temporary",
+    "author": "Omkar Godbole",
+    "created_at": "2026-04-27T11:14:37.000Z"
+  },
+  {
+    "id": "efbc9657-5a0d-48e6-aec3-e2ae46e7bf99",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Machi Big Brother Opens $86 Million Bitcoin and Ethereum Long After Losing $73 Million Over Six Months",
+    "summary": "1. Notorious crypto trader Machi Big Brother has opened a combined $86 million long position across bitcoin and ethereum, holding $44.2 million in BTC and $41.8 million in ETH.\n2. Key Takeaways: Machi Big Brother holds $44.2 million BTC and $41.8 million ETH onchain, per Arkham Intelligence data.\n3. Machi has lost $73.44 million trading crypto over the […]",
+    "url": "https://news.bitcoin.com/machi-big-brother-86-million-bitcoin-ethereum-long/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-04-27T11:10:33.000Z"
+  },
+  {
+    "id": "f65e2211-5335-4614-9fdb-8aa834323642",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "👀 Top Crypto Fundraising Last Week1️⃣ Valour - $11.0M; ETP Issuer2️⃣ BetHog - $10.0M; Play to Earn ...",
+    "summary": "1. 👀 Top Crypto Fundraising Last Week1️⃣ Valour - $11.0M; ETP Issuer2️⃣ BetHog - $10.0M; Play to Earn (P2E)3️⃣ KAIO - $8.0M; RWA4️⃣ Hata - $8.0M; CEX5️⃣ Cluster Protocol - $5.0M; AI Agents6️⃣ 3F - $4.0M; Lending, RWA7️⃣ RealGo - $3.5M; Play to Earn (P2E)8️⃣ ILITY - $2.0M; Privacy, Cross-Chain9️⃣ Avenir Group - $1.6M; Portfolio Management🔟 Robin Markets - $475.0k; Staking, Prediction Markets",
+    "url": "https://t.me/CoinMarketCapAnnouncements",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-27T11:05:52+00:00"
+  },
+  {
+    "id": "9fac62ba-d22a-41fe-88ed-02241a4f9c18",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Analyst: Altcoin market now only chases hype and new listing liquidity",
+    "summary": "1. While altcoins launched last year have posted an average gain of around 5%, those released between 2020 and 2024 are down by an average of 18% to 23%, according to a CryptoQuant contribution from crypto analyst MorenoDV.\n2. He explained that this indicates a strong trend in the altcoin market toward chasing immediate hype and the liquidity from new listings.\n3. MorenoDV argued that \"alt season\" is no longer a phase where all assets rise together but has been reshaped into a selective process where capital flows only to assets with new narratives.",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-27T11:05:50+00:00"
+  },
+  {
+    "id": "3278ed3c-7396-4045-91d5-34c16a193b0b",
+    "source": "The Block",
+    "type": "rss",
+    "title": "‘Better than bailouts?’: Curve founder proposes market-based bad debt recovery model for DeFi lending amid KelpDAO fallout",
+    "summary": "1. Curve founder Michael Egorov proposed a new way to recover bad debt in DeFi lending markets amid industry debates on the KelpDAO incident.",
+    "url": "https://www.theblock.co/post/398958/better-than-bailouts-curve-founder-proposes-market-based-bad-debt-recovery-model-for-defi-lending-amid-kelpdao-fallout?utm_source=rss&utm_medium=rss",
+    "author": "Naga Avan-Nomayo",
+    "created_at": "2026-04-27T11:02:19.000Z"
+  },
+  {
+    "id": "4f389639-f8a0-45c4-998a-3b582235c40f",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Bitget Launches Blockchain4Youth Learning Hub to Strengthen the Future Web3 Workforce",
+    "summary": "1. This sponsored press release was provided by Bitget and was not written by Bitcoin.com News.\n2. Bitcoin.com News does not necessarily endorse the statements made within this announcement.\n3. PRESS RELEASE.",
+    "url": "https://news.bitcoin.com/bitget-launches-blockchain4youth-learning-hub-to-strengthen-the-future-web3-workforce/",
+    "author": "Media",
+    "created_at": "2026-04-27T11:00:36.000Z"
+  },
+  {
+    "id": "79de14b4-d201-4f58-935a-0d31555d2ef4",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "EU’s largest measures against Russia yet include escalation of crypto sanctions evasion",
+    "summary": "1. The European Union noted that Russia has become increasingly reliant on cryptocurrency to circumvent sanctions.",
+    "url": "https://www.coindesk.com/policy/2026/04/27/eu-s-largest-measures-against-russia-yet-include-escalation-of-crypto-sanctions-evasion",
+    "author": "Olivier Acuna",
+    "created_at": "2026-04-27T10:42:48.000Z"
+  },
+  {
+    "id": "9fb991d9-1315-4cfe-ac67-9c108cbbe024",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin reverses from $79,500 as oil surge triggers broader crypto selloff",
+    "summary": "1. BTC fails at $80,000 and drops 2% as rising oil prices weigh on sentiment with altcoins leading losses across a volatile session.",
+    "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-reverses-from-usd79-500-as-oil-surge-triggers-broader-crypto-selloff",
+    "author": "Oliver Knight",
+    "created_at": "2026-04-27T10:37:43.000Z"
+  },
+  {
+    "id": "960df4ba-d157-40c7-a528-66ec97242949",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Western Union CEO Says Solana-Based Stablecoin USDPT Is Weeks Away From Launch",
+    "summary": "1. Western Union’s CEO and president, Devin McGranahan, has confirmed the company’s Solana-based stablecoin USDPT is in its “final stages” of preparation and expected to go live next month.\n2. Key Takeaways: Western Union CEO Devin McGranahan confirmed USDPT is in its “final stages” and set to launch next month on Solana.\n3. USDPT will be issued by […]",
+    "url": "https://news.bitcoin.com/western-union-usdpt-stablecoin-solana-launch/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-04-27T10:30:39.000Z"
+  },
+  {
+    "id": "5738b74f-f857-4f10-8f04-f59d4bdc8789",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Western Union to Launch Solana-Based Stablecoin Plus ‘Stable Card’ Next Month",
+    "summary": "1. The USDPT stablecoin launching next month will serve as an alternative to SWIFT for agent settlements rather than consumer transactions.",
+    "url": "https://decrypt.co/365593/western-union-to-launch-solana-based-stablecoin-plus-stable-card-next-month",
+    "author": "Decrypt Agent",
+    "created_at": "2026-04-27T10:02:52.000Z"
+  },
+  {
+    "id": "22c1974e-2481-4d84-b9a7-45d6179bbc42",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Telegram CEO accuses France of leaking private data of crypto investors to criminals.",
+    "summary": "1. Telegram CEO accuses France of leaking private data of crypto investors to criminals.",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1swz6ci/telegram_ceo_accuses_france_of_leaking_private/",
+    "author": "u/davideownzall",
+    "created_at": "2026-04-27T10:00:05.000Z"
+  },
+  {
+    "id": "98fc9019-c773-4c53-8caa-b34ba497e2ae",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Meta inks deal for solar power at night, beamed from space",
+    "summary": "1. Overview Energy's first contract with Meta is a small step toward a future of space-based solar power.",
+    "url": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/",
+    "author": "Tim Fernholz",
+    "created_at": "2026-04-27T10:00:00.000Z"
+  },
+  {
+    "id": "a90b17f2-95f4-41a9-8fd8-ca90bb68dbe4",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "INTEL: New bitcoin fork proposes redistributing Satoshi’s ~1.1M $BTC, with developer Paul Sztorc out...",
@@ -38,26 +168,6 @@
     "url": "https://news.bitcoin.com/from-speculation-to-stability-discovery-bank-report-reveals-7-8m-south-africans-now-invest-in-crypto/",
     "author": "Terence Zimwara",
     "created_at": "2026-04-27T09:30:25.000Z"
-  },
-  {
-    "id": "3ae33cac-1b7a-4aa7-bbfb-29c6f2d11886",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Address linked to CHIP team deposits $5.7M in CHIP to OKX",
-    "summary": "1. An address linked to the deployer of the USD AI (CHIP) contract deposited 75 million CHIP, worth $5.73 million, to OKX about an hour ago, on-chain analyst ai_9684xtpa reported on X.\n2. The sending address, which begins with 0xB9f, was created three days ago and received the tokens from the CHIP deployer address, starting with 0xE23.\n3. The entire amount was transferred to the exchange.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-27T09:05:57+00:00"
-  },
-  {
-    "id": "01672375-1bbe-48ea-8fa4-84df4184f6b7",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "LATEST: 📊 Bitcoin whales on Hyperliquid have built their most aggressive net-long position since Ma...",
-    "summary": "1. LATEST: 📊 Bitcoin whales on Hyperliquid have built their most aggressive net-long position since March, with BTC funding rates staying negative for 47 straight days, according to Glassnode.",
-    "url": "https://t.me/CoinMarketCapAnnouncements",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-27T09:04:26+00:00"
   },
   {
     "id": "477aa2ed-b857-4516-a2ab-ab16336b0934",
@@ -198,25 +308,5 @@
     "url": "https://cointelegraph.com/news/western-union-usdpt-stablecoin-may-launch-dan-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "author": "Cointelegraph by Stephen Katte",
     "created_at": "2026-04-27T05:24:58.000Z"
-  },
-  {
-    "id": "df0baf49-f072-4b1b-917a-6a641259e014",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "This Week in Crypto Law (Apr. 19, 2026)",
-    "summary": "1. Law and Ledger is a news segment focusing on crypto legal news, brought to you by Kelman Law – A law firm focused on digital asset commerce.\n2. This Week in Crypto Law The opinion editorial below was written by Alex Forehand and Michael Handelsman for Kelman.Law.\n3. This week in crypto law showcased a defining theme […]",
-    "url": "https://news.bitcoin.com/this-week-in-crypto-law-apr-19-2026/",
-    "author": "Guest Author",
-    "created_at": "2026-04-27T04:30:33.000Z"
-  },
-  {
-    "id": "8bc91bde-9d93-48fa-9eb7-3bfa4c7ddcc3",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Aave asks Arbitrum to send 30K ETH from Kelp exploiter to ‘DeFi United’",
-    "summary": "1. More than $21 million in contributions has been made to the \"DeFi United\" relief effort so far, with another $215 million to be potentially allocated if certain governance proposals succeed.",
-    "url": "https://cointelegraph.com/news/arbitrum-dao-asked-to-unfreeze-30k-eth-tied-to-kelp-hacker-direct-them-to-defi-united?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-04-27T04:20:58.000Z"
   }
 ]
