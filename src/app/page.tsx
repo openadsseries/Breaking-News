@@ -368,7 +368,13 @@ export default function Home() {
                 </h2>
                 <div className="border-t border-[#1c1b18] mb-4"></div>
                 <div className="text-sm leading-relaxed space-y-3 flex-1">
-                  {currentArticle.summary.split('\n').map((line, i) => {
+                  {currentArticle.summary
+                    // Force newlines before emoji numbers or common bullets if they are squished
+                    .replace(/(?=\d️⃣|🔟|▪️|•|🟢|🔴|🟡|📍|⚡️)/g, '\n')
+                    .split('\n')
+                    .map(line => line.trim())
+                    .filter(line => line.length > 0)
+                    .map((line, i) => {
                     const clean = line.replace(/^\d+\.\s*/, '');
                     if (clean.includes('[...]') || clean.includes('[…]')) {
                       const parts = clean.split(/\[\.{3}\]|\[…\]/);
