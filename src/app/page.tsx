@@ -126,8 +126,8 @@ export default function Home() {
     });
   }, [todaysFeed, readCount]);
 
-  const handleDragEnd = useCallback((e: any, { offset }: any) => {
-    if (offset.x < -50) advanceArticle();
+  const handleDragEnd = useCallback((e: any, { offset, velocity }: any) => {
+    if (offset.y < -50 || velocity.y < -300) advanceArticle();
   }, [advanceArticle]);
 
   const handleSave = useCallback(async (article: typeof mockFeed[0]) => {
@@ -317,13 +317,13 @@ export default function Home() {
           <AnimatePresence mode="wait">
             <motion.div
               key={currentArticle.id}
-              initial={{ opacity: 0, x: 80 }}
-              animate={{ opacity: 1, x: [0, -6, 3, 0] }}
-              exit={{ opacity: 0, x: -80 }}
-              transition={{ duration: 0.4, ease: "easeOut", x: { duration: 0.5, times: [0, 0.5, 0.75, 1] } }}
-              drag="x"
-              dragConstraints={{ left: 0, right: 0 }}
-              dragElastic={0.12}
+              initial={{ opacity: 0, y: 60 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -60 }}
+              transition={{ type: "spring", stiffness: 400, damping: 30 }}
+              drag="y"
+              dragConstraints={{ top: 0, bottom: 0 }}
+              dragElastic={0.15}
               onDragEnd={handleDragEnd}
               className="absolute inset-0 bg-paper border-[2px] border-[#1c1b18] shadow-[3px_3px_0px_rgba(28,27,24,0.8)] flex flex-col cursor-grab active:cursor-grabbing overflow-hidden"
             >
@@ -397,7 +397,7 @@ export default function Home() {
               </div>
 
               <div className="shrink-0 border-t-[2px] border-[#1c1b18] px-4 py-3 flex items-center justify-between">
-                <span className="text-[10px] uppercase tracking-widest font-sans font-bold">Swipe →</span>
+                <span className="text-[10px] uppercase tracking-widest font-sans font-bold">Swipe ↑</span>
                 <button
                   onClick={() => handleSave(currentArticle)}
                   className={`text-[10px] uppercase tracking-widest font-sans font-bold px-3 py-1.5 border-[2px] border-[#1c1b18] transition-colors ${
