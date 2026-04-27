@@ -84,9 +84,18 @@ function removeOld(articles) {
   return articles.filter(a => new Date(a.created_at).getTime() > cutoff);
 }
 
+function decodeEntities(str) {
+  return str
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)))
+    .replace(/&amp;/gi, '&').replace(/&lt;/gi, '<').replace(/&gt;/gi, '>')
+    .replace(/&quot;/gi, '"').replace(/&apos;/gi, "'")
+    .replace(/&[a-z]+;/gi, ' ');
+}
+
 function toThreeLines(text) {
   if (!text) return '1. No details available.';
-  const clean = text.replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, ' ').trim();
+  const clean = decodeEntities(text.replace(/<[^>]*>/g, '')).trim();
   const sentences = clean.split(/(?<=[.!?])\s+/).filter(s => s.length > 10);
   const lines = sentences.slice(0, 3);
   if (lines.length === 0) return `1. ${clean.slice(0, 200)}`;
@@ -225,7 +234,7 @@ async function fetchTelegram(existingUrls) {
       const msgRegex = /tgme_widget_message_text[^>]*>(.*?)<\/div>/gs;
       const timeRegex = /datetime="([^"]+)"/g;
       const texts = [...html.matchAll(msgRegex)].map(m =>
-        m[1].replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').trim()
+        decodeEntities(m[1].replace(/<[^>]+>/g, '')).trim()
       );
       const times = [...html.matchAll(timeRegex)].map(m => m[1]);
 
