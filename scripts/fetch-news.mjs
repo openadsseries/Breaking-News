@@ -7,18 +7,27 @@ import crypto from 'crypto';
 dotenv.config({ path: '.env.local' });
 
 const parser = new Parser({
-  timeout: 10000,
+  timeout: 5000,
   headers: { 'User-Agent': 'BreakingNews/1.0' },
 });
 
 // ─── RSS Sources ───
 const RSS_FEEDS = [
+  // Crypto
   { url: 'https://www.theblock.co/rss.xml', source: 'The Block' },
   { url: 'https://cointelegraph.com/rss', source: 'CoinTelegraph' },
   { url: 'https://decrypt.co/feed', source: 'Decrypt' },
   { url: 'https://www.coindesk.com/arc/outboundfeeds/rss/', source: 'CoinDesk' },
-  { url: 'https://techcrunch.com/feed/', source: 'TechCrunch' },
+  { url: 'https://news.bitcoin.com/feed/', source: 'Bitcoin.com' },
+  { url: 'https://bitcoinmagazine.com/.rss/full/', source: 'Bitcoin Magazine' },
+  { url: 'https://thedefiant.io/feed', source: 'The Defiant' },
+  // Politics
+  { url: 'https://rss.politico.com/politics-news.xml', source: 'Politico' },
   { url: 'https://trumpstruth.org/feed', source: 'Trump Truth' },
+  // AI
+  { url: 'https://openai.com/blog/rss.xml', source: 'OpenAI' },
+  // Tech
+  { url: 'https://techcrunch.com/feed/', source: 'TechCrunch' },
 ];
 
 // ─── Farcaster: Curated list (FIDs) ───
@@ -46,6 +55,8 @@ const GITHUB_REPOS = [
 // ─── Telegram Channels (public only) ───
 const TELEGRAM_CHANNELS = [
   'SolidIntelX',
+  'WatcherGuru',
+  'crypto_breaking_news',
 ];
 
 const ARTICLES_PER_FEED = 3;

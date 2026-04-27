@@ -1,5 +1,45 @@
 [
   {
+    "id": "ddee9b2d-8444-4055-a412-dcbde3467742",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Coinbase Brings USDC Payouts to Nium’s Network Across 190+ Countries",
+    "summary": "1. Coinbase has partnered with Nium to enable global payments using USD Coin, expanding stablecoin use in cross-border transactions.\n2. The integration reflects growing demand for faster settlement and reduced reliance on traditional banking infrastructure.\n3. Key Takeaways: Coinbase expands USDC payments through Nium’s network across 190+ countries.",
+    "url": "https://news.bitcoin.com/coinbase-brings-usdc-payouts-to-niums-network-across-190-countries/",
+    "author": "Kevin Helms",
+    "created_at": "2026-04-27T01:30:28.000Z"
+  },
+  {
+    "id": "63a8f508-598a-4ed9-9632-43a713945798",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "JUST IN: &#036;79,000 Bitcoin@WatcherGuru",
+    "summary": "1. JUST IN: &#036;79,000 Bitcoin@WatcherGuru",
+    "url": "https://t.me/WatcherGuru",
+    "author": "@WatcherGuru",
+    "created_at": "2026-04-27T00:58:01+00:00"
+  },
+  {
+    "id": "751e7939-5238-4c1a-b839-5eaeaf9138c5",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Great Time to Buy Crypto May Follow 50% Index Drop, Bloomberg Strategist Says",
+    "summary": "1. The Bloomberg Galaxy Crypto Index could fall sharply before a clearer crypto buying opportunity emerges.\n2. Continued volatility and weak price retention highlight growing pressure on digital assets despite earlier gains.\n3. Key Takeaways: Bloomberg Galaxy Crypto Index may decline toward lower support, signaling a delayed but clearer crypto entry opportunity.",
+    "url": "https://news.bitcoin.com/great-time-to-buy-crypto-may-follow-50-index-drop-bloomberg-strategist-says/",
+    "author": "Kevin Helms",
+    "created_at": "2026-04-27T00:30:35.000Z"
+  },
+  {
+    "id": "00198afb-6a9d-47e4-a7be-818e41675b1f",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "DeFi United Secures $160M as Industry Moves to Cover Aave Bad Debt Crisis",
+    "summary": "1. A coordinated decentralized finance ( DeFi) relief effort has reportedly raised $160 million to cover bad debt created when attackers exploited KelpDAO’s bridge and deposited unbacked collateral into Aave V3 markets on April 18, 2026.\n2. Key Takeaways: Aave froze rsETH reserves within hours of the April 18 Kelp DAO exploit, which created up to $230.1 […]",
+    "url": "https://news.bitcoin.com/defi-united-secures-160m-as-industry-moves-to-cover-aave-bad-debt-crisis/",
+    "author": "Jamie Redman",
+    "created_at": "2026-04-26T23:14:43.000Z"
+  },
+  {
     "id": "e55ecb19-4453-43c3-9135-14b5edfdbd21",
     "source": "The Block",
     "type": "rss",
@@ -78,15 +118,5 @@
     "url": "https://reddit.com/r/ethereum/comments/1swjmar/i_built_an_ai_agent_that_charges_0001_to_protect/",
     "author": "u/Any_Good_2682",
     "created_at": "2026-04-26T21:06:15.000Z"
-  },
-  {
-    "id": "3563eb53-c226-417a-93ad-3ceb646b27b0",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "What Tim Cook built",
-    "summary": "1. On the latest episode of Equity, we discuss how Apple has changed since Cook became CEO in 2011, and what challenges incoming CEO John Ternus will be facing.",
-    "url": "https://techcrunch.com/2026/04/26/what-tim-cook-built/",
-    "author": "Anthony Ha",
-    "created_at": "2026-04-26T20:22:51.000Z"
   }
 ]
