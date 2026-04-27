@@ -1,16 +1,26 @@
 [
   {
-    "id": "f498ac7a-4910-40f4-8bf5-1d639355f6fe",
+    "id": "b25f49ab-32be-495b-9d23-89ed5469f683",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin pulls back from 12-week high as Iran rally hits seller wall at $79,400",
+    "summary": "1. Bitcoin pulls back from 12-week high as Iran rally hits seller wall at $79,400",
+    "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-from-12-week-high-as-iran-rally-hits-seller-wall-at-usd79-400",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-04-27T05:47:29.000Z"
+  },
+  {
+    "id": "34c510f5-0ea2-4e47-82ef-3eb45d0d880a",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "[US senator to support Warsh for Fed chair after DOJ ends Powell probe]U.S. Republican Senator Thom ...",
-    "summary": "1. [US senator to support Warsh for Fed chair after DOJ ends Powell probe]U.S.\n2. Republican Senator Thom Tillis has withdrawn his opposition to the confirmation of Kevin Warsh as Federal Reserve Chairman, Cointelegraph reported.\n3. In a post on X, Tillis explained that he will now support Warsh's confirmation after confirming that the U.S.",
+    "title": "US senator to support Warsh for Fed chair after DOJ ends Powell probe",
+    "summary": "1. Republican Senator Thom Tillis has withdrawn his opposition to the confirmation of Kevin Warsh as Federal Reserve Chairman, Cointelegraph reported.\n2. In a post on X, Tillis explained that he will now support Warsh's confirmation after confirming that the U.S.\n3. Department of Justice (DOJ) has concluded its roughly three-month investigation into Chairman Jerome Powell.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
     "created_at": "2026-04-27T05:43:11+00:00"
   },
   {
-    "id": "a48f1915-0b76-4a54-8770-eaeee57ddee6",
+    "id": "80b1c47d-acd7-4048-813a-1feea278616d",
     "source": "Bitcoin.com",
     "type": "rss",
     "title": "Senator Bernie Sanders Issues Warning on AI’s Existential Threat",
@@ -20,7 +30,7 @@
     "created_at": "2026-04-27T05:30:45.000Z"
   },
   {
-    "id": "6991747c-edba-4668-be85-771c9c9f98c4",
+    "id": "97442b0f-e12e-4116-b9df-f109eed41096",
     "source": "CoinTelegraph",
     "type": "rss",
     "title": "Western Union eyes May for its stablecoin USDPT rollout",
@@ -30,7 +40,7 @@
     "created_at": "2026-04-27T05:24:58.000Z"
   },
   {
-    "id": "87f2a308-92fe-4e4f-b32b-0fa8fe086cea",
+    "id": "df0baf49-f072-4b1b-917a-6a641259e014",
     "source": "Bitcoin.com",
     "type": "rss",
     "title": "This Week in Crypto Law (Apr. 19, 2026)",
@@ -40,7 +50,7 @@
     "created_at": "2026-04-27T04:30:33.000Z"
   },
   {
-    "id": "dff263cc-cc9d-4754-b9e4-e428c5601f74",
+    "id": "8bc91bde-9d93-48fa-9eb7-3bfa4c7ddcc3",
     "source": "CoinTelegraph",
     "type": "rss",
     "title": "Aave asks Arbitrum to send 30K ETH from Kelp exploiter to ‘DeFi United’",
@@ -50,7 +60,7 @@
     "created_at": "2026-04-27T04:20:58.000Z"
   },
   {
-    "id": "0e4e459c-ccf5-43d3-86d9-3a0b760b6084",
+    "id": "a8807fe5-1008-4a29-8d1f-8d472a0114c6",
     "source": "Bitcoin.com",
     "type": "rss",
     "title": "Chainalysis: EU’s New Sanctions on Russia Mark ‘a New Era’ of Crypto Enforcement",
@@ -60,7 +70,7 @@
     "created_at": "2026-04-27T03:30:37.000Z"
   },
   {
-    "id": "a7f54b02-585f-46c7-8d62-23e772eda7f2",
+    "id": "00c6830a-3318-4dfc-a230-4cdc393aa373",
     "source": "The Block",
     "type": "rss",
     "title": "Western Union to launch stablecoin next month, with ‘Stable Card’ planned for global consumers",
@@ -70,7 +80,7 @@
     "created_at": "2026-04-27T03:29:58.000Z"
   },
   {
-    "id": "d8505544-10c7-4817-bc83-95ed26bd65dd",
+    "id": "6338d7b6-4639-4c4a-84d1-e8502be0faa3",
     "source": "The Block",
     "type": "rss",
     "title": "Bitcoin climbs above $79,000, Asian equities rise amid ‘subdued’ geopolitical tensions",
@@ -80,7 +90,7 @@
     "created_at": "2026-04-27T03:12:10.000Z"
   },
   {
-    "id": "b837d3a8-c98d-4625-894c-8127697ae2ea",
+    "id": "aef9f1a5-53b1-46ed-9b04-bf2082301736",
     "source": "Trump Truth",
     "type": "rss",
     "title": "New post from Donald Trump",
@@ -90,7 +100,7 @@
     "created_at": "2026-04-27T03:00:20.000Z"
   },
   {
-    "id": "7301ed50-4cc6-49fe-a188-7e9bbd29c9ad",
+    "id": "ba365ce3-8d83-48fa-a978-71b0be4b4d93",
     "source": "TechCrunch",
     "type": "rss",
     "title": "Truecaller faces mounting pressures as its growth matures",
@@ -100,37 +110,17 @@
     "created_at": "2026-04-27T03:00:00.000Z"
   },
   {
-    "id": "a79f6913-06db-46ad-ac1c-3b55d233c41d",
+    "id": "3b48f174-59dc-40cf-a545-9f759f12b0f1",
     "source": "Trump Truth",
     "type": "rss",
-    "title": "Lee and Kim Greenwood, two of the most spectacular people, had their first grandchild on April 17th. They were with me from the very beginning - Total loyalty, and Lee gave me the greatest walk on song of all time, nothing even close!!! Congratulations to you both!!! Love, President DJT",
+    "title": "New post from Donald Trump",
     "summary": "1. Lee and Kim Greenwood, two of the most spectacular people, had their first grandchild on April 17th.\n2. They were with me from the very beginning - Total loyalty, and Lee gave me the greatest walk on song of all time, nothing even close!!!\n3. Congratulations to you both!!!",
     "url": "https://trumpstruth.org/statuses/38066",
     "author": "Trump Truth",
     "created_at": "2026-04-27T02:52:22.000Z"
   },
   {
-    "id": "9ce78d4b-6883-4534-bc8a-49c74982178d",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "TRM Labs Highligihts Rise of Stablecoins in Venezuela",
-    "summary": "1. TRM Labs’ latest report on global cryptocurrency adoption stressed that stablecoins are being used in Venezuela as part of retail users’ arsenal to deal with high inflation and capital-constrained environments, countering currency instability and capital controls as parallel currency markets surge.\n2. Key Takeaways: TRM Labs reports a Q1 2026 shift to USDT, boosting Venezuela’s volume […]",
-    "url": "https://news.bitcoin.com/trm-labs-highligihts-rise-of-stablecoins-in-venezuela/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-04-27T02:30:35.000Z"
-  },
-  {
-    "id": "ddee9b2d-8444-4055-a412-dcbde3467742",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Coinbase Brings USDC Payouts to Nium’s Network Across 190+ Countries",
-    "summary": "1. Coinbase has partnered with Nium to enable global payments using USD Coin, expanding stablecoin use in cross-border transactions.\n2. The integration reflects growing demand for faster settlement and reduced reliance on traditional banking infrastructure.\n3. Key Takeaways: Coinbase expands USDC payments through Nium’s network across 190+ countries.",
-    "url": "https://news.bitcoin.com/coinbase-brings-usdc-payouts-to-niums-network-across-190-countries/",
-    "author": "Kevin Helms",
-    "created_at": "2026-04-27T01:30:28.000Z"
-  },
-  {
-    "id": "4c28d2f1-ac29-4833-bbec-895f4ab2e811",
+    "id": "85f2c467-02b7-4fe1-ac6d-8762a0a2ccfe",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "JUST IN: $79,000 Bitcoin@WatcherGuru",
@@ -138,15 +128,5 @@
     "url": "https://t.me/WatcherGuru",
     "author": "@WatcherGuru",
     "created_at": "2026-04-27T00:58:01+00:00"
-  },
-  {
-    "id": "751e7939-5238-4c1a-b839-5eaeaf9138c5",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Great Time to Buy Crypto May Follow 50% Index Drop, Bloomberg Strategist Says",
-    "summary": "1. The Bloomberg Galaxy Crypto Index could fall sharply before a clearer crypto buying opportunity emerges.\n2. Continued volatility and weak price retention highlight growing pressure on digital assets despite earlier gains.\n3. Key Takeaways: Bloomberg Galaxy Crypto Index may decline toward lower support, signaling a delayed but clearer crypto entry opportunity.",
-    "url": "https://news.bitcoin.com/great-time-to-buy-crypto-may-follow-50-index-drop-bloomberg-strategist-says/",
-    "author": "Kevin Helms",
-    "created_at": "2026-04-27T00:30:35.000Z"
   }
 ]

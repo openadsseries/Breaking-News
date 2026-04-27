@@ -246,10 +246,21 @@ async function fetchTelegram(existingUrls) {
         if (existingUrls.has(url)) continue;
 
         console.log(`  ✅ [Telegram] @${channel}: ${texts[i].slice(0, 50)}...`);
+        let rawText = texts[i];
+        let title = rawText.slice(0, 100) + (rawText.length > 100 ? '...' : '');
+        let summaryText = rawText;
+
+        // Parse format like "[BTC falls below $78,000] According to CoinNess..."
+        const match = rawText.match(/^\[(.*?)\](.*)/s);
+        if (match) {
+          title = match[1].trim();
+          summaryText = match[2].trim();
+        }
+
         articles.push({
           id: crypto.randomUUID(), source: `@${channel}`, type: 'telegram',
-          title: texts[i].slice(0, 100) + (texts[i].length > 100 ? '...' : ''),
-          summary: toThreeLines(texts[i]),
+          title,
+          summary: toThreeLines(summaryText),
           url: `https://t.me/${channel}`,
           author: `@${channel}`,
           created_at: times[i] || new Date().toISOString(),
