@@ -126,9 +126,6 @@ export default function Home() {
     });
   }, [todaysFeed, readCount]);
 
-  const handleDragEnd = useCallback((e: any, { offset, velocity }: any) => {
-    if (offset.x < -50 || velocity.x < -300) advanceArticle();
-  }, [advanceArticle]);
 
   const handleSave = useCallback(async (article: typeof mockFeed[0]) => {
     try {
@@ -313,20 +310,15 @@ export default function Home() {
           </div>
         </header>
 
-        <div className="flex-1 relative w-full min-h-0" style={{ overscrollBehavior: "none" }}>
+        <div className="flex-1 relative w-full min-h-0">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentArticle.id}
-              initial={{ opacity: 0, x: 60 }}
+              initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -60 }}
+              exit={{ opacity: 0, x: -40 }}
               transition={{ type: "spring", stiffness: 400, damping: 30 }}
-              drag="x"
-              dragConstraints={{ left: 0, right: 0 }}
-              dragElastic={0.15}
-              onDragEnd={handleDragEnd}
-              style={{ touchAction: "pan-y" }}
-              className="absolute inset-0 bg-paper border-[2px] border-[#1c1b18] shadow-[3px_3px_0px_rgba(28,27,24,0.8)] flex flex-col cursor-grab active:cursor-grabbing overflow-hidden"
+              className="absolute inset-0 bg-paper border-[2px] border-[#1c1b18] shadow-[3px_3px_0px_rgba(28,27,24,0.8)] flex flex-col overflow-hidden"
             >
               <div className="flex justify-between items-center border-b-[2px] border-[#1c1b18] px-4 py-2 shrink-0">
                 <span className="text-[10px] font-bold uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] px-2 py-0.5 max-w-[60%] truncate">
@@ -398,7 +390,12 @@ export default function Home() {
               </div>
 
               <div className="shrink-0 border-t-[2px] border-[#1c1b18] px-4 py-3 flex items-center justify-between">
-                <span className="text-[10px] uppercase tracking-widest font-sans font-bold">Swipe →</span>
+                <button
+                  onClick={advanceArticle}
+                  className="text-[10px] uppercase tracking-widest font-sans font-black px-4 py-1.5 border-[2px] border-[#1c1b18] bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors"
+                >
+                  Next →
+                </button>
                 <button
                   onClick={() => handleSave(currentArticle)}
                   className={`text-[10px] uppercase tracking-widest font-sans font-bold px-3 py-1.5 border-[2px] border-[#1c1b18] transition-colors ${
