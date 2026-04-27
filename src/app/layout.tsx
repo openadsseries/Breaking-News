@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       version: "next",
       imageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
       button: {
-        title: "Read and Earn",
+        title: "Read It First",
         action: {
           type: "launch_frame",
           name: "Breaking News",

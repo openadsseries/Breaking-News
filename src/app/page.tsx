@@ -387,7 +387,7 @@ export default function Home() {
         </div>
 
         <div className="mt-3 flex justify-center items-center gap-0.5 shrink-0">
-          {mockFeed.slice(0, 15).map((_, i) => (
+          {todaysFeed.slice(0, 15).map((_, i) => (
             <div key={i} className={`h-1 rounded-full transition-all duration-200 ${
               i === currentIndex ? "w-3 bg-[#1c1b18]" : i < currentIndex ? "w-1 bg-[#1c1b18]/50" : "w-1 bg-[#1c1b18]/15"
             }`} />
