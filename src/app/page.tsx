@@ -16,6 +16,18 @@ const SESSION_ID = mockFeed.length > 0 ? mockFeed[0].id : "empty";
 
 type Phase = "READING" | "SHARE_GATE" | "CLAIMABLE" | "READING_CONTINUED" | "ALL_READ";
 
+const GLOBAL_SHARE_VARIANTS = [
+  "* read it before warren buffett does.",
+  "the signal is out. the market just hasn’t reacted yet.",
+  "Breaking News - Read Now."
+];
+
+const ARTICLE_SHARE_VARIANTS = [
+  "Caught this early on Breaking News - {title}",
+  "Read it first on Breaking News - {title}",
+  "Breaking News - {title}"
+];
+
 export default function Home() {
   const [mounted, setMounted] = useState(false);
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
@@ -122,13 +134,17 @@ export default function Home() {
     try {
       const sdk = await import('@farcaster/miniapp-sdk').catch(() => null);
       if (sdk?.default?.actions?.composeCast) {
+        const template = ARTICLE_SHARE_VARIANTS[Math.floor(Math.random() * ARTICLE_SHARE_VARIANTS.length)];
+        const text = template.replace("{title}", article.title);
         const result = await sdk.default.actions.composeCast({
-          text: article.title,
+          text,
           embeds: [APP_URL],
         });
         if (result) setSaved(prev => ({ ...prev, [article.id]: true }));
       } else if (navigator.share) {
-        await navigator.share({ title: article.title, text: article.title, url: APP_URL });
+        const template = ARTICLE_SHARE_VARIANTS[Math.floor(Math.random() * ARTICLE_SHARE_VARIANTS.length)];
+        const text = template.replace("{title}", article.title);
+        await navigator.share({ title: "Breaking News", text, url: APP_URL });
         setSaved(prev => ({ ...prev, [article.id]: true }));
       }
     } catch {}
@@ -140,8 +156,9 @@ export default function Home() {
 
       if (sdk?.default?.actions?.composeCast) {
         // composeCast returns result ONLY if user actually posts
+        const text = GLOBAL_SHARE_VARIANTS[Math.floor(Math.random() * GLOBAL_SHARE_VARIANTS.length)];
         const result = await sdk.default.actions.composeCast({
-          text: "* read it before warren buffett does.",
+          text,
           embeds: [APP_URL],
         });
 
@@ -152,7 +169,8 @@ export default function Home() {
         }
         // If user cancelled, nothing happens → stays on SHARE_GATE
       } else if (navigator.share) {
-        await navigator.share({ title: "Breaking News", text: SHARE_TEXT, url: APP_URL });
+        const text = GLOBAL_SHARE_VARIANTS[Math.floor(Math.random() * GLOBAL_SHARE_VARIANTS.length)];
+        await navigator.share({ title: "Breaking News", text, url: APP_URL });
         setHasShared(true);
         localStorage.setItem("bn_shared", "true");
       }
