@@ -1,5 +1,175 @@
 [
   {
+    "id": "167999b0-546f-4fbc-9ce8-d8736091e7ee",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "INTEL: New bitcoin fork proposes redistributing Satoshi’s ~1.1M $BTC, with developer Paul Sztorc out...",
+    "summary": "1. INTEL: New bitcoin fork proposes redistributing Satoshi’s ~1.1M $BTC, with developer Paul Sztorc outlining August “eCash” chain offering 1:1 airdrop while flagging inactive wallets for reassignmentTwitter",
+    "url": "https://t.me/SolidIntelX",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-27T09:49:48+00:00"
+  },
+  {
+    "id": "6d1500f8-eec6-4746-b43d-31d4aa5788db",
+    "source": "The Block",
+    "type": "rss",
+    "title": "French prosecutors charge 88 individuals linked to crypto wrench attacks",
+    "summary": "1. French authorities urged crypto holders to remain vigilant and avoid extensive exposure on social media that could make them targets.",
+    "url": "https://www.theblock.co/post/398939/french-charge-88-crypto-wrench-attacks?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-04-27T09:35:59.000Z"
+  },
+  {
+    "id": "8c38fdbf-1586-4f1f-8f68-e21597c47849",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Bitcoin leads $1.2B weekly haul for global crypto funds as institutional demand builds: CoinShares",
+    "summary": "1. Improving institutional demand spurred by bitcoin's multi-week high pushed $1.2 billion in weekly flows to crypto funds.",
+    "url": "https://www.theblock.co/post/398938/bitcoin-leads-1-2b-weekly-haul-for-global-crypto-funds-as-institutional-demand-builds-coinshares?utm_source=rss&utm_medium=rss",
+    "author": "Naga Avan-Nomayo",
+    "created_at": "2026-04-27T09:32:19.000Z"
+  },
+  {
+    "id": "134e759a-56cb-4ed3-955a-431813fbc546",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "From Speculation to Stability: Discovery Bank Report Reveals 7.8M South Africans Now Invest in Crypto",
+    "summary": "1. A new report by Discovery Bank and Visa highlights a major shift in South Africa’s financial landscape, as cryptocurrency matures from a speculative trend into a mainstream investment class.\n2. Key Takeaways: Discovery Bank and Visa report that 7.8 million South Africans now treat crypto as a mainstream asset class.\n3. Middle-income trading grew 26% in 2024, […]",
+    "url": "https://news.bitcoin.com/from-speculation-to-stability-discovery-bank-report-reveals-7-8m-south-africans-now-invest-in-crypto/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-04-27T09:30:25.000Z"
+  },
+  {
+    "id": "3ae33cac-1b7a-4aa7-bbfb-29c6f2d11886",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Address linked to CHIP team deposits $5.7M in CHIP to OKX",
+    "summary": "1. An address linked to the deployer of the USD AI (CHIP) contract deposited 75 million CHIP, worth $5.73 million, to OKX about an hour ago, on-chain analyst ai_9684xtpa reported on X.\n2. The sending address, which begins with 0xB9f, was created three days ago and received the tokens from the CHIP deployer address, starting with 0xE23.\n3. The entire amount was transferred to the exchange.",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-27T09:05:57+00:00"
+  },
+  {
+    "id": "01672375-1bbe-48ea-8fa4-84df4184f6b7",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "LATEST: 📊 Bitcoin whales on Hyperliquid have built their most aggressive net-long position since Ma...",
+    "summary": "1. LATEST: 📊 Bitcoin whales on Hyperliquid have built their most aggressive net-long position since March, with BTC funding rates staying negative for 47 straight days, according to Glassnode.",
+    "url": "https://t.me/CoinMarketCapAnnouncements",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-27T09:04:26+00:00"
+  },
+  {
+    "id": "477aa2ed-b857-4516-a2ab-ab16336b0934",
+    "source": "Politico",
+    "type": "rss",
+    "title": "After WHCD shooting, Republicans blame Dems for political rhetoric",
+    "summary": "1. Republicans are returning to a playbook they leaned on in the aftermath of the assassination attempts against Donald Trump in 2024.",
+    "url": "https://www.politico.com/news/2026/04/27/correspondents-dinner-political-violence-rhetoric-00892635",
+    "author": "By Lisa Kashinsky",
+    "created_at": "2026-04-27T09:00:00.000Z"
+  },
+  {
+    "id": "b98a2deb-a8b8-4e70-8f6a-0c9d50fc2982",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Luxor, MicroBT deepen ties with $100 million mining rig deal and planned investment",
+    "summary": "1. Luxor said it is committing $100 million to purchase MicroBT WhatsMiner rigs, while MicroBT has signed a term sheet to invest in Luxor.",
+    "url": "https://www.theblock.co/post/398933/luxor-microbt-100-million-rig-deal?utm_source=rss&utm_medium=rss",
+    "author": "Timmy Shen",
+    "created_at": "2026-04-27T08:47:44.000Z"
+  },
+  {
+    "id": "10e131a3-c5fb-4ce3-8ee4-e55d2b9b705c",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Polymarket didn’t kill crypto, it just exposed how most traders are actually terrible at this",
+    "summary": "1. everyone keeps saying prediction markets are killing crypto right and like no thats not even true dude.\n2. Q1 was shit yeah but april came back.\n3. like capital’s flowing again.",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1swxwzg/polymarket_didnt_kill_crypto_it_just_exposed_how/",
+    "author": "u/Repulsive_Counter_79",
+    "created_at": "2026-04-27T08:45:14.000Z"
+  },
+  {
+    "id": "2c17fcf2-70f9-4159-9dd4-4921bbafb66a",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "Converting ETH to USDT - CEX vs exchanger, what's actually cheaper at mid-size amounts",
+    "summary": "1. Been looking into the most cost-efficient way to convert ETH into USDT.\n2. Not dealing with large sums - around 0.4 ETH - but enough for fees to noticeably impact the outcome.\n3. The CEX route is straightforward, but the fee structure gets a bit tedious.",
+    "url": "https://reddit.com/r/ethereum/comments/1swxp5v/converting_eth_to_usdt_cex_vs_exchanger_whats/",
+    "author": "u/GoConceptoD1",
+    "created_at": "2026-04-27T08:31:44.000Z"
+  },
+  {
+    "id": "889fdd6f-3b5a-4968-a6ed-d7a6b6477c0f",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Bitcoin Erases $30 Billion in Value After Early Monday Price Rejection",
+    "summary": "1. Following the proposal from Iran to reopen the Strait of Hormuz, bitcoin experienced a volatile session, briefly surging to nearly $79,500 before retreating to $77,500 early Monday.\n2. Key Takeaways: Bitcoin hit $79,490 on April 27 before a sharp retreat following news of a proposed U.S.-Iran ceasefire.\n3. Market volatility exceeding 2.63% saw Coinglass report $56.8 million […]",
+    "url": "https://news.bitcoin.com/bitcoin-erases-30-billion-in-value-after-early-monday-price-rejection/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-04-27T08:30:10.000Z"
+  },
+  {
+    "id": "ff8f2ea6-8229-4e37-9e54-89bae0f038ac",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "APE Insider Adds to Lido DAO Long, Bringing Position to 10.26 Million LDO Worth $4.58M",
+    "summary": "1. An onchain trader previously flagged by analysts at Lookonchain as the wallet behind a profitable Apecoin insider trade has expanded a Lido DAO long position to 10.26 million LDO, valued at approximately $4.58 million.\n2. Key Takeaways: The wallet linked to the APE insider trade now holds 10.26 million LDO worth $4.58 million, per Lookonchain.",
+    "url": "https://news.bitcoin.com/ape-insider-lido-dao-long-10-million-ldo/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-04-27T07:55:14.000Z"
+  },
+  {
+    "id": "759b9b4d-dfcf-4df5-8f32-4ecc6f12b587",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Global interest rates, Robinhood, Galaxy earnings: Crypto Week Ahead",
+    "summary": "1. Your look at what's coming in the week starting April 27.",
+    "url": "https://www.coindesk.com/markets/2026/04/27/global-interest-rates-robinhood-galaxy-earnings-crypto-week-ahead",
+    "author": "Francisco Rodrigues",
+    "created_at": "2026-04-27T07:53:00.000Z"
+  },
+  {
+    "id": "30f9317b-d036-448d-90c5-fafb30090848",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "88 people charged over 12 crypto wrench attacks in France",
+    "summary": "1. French law enforcement agencies have been investigating wrench attacks and found that some of the alleged offenders were involved in multiple incidents",
+    "url": "https://cointelegraph.com/news/88-people-charged-over-12-crypto-wrench-attacks-in-france?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Stephen Katte",
+    "created_at": "2026-04-27T07:45:40.000Z"
+  },
+  {
+    "id": "a560baae-ba6c-4f41-8126-1d934ca64b46",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Prediction markets reflect 'wisdom of an informed minority,’ not crowd: Study",
+    "summary": "1. About 3.5% of informed traders, including market makers and skilled takers, capture over 30% of profits on prediction platforms, while about 67% of users absorb the entirety of losses.",
+    "url": "https://cointelegraph.com/news/prediction-markets-reflect-wisdom-of-an-informed-minority-not-crowd-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-04-27T07:16:11.000Z"
+  },
+  {
+    "id": "2a7531e9-690b-43d4-a09f-b99d2e6e7ed1",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "A long-time developer wants to split Bitcoin blockchain and reassign Satoshi coins. The community is calling it a theft",
+    "summary": "1. Paul Sztorc proposes a 2026 hard fork of Bitcoin called eCash, giving BTC holders equivalent tokens and adding Drivechains.",
+    "url": "https://www.coindesk.com/tech/2026/04/27/a-long-time-developer-wants-to-fork-bitcoin-and-reassign-satoshi-coins-the-community-is-calling-it-a-theft",
+    "author": "Omkar Godbole",
+    "created_at": "2026-04-27T06:45:51.000Z"
+  },
+  {
+    "id": "e6c05615-d9b2-4578-a0af-ef0c6952a51c",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Pudgy Penguins, BAYC rally masks a shrinking NFT market as volumes and users fall",
+    "summary": "1. The two blue-chip collections are leading double-digit gains as global NFT sales volume falls and participation hits multi-year lows.",
+    "url": "https://www.coindesk.com/markets/2026/04/27/pudgy-penguins-bayc-rally-masks-a-shrinking-nft-market-as-volumes-and-users-fall",
+    "author": "Sam Reynolds",
+    "created_at": "2026-04-27T06:12:44.000Z"
+  },
+  {
     "id": "b25f49ab-32be-495b-9d23-89ed5469f683",
     "source": "CoinDesk",
     "type": "rss",
@@ -8,16 +178,6 @@
     "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-from-12-week-high-as-iran-rally-hits-seller-wall-at-usd79-400",
     "author": "Shaurya Malwa",
     "created_at": "2026-04-27T05:47:29.000Z"
-  },
-  {
-    "id": "34c510f5-0ea2-4e47-82ef-3eb45d0d880a",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "US senator to support Warsh for Fed chair after DOJ ends Powell probe",
-    "summary": "1. Republican Senator Thom Tillis has withdrawn his opposition to the confirmation of Kevin Warsh as Federal Reserve Chairman, Cointelegraph reported.\n2. In a post on X, Tillis explained that he will now support Warsh's confirmation after confirming that the U.S.\n3. Department of Justice (DOJ) has concluded its roughly three-month investigation into Chairman Jerome Powell.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-27T05:43:11+00:00"
   },
   {
     "id": "80b1c47d-acd7-4048-813a-1feea278616d",
@@ -58,75 +218,5 @@
     "url": "https://cointelegraph.com/news/arbitrum-dao-asked-to-unfreeze-30k-eth-tied-to-kelp-hacker-direct-them-to-defi-united?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "author": "Cointelegraph by Brayden Lindrea",
     "created_at": "2026-04-27T04:20:58.000Z"
-  },
-  {
-    "id": "a8807fe5-1008-4a29-8d1f-8d472a0114c6",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Chainalysis: EU’s New Sanctions on Russia Mark ‘a New Era’ of Crypto Enforcement",
-    "summary": "1. The blockchain intelligence agency highlighted that the recently issued sanctions package against Russia was perhaps the most comprehensive crypto-focused action by the EU, targeting the whole Russian cryptocurrency sector rather than individual actors, including the digital ruble in full and the RUBx token.\n2. Key Takeaways: The EU launched its 20th sanctions package, strictly targeting the […]",
-    "url": "https://news.bitcoin.com/chainalysis-eus-new-sanctions-on-russia-mark-a-new-era-of-crypto-enforcement/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-04-27T03:30:37.000Z"
-  },
-  {
-    "id": "00c6830a-3318-4dfc-a230-4cdc393aa373",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Western Union to launch stablecoin next month, with ‘Stable Card’ planned for global consumers",
-    "summary": "1. WU is also launching a network connecting digital wallets to its existing retail infrastructure, and a stablecoin card for payments.",
-    "url": "https://www.theblock.co/post/398905/western-union-stablecoin-next-month?utm_source=rss&utm_medium=rss",
-    "author": "Danny Park",
-    "created_at": "2026-04-27T03:29:58.000Z"
-  },
-  {
-    "id": "6338d7b6-4639-4c4a-84d1-e8502be0faa3",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Bitcoin climbs above $79,000, Asian equities rise amid ‘subdued’ geopolitical tensions",
-    "summary": "1. The Crypto Fear & Greed Index rose to 47, returning to the 'Neutral' zone from around 12 in 'Extreme Fear' last month.",
-    "url": "https://www.theblock.co/post/398908/bitcoin-climbs-above-79000?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-04-27T03:12:10.000Z"
-  },
-  {
-    "id": "aef9f1a5-53b1-46ed-9b04-bf2082301736",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. GREAT IDEA!!!\n2. President DJT",
-    "url": "https://trumpstruth.org/statuses/38067",
-    "author": "Trump Truth",
-    "created_at": "2026-04-27T03:00:20.000Z"
-  },
-  {
-    "id": "ba365ce3-8d83-48fa-a978-71b0be4b4d93",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Truecaller faces mounting pressures as its growth matures",
-    "summary": "1. As growth slows, Truecaller is leaning on subscriptions, business services, and new features to sustain momentum beyond India.",
-    "url": "https://techcrunch.com/2026/04/26/truecaller-faces-mounting-pressures-as-its-growth-matures/",
-    "author": "Jagmeet Singh",
-    "created_at": "2026-04-27T03:00:00.000Z"
-  },
-  {
-    "id": "3b48f174-59dc-40cf-a545-9f759f12b0f1",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Lee and Kim Greenwood, two of the most spectacular people, had their first grandchild on April 17th.\n2. They were with me from the very beginning - Total loyalty, and Lee gave me the greatest walk on song of all time, nothing even close!!!\n3. Congratulations to you both!!!",
-    "url": "https://trumpstruth.org/statuses/38066",
-    "author": "Trump Truth",
-    "created_at": "2026-04-27T02:52:22.000Z"
-  },
-  {
-    "id": "85f2c467-02b7-4fe1-ac6d-8762a0a2ccfe",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "JUST IN: $79,000 Bitcoin@WatcherGuru",
-    "summary": "1. JUST IN: $79,000 Bitcoin@WatcherGuru",
-    "url": "https://t.me/WatcherGuru",
-    "author": "@WatcherGuru",
-    "created_at": "2026-04-27T00:58:01+00:00"
   }
 ]
