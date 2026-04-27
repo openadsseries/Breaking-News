@@ -243,7 +243,7 @@ export default function Home() {
               {claimError && (
                 <p className="text-xs text-red-700 text-center">{claimError}</p>
               )}
-              {currentIndex < totalArticles && (
+              {totalArticles > 0 && (
                 <button onClick={handleContinueReading}
                   className="text-xs underline uppercase tracking-widest">
                   Skip &amp; keep reading
