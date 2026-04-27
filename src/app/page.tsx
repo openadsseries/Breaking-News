@@ -310,14 +310,15 @@ export default function Home() {
           </div>
         </header>
 
-        <div className="flex-1 relative w-full min-h-0">
+        <div className="flex-1 relative w-full min-h-0" style={{ perspective: "1200px" }}>
           <AnimatePresence mode="wait">
             <motion.div
               key={currentArticle.id}
-              initial={{ opacity: 0, x: 40 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -40 }}
-              transition={{ type: "spring", stiffness: 400, damping: 30 }}
+              initial={{ opacity: 0, rotateY: -45, x: 60 }}
+              animate={{ opacity: 1, rotateY: 0, x: 0 }}
+              exit={{ opacity: 0, rotateY: 45, x: -60, scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 300, damping: 28 }}
+              style={{ transformOrigin: "left center" }}
               className="absolute inset-0 bg-paper border-[2px] border-[#1c1b18] shadow-[3px_3px_0px_rgba(28,27,24,0.8)] flex flex-col overflow-hidden"
             >
               <div className="flex justify-between items-center border-b-[2px] border-[#1c1b18] px-4 py-2 shrink-0">
@@ -348,7 +349,6 @@ export default function Home() {
                 <div className="text-sm leading-relaxed space-y-3 flex-1">
                   {currentArticle.summary.split('\n').map((line, i) => {
                     const clean = line.replace(/^\d+\.\s*/, '');
-                    // Replace [...] with clickable link
                     if (clean.includes('[...]') || clean.includes('[…]')) {
                       const parts = clean.split(/\[\.{3}\]|\[…\]/);
                       return (
@@ -390,12 +390,9 @@ export default function Home() {
               </div>
 
               <div className="shrink-0 border-t-[2px] border-[#1c1b18] px-4 py-3 flex items-center justify-between">
-                <button
-                  onClick={advanceArticle}
-                  className="text-[10px] uppercase tracking-widest font-sans font-black px-4 py-1.5 border-[2px] border-[#1c1b18] bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors"
-                >
-                  Next →
-                </button>
+                <span className="text-[10px] uppercase tracking-widest font-sans font-bold opacity-40">
+                  {totalArticles} left
+                </span>
                 <button
                   onClick={() => handleSave(currentArticle)}
                   className={`text-[10px] uppercase tracking-widest font-sans font-bold px-3 py-1.5 border-[2px] border-[#1c1b18] transition-colors ${
@@ -408,6 +405,17 @@ export default function Home() {
               </div>
             </motion.div>
           </AnimatePresence>
+
+          {/* Floating Next — right edge, thumb-friendly for right-handed users */}
+          <button
+            onClick={advanceArticle}
+            className="absolute right-[-1px] top-1/2 -translate-y-1/2 z-10 w-8 h-16 flex items-center justify-center bg-[#1c1b18]/80 text-[#dcdad2] rounded-l-lg active:bg-[#1c1b18] transition-colors"
+            aria-label="Next article"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
         </div>
 
         <div className="mt-3 flex justify-center items-center gap-0.5 shrink-0">
