@@ -268,9 +268,30 @@ export default function Home() {
           )}
 
           {phase === "ALL_READ" && (
-            <div className="space-y-5">
-              <p className="text-lg font-black uppercase tracking-tight">You read it first.</p>
-              <p className="text-sm leading-relaxed">
+            <div className="space-y-5 flex flex-col items-center">
+              {/* Animated checkmark — Instagram-style "all caught up" */}
+              <motion.div
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.1 }}
+                className="w-16 h-16 rounded-full border-[3px] border-[#1c1b18] flex items-center justify-center"
+              >
+                <motion.svg
+                  initial={{ pathLength: 0 }}
+                  animate={{ pathLength: 1 }}
+                  transition={{ duration: 0.4, delay: 0.3 }}
+                  width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1c1b18" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"
+                >
+                  <motion.polyline
+                    points="20 6 9 17 4 12"
+                    initial={{ pathLength: 0 }}
+                    animate={{ pathLength: 1 }}
+                    transition={{ duration: 0.4, delay: 0.3 }}
+                  />
+                </motion.svg>
+              </motion.div>
+              <p className="text-lg font-black uppercase tracking-tight text-center">You read it first.</p>
+              <p className="text-sm leading-relaxed text-center">
                 You&apos;ve read every breaking story before most people even woke up.<br/>Now help someone else stay ahead.
               </p>
               <button onClick={handleShare}
