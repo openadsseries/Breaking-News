@@ -1,5 +1,55 @@
 [
   {
+    "id": "f498ac7a-4910-40f4-8bf5-1d639355f6fe",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "[US senator to support Warsh for Fed chair after DOJ ends Powell probe]U.S. Republican Senator Thom ...",
+    "summary": "1. [US senator to support Warsh for Fed chair after DOJ ends Powell probe]U.S.\n2. Republican Senator Thom Tillis has withdrawn his opposition to the confirmation of Kevin Warsh as Federal Reserve Chairman, Cointelegraph reported.\n3. In a post on X, Tillis explained that he will now support Warsh's confirmation after confirming that the U.S.",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-27T05:43:11+00:00"
+  },
+  {
+    "id": "a48f1915-0b76-4a54-8770-eaeee57ddee6",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Senator Bernie Sanders Issues Warning on AI’s Existential Threat",
+    "summary": "1. Sanders stressed that even as most AI scientists acknowledge the possibility of AI escaping control and becoming a danger to our existence, no major measures have been taken to avoid it.\n2. “We must make certain that Al benefits humanity, not hurts us,” he stated.\n3. Key Takeaways: Bernie Sanders warns humanity might lose control of AI, […]",
+    "url": "https://news.bitcoin.com/senator-bernie-sanders-issues-warning-on-ais-existential-threat/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-04-27T05:30:45.000Z"
+  },
+  {
+    "id": "6991747c-edba-4668-be85-771c9c9f98c4",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Western Union eyes May for its stablecoin USDPT rollout",
+    "summary": "1. Western Union CEO Devin McGranahan said the company will focus on expanding adoption and embedding digital assets into its core money movement platform going forward.",
+    "url": "https://cointelegraph.com/news/western-union-usdpt-stablecoin-may-launch-dan-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Stephen Katte",
+    "created_at": "2026-04-27T05:24:58.000Z"
+  },
+  {
+    "id": "87f2a308-92fe-4e4f-b32b-0fa8fe086cea",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "This Week in Crypto Law (Apr. 19, 2026)",
+    "summary": "1. Law and Ledger is a news segment focusing on crypto legal news, brought to you by Kelman Law – A law firm focused on digital asset commerce.\n2. This Week in Crypto Law The opinion editorial below was written by Alex Forehand and Michael Handelsman for Kelman.Law.\n3. This week in crypto law showcased a defining theme […]",
+    "url": "https://news.bitcoin.com/this-week-in-crypto-law-apr-19-2026/",
+    "author": "Guest Author",
+    "created_at": "2026-04-27T04:30:33.000Z"
+  },
+  {
+    "id": "dff263cc-cc9d-4754-b9e4-e428c5601f74",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Aave asks Arbitrum to send 30K ETH from Kelp exploiter to ‘DeFi United’",
+    "summary": "1. More than $21 million in contributions has been made to the \"DeFi United\" relief effort so far, with another $215 million to be potentially allocated if certain governance proposals succeed.",
+    "url": "https://cointelegraph.com/news/arbitrum-dao-asked-to-unfreeze-30k-eth-tied-to-kelp-hacker-direct-them-to-defi-united?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-04-27T04:20:58.000Z"
+  },
+  {
     "id": "0e4e459c-ccf5-43d3-86d9-3a0b760b6084",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -80,7 +130,7 @@
     "created_at": "2026-04-27T01:30:28.000Z"
   },
   {
-    "id": "d6edfbae-9c0d-4263-88f1-a8d4c3f2a27b",
+    "id": "4c28d2f1-ac29-4833-bbec-895f4ab2e811",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "JUST IN: $79,000 Bitcoin@WatcherGuru",
@@ -98,75 +148,5 @@
     "url": "https://news.bitcoin.com/great-time-to-buy-crypto-may-follow-50-index-drop-bloomberg-strategist-says/",
     "author": "Kevin Helms",
     "created_at": "2026-04-27T00:30:35.000Z"
-  },
-  {
-    "id": "00198afb-6a9d-47e4-a7be-818e41675b1f",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "DeFi United Secures $160M as Industry Moves to Cover Aave Bad Debt Crisis",
-    "summary": "1. A coordinated decentralized finance ( DeFi) relief effort has reportedly raised $160 million to cover bad debt created when attackers exploited KelpDAO’s bridge and deposited unbacked collateral into Aave V3 markets on April 18, 2026.\n2. Key Takeaways: Aave froze rsETH reserves within hours of the April 18 Kelp DAO exploit, which created up to $230.1 […]",
-    "url": "https://news.bitcoin.com/defi-united-secures-160m-as-industry-moves-to-cover-aave-bad-debt-crisis/",
-    "author": "Jamie Redman",
-    "created_at": "2026-04-26T23:14:43.000Z"
-  },
-  {
-    "id": "e55ecb19-4453-43c3-9135-14b5edfdbd21",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Skilled Polymarket traders are a 3% minority, and everyone else funds their gains: study",
-    "summary": "1. A working paper analyzing every Polymarket trade between 2023 and 2025, finds that about 3% of accounts generate the bulk of price discovery.",
-    "url": "https://www.theblock.co/post/398902/skilled-polymarket-traders-are-a-3-minority-and-everyone-else-funds-their-gains-study?utm_source=rss&utm_medium=rss",
-    "author": "Zack Abrams",
-    "created_at": "2026-04-26T22:40:45.000Z"
-  },
-  {
-    "id": "82cdc4e0-365d-4986-a347-30cc9279b26c",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "RT @realDonaldTrumpI will be interviewed on 60 Minutes tonight at 7 P.M. EST — CBS Television Network. Enjoy! President DONALD J. TRUMP",
-    "summary": "1. RT @realDonaldTrumpI will be interviewed on 60 Minutes tonight at 7 P.M.\n2. EST — CBS Television Network.\n3. President DONALD J.",
-    "url": "https://trumpstruth.org/statuses/38063",
-    "author": "Trump Truth",
-    "created_at": "2026-04-26T22:32:59.000Z"
-  },
-  {
-    "id": "a868f54c-1873-4eab-8f8a-3b0a9cafdff9",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group:",
-    "summary": "1. Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group: https://justthenews.com/politics-policy/all-things-trump/trump-push-restrain-birthright-citizenship-gets-ammo-unlikely",
-    "url": "https://trumpstruth.org/statuses/38064",
-    "author": "Trump Truth",
-    "created_at": "2026-04-26T22:32:42.000Z"
-  },
-  {
-    "id": "a9b8e2a5-4447-4f31-98a7-79d83a48811c",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "'Historical average' could push Bitcoin bottom at $57K level: Analyst",
-    "summary": "1. Bitcoin was “rejected” from the $80,000 price level, which is its next resistance zone on the way to reclaiming the $100,000 psychological price level.",
-    "url": "https://cointelegraph.com/news/bitcoin-bottom-57k-level-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Vince Quill",
-    "created_at": "2026-04-26T22:30:37.000Z"
-  },
-  {
-    "id": "ca916933-b3ea-418d-aa41-0adc92b42810",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "The Stanford freshmen who want to rule the world . . . will probably read this book and try even harder",
-    "summary": "1. Can a book like this actually change anything?\n2. Or does the spotlight, as it always seems to, send more students racing to the place?",
-    "url": "https://techcrunch.com/2026/04/26/the-stanford-freshmen-who-want-to-rule-the-world-will-probably-read-this-book-and-try-even-harder/",
-    "author": "Connie Loizos",
-    "created_at": "2026-04-26T22:00:46.000Z"
-  },
-  {
-    "id": "a095da32-cdfc-4414-982c-06ac4aa6655a",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Amazon’s new podcast strategy: Monetize everything",
-    "summary": "1. Amazon's podcasting business seems to have transformed over the past six months.",
-    "url": "https://techcrunch.com/2026/04/26/amazons-new-podcast-strategy-monetize-everything/",
-    "author": "Anthony Ha",
-    "created_at": "2026-04-26T21:38:08.000Z"
   }
 ]

@@ -57,6 +57,7 @@ const TELEGRAM_CHANNELS = [
   'SolidIntelX',
   'WatcherGuru',
   'crypto_breaking_news',
+  'CoinnessGL',
 ];
 
 const ARTICLES_PER_FEED = 3;
