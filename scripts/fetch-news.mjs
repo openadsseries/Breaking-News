@@ -131,8 +131,9 @@ async function fetchFarcaster(existingUrls) {
     const fids = FARCASTER_FIDS.join(',');
     const res = await fetch(`https://api.neynar.com/v2/farcaster/feed?feed_type=filter&filter_type=fids&fids=${fids}&limit=10`, {
       headers: { 'x-api-key': NEYNAR_KEY },
-      signal: AbortSignal.timeout(10000),
+      signal: AbortSignal.timeout(5000),
     });
+    if (!res.ok) { console.log(`  ⏭ Neynar ${res.status}, skipping`); return []; }
     const data = await res.json();
     for (const cast of (data.casts || [])) {
       const castUrl = `https://warpcast.com/${cast.author?.username || 'user'}/${cast.hash?.slice(0, 10)}`;
@@ -161,7 +162,7 @@ async function fetchReddit(existingUrls) {
     SUBREDDITS.map(async (sub) => {
       const res = await fetch(`https://www.reddit.com/r/${sub}/hot.json?limit=3`, {
         headers: { 'User-Agent': 'BreakingNews/1.0' },
-        signal: AbortSignal.timeout(10000),
+        signal: AbortSignal.timeout(5000),
       });
       const data = await res.json();
       return (data?.data?.children || []).filter(({ data: post }) => {
@@ -190,7 +191,7 @@ async function fetchGitHub(existingUrls) {
     GITHUB_REPOS.map(async (repo) => {
       const res = await fetch(`https://api.github.com/repos/${repo}/releases?per_page=2`, {
         headers: { 'User-Agent': 'BreakingNews/1.0' },
-        signal: AbortSignal.timeout(10000),
+        signal: AbortSignal.timeout(5000),
       });
       const releases = await res.json();
       if (!Array.isArray(releases)) return [];
@@ -216,7 +217,7 @@ async function fetchTelegram(existingUrls) {
     TELEGRAM_CHANNELS.map(async (channel) => {
       const res = await fetch(`https://t.me/s/${channel}`, {
         headers: { 'User-Agent': 'BreakingNews/1.0' },
-        signal: AbortSignal.timeout(10000),
+        signal: AbortSignal.timeout(5000),
       });
       const html = await res.text();
 
@@ -275,4 +276,6 @@ async function main() {
   console.log(`\n🎉 Done! ${fresh.length} total (${allNew.length} new)`);
 }
 
-main().catch(console.error);
+// 2-minute hard limit
+const timeout = setTimeout(() => { console.log('⏰ 2min timeout, exiting'); process.exit(0); }, 120000);
+main().then(() => clearTimeout(timeout)).catch(console.error);

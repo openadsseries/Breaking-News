@@ -1,5 +1,15 @@
 [
   {
+    "id": "9ce78d4b-6883-4534-bc8a-49c74982178d",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "TRM Labs Highligihts Rise of Stablecoins in Venezuela",
+    "summary": "1. TRM Labs’ latest report on global cryptocurrency adoption stressed that stablecoins are being used in Venezuela as part of retail users’ arsenal to deal with high inflation and capital-constrained environments, countering currency instability and capital controls as parallel currency markets surge.\n2. Key Takeaways: TRM Labs reports a Q1 2026 shift to USDT, boosting Venezuela’s volume […]",
+    "url": "https://news.bitcoin.com/trm-labs-highligihts-rise-of-stablecoins-in-venezuela/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-04-27T02:30:35.000Z"
+  },
+  {
     "id": "ddee9b2d-8444-4055-a412-dcbde3467742",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -10,7 +20,7 @@
     "created_at": "2026-04-27T01:30:28.000Z"
   },
   {
-    "id": "63a8f508-598a-4ed9-9632-43a713945798",
+    "id": "4b420751-cb5b-456a-b108-b980f395f31d",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "JUST IN: &#036;79,000 Bitcoin@WatcherGuru",
