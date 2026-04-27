@@ -14,7 +14,7 @@ export async function GET() {
       description: "Crypto moves fast. Read breaking news before anyone else. Swipe, share, earn $BREAKINGNEWS tokens on Base.",
       iconUrl: "https://breaking-news-omega.vercel.app/icon.png",
       homeUrl: "https://breaking-news-omega.vercel.app",
-      imageUrl: "https://breaking-news-omega.vercel.app/api/og",
+      imageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
       splashImageUrl: "https://breaking-news-omega.vercel.app/splash.png",
       splashBackgroundColor: "#dcdad2",
       buttonTitle: "Read It First",
@@ -23,7 +23,7 @@ export async function GET() {
       tagline: "Most people will read this tomorrow.",
       ogTitle: "Breaking News — Read It First",
       ogDescription: "Most people will read this tomorrow. You can read it now.",
-      ogImageUrl: "https://breaking-news-omega.vercel.app/api/og",
+      ogImageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
     },
   };
 

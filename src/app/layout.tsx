@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     // Frame v2 embed — renders as mini app launch button in casts
     "fc:frame": JSON.stringify({
       version: "next",
-      imageUrl: "https://breaking-news-omega.vercel.app/api/og",
+      imageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
       button: {
         title: "Read It First",
         action: {
