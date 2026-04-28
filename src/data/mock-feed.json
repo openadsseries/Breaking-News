@@ -1,13 +1,33 @@
 [
   {
-    "id": "700136ca-232a-4d2a-a6d3-6d98489e09d9",
+    "id": "a8870e30-4f65-4178-8e91-af45cdd4d268",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Saipan Woman Gets 71 Months for $769K Bitcoin Wire Fraud Scheme",
+    "summary": "1. Bitcoin fraud claims led to a federal prison sentence for Sze Man Yu Inos.\n2. The case highlights how personal trust and false investment promises can expose older victims to major losses.\n3. Key Takeaways: Inos received prison time after prosecutors described false bitcoin investment claims.",
+    "url": "https://news.bitcoin.com/saipan-woman-gets-71-months-for-769k-bitcoin-wire-fraud-scheme/",
+    "author": "Kevin Helms",
+    "created_at": "2026-04-28T03:30:25.000Z"
+  },
+  {
+    "id": "aaddfb96-1ebc-41a4-b4f9-8e90491bf0c1",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "India’s Snabbit closes $56M round as investor interest in on-demand home services heats up",
+    "summary": "1. Snabbit now processes over 40,000 daily jobs and has cut costs sharply as it expands across cities and services.",
+    "url": "https://techcrunch.com/2026/04/27/indias-snabbit-closes-56m-round-as-investor-interest-heats-up-in-on-demand-home-services/",
+    "author": "Jagmeet Singh",
+    "created_at": "2026-04-28T03:30:00.000Z"
+  },
+  {
+    "id": "50b0ba21-51c3-455a-a0b6-1f3e007ec119",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "T. Rowe Price active crypto ETF sets management fee at 0.75%",
-    "summary": "The active crypto ETF from U.S. investment firm T. Rowe Price, ticker TKNZ, has set its management fee at 75 basis points, or 0.75%, Bloomberg ETF analyst Eric Balchunas said on X. The fund, which filed an application with the U.S. SEC last month, will invest in 15 cryptocurrencies: BTC, ETH, SOL, XRP, ADA, AVAX, LTC, DOT, DOGE, HBAR, BCH, LINK, XLM, SHIB, and SUI. Unlike an index-tracking ETF, TKNZ is an actively managed fund where portfolio managers will actively adjust its holdings. Balchunas added that the fee is likely high because T. Rowe Price is the largest active manager and is applying its management capabilities to the fund. more:",
+    "title": "Block: Tax exemption for small BTC payments is top legislative priority",
+    "summary": "Janessa Lopez, head of digital asset policy at fintech firm Block, said at the 2026 Bitcoin Conference that the company's current legislative priority is to push for a tax exemption on small Bitcoin payments. She stated the goal is to eliminate the capital gains tax reporting requirement for everyday Bitcoin transactions. Lopez warned of a movement within Congress to apply the exemption only to stablecoin transactions under $200 while excluding Bitcoin, which she argued would undermine the principle of technological neutrality. Echoing this sentiment, Kara Calvert, VP of U.S. policy at Coinbase, stated that even if the Clarity Act passes, the tax reporting burden will remain an obstacle to Bitcoin adoption if the tax issue is not resolved.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-28T03:14:21+00:00"
+    "created_at": "2026-04-28T03:27:31+00:00"
   },
   {
     "id": "22127370-4f4e-4071-88e9-ea2e4f2da753",
@@ -40,7 +60,7 @@
     "created_at": "2026-04-28T02:00:47.000Z"
   },
   {
-    "id": "987de5c2-bb88-4c37-b1aa-1237fcb58a22",
+    "id": "7f848f20-dbb6-4fd0-ba51-ed717dc0cfee",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇨🇦 Canada's Bill C-25, which would ban crypto donations to federal political campaigns, passed second reading in the House of Commons with cross-party support and little opposition.",
@@ -130,7 +150,7 @@
     "created_at": "2026-04-27T23:50:55.000Z"
   },
   {
-    "id": "113d4ba9-cc6d-48f7-9bc6-dfad9e1b9d9f",
+    "id": "97215b79-0449-44d9-bae8-f1a26a706849",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait of Hormuz as an \"economic nuclear weapon.\"\"They're bragging about how they can hold 20% of the world's energy hostage.\"@WatcherGuru",
@@ -198,15 +218,5 @@
     "url": "https://www.coindesk.com/tech/2026/04/27/industry-leaders-are-pouring-hundreds-of-millions-into-a-rescue-plan-for-aave-users-after-massive-crypto-hack",
     "author": "Margaux Nijkerk",
     "created_at": "2026-04-27T21:40:04.000Z"
-  },
-  {
-    "id": "67090300-93fa-4c02-a060-756529913769",
-    "source": "Bitcoin Magazine",
-    "type": "rss",
-    "title": "House Republicans Warn That the America’s Bitcoin Weakness Will Benefit China",
-    "summary": "1. Bitcoin Magazine\n\nHouse Republicans Warn That the America’s Bitcoin Weakness Will Benefit China\nAt Bitcoin 2026 in Las Vegas, three Republican members of Congress framed crypto regulation as a national security and economic competitiveness issue, arguing that U.S.\n2. leadership in digital assets is essential to counter China.\n3. This post House Republicans Warn That the America’s Bitcoin Weakness Will Benefit China first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-    "url": "https://bitcoinmagazine.com/news/house-republicans-bitcoin-weakness-china",
-    "author": "Micah Zimmerman",
-    "created_at": "2026-04-27T21:32:45.000Z"
   }
 ]
