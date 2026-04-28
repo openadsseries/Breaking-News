@@ -44,3 +44,14 @@ next-env.d.ts
 contracts/node_modules
 contracts/artifacts
 contracts/cache
+
+# AI assistant configs
+CLAUDE.md
+AGENTS.md
+
+# Root-level design assets (keep locally, not in repo)
+/Share image.jpg
+/logo image.png
+
+# Local scripts log
+scripts/feed-update.log
