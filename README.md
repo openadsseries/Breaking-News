@@ -1,27 +1,27 @@
 # 📰 Breaking News
 
-**Read → Consume → Earn → Loop**
+**read it before warren buffett does.**
 
-A hyper-minimalist Read-to-Earn platform with a classic newspaper aesthetic. Swipe through curated crypto signals and earn $SIGNAL tokens on Base.
+A hyper-minimalist Read-to-Earn Farcaster Mini App with a classic newspaper aesthetic. Swipe through curated breaking news and earn $BREAKING NEWS tokens on Base.
 
 ## 🗞️ Features
 
-- **Newspaper UI** — Aged paper texture, serif typography, horizontal swipe (Framer Motion)
-- **8 Signal Sources** — The Block, CoinTelegraph, Decrypt, CoinDesk, TechCrunch, Farcaster, Reddit, GitHub
-- **Read to Earn** — Read articles (+5 pts), Share (+15 pts), Claim 69 $SIGNAL tokens on Base
-- **Zero Cost Architecture** — No database, no AI API, GitHub Actions cron for data updates
-- **Web3 Native** — RainbowKit wallet connection, ERC-20 token claiming on Base mainnet
+- **Newspaper UI** — Aged paper texture, serif typography, card swipe (Framer Motion)
+- **Multi-Source Aggregation** — 11 RSS feeds, Farcaster, Reddit, GitHub releases, Telegram channels
+- **Read to Earn** — Read 5 articles → Share → Claim 69 $BREAKING NEWS tokens on Base
+- **Zero Cost Architecture** — No database, no AI API, GitHub as data store
+- **Farcaster Native** — Mini App SDK, wallet connection via Farcaster connector
 
 ## ⚙️ Tech Stack
 
 | Layer | Tech |
 |-------|------|
 | Frontend | Next.js 16, Framer Motion, Tailwind CSS |
-| Web3 | Wagmi, Viem, RainbowKit |
-| Smart Contract | Solidity (ERC-20), Hardhat, Base mainnet |
-| Data Pipeline | RSS Parser, Neynar (Farcaster), Reddit/GitHub APIs |
-| Automation | GitHub Actions (hourly cron) |
-| Hosting | Vercel (ISR) |
+| Web3 | Wagmi, Viem, Farcaster Mini App SDK |
+| Smart Contract | Solidity (BNDistributor), Base mainnet |
+| Data Pipeline | RSS Parser, Neynar (Farcaster), Reddit, GitHub, Telegram |
+| Automation | GitHub Actions (3h cron) + Local launchd (1h) |
+| Hosting | Vercel (runtime feed fetch, no rebuild for data updates) |
 
 ## 🚀 Getting Started
 
@@ -39,18 +39,28 @@ node scripts/fetch-news.mjs
 ## 🔑 Environment Variables
 
 ```env
-PRIVATE_KEY=0x...           # Contract deployment
-NEYNAR_API_KEY=...          # Farcaster data (free)
-NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=...  # Wallet connection
+PRIVATE_KEY=0x...           # Server-side claim signature
+NEYNAR_API_KEY=...          # Farcaster data (free tier)
 ```
 
 ## 📜 Smart Contract
 
-- **Token**: $SIGNAL (ERC-20)
+- **Token**: $BREAKING NEWS (ERC-20)
 - **Network**: Base mainnet
-- **Max Supply**: 100,000,000
-- **Claim Amount**: 69 tokens per claim
-- **Contract**: [`0x1d705c7cb1bbe119f83f48520234f074e9157907`](https://basescan.org/address/0x1d705c7cb1bbe119f83f48520234f074e9157907)
+- **Claim Amount**: 69 tokens per claim (24h cooldown)
+- **Distributor**: [`0x9e6ea0c8871287d2d4c83d1e5c0602bbe0b97a82`](https://basescan.org/address/0x9e6ea0c8871287d2d4c83d1e5c0602bbe0b97a82)
+- **Token Address**: [`0xa2d8735E7a71F068dA17Aba7e5A03D6300d57BaD`](https://basescan.org/address/0xa2d8735E7a71F068dA17Aba7e5A03D6300d57BaD)
+
+## 📡 Data Sources
+
+| Category | Sources |
+|----------|---------|
+| Crypto | The Block, CoinTelegraph, Decrypt, CoinDesk, Bitcoin.com, Bitcoin Magazine, The Defiant |
+| Politics | Politico, Trump Truth |
+| AI/Tech | OpenAI, TechCrunch |
+| Social | Farcaster (curated FIDs), Reddit (r/cryptocurrency, r/ethereum) |
+| Dev | GitHub releases (go-ethereum, base, reth, claude-code) |
+| Messaging | Telegram (SolidIntelX, WatcherGuru, crypto_breaking_news, CoinnessGL, CoinMarketCap) |
 
 ## 📄 License
 

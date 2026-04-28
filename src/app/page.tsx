@@ -26,13 +26,12 @@ type Phase = "READING" | "SHARE_GATE" | "CLAIMABLE" | "READING_CONTINUED" | "ALL
 
 const GLOBAL_SHARE_VARIANTS = [
   "* read it before warren buffett does.",
-  "the signal is out. the market just hasn’t reacted yet.",
+  "read it before everyone else.",
   "Breaking News - Read Now."
 ];
 
 const ARTICLE_SHARE_VARIANTS = [
-  "Caught this early on Breaking News - {title}",
-  "Read it first on Breaking News - {title}",
+  "read it before warren buffett does. — {title}",
   "Breaking News - {title}"
 ];
 
@@ -261,7 +260,7 @@ export default function Home() {
               </p>
               <button onClick={handleShare}
                 className="w-full border-[3px] border-[#1c1b18] py-4 text-sm font-black uppercase tracking-widest bg-[#1c1b18] text-[#dcdad2] active:bg-transparent active:text-[#1c1b18] transition-colors">
-                Share to Unlock 69 $BREAKINGNEWS
+                Share to Unlock 69 $BREAKING NEWS
               </button>
             </div>
           )}

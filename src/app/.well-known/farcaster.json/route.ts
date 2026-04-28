@@ -11,7 +11,7 @@ export async function GET() {
       version: "1",
       name: "Breaking News",
       subtitle: "Read It Before Everyone Else",
-      description: "Crypto moves fast. Read breaking news before anyone else. Swipe, share, earn $BREAKINGNEWS tokens on Base.",
+      description: "Crypto moves fast. Read breaking news before anyone else. Swipe, share, earn $BREAKING NEWS tokens on Base.",
       iconUrl: "https://breaking-news-omega.vercel.app/icon.png",
       homeUrl: "https://breaking-news-omega.vercel.app",
       imageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
