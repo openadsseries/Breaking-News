@@ -277,7 +277,7 @@ async function fetchTelegram(existingUrls) {
         articles.push({
           id: crypto.randomUUID(), source: `@${channel}`, type: 'telegram',
           title,
-          summary: body || '',
+          summary: (body || '').replace(/https?:\/\/\S+/g, '').trim(),
           url: `https://t.me/${channel}`,
           author: `@${channel}`,
           created_at: times[i] || new Date().toISOString(),
