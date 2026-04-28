@@ -1,5 +1,25 @@
 [
   {
+    "id": "0c9bb714-c6b7-436b-810d-52b3c9da14d1",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "US spot ETH ETFs flip to net outflows",
+    "summary": "U.S. spot Ethereum ETFs recorded approximately $50.4 million in net outflows on April 27, according to data from Farside Investors. The funds flipped back to net outflows after a single day of net inflows.- BlackRock's ETHA: -$13.8 million- Fidelity's FETH: -$48.4 million- BlackRock's Staking ETHB: +$11.8 million",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-28T04:12:22+00:00"
+  },
+  {
+    "id": "667bc872-ffbf-4d95-a8a7-53de7211c6a7",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Japan’s Bitbank rolls out crypto-linked credit card that pays bills in bitcoin",
+    "summary": "1. The card will allow users to pay their credit card bill in bitcoin, and receive a 0.5% cashback in crypto for their spending.",
+    "url": "https://www.theblock.co/post/399102/japans-bitbank-crypto-credit-card?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-04-28T03:42:34.000Z"
+  },
+  {
     "id": "a8870e30-4f65-4178-8e91-af45cdd4d268",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -18,16 +38,6 @@
     "url": "https://techcrunch.com/2026/04/27/indias-snabbit-closes-56m-round-as-investor-interest-heats-up-in-on-demand-home-services/",
     "author": "Jagmeet Singh",
     "created_at": "2026-04-28T03:30:00.000Z"
-  },
-  {
-    "id": "50b0ba21-51c3-455a-a0b6-1f3e007ec119",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Block: Tax exemption for small BTC payments is top legislative priority",
-    "summary": "Janessa Lopez, head of digital asset policy at fintech firm Block, said at the 2026 Bitcoin Conference that the company's current legislative priority is to push for a tax exemption on small Bitcoin payments. She stated the goal is to eliminate the capital gains tax reporting requirement for everyday Bitcoin transactions. Lopez warned of a movement within Congress to apply the exemption only to stablecoin transactions under $200 while excluding Bitcoin, which she argued would undermine the principle of technological neutrality. Echoing this sentiment, Kara Calvert, VP of U.S. policy at Coinbase, stated that even if the Clarity Act passes, the tax reporting burden will remain an obstacle to Bitcoin adoption if the tax issue is not resolved.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-28T03:27:31+00:00"
   },
   {
     "id": "22127370-4f4e-4071-88e9-ea2e4f2da753",
@@ -60,7 +70,7 @@
     "created_at": "2026-04-28T02:00:47.000Z"
   },
   {
-    "id": "7f848f20-dbb6-4fd0-ba51-ed717dc0cfee",
+    "id": "e0fc6aee-2fe7-4e14-878d-d956d9756223",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇨🇦 Canada's Bill C-25, which would ban crypto donations to federal political campaigns, passed second reading in the House of Commons with cross-party support and little opposition.",
@@ -150,7 +160,7 @@
     "created_at": "2026-04-27T23:50:55.000Z"
   },
   {
-    "id": "97215b79-0449-44d9-bae8-f1a26a706849",
+    "id": "2f0c60d3-1589-4883-b805-7f9990e255fe",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait of Hormuz as an \"economic nuclear weapon.\"\"They're bragging about how they can hold 20% of the world's energy hostage.\"@WatcherGuru",
@@ -198,25 +208,5 @@
     "url": "https://decrypt.co/365751/elon-musk-colorado-ai-law-pause-state-considers-revisions",
     "author": "Jason Nelson",
     "created_at": "2026-04-27T22:22:51.000Z"
-  },
-  {
-    "id": "eedd841d-2d30-4d7f-89bb-9d928cc04836",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Canada advances bill to ban crypto political donations",
-    "summary": "1. Lawmakers look to push election reform that would block crypto campaign donations, even as Canada expands oversight of stablecoins and digital asset markets.",
-    "url": "https://cointelegraph.com/news/canada-advances-bill-ban-crypto-political-donations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Sam Bourgi",
-    "created_at": "2026-04-27T21:50:17.000Z"
-  },
-  {
-    "id": "c1ed61a6-4abf-4b53-8afd-b03f4b4da10f",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Industry leaders are pouring hundreds of millions into a rescue plan for Aave users after massive crypto hack",
-    "summary": "1. The response to the DeFi recovery fund has quickly extended beyond Aave, and in some cases began with direct outreach.",
-    "url": "https://www.coindesk.com/tech/2026/04/27/industry-leaders-are-pouring-hundreds-of-millions-into-a-rescue-plan-for-aave-users-after-massive-crypto-hack",
-    "author": "Margaux Nijkerk",
-    "created_at": "2026-04-27T21:40:04.000Z"
   }
 ]
