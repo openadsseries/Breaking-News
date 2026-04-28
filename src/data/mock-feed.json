@@ -1,16 +1,46 @@
 [
   {
-    "id": "945a4ce3-5528-487f-a456-416228a71d5b",
+    "id": "7e3c4134-de8d-4e41-937f-072223296eb5",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "Core Scientific to repurpose part of BTC mining capacity for AI data centers",
-    "summary": "Cryptocurrency mining firm Core Scientific (CORZ) will develop its site in Pecos, Texas, into an AI-focused data center campus with up to 1.5 GW of capacity, Cointelegraph reported. Of the planned capacity, approximately 1 GW will be available for lease, and about 300 megawatts (MW) currently used for Bitcoin mining will be converted for data center operations. Core Scientific has also purchased over 200 additional acres of land to support the site.",
+    "title": "Pharos officially launches mainnet, PROS token",
+    "summary": "Pharos, a Layer 1 blockchain focused on finance, announced today the official launch of its Pacific Ocean Mainnet and native token, PROS. The project aims to expand the distribution network for tokenized real-world assets (RWA) and address liquidity fragmentation. Pharos has previously raised a cumulative $52 million from traditional institutions and major Web3 investment firms. Wish Wu, CEO of the Pharos Foundation, stated that the mainnet launch transforms institutional participation in the RWA ecosystem from a theoretical possibility into a tangible reality. He added that he hopes this momentum will energize the entire ecosystem.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-28T08:54:32+00:00"
+    "created_at": "2026-04-28T10:00:08+00:00"
   },
   {
-    "id": "755036cc-8755-45b1-b785-530b7327d09c",
+    "id": "4f394139-4c90-4b6e-8159-701735063c5c",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Jack Dorsey's Block nears 9,000 bitcoin in treasury after Q1 addition",
+    "summary": "1. The firm added 114 BTC to its corporate treasury, for a total of 8,997 BTC, and said it plans to issue regular third-party reports.",
+    "url": "https://www.coindesk.com/business/2026/04/28/jack-dorsey-s-block-nears-9-000-bitcoin-in-treasury-after-q1-addition",
+    "author": "Francisco Rodrigues",
+    "created_at": "2026-04-28T09:54:48.000Z"
+  },
+  {
+    "id": "89177124-d5fc-4dad-9040-c612e0155e9a",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Crypto hacks have topped $17B over the past decade, with most losses concentrated in the last five years10 Years 2016–2026: $17.1B lost across 518 incidents5 Years 2021–2026: ~$15.2B lost across 450+ incidents1 Year Apr 2025–Apr 2026: ~$2.5B lost across 140+ incidentsRecent losses show how crypto exploits have shifted from smart contract bugs toward private key compromise and access control failuresTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-28T09:52:24+00:00"
+  },
+  {
+    "id": "01bea07a-8742-47a3-aa39-3be12ca293d6",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Galaxy Digital Sends ETH Worth $104 Million to Bybit, Binance and OKX, Sparking Selloff Concerns",
+    "summary": "1. Onchain data shows two wallets linked to Galaxy Digital depositing approximately 45,000 ether across several major exchanges over a 15-hour window on April 28, raising fresh concerns about institutional selling pressure on ETH.\n2. Key Takeaways: Galaxy Digital deposited 45,000 ETH worth over $104 million to Binance, Bybit, and OKX on Tuesday.\n3. Galaxy Digital’s April ETH […]",
+    "url": "https://news.bitcoin.com/galaxy-digital-eth-exchange-deposit-selloff/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-04-28T09:40:16.000Z"
+  },
+  {
+    "id": "5d942203-6fd5-4bb5-8dcd-b732fc5eac44",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇺🇸 TD Cowen says Senator Tillis has become the \"latest roadblock\" to the CLARITY Act after he told Politico he won't support the bill without ethics provisions that would likely apply to the Trump family.",
@@ -38,16 +68,6 @@
     "url": "https://www.coindesk.com/business/2026/04/28/bitmine-s-ether-buys-are-catching-up-to-strategy-s-bitcoin-accumulation-pace",
     "author": "Shaurya Malwa",
     "created_at": "2026-04-28T08:27:42.000Z"
-  },
-  {
-    "id": "3f50b9b3-6c17-439a-9aff-4b1e757fea60",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Gulf Cooperation Council leaders convene extraordinary summit in Jeddah to address regional escalation and security threats after attacks on KuwaitTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX",
-    "author": "@SolidIntelX",
-    "created_at": "2026-04-28T08:16:23+00:00"
   },
   {
     "id": "2c5ab539-27ce-461e-af34-c1ad518991e2",
@@ -220,7 +240,7 @@
     "created_at": "2026-04-28T05:23:25.000Z"
   },
   {
-    "id": "ee258c01-3ffa-4ab5-a17a-93576631d061",
+    "id": "10319d49-9c07-4a1b-882c-33140e857a90",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Google $GOOGL signs classified AI deal with the Pentagon.@WatcherGuru",
@@ -268,45 +288,5 @@
     "url": "https://news.bitcoin.com/luxor-signs-microbt-hardware-commitment-worth-100m-alongside-firmware-launch/",
     "author": "Jamie Redman",
     "created_at": "2026-04-28T04:30:19.000Z"
-  },
-  {
-    "id": "39c77bb3-b23c-4174-b54e-1c839748c0fb",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin support resistance flip in play as longs to shorts delta highlights bullish bias",
-    "summary": "1. Bitcoin pulled back to retest $76,500 as support, but the long-to-short delta indicates bulls have a significant advantage if the range highs are reclaimed.",
-    "url": "https://cointelegraph.com/markets/bitcoin-support-resistance-flip-in-play-as-longs-to-shorts-delta-highlights-bullish-bias?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Antonio Oliveira",
-    "created_at": "2026-04-28T03:48:14.000Z"
-  },
-  {
-    "id": "667bc872-ffbf-4d95-a8a7-53de7211c6a7",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Japan’s Bitbank rolls out crypto-linked credit card that pays bills in bitcoin",
-    "summary": "1. The card will allow users to pay their credit card bill in bitcoin, and receive a 0.5% cashback in crypto for their spending.",
-    "url": "https://www.theblock.co/post/399102/japans-bitbank-crypto-credit-card?utm_source=rss&utm_medium=rss",
-    "author": "Danny Park",
-    "created_at": "2026-04-28T03:42:34.000Z"
-  },
-  {
-    "id": "a8870e30-4f65-4178-8e91-af45cdd4d268",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Saipan Woman Gets 71 Months for $769K Bitcoin Wire Fraud Scheme",
-    "summary": "1. Bitcoin fraud claims led to a federal prison sentence for Sze Man Yu Inos.\n2. The case highlights how personal trust and false investment promises can expose older victims to major losses.\n3. Key Takeaways: Inos received prison time after prosecutors described false bitcoin investment claims.",
-    "url": "https://news.bitcoin.com/saipan-woman-gets-71-months-for-769k-bitcoin-wire-fraud-scheme/",
-    "author": "Kevin Helms",
-    "created_at": "2026-04-28T03:30:25.000Z"
-  },
-  {
-    "id": "aaddfb96-1ebc-41a4-b4f9-8e90491bf0c1",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "India’s Snabbit closes $56M round as investor interest in on-demand home services heats up",
-    "summary": "1. Snabbit now processes over 40,000 daily jobs and has cut costs sharply as it expands across cities and services.",
-    "url": "https://techcrunch.com/2026/04/27/indias-snabbit-closes-56m-round-as-investor-interest-heats-up-in-on-demand-home-services/",
-    "author": "Jagmeet Singh",
-    "created_at": "2026-04-28T03:30:00.000Z"
   }
 ]
