@@ -1,5 +1,25 @@
 [
   {
+    "id": "b2318de1-0095-4ea4-b49f-27cd1a1d6b84",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Eric Trump calls Forbes report on miner ABTC a 'disgrace to journalism'",
+    "summary": "Eric Trump, the second son of President Trump, has condemned a Forbes report on Bitcoin miner American Bitcoin (ABTC) as a \"disgrace to journalism.\" His comments follow an article in which Forbes described ABTC as an arbitrage vehicle targeting investors who support the MAGA movement. The publication reported that ABTC's market capitalization had plummeted approximately 92%, from a peak of $13.2 billion to $1.24 billion, resulting in an estimated $500 million in losses for retail investors. In response, Eric Trump defended the company, stating that its fourth-quarter revenue reached $78.3 million, a 22% increase from the previous quarter. He added that ABTC holds over 7,000 BTC, ranking it as the 16th largest publicly traded corporate holder of the asset, and accused Forbes of spreading propaganda for political reasons.",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-28T21:12:19+00:00"
+  },
+  {
+    "id": "5bbb9550-8276-4d67-932e-013dc13ccebf",
+    "source": "Bitcoin Magazine",
+    "type": "rss",
+    "title": "Czech Central Bank Chief Backs Bitcoin as 1% Reserve Slice in ‘Conservative but Innovative’ Strategy",
+    "summary": "1. Bitcoin Magazine\n\nCzech Central Bank Chief Backs Bitcoin as 1% Reserve Slice in ‘Conservative but Innovative’ Strategy\nCzech National Bank Governor Aleš Michl used a Bitcoin industry stage in Las Vegas to defend a reserve strategy that mixes strict inflation control with measured exposure to digital assets.\n2. This post Czech Central Bank Chief Backs Bitcoin as 1% Reserve Slice in ‘Conservative but Innovative’ Strategy first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+    "url": "https://bitcoinmagazine.com/news/czech-central-bank-chief-backs-bitcoin",
+    "author": "Micah Zimmerman",
+    "created_at": "2026-04-28T21:05:37.000Z"
+  },
+  {
     "id": "c7776544-1b82-42be-9e90-57cbc86da7a5",
     "source": "Politico",
     "type": "rss",
@@ -40,16 +60,6 @@
     "created_at": "2026-04-28T20:50:29.000Z"
   },
   {
-    "id": "bff9073d-7bce-48f4-8b90-8a1302f65eb6",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Robinhood Q1 crypto revenue totals $134M",
-    "summary": "Robinhood (HOOD) announced that its cryptocurrency revenue for the first quarter totaled $134 million. This marks a 34% decrease from the $221 million reported in the previous quarter. In after-hours trading, HOOD is down 6% to $82.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-28T20:45:04+00:00"
-  },
-  {
     "id": "ca6d73b9-680c-4f63-bf37-6ea11b5d9ed7",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -60,7 +70,7 @@
     "created_at": "2026-04-28T20:40:26.000Z"
   },
   {
-    "id": "00a1a3fa-3f39-4bd2-b2c0-6509900de33d",
+    "id": "45a2af41-17db-4f1f-bab6-8b2d69601d7b",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Paxos Labs' Amplify platform has been integrated into stablecoin payroll firm Toku, which processes over $1B annually, to let employees earn yield on their pay.",
@@ -190,7 +200,7 @@
     "created_at": "2026-04-28T19:40:47.000Z"
   },
   {
-    "id": "4407fa45-2924-45a2-b605-3a59d15c6273",
+    "id": "792db58b-d0e0-4e1d-84d8-0ca11cb268a0",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "U.S. intelligence agencies are studying how Iran would respond if Trump declare a unilateral victory against Iran, and potentially pull back from the warTwitter",
@@ -200,7 +210,7 @@
     "created_at": "2026-04-28T19:40:44+00:00"
   },
   {
-    "id": "6a396d61-9bc9-48d4-bf56-df1d94fcbe97",
+    "id": "c53378eb-1b76-4c22-b9d2-acb9de20783f",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇦🇪 Citadel receives regulatory approval to operate in Dubai, UAE.@WatcherGuru",
