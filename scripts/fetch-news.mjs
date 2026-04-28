@@ -253,11 +253,26 @@ async function fetchTelegram(existingUrls) {
 
         // 1) Bracketed: [Title] body...
         const bm = rawText.match(/^\[(.+?)\](.*)/s);
+        // 2) Prefix pattern: "JUST IN:", "FUN FACT:", "BREAKING:", "INTEL:" etc.
+        const prefixMatch = rawText.match(/^(JUST IN|FUN FACT|BREAKING|INTEL|ALERT|UPDATE|LATEST)[:\s]+(.+)/is);
+        
         if (bm) {
           title = bm[1].trim();
           body = bm[2].trim();
+        } else if (prefixMatch) {
+          const label = prefixMatch[1].toUpperCase().trim();
+          const rest = prefixMatch[2].trim();
+          // Use first sentence of rest as title context
+          const dot = rest.search(/[.!?]\s/);
+          if (dot > 10 && dot < 120) {
+            title = `${label}: ${rest.slice(0, dot + 1).trim()}`;
+            body = rest.slice(dot + 1).trim();
+          } else {
+            title = `${label}: ${rest.length > 80 ? rest.slice(0, rest.lastIndexOf(' ', 80)) + '...' : rest}`;
+            body = '';
+          }
         } else {
-          // 2) First sentence or first line — whichever comes first
+          // 3) First sentence or first line — whichever comes first
           const sentenceEnd = rawText.search(/[.!?]\s/);
           const newlineEnd = rawText.indexOf('\n');
           const breakAt = [sentenceEnd + 1, newlineEnd].filter(n => n > 10).sort((a, b) => a - b)[0];
@@ -266,11 +281,10 @@ async function fetchTelegram(existingUrls) {
             title = rawText.slice(0, breakAt).trim();
             body = rawText.slice(breakAt).trim();
           } else {
-            // Short message — title IS the content
             title = rawText.length > 80
               ? rawText.slice(0, rawText.lastIndexOf(' ', 80)) + '...'
               : rawText;
-            body = ''; // no separate body
+            body = '';
           }
         }
 
