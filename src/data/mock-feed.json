@@ -1,5 +1,55 @@
 [
   {
+    "id": "a0998a49-cb9d-4050-86ab-d5eedfd58ecc",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Zetachain Pauses Mainnet After GatewayZEVM Contract Exploit Targets Protocol Wallets",
+    "summary": "1. Zetachain paused its mainnet on April 28 after a vulnerability in its GatewayZEVM smart contract was exploited, with security researchers confirming the root cause within hours of the incident.\n2. Key Takeaways: Zetachain paused cross-chain transactions on Tuesday after an exploit targeting the GatewayZEVM contract’s call function hit internal team wallets.\n3. Slowmist identified the root cause […]",
+    "url": "https://news.bitcoin.com/zetachain-gatewayzevm-exploit-mainnet-paused/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-04-28T06:30:22.000Z"
+  },
+  {
+    "id": "229fd748-c92f-4f9b-a2b8-90b662e38885",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "🇺🇸 President Trump has walked back his criticism of prediction markets, saying, \"I know some people that are very smart.",
+    "summary": "They like it.\"",
+    "url": "https://t.me/CoinMarketCapAnnouncements",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-28T06:29:40+00:00"
+  },
+  {
+    "id": "47a5dbb3-4bbe-49cc-b45e-2dbcd4994394",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Monad's official X account suspended",
+    "summary": "The official X account (@monad) for the EVM-compatible project Monad (MON) has been suspended. The reason for the suspension is unknown.",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-28T06:29:01+00:00"
+  },
+  {
+    "id": "46c37424-2c4b-4911-851a-59b73620dc68",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Acting AG Todd Blanche confirms ‘code is not a crime’ in DOJ pivot",
+    "summary": "1. Acting US Attorney General Todd Blanche said developers will no longer be investigated or charged unless they knowingly help third parties commit crimes.",
+    "url": "https://cointelegraph.com/news/acting-ag-blanche-signals-doj-pivot-code-is-not-a-crime?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brian Quarmby",
+    "created_at": "2026-04-28T06:08:37.000Z"
+  },
+  {
+    "id": "b3431a68-8c6c-46fe-8e22-d26253db1a3f",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Dorsey's Block unveils Bitcoin proof-of-reserves in transparency move",
+    "summary": "1. Block’s proof-of-reserves will enable anyone to verify the company’s 8,883 Bitcoin stash worth over $680 million through an on-chain signature.",
+    "url": "https://cointelegraph.com/news/jack-dorseys-block-unveils-btc-proof-of-reserves-in-transparency-move?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-04-28T06:05:15.000Z"
+  },
+  {
     "id": "f1f78d86-878f-47cf-8add-0dc2d8c52e5a",
     "source": "CoinDesk",
     "type": "rss",
@@ -8,16 +58,6 @@
     "url": "https://www.coindesk.com/markets/2026/04/28/what-next-as-xrp-drops-3-under-usd1-40-on-strong-selling",
     "author": "Shaurya Malwa",
     "created_at": "2026-04-28T05:35:10.000Z"
-  },
-  {
-    "id": "487f7d76-9bbb-4da2-ba54-5bf17202da36",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "US Senate Banking Committee to vote on Kevin Warsh's Fed Chair nomination today",
-    "summary": "The U.S. Senate Banking Committee is scheduled to hold a vote at 2:00 p.m. UTC today, April 28, on the nomination of Kevin Warsh for Chairman of the Federal Reserve (Fed). If the committee approves the nomination, it will proceed to a full Senate floor vote before a final appointment by the President.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-28T05:33:37+00:00"
   },
   {
     "id": "bae59264-d6a0-4e83-9828-c3b5c62934aa",
@@ -30,6 +70,16 @@
     "created_at": "2026-04-28T05:30:18.000Z"
   },
   {
+    "id": "b4837d36-9052-4d4d-9c26-4b6cb159e696",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Solana clients Anza and Firedancer introduce post-quantum solution Falcon",
+    "summary": "1. Jump Crypto, the team behind Firedancer, said Falcon has the smallest signature among NIST standards, which could help preserve Solana’s high-throughput capabilities.",
+    "url": "https://cointelegraph.com/news/solana-introduces-post-quantum-solution-falcon-on-two-validator-clients?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-04-28T05:24:26.000Z"
+  },
+  {
     "id": "88b085b4-29f2-42fe-9fa9-2a61c07763f9",
     "source": "CoinDesk",
     "type": "rss",
@@ -40,17 +90,7 @@
     "created_at": "2026-04-28T05:23:25.000Z"
   },
   {
-    "id": "645aa74d-37ca-45c1-a549-62d0b3397166",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🗣️ Lyn Alden says Bitcoin \"has to be an order of magnitude bigger\" before it can fix the monetary system, arguing it's still seen as a \"fringe alternative\" today.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-28T05:19:43+00:00"
-  },
-  {
-    "id": "e43b716e-4fcd-43ec-846d-3a7f141803f6",
+    "id": "85a234a1-355b-4c97-a493-8277d00bfcae",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Google $GOOGL signs classified AI deal with the Pentagon.@WatcherGuru",
@@ -208,55 +248,5 @@
     "url": "https://cointelegraph.com/markets/bitcoin-shorts-create-14b-liquidation-risk-is-a-price-squeeze-to-80k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "author": "Cointelegraph by Marcel Pechman",
     "created_at": "2026-04-28T01:26:36.000Z"
-  },
-  {
-    "id": "b50b3fbd-0e52-46f3-a41a-b2a1b38505bf",
-    "source": "GitHub",
-    "type": "github",
-    "title": "anthropics/claude-code: v2.1.121",
-    "summary": "1. ## What's changed\n\n- Added `alwaysLoad` option to MCP server config — when `true`, all tools from that server skip tool-search deferral and are always available\n- Added `claude plugin prune` to remove orphaned auto-installed plugin dependencies; `plugin uninstall --prune` cascades\n- Added a type-to-filter search box to `/skills` so you can find a skill in long lists without scrolling\n- PostToolUse hooks can now replace tool output for all tools via `hookSpecificOutput.updatedToolOutput` (previously MCP-only)\n- Fullscreen mode: typing into the prompt no longer jumps scroll back to the bottom after you've scrolled up to read earlier output\n- Dialogs that overflow the terminal are now scrollable with arrow keys, PgUp/PgDn, home/end, and mouse wheel in both fullscreen and non-fullscreen modes\n- Clicking any line of a long URL that wraps across rows in fullscreen mode now opens the full URL\n- SDK and `claude -p`: `CLAUDE_CODE_FORK_SUBAGENT=1` now works in non-interactive sessions\n- `--dangerously-skip-permissions` no longer prompts for writes to `.claude/skills/`, `.claude/agents/`, and `.claude/commands/`\n- `/terminal-setup` now enables iTerm2's \"Applications in terminal may access clipboard\" setting so `/copy` works, including from tmux\n- MCP servers that hit a transient error during startup now auto-retry up to 3 times instead of staying disconnected\n- The terminal tab session title is now generated in your configured `language` setting\n- Claude.ai connectors with the same upstream URL are now deduplicated instead of appearing as duplicates\n- Vertex AI: support X.509 certificate-based Workload Identity Federation (mTLS ADC)\n- Faster startup after upgrading: removed the Recent Activity panel from the release-notes splash\n- LSP diagnostic summaries now expand on click/ctrl+o and show the expand hint\n- SDK: `mcp_authenticate` now supports `redirectUri` for custom scheme completion and claude.ai connectors\n- OpenTelemetry: added `stop_reason`, `gen_ai.response.finish_reasons`, and `user_system_prompt` (gated behind `OTEL_LOG_USER_PROMPTS`) to LLM request spans\n- [VSCode] Voice dictation now respects the `accessibility.voice.speechLanguage` setting when no Claude Code language is configured\n- [VSCode] `/context` now opens a native token usage dialog\n- Fixed unbounded memory growth (multi-GB RSS) when processing many images in a session\n- Fixed `/usage` leaking up to ~2GB of memory on machines with large transcript histories\n- Fixed memory leak when long-running tools fail to emit a clear progress event\n- Fixed Bash tool becoming permanently unusable when the directory Claude was started in is deleted or moved mid-session\n- Fixed `--resume` crashing on startup in external builds\n- Fixed `--resume` failing on large sessions when a transcript line was corrupted by an unclean shutdown — the corrupt line is now skipped\n- Fixed `thinking.type.enabled is not supported` error when using Bedrock application inference profile ARNs\n- Fixed Microsoft 365 MCP OAuth failing with duplicate or unsupported `prompt` parameter\n- Fixed scrollback duplication when pressing Ctrl+L or triggering a redraw in non-fullscreen mode on tmux, GNOME Terminal, Windows Terminal, and Konsole\n- Fixed claude.ai MCP connectors silently disappearing when the connector-list fetch hits a transient auth error at startup\n- Fixed \"Always allow\" rules for built-in tools in remote sessions not surviving worker restarts\n- Fixed `NO_PROXY` not being respected for all HTTP clients when set via `managed-settings.json` under the native build\n- Fixed managed settings approval prompt exiting the session even when accepted — now applies settings and continues\n- Fixed `/usage` returning \"rate limited\" after a stale OAuth token — now refreshes automatically\n- Fixed invalid legacy enum values in `settings.json` invalidating the entire settings file\n- Fixed `/usage` dialog content being clipped when no-flicker mode is off\n- Fixed `/focus` showing \"Unknown command\" when the fullscreen renderer is off — now explains how to enable it\n- Fixed embedded grep/find/rg shell wrappers failing when the running binary is deleted mid-session — now falls back to installed tools\n- Reduced peak file descriptor usage during `find` in the Bash tool on large directory trees",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
-    "author": "ashwin-ant",
-    "created_at": "2026-04-28T00:31:31Z"
-  },
-  {
-    "id": "615eb9bc-d57d-47bd-9170-c70153ceee16",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Senate Democrats Warn SEC Crypto Exemptions May Undermine Investor Protections",
-    "summary": "1. SEC crypto guidance could narrow investor protections across major token categories, according to Senate Democrats.\n2. Warren and Van Hollen argue the approach may reduce oversight of crypto firms, common market activities, and future fundraising pathways.\n3. Key Takeaways: Warren and Van Hollen challenged SEC guidance they say could narrow crypto investor protections.",
-    "url": "https://news.bitcoin.com/senate-democrats-warn-sec-crypto-exemptions-may-undermine-investor-protections/",
-    "author": "Kevin Helms",
-    "created_at": "2026-04-28T00:18:24.000Z"
-  },
-  {
-    "id": "8c777768-3383-414c-840c-5b96022af5e9",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. America’s Elections are Rigged, Stolen, and a Laughingstock all over the World.\n2. We are either going to fix them, or we won’t have a Country any longer.\n3. I am asking all Republicans to fight for the following:\n SAVE AMERICA ACT!",
-    "url": "https://trumpstruth.org/statuses/38077",
-    "author": "Trump Truth",
-    "created_at": "2026-04-28T00:16:41.000Z"
-  },
-  {
-    "id": "b20bad55-c611-4f6c-ae8b-1df2b576e834",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Arthur Hayes Calls $125K Bitcoin by Year-End as War Spending Floods Markets With Cash",
-    "summary": "1. BitMEX co-founder Arthur Hayes, now CIO at crypto family office Maelstrom, told Bitcoin Las Vegas attendees that he expects bitcoin to reach $125,000 by year-end as wartime defense spending and new U.S.\n2. banking deregulation push fresh liquidity into financial markets.\n3. Key Takeaways: Arthur Hayes of Maelstrom targets bitcoin at $125,000 by year-end, citing wartime spending […]",
-    "url": "https://news.bitcoin.com/arthur-hayes-calls-125k-bitcoin-by-year-end-as-war-spending-floods-markets-with-cash/",
-    "author": "Jamie Redman",
-    "created_at": "2026-04-27T23:51:32.000Z"
-  },
-  {
-    "id": "7e23a661-68ed-49b7-b851-09eb9966aaa0",
-    "source": "Bitcoin Magazine",
-    "type": "rss",
-    "title": "Billionaire Tim Draper: You Should Be Scared If You Don’t Own Bitcoin",
-    "summary": "1. Bitcoin Magazine\n\nBillionaire Tim Draper: You Should Be Scared If You Don’t Own Bitcoin\nBillionare Tim Draper said that bitcoin has gone mainstream, with growing adoption signaling the early stages of a broader shift in the global financial system.\n2. This post Billionaire Tim Draper: You Should Be Scared If You Don’t Own Bitcoin first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-    "url": "https://bitcoinmagazine.com/news/billionaire-tim-draper-scared-bitcoin",
-    "author": "Micah Zimmerman",
-    "created_at": "2026-04-27T23:50:55.000Z"
   }
 ]
