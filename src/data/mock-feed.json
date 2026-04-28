@@ -1,5 +1,15 @@
 [
   {
+    "id": "700136ca-232a-4d2a-a6d3-6d98489e09d9",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "T. Rowe Price active crypto ETF sets management fee at 0.75%",
+    "summary": "The active crypto ETF from U.S. investment firm T. Rowe Price, ticker TKNZ, has set its management fee at 75 basis points, or 0.75%, Bloomberg ETF analyst Eric Balchunas said on X. The fund, which filed an application with the U.S. SEC last month, will invest in 15 cryptocurrencies: BTC, ETH, SOL, XRP, ADA, AVAX, LTC, DOT, DOGE, HBAR, BCH, LINK, XLM, SHIB, and SUI. Unlike an index-tracking ETF, TKNZ is an actively managed fund where portfolio managers will actively adjust its holdings. Balchunas added that the fee is likely high because T. Rowe Price is the largest active manager and is applying its management capabilities to the fund. more:",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-28T03:14:21+00:00"
+  },
+  {
     "id": "22127370-4f4e-4071-88e9-ea2e4f2da753",
     "source": "The Block",
     "type": "rss",
@@ -8,16 +18,6 @@
     "url": "https://www.theblock.co/post/399107/saipan-woman-bitcoin-fraud?utm_source=rss&utm_medium=rss",
     "author": "Timmy Shen",
     "created_at": "2026-04-28T03:00:15.000Z"
-  },
-  {
-    "id": "7124cdc4-6948-4ed8-afc4-d4e70641f138",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "SEC chairman calls for blockchain-based instant stock settlement",
-    "summary": "U.S. Securities and Exchange Commission (SEC) Chairman Paul Atkins stated that the stock settlement system should be converted to an instant (T+0) framework, calling blockchain technology a key tool to bridge the gap between asset delivery and clearing. Speaking at the Bitcoin 2026 Conference, he also addressed the criteria for determining whether a cryptocurrency is a security. Atkins argued that the classification should depend on the issuer's substantive investment promise rather than the token's technical format. He further suggested that if a cryptocurrency is listed and traded separately from the issuer's investment promise, it should no longer be subject to disclosure obligations under securities law.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-28T02:59:40+00:00"
   },
   {
     "id": "1924f0b7-7093-48ee-8019-23d7355063e9",
@@ -40,10 +40,10 @@
     "created_at": "2026-04-28T02:00:47.000Z"
   },
   {
-    "id": "5c982c40-2f5a-4bd7-9632-95ae669b1e05",
+    "id": "987de5c2-bb88-4c37-b1aa-1237fcb58a22",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
-    "title": "LATEST: 🇨🇦 Canada's Bill C-25, which would ban crypto donations to federal political...",
+    "title": "🇨🇦 Canada's Bill C-25, which would ban crypto donations to federal political campaigns, passed second reading in the House of Commons with cross-party support and little opposition.",
     "summary": "",
     "url": "https://t.me/CoinMarketCapAnnouncements",
     "author": "@CoinMarketCapAnnouncements",
@@ -130,10 +130,10 @@
     "created_at": "2026-04-27T23:50:55.000Z"
   },
   {
-    "id": "e8360b83-85dd-4662-9a87-970deab96c63",
+    "id": "113d4ba9-cc6d-48f7-9bc6-dfad9e1b9d9f",
     "source": "@WatcherGuru",
     "type": "telegram",
-    "title": "JUST IN: 🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait of Hormuz...",
+    "title": "🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait of Hormuz as an \"economic nuclear weapon.\"\"They're bragging about how they can hold 20% of the world's energy hostage.\"@WatcherGuru",
     "summary": "",
     "url": "https://t.me/WatcherGuru",
     "author": "@WatcherGuru",
@@ -208,15 +208,5 @@
     "url": "https://bitcoinmagazine.com/news/house-republicans-bitcoin-weakness-china",
     "author": "Micah Zimmerman",
     "created_at": "2026-04-27T21:32:45.000Z"
-  },
-  {
-    "id": "e9ae9ae9-c7e2-4e5e-880f-10c6ca73aac4",
-    "source": "The Block",
-    "type": "rss",
-    "title": "White House crypto advisor hints at  ‘big announcement’ on Trump’s strategic bitcoin reserve in coming weeks",
-    "summary": "1. Executive Director of the President’s Council of Advisors for Digital Assets Patrick Witt said bitcoin reserve legislation is progressing.",
-    "url": "https://www.theblock.co/post/399087/white-house-crypto-advisor-trump-strategic-bitcoin-reserve-coming-weeks?utm_source=rss&utm_medium=rss",
-    "author": "Sarah Wynn",
-    "created_at": "2026-04-27T21:25:23.000Z"
   }
 ]

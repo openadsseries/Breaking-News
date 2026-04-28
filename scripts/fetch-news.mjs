@@ -260,15 +260,15 @@ async function fetchTelegram(existingUrls) {
           title = bm[1].trim();
           body = bm[2].trim();
         } else if (prefixMatch) {
-          const label = prefixMatch[1].toUpperCase().trim();
           const rest = prefixMatch[2].trim();
-          // Use first sentence of rest as title context
-          const dot = rest.search(/[.!?]\s/);
-          if (dot > 10 && dot < 120) {
-            title = `${label}: ${rest.slice(0, dot + 1).trim()}`;
+          // Find first sentence end for title
+          const dot = rest.search(/[.!?](\s|$)/);
+          if (dot > 10) {
+            title = rest.slice(0, dot + 1).trim();
             body = rest.slice(dot + 1).trim();
           } else {
-            title = `${label}: ${rest.length > 80 ? rest.slice(0, rest.lastIndexOf(' ', 80)) + '...' : rest}`;
+            // Single sentence — use entire text as title
+            title = rest;
             body = '';
           }
         } else {
