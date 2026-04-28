@@ -1,5 +1,15 @@
 [
   {
+    "id": "19dae28d-7847-498d-8afa-950b72542270",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Three Bank of Japan members call for a rate hike; yen rises while bitcoin falls",
+    "summary": "1. Markets are pricing in a June rate hike after a split BoJ vote that saw three policymakers dissent in favor of a hike.",
+    "url": "https://www.coindesk.com/markets/2026/04/28/three-bank-of-japan-members-call-for-a-rate-hike-yen-rises-while-bitcoin-falls",
+    "author": "Omkar Godbole",
+    "created_at": "2026-04-28T06:40:07.000Z"
+  },
+  {
     "id": "a0998a49-cb9d-4050-86ab-d5eedfd58ecc",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -10,7 +20,7 @@
     "created_at": "2026-04-28T06:30:22.000Z"
   },
   {
-    "id": "229fd748-c92f-4f9b-a2b8-90b662e38885",
+    "id": "b0dfc95f-13ae-437d-8383-790e9d3c135e",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇺🇸 President Trump has walked back his criticism of prediction markets, saying, \"I know some people that are very smart.",
@@ -20,7 +30,7 @@
     "created_at": "2026-04-28T06:29:40+00:00"
   },
   {
-    "id": "47a5dbb3-4bbe-49cc-b45e-2dbcd4994394",
+    "id": "f32a296c-407b-47bf-8a51-684f4e1818d2",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Monad's official X account suspended",
@@ -90,7 +100,7 @@
     "created_at": "2026-04-28T05:23:25.000Z"
   },
   {
-    "id": "85a234a1-355b-4c97-a493-8277d00bfcae",
+    "id": "dcc8b334-19ea-490b-a884-668582c247d9",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Google $GOOGL signs classified AI deal with the Pentagon.@WatcherGuru",
