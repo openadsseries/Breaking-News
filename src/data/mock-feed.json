@@ -1,292 +1,322 @@
 [
   {
-    "id": "7e3c4134-de8d-4e41-937f-072223296eb5",
+    "id": "c7776544-1b82-42be-9e90-57cbc86da7a5",
+    "source": "Politico",
+    "type": "rss",
+    "title": "A rare Mamdani-Menin alliance",
+    "summary": "1. A rare Mamdani-Menin alliance",
+    "url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/04/28/mamdani-menin-budget-new-york-00896504",
+    "author": "By Chris Sommerfeldt and Nick Reisman",
+    "created_at": "2026-04-28T21:00:36.000Z"
+  },
+  {
+    "id": "c3babcb9-1dc8-4eca-8d44-320207558df4",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Robinhood’s Q1 crypto revenue and trading volume fall nearly 50%",
+    "summary": "1. The company reported a 7% year-over-year increase in transaction revenues, posting a total of $623 million for the quarter.",
+    "url": "https://www.theblock.co/post/399274/robinhoods-q1-crypto-revenue-and-trading-volume-fall-nearly-50?utm_source=rss&utm_medium=rss",
+    "author": "RT Watson",
+    "created_at": "2026-04-28T20:54:36.000Z"
+  },
+  {
+    "id": "dde932d0-5db9-4e8f-b663-2fea776e5030",
+    "source": "The Block",
+    "type": "rss",
+    "title": "LayerZero commits 10,000 ETH to DeFi United effort",
+    "summary": "1. Kelp says it used the default configuration for its LayerZero-powered Decentralized Verifier Network that was exploited.",
+    "url": "https://www.theblock.co/post/399275/layerzero-commits-10000-eth-to-defi-united-effort?utm_source=rss&utm_medium=rss",
+    "author": "Daniel Kuhn",
+    "created_at": "2026-04-28T20:50:44.000Z"
+  },
+  {
+    "id": "fd7f0606-4add-407d-9503-62e63d30ffc0",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "Bitcoin Holds $76K Ahead of Powell's Final Fed Meeting",
+    "summary": "1. Crypto markets are trading cautiously, with the Fed widely expected to hold rates steady tomorrow.",
+    "url": "https://thedefiant.io/news/markets/bitcoin-holds-usd76k-ahead-of-powell-s-final-fed-meeting",
+    "author": "yyctrader",
+    "created_at": "2026-04-28T20:50:29.000Z"
+  },
+  {
+    "id": "bff9073d-7bce-48f4-8b90-8a1302f65eb6",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "Pharos officially launches mainnet, PROS token",
-    "summary": "Pharos, a Layer 1 blockchain focused on finance, announced today the official launch of its Pacific Ocean Mainnet and native token, PROS. The project aims to expand the distribution network for tokenized real-world assets (RWA) and address liquidity fragmentation. Pharos has previously raised a cumulative $52 million from traditional institutions and major Web3 investment firms. Wish Wu, CEO of the Pharos Foundation, stated that the mainnet launch transforms institutional participation in the RWA ecosystem from a theoretical possibility into a tangible reality. He added that he hopes this momentum will energize the entire ecosystem.",
+    "title": "Robinhood Q1 crypto revenue totals $134M",
+    "summary": "Robinhood (HOOD) announced that its cryptocurrency revenue for the first quarter totaled $134 million. This marks a 34% decrease from the $221 million reported in the previous quarter. In after-hours trading, HOOD is down 6% to $82.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-28T10:00:08+00:00"
+    "created_at": "2026-04-28T20:45:04+00:00"
   },
   {
-    "id": "4f394139-4c90-4b6e-8159-701735063c5c",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Jack Dorsey's Block nears 9,000 bitcoin in treasury after Q1 addition",
-    "summary": "1. The firm added 114 BTC to its corporate treasury, for a total of 8,997 BTC, and said it plans to issue regular third-party reports.",
-    "url": "https://www.coindesk.com/business/2026/04/28/jack-dorsey-s-block-nears-9-000-bitcoin-in-treasury-after-q1-addition",
-    "author": "Francisco Rodrigues",
-    "created_at": "2026-04-28T09:54:48.000Z"
-  },
-  {
-    "id": "89177124-d5fc-4dad-9040-c612e0155e9a",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Crypto hacks have topped $17B over the past decade, with most losses concentrated in the last five years10 Years 2016–2026: $17.1B lost across 518 incidents5 Years 2021–2026: ~$15.2B lost across 450+ incidents1 Year Apr 2025–Apr 2026: ~$2.5B lost across 140+ incidentsRecent losses show how crypto exploits have shifted from smart contract bugs toward private key compromise and access control failuresTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX",
-    "author": "@SolidIntelX",
-    "created_at": "2026-04-28T09:52:24+00:00"
-  },
-  {
-    "id": "01bea07a-8742-47a3-aa39-3be12ca293d6",
+    "id": "ca6d73b9-680c-4f63-bf37-6ea11b5d9ed7",
     "source": "Bitcoin.com",
     "type": "rss",
-    "title": "Galaxy Digital Sends ETH Worth $104 Million to Bybit, Binance and OKX, Sparking Selloff Concerns",
-    "summary": "1. Onchain data shows two wallets linked to Galaxy Digital depositing approximately 45,000 ether across several major exchanges over a 15-hour window on April 28, raising fresh concerns about institutional selling pressure on ETH.\n2. Key Takeaways: Galaxy Digital deposited 45,000 ETH worth over $104 million to Binance, Bybit, and OKX on Tuesday.\n3. Galaxy Digital’s April ETH […]",
-    "url": "https://news.bitcoin.com/galaxy-digital-eth-exchange-deposit-selloff/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-04-28T09:40:16.000Z"
+    "title": "Tether Picks Canaan Modules to Power Immersion Mining Sites",
+    "summary": "1. Canaan Inc.\n2. landed a follow-on order from Tether for custom high-density mining hash board modules set for deployment at a Tether-affiliated facility in South America.\n3. Key Takeaways: Canaan secured a follow-on order from Tether for custom hash board modules deploying to South America in 2026.",
+    "url": "https://news.bitcoin.com/tether-picks-canaan-modules-to-power-immersion-mining-sites/",
+    "author": "Jamie Redman",
+    "created_at": "2026-04-28T20:40:26.000Z"
   },
   {
-    "id": "5d942203-6fd5-4bb5-8dcd-b732fc5eac44",
+    "id": "00a1a3fa-3f39-4bd2-b2c0-6509900de33d",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
-    "title": "🇺🇸 TD Cowen says Senator Tillis has become the \"latest roadblock\" to the CLARITY Act after he told Politico he won't support the bill without ethics provisions that would likely apply to the Trump family.",
+    "title": "⚡ Paxos Labs' Amplify platform has been integrated into stablecoin payroll firm Toku, which processes over $1B annually, to let employees earn yield on their pay.",
     "summary": "",
     "url": "https://t.me/CoinMarketCapAnnouncements",
     "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-28T08:54:20+00:00"
+    "created_at": "2026-04-28T20:34:19+00:00"
   },
   {
-    "id": "9ab28bde-6b96-43d9-b4cf-319ca7abbf11",
-    "source": "Bitcoin.com",
+    "id": "bceaaeeb-ff10-4030-a9db-36e997f2e085",
+    "source": "Decrypt",
     "type": "rss",
-    "title": "White House Adviser Patrick Witt Teases ‘Big Announcement’ at Bitcoin 2026",
-    "summary": "1. Patrick Witt, executive director of the President’s Council of Advisors for Digital Assets, told attendees at Bitcoin 2026 that the White House will make a “big announcement” on the U.S.\n2. Strategic Bitcoin Reserve within the coming weeks.\n3. Key Takeaways: White House crypto adviser Patrick Witt said news on the Strategic Bitcoin Reserve, covering its operations […]",
-    "url": "https://news.bitcoin.com/white-house-patrick-witt-strategic-bitcoin-reserve-announcement/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-04-28T08:30:12.000Z"
+    "title": "Dead Internet? A Third of New Websites Are AI-Generated, Says Stanford",
+    "summary": "1. A Stanford-led study quantified what everyone already suspected—but the findings aren't quite what people expected.",
+    "url": "https://decrypt.co/365864/one-third-new-websites-ai-generated-study",
+    "author": "Jose Antonio Lanz",
+    "created_at": "2026-04-28T20:32:26.000Z"
   },
   {
-    "id": "bd1abc47-f578-4f58-ad80-ac36b8f9f80e",
+    "id": "20a3c552-d991-429f-92c9-68268b750ff2",
     "source": "CoinDesk",
     "type": "rss",
-    "title": "Bitmine's ether buys are catching up to Strategy's bitcoin accumulation pace",
-    "summary": "1. Bitmine bought $234 million of ether in its largest weekly purchase this year, closing in on Strategy's regular bitcoin buys once the firm's STRC-fueled spikes are stripped out.",
-    "url": "https://www.coindesk.com/business/2026/04/28/bitmine-s-ether-buys-are-catching-up-to-strategy-s-bitcoin-accumulation-pace",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-04-28T08:27:42.000Z"
+    "title": "Robinhood stock shrugs off a 47% crash in crypto revenue thanks to a massive surge in event betting",
+    "summary": "1. While the trading platform’s crypto revenue tanked 47% to $134 million, a record-breaking surge in prediction market bets helped push overall revenue up 15% to $1.07 billion.",
+    "url": "https://www.coindesk.com/markets/2026/04/28/robinhood-stock-shrugs-off-a-47-crash-in-crypto-revenue-thanks-to-a-massive-surge-in-event-betting",
+    "author": "Helene Braun",
+    "created_at": "2026-04-28T20:28:00.000Z"
   },
   {
-    "id": "2c5ab539-27ce-461e-af34-c1ad518991e2",
+    "id": "decc1cad-bdc7-4d77-b209-33d2b81bb512",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Robinhood Shares Slide on 34% Decrease in Crypto Revenue",
+    "summary": "1. Retail brokerage Robinhood's business has gotten a boost from prediction markets, though its crypto trading revenue fell in Q1.",
+    "url": "https://decrypt.co/365876/robinhood-shares-slide-34-decrease-crypto-revenue",
+    "author": "André Beganski",
+    "created_at": "2026-04-28T20:26:00.000Z"
+  },
+  {
+    "id": "3cd359e2-6dee-4589-ba93-8f0eb83aacf2",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Google DeepMind Veteran Raises $1.1 Billion to Build AI That Isn’t Trained With Human Data",
+    "summary": "1. Ineffable Intelligence is betting that reinforcement learning is the path to superintelligence, rather than AI's large language models.",
+    "url": "https://decrypt.co/365853/google-deepmind-veteran-raises-1-1-billion-ai-isnt-trained-human-data",
+    "author": "Jason Nelson",
+    "created_at": "2026-04-28T20:13:48.000Z"
+  },
+  {
+    "id": "f6623578-c33c-4d2b-a94b-282729229d6f",
     "source": "Bitcoin.com",
     "type": "rss",
-    "title": "Aave Releases Technical Plan to Restore rsETH Backing as Defi United’s Coalition Expands",
-    "summary": "1. Aave founder Stani Kulechov published a technical implementation plan on Tuesday to restore rsETH backing across affected protocols, with execution sequences set to begin within days.\n2. Key Takeaways: The recovery runs two parallel tracks, i.e., restoring rsETH’s nominal 1.07 ETH backing ratio through tranched ETH deposits, and clearing eight Aave positions.\n3. Post-exploit analysis found that […]",
-    "url": "https://news.bitcoin.com/defi-united-rseth-recovery-plan-aave-compound/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-04-28T07:55:46.000Z"
+    "title": "Report: Polymarket Targets Full US Return as CFTC Talks Advance",
+    "summary": "1. Polymarket is in active talks with the U.S.\n2. Commodity Futures Trading Commission (CFTC) to remove a ban that has kept its primary blockchain-based exchange away from American traders since 2022, Bloomberg reported.\n3. Key Takeaways: Polymarket held discussions with the CFTC in recent weeks to lift its 2022 ban and bring its main exchange to U.S.",
+    "url": "https://news.bitcoin.com/report-polymarket-targets-full-us-return-as-cftc-talks-advance/",
+    "author": "Jamie Redman",
+    "created_at": "2026-04-28T20:01:00.000Z"
   },
   {
-    "id": "b9052c1c-ba21-4fea-a240-975a5cd91e1a",
-    "source": "The Block",
+    "id": "8d3af129-e6ed-4e19-a0e0-dd096c5a358e",
+    "source": "CoinTelegraph",
     "type": "rss",
-    "title": "Jack Dorsey’s Block reveals $2.2 billion in bitcoin holdings in Q1",
-    "summary": "1. Jack Dorsey's Block Inc.\n2. disclosed that it held a total of 28,355 BTC, including customer assets, as of March 2026.",
-    "url": "https://www.theblock.co/post/399123/block-q1-bitcoin?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-04-28T07:45:39.000Z"
+    "title": "Bitcoin Coinbase Premium turns negative as BTC price drops, weekly losses top $829M",
+    "summary": "1. Bitcoin price followed weakening US spot market demand as the Coinbase Premium Index turned negative for the first time in three weeks.",
+    "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-flashes-red-in-three-weeks-as-weekly-losses-top-793m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Biraajmaan Tamuly",
+    "created_at": "2026-04-28T19:56:21.000Z"
   },
   {
-    "id": "1460f324-099f-4f85-952f-04578f8dfc0d",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Bitbank Launches 0.5% Crypto Rewards Credit Card",
-    "summary": "1. The two companies partnered to issue this credit card, which, in addition to being the first credit card to allow monthly payments to be deducted from crypto balances in an exchange, also offers cryptocurrency rewards in BTC, ETH, and ASTR.\n2. Key Takeaways: Bitbank and EPOS Card launched Japan’s 1st Visa credit card, allowing monthly installment […]",
-    "url": "https://news.bitcoin.com/bitbank-launches-0-5-crypto-rewards-credit-card/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-04-28T07:30:21.000Z"
-  },
-  {
-    "id": "35143f06-17be-46f4-b06d-dc60585e5a32",
+    "id": "d586bf8f-73a0-4dae-9a95-8cf919003240",
     "source": "CoinDesk",
     "type": "rss",
-    "title": "Ondo Finance adds proxy voting for holders of its $700 million tokenized equities",
-    "summary": "1. The move aims to bring Ondo's tokenized stocks and ETFs closer to traditional ones held in a brokerage account.",
-    "url": "https://www.coindesk.com/tech/2026/04/28/ondo-finance-adds-proxy-voting-for-holders-of-its-usd700-million-tokenized-equities",
+    "title": "Paul Tudor Jones calls bitcoin the 'best inflation hedge,' warns of overvalued stocks",
+    "summary": "1. It will be \"really hard to make money\" in stocks over the next decade, said the billionaire investor, noting that the S&P 500's valuation reminds him of the 2000 dot-com bubble.",
+    "url": "https://www.coindesk.com/markets/2026/04/28/paul-tudor-jones-calls-bitcoin-the-best-inflation-hedge-warns-of-overvalued-stocks",
     "author": "Krisztian Sandor",
-    "created_at": "2026-04-28T07:29:34.000Z"
+    "created_at": "2026-04-28T19:56:15.000Z"
   },
   {
-    "id": "2973d588-a8c7-44a3-96b7-43e5e0b749e2",
-    "source": "CoinTelegraph",
+    "id": "9237356e-8088-471d-887f-69e8bf7adcf9",
+    "source": "TechCrunch",
     "type": "rss",
-    "title": "Trump changes tune on prediction markets days after saying he disliked them",
-    "summary": "1. Donald Trump says the US can’t be “left out in the cold” on prediction markets just days after he said he was “not happy” with the fast-growing platforms.",
-    "url": "https://cointelegraph.com/news/trump-changes-stance-after-saying-he-disliked-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Jesse Coghlan",
-    "created_at": "2026-04-28T07:11:31.000Z"
+    "title": "Amazon is already offering new OpenAI products on AWS",
+    "summary": "1. A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service.",
+    "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+    "author": "Julie Bort",
+    "created_at": "2026-04-28T19:48:02.000Z"
   },
   {
-    "id": "cde030b8-e794-4a29-bdc1-5db5111bb068",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Crypto lobby backs formal removal of ‘reputation risk’ from bank examinations",
-    "summary": "1. The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corp.\n2. finalized a similar rule removing reputation risk earlier this month.",
-    "url": "https://cointelegraph.com/news/blockchain-association-supports-reputation-risk-removal-from-supervisory-programs-to-end-crypto-debanking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Stephen Katte",
-    "created_at": "2026-04-28T07:00:30.000Z"
-  },
-  {
-    "id": "da035106-0224-42fa-977d-ad44c40eae28",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Three Bitcoin charts say BTC price may rally toward $82K",
-    "summary": "1. Bitcoin’s ascending channel setup and rising stablecoin inflows suggest improving liquidity conditions could support a push toward higher price levels.",
-    "url": "https://cointelegraph.com/markets/three-bitcoin-charts-signaling-btc-price-rebound-to-82k-and-above?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Yashu Gola",
-    "created_at": "2026-04-28T06:57:26.000Z"
-  },
-  {
-    "id": "169fda22-ef03-4a53-a0bc-c4cb0da2616a",
+    "id": "7d67d7f6-8972-487e-8869-1d3db36f1abf",
     "source": "The Block",
     "type": "rss",
-    "title": "DeFi United unveils plan to restore rsETH after $292 million Kelp DAO exploit",
-    "summary": "1. The restoration process involves converting ETH into rsETH in tranches, which will then be transferred to the affected lockbox contract.",
-    "url": "https://www.theblock.co/post/399118/defi-united-detailed-plan?utm_source=rss&utm_medium=rss",
-    "author": "Danny Park",
-    "created_at": "2026-04-28T06:52:53.000Z"
+    "title": "Ostium upgrades backend, adds offchain institutional liquidity providers like Jump",
+    "summary": "1. Following a major backend overhaul, Ostium pitches itself as a “decentralized execution layer” for global markets.",
+    "url": "https://www.theblock.co/post/399269/ostium-upgrades-backend-adds-offchain-institutional-liquidity-providers-jump?utm_source=rss&utm_medium=rss",
+    "author": "Daniel Kuhn",
+    "created_at": "2026-04-28T19:43:25.000Z"
   },
   {
-    "id": "19dae28d-7847-498d-8afa-950b72542270",
-    "source": "CoinDesk",
+    "id": "c1bf9441-7836-4a33-b334-252194c56e8e",
+    "source": "CoinTelegraph",
     "type": "rss",
-    "title": "Three Bank of Japan members call for a rate hike; yen rises while bitcoin falls",
-    "summary": "1. Markets are pricing in a June rate hike after a split BoJ vote that saw three policymakers dissent in favor of a hike.",
-    "url": "https://www.coindesk.com/markets/2026/04/28/three-bank-of-japan-members-call-for-a-rate-hike-yen-rises-while-bitcoin-falls",
-    "author": "Omkar Godbole",
-    "created_at": "2026-04-28T06:40:07.000Z"
+    "title": "RedStone launches settlement layer to address RWA liquidity gap in DeFi lending",
+    "summary": "1. A new system targets the mismatch between fast DeFi liquidations and slow asset redemptions, a key barrier to the use of tokenized assets in lending markets.",
+    "url": "https://cointelegraph.com/news/redstone-settlement-layer-rwa-liquidity-gap-defi-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Sam Bourgi",
+    "created_at": "2026-04-28T19:42:43.000Z"
   },
   {
-    "id": "fdbb63ec-91f6-4405-81e5-d0e3365b8feb",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Kevin O’Leary just dumped all his alts and went 90% BTC/ETH",
-    "summary": "1. yo so kevin oleary literally exited his entire altcoin portfolio and moved 90% into bitcoin and ethereum and everyone’s acting like this is some random thing that’s an L, its not random yo.\n2. this guy makes money off attention and he just signaled something with his portfolio that matters.\n3. his reasoning was simple: scale and survivability.",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1sxtfp0/kevin_oleary_just_dumped_all_his_alts_and_went_90/",
-    "author": "u/Repulsive_Counter_79",
-    "created_at": "2026-04-28T06:35:52.000Z"
-  },
-  {
-    "id": "a0998a49-cb9d-4050-86ab-d5eedfd58ecc",
+    "id": "9fd269e9-4c30-4fdb-b949-5395e66f0bfe",
     "source": "Bitcoin.com",
     "type": "rss",
-    "title": "Zetachain Pauses Mainnet After GatewayZEVM Contract Exploit Targets Protocol Wallets",
-    "summary": "1. Zetachain paused its mainnet on April 28 after a vulnerability in its GatewayZEVM smart contract was exploited, with security researchers confirming the root cause within hours of the incident.\n2. Key Takeaways: Zetachain paused cross-chain transactions on Tuesday after an exploit targeting the GatewayZEVM contract’s call function hit internal team wallets.\n3. Slowmist identified the root cause […]",
-    "url": "https://news.bitcoin.com/zetachain-gatewayzevm-exploit-mainnet-paused/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-04-28T06:30:22.000Z"
+    "title": "Traders Push Bitcoin Below $76,000 as $43M Long Liquidations Trigger Slide",
+    "summary": "1. On Tuesday, April 28, bitcoin fell 0.7%, dipping below the $76,000 mark as global markets stalled amid a lull in Middle East geopolitical tensions.\n2. Key Takeaways: Bitcoin dropped 0.7% to $76,200 on April 28 as markets shifted focus away from Middle East geopolitical risks.\n3. The Bitunix analysis shows that $43 million in long positions were […]",
+    "url": "https://news.bitcoin.com/traders-push-bitcoin-below-76000-as-43m-long-liquidations-trigger-slide/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-04-28T19:42:17.000Z"
   },
   {
-    "id": "46c37424-2c4b-4911-851a-59b73620dc68",
-    "source": "CoinTelegraph",
+    "id": "ca76b464-7f95-4b59-8a2f-01a5a2b5961c",
+    "source": "Bitcoin Magazine",
     "type": "rss",
-    "title": "Acting AG Todd Blanche confirms ‘code is not a crime’ in DOJ pivot",
-    "summary": "1. Acting US Attorney General Todd Blanche said developers will no longer be investigated or charged unless they knowingly help third parties commit crimes.",
-    "url": "https://cointelegraph.com/news/acting-ag-blanche-signals-doj-pivot-code-is-not-a-crime?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brian Quarmby",
-    "created_at": "2026-04-28T06:08:37.000Z"
+    "title": "Lightspark Launches Grid Global Accounts, Targeting Fragmented Global Payment System",
+    "summary": "1. Bitcoin Magazine\n\nLightspark Launches Grid Global Accounts, Targeting Fragmented Global Payment System\nDavid Marcus, CEO of Lightspark, used a Tuesday morning session at the Bitcoin 2026 Conference to announce Grid Global Accounts.\n2. This post Lightspark Launches Grid Global Accounts, Targeting Fragmented Global Payment System first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+    "url": "https://bitcoinmagazine.com/news/lightspark-launches-grid-global-accounts",
+    "author": "Micah Zimmerman",
+    "created_at": "2026-04-28T19:40:47.000Z"
   },
   {
-    "id": "b3431a68-8c6c-46fe-8e22-d26253db1a3f",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Dorsey's Block unveils Bitcoin proof-of-reserves in transparency move",
-    "summary": "1. Block’s proof-of-reserves will enable anyone to verify the company’s 8,883 Bitcoin stash worth over $680 million through an on-chain signature.",
-    "url": "https://cointelegraph.com/news/jack-dorseys-block-unveils-btc-proof-of-reserves-in-transparency-move?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-04-28T06:05:15.000Z"
+    "id": "4407fa45-2924-45a2-b605-3a59d15c6273",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "U.S. intelligence agencies are studying how Iran would respond if Trump declare a unilateral victory against Iran, and potentially pull back from the warTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-28T19:40:44+00:00"
   },
   {
-    "id": "f1f78d86-878f-47cf-8add-0dc2d8c52e5a",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "What next as XRP drops 3% under $1.40 on strong selling",
-    "summary": "1. High-volume breakdown confirms sellers in control, with failed support turning into a key pivot as downside targets come into focus.",
-    "url": "https://www.coindesk.com/markets/2026/04/28/what-next-as-xrp-drops-3-under-usd1-40-on-strong-selling",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-04-28T05:35:10.000Z"
-  },
-  {
-    "id": "bae59264-d6a0-4e83-9828-c3b5c62934aa",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "B3 to Launch Bitcoin-Linked Prediction Contracts as Brazil Bans Polymarket and Kalshi",
-    "summary": "1. Brazilian stock exchange B3 is launching six “Event Contracts” today, including instruments tied to bitcoin price movements.\n2. The country’s first federally regulated prediction market comes three days after the National Monetary Council prohibited derivatives based on sports, political, and entertainment events, while explicitly preserving the financial-asset category B3’s contracts fall under.\n3. Key Takeaways: B3 launches […]",
-    "url": "https://news.bitcoin.com/b3-to-launch-bitcoin-linked-prediction-contracts-as-brazil-bans-polymarket-and-kalshi/",
-    "author": "Luci Kelemen",
-    "created_at": "2026-04-28T05:30:18.000Z"
-  },
-  {
-    "id": "b4837d36-9052-4d4d-9c26-4b6cb159e696",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Solana clients Anza and Firedancer introduce post-quantum solution Falcon",
-    "summary": "1. Jump Crypto, the team behind Firedancer, said Falcon has the smallest signature among NIST standards, which could help preserve Solana’s high-throughput capabilities.",
-    "url": "https://cointelegraph.com/news/solana-introduces-post-quantum-solution-falcon-on-two-validator-clients?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-04-28T05:24:26.000Z"
-  },
-  {
-    "id": "88b085b4-29f2-42fe-9fa9-2a61c07763f9",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Bitcoin loses $77,000, ether, solana slide as Hormuz standoff lifts oil to 3-week high",
-    "summary": "1. Bitcoin traded at $76,923 on Tuesday morning, down 2.4% over 24 hours after rejecting $79,400 the previous day, with the entire top 10 closing red as Brent crude extended its rally to a seventh straight day.",
-    "url": "https://www.coindesk.com/markets/2026/04/28/bitcoin-loses-usd77-000-ether-solana-slide-as-hormuz-standoff-lifts-oil-to-3-week-high",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-04-28T05:23:25.000Z"
-  },
-  {
-    "id": "10319d49-9c07-4a1b-882c-33140e857a90",
+    "id": "6a396d61-9bc9-48d4-bf56-df1d94fcbe97",
     "source": "@WatcherGuru",
     "type": "telegram",
-    "title": "Google $GOOGL signs classified AI deal with the Pentagon.@WatcherGuru",
+    "title": "🇦🇪 Citadel receives regulatory approval to operate in Dubai, UAE.@WatcherGuru",
     "summary": "",
     "url": "https://t.me/WatcherGuru",
     "author": "@WatcherGuru",
-    "created_at": "2026-04-28T05:09:54+00:00"
+    "created_at": "2026-04-28T19:35:22+00:00"
   },
   {
-    "id": "f747900f-cadb-49fa-8eb9-b52f74425bed",
+    "id": "20a3d982-5618-4f9f-9877-77602fe09a9d",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "DeFi United Outlines Technical Path To Make Kelp's rsETH Whole",
+    "summary": "1. The coalition has secured ETH commitments to refill the bridge in tranches and will use Aave and Compound governance proposals to liquidate the exploiter's remaining positions.",
+    "url": "https://thedefiant.io/news/defi/defi-united-outlines-technical-path-to-make-kelp-s-rseth-whole",
+    "author": "yyctrader",
+    "created_at": "2026-04-28T19:22:55.000Z"
+  },
+  {
+    "id": "b873cfc1-935e-43c6-b8bf-f36d3550f666",
+    "source": "Bitcoin Magazine",
+    "type": "rss",
+    "title": "Your Bank is Becoming a Casino: River CEO Frames Bitcoin as the Alternative",
+    "summary": "1. Bitcoin Magazine\n\nYour Bank is Becoming a Casino: River CEO Frames Bitcoin as the Alternative\nBitcoin 2026 speaker Alex Leishman warned in his Bitcoin 2026 talk that modern finance is shifting toward a gambling-like system, arguing that rising costs and stagnant wages are pushing people toward prediction markets.\n2. This post Your Bank is Becoming a Casino: River CEO Frames Bitcoin as the Alternative first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+    "url": "https://bitcoinmagazine.com/news/your-bank-is-a-casino-bitcoin-alternative",
+    "author": "Micah Zimmerman",
+    "created_at": "2026-04-28T19:21:58.000Z"
+  },
+  {
+    "id": "739a84dc-309a-48b3-b8de-f4a4f618fb69",
     "source": "TechCrunch",
     "type": "rss",
-    "title": "Drizzle on top: a new high-end dog food brand is coming for the 1%",
-    "summary": "1. Golden Child is launching with two \"five-star\" products: a fresh frozen meal system and, more intriguingly, a \"drizzle.\" It has also raised $37 million in funding.",
-    "url": "https://techcrunch.com/2026/04/27/drizzle-on-top-a-new-high-end-dog-food-brand-is-coming-for-the-1/",
-    "author": "Connie Loizos",
-    "created_at": "2026-04-28T05:02:04.000Z"
+    "title": "Amazon launches an AI-powered audio Q&A experience on product pages",
+    "summary": "1. Amazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses.",
+    "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+    "author": "Lauren Forristal",
+    "created_at": "2026-04-28T18:49:54.000Z"
   },
   {
-    "id": "e086f0a5-1bab-489e-af73-7bf87aba71d7",
+    "id": "8cb8bf9d-91b3-4baf-9e7d-4926f221b631",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. The Chancellor of Germany, Friedrich Merz, thinks it’s OK for Iran to have a Nuclear Weapon.\n2. He doesn’t know what he’s talking about!\n3. If Iran had a Nuclear Weapon, the whole World would be held hostage.",
+    "url": "https://trumpstruth.org/statuses/38087",
+    "author": "Trump Truth",
+    "created_at": "2026-04-28T18:25:13.000Z"
+  },
+  {
+    "id": "6359da33-85c9-4dd6-8d29-dcbd94920cf4",
     "source": "CoinDesk",
     "type": "rss",
-    "title": "Bitcoin pressured by Fed uncertainty, oil, and AI slowdown",
-    "summary": "1. Enflux points to oil-driven inflation as the main constraint, while questions around AI demand could reshape miner selling in the months ahead.",
-    "url": "https://www.coindesk.com/markets/2026/04/28/the-uncertainty-of-the-fed-oil-and-a-possible-ai-slowdown-are-all-weighing-heavy-on-btc",
-    "author": "Sam Reynolds",
-    "created_at": "2026-04-28T04:42:11.000Z"
+    "title": "CFTC sues Wisconsin in agency's legal campaign defending prediction markets authority",
+    "summary": "1. Commodity Futures Trading Commission added Wisconsin to the list of states it's sued over event-contract jurisdiction, most recently New York.",
+    "url": "https://www.coindesk.com/policy/2026/04/28/cftc-sues-wisconsin-in-agency-s-legal-campaign-defending-prediction-markets-authority",
+    "author": "Jesse Hamilton",
+    "created_at": "2026-04-28T18:22:41.000Z"
   },
   {
-    "id": "58f40040-08d9-4b07-9ceb-93e5e58edc98",
+    "id": "d63f19a0-d8a4-49be-9443-43b729c68862",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "Developers of Telegram's Crypto Wallet Launch Agentic Wallets",
+    "summary": "1. The open-source standard, developed by The Open Platform, lets AI agents manage dedicated on-chain wallets without requiring user sign-off on every transaction",
+    "url": "https://thedefiant.io/news/nfts-and-web3/ton-tech-launches-agentic-wallets-on-ton-telegram",
+    "author": "DefAInt",
+    "created_at": "2026-04-28T18:19:46.000Z"
+  },
+  {
+    "id": "7e7ae22d-647d-4cdb-b902-24730880c607",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Match Group invests $100M in Sniffies, a cruising app for gay men",
+    "summary": "1. The app is Match Group's newest attempt to get mobile users excited about online romance again.",
+    "url": "https://techcrunch.com/2026/04/28/match-group-invests-100-million-in-sniffies-a-cruising-app-for-gay-men/",
+    "author": "Lucas Ropek",
+    "created_at": "2026-04-28T18:16:54.000Z"
+  },
+  {
+    "id": "f4b9fdf3-4e5e-4294-8d02-b94c344d3ebf",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Polymarket breach claim: 300,000+ user data allegedly exposed, claimed by \"xorcat",
+    "summary": "1. Threat actor xorcat claimed (on a dark Web forum) a breach of Polymarket, alleging a data leak impacting 300,000+ users.\n2. At this stage, the claims remain unverified and no detailed technical evidence has been publicly released.\n3. However, if accurate, the incident raises broader concerns around how crypto platforms handle user data, authentication flows, and third-party integrations.",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1sy8pur/polymarket_breach_claim_300000_user_data/",
+    "author": "u/raptorhunter22",
+    "created_at": "2026-04-28T17:48:38.000Z"
+  },
+  {
+    "id": "aa8067b5-ab11-427f-9aae-0e77f0987f5b",
+    "source": "Bitcoin Magazine",
+    "type": "rss",
+    "title": "Block (XYZ) Touts Bitcoin as ‘Everyday Money’ With 800,000 Merchants Now Accepting It",
+    "summary": "1. Bitcoin Magazine\n\nBlock (XYZ) Touts Bitcoin as ‘Everyday Money’ With 800,000 Merchants Now Accepting It\nBlock is accelerating its push to make bitcoin everyday money, with Miles Suter unveiling new payments, rewards, and self-custody tools at Bitcoin 2026 alongside proof of $2.2 billion in BTC reserves.\n2. This post Block (XYZ) Touts Bitcoin as ‘Everyday Money’ With 800,000 Merchants Now Accepting It first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+    "url": "https://bitcoinmagazine.com/news/blocks-xyz-miles-suter-pushes-bitcoin",
+    "author": "Micah Zimmerman",
+    "created_at": "2026-04-28T17:29:06.000Z"
+  },
+  {
+    "id": "29ce9e75-312b-4aa8-a98e-39d7f9647bba",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "we talk decentralization in ethereum but use centralized messaging",
+    "summary": "1. the whole ethereum community preaches decentralization and taking back control but then we coordinate everything through regular messaging apps run by big companies.\n2. it’s pretty hypocritical when you step back and look at it.\n3. anyone else notice this?",
+    "url": "https://reddit.com/r/ethereum/comments/1sy7w6u/we_talk_decentralization_in_ethereum_but_use/",
+    "author": "u/SelfApprehensive8173",
+    "created_at": "2026-04-28T17:20:39.000Z"
+  },
+  {
+    "id": "71400a6b-e5ce-4aa9-aeb0-2edfb1e1e3e4",
     "source": "CoinTelegraph",
     "type": "rss",
-    "title": "MARA forms foundation to support Bitcoin network health, adoption ",
-    "summary": "1. As part of its launch, the MARA Foundation has asked the community to vote on which of three Bitcoin companies should receive a $100,000 contribution.",
-    "url": "https://cointelegraph.com/news/mara-forms-foundation-to-harden-bitcoin-against-quantum-other-threats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-04-28T04:36:26.000Z"
-  },
-  {
-    "id": "28d552a3-f685-42c6-8819-e52032866b0c",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Luxor Signs MicroBT Hardware Commitment Worth $100M Alongside Firmware Launch",
-    "summary": "1. Luxor Technology Corporation has expanded its LuxOS firmware to support MicroBT Whatsminer series miners and secured a term sheet for a strategic investment from MicroBT, paired with a $100 million hardware purchase commitment.\n2. Key Takeaways: Luxor Technology expanded LuxOS firmware to MicroBT Whatsminer miners, covering select M50 series models.\n3. MicroBT’s investment manager ITL signed a […]",
-    "url": "https://news.bitcoin.com/luxor-signs-microbt-hardware-commitment-worth-100m-alongside-firmware-launch/",
-    "author": "Jamie Redman",
-    "created_at": "2026-04-28T04:30:19.000Z"
+    "title": "Canaan, Tether deepen partnership on immersion-cooled mining systems",
+    "summary": "1. Canaan secures a new Tether order for modular mining hardware as the stablecoin issuer expands into integrated, data center-style Bitcoin infrastructure.",
+    "url": "https://cointelegraph.com/news/canaan-tether-mining-hardware-modular-bitcoin-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Sam Bourgi",
+    "created_at": "2026-04-28T17:14:35.000Z"
   }
 ]
