@@ -1,5 +1,55 @@
 [
   {
+    "id": "97aaccc6-c852-42fb-b4b4-3757d7d64b57",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "ZetaChain-based AI integration service Anuma officially launches",
+    "summary": "ZetaChain has announced the official launch of Anuma, an AI integration service built on ZetaChain 2.0, via its official X account. Anuma integrates major AI models like ChatGPT, Gemini, and Claude into a single application, providing a unified memory function that works seamlessly across sessions, devices, and models. The service also features a \"Council Mode\" for comparing responses from multiple AI models simultaneously and a \"Text AI\" function that allows users to send text messages to AI from their phones. Data privacy is a core design element, with user information protection set as the default.The Anuma team explained that most current AI services are inconvenient because they use separate apps and memories, forcing users to start over when trying a new model. They noted that Anuma was designed to allow users to leverage the different strengths of various AI models within a single app, all based on a unified memory.",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-28T05:26:15+00:00"
+  },
+  {
+    "id": "88b085b4-29f2-42fe-9fa9-2a61c07763f9",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin loses $77,000, ether, solana slide as Hormuz standoff lifts oil to 3-week high",
+    "summary": "1. Bitcoin traded at $76,923 on Tuesday morning, down 2.4% over 24 hours after rejecting $79,400 the previous day, with the entire top 10 closing red as Brent crude extended its rally to a seventh straight day.",
+    "url": "https://www.coindesk.com/markets/2026/04/28/bitcoin-loses-usd77-000-ether-solana-slide-as-hormuz-standoff-lifts-oil-to-3-week-high",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-04-28T05:23:25.000Z"
+  },
+  {
+    "id": "5eb421a4-0b9f-4262-b7ca-0f30f3b5ce11",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "🗣️ Lyn Alden says Bitcoin \"has to be an order of magnitude bigger\" before it can fix the monetary system, arguing it's still seen as a \"fringe alternative\" today.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-28T05:19:43+00:00"
+  },
+  {
+    "id": "54934e6b-4759-4175-8e37-53c7f440fda6",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "Google $GOOGL signs classified AI deal with the Pentagon.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru",
+    "author": "@WatcherGuru",
+    "created_at": "2026-04-28T05:09:54+00:00"
+  },
+  {
+    "id": "f747900f-cadb-49fa-8eb9-b52f74425bed",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Drizzle on top: a new high-end dog food brand is coming for the 1%",
+    "summary": "1. Golden Child is launching with two \"five-star\" products: a fresh frozen meal system and, more intriguingly, a \"drizzle.\" It has also raised $37 million in funding.",
+    "url": "https://techcrunch.com/2026/04/27/drizzle-on-top-a-new-high-end-dog-food-brand-is-coming-for-the-1/",
+    "author": "Connie Loizos",
+    "created_at": "2026-04-28T05:02:04.000Z"
+  },
+  {
     "id": "e086f0a5-1bab-489e-af73-7bf87aba71d7",
     "source": "CoinDesk",
     "type": "rss",
@@ -28,16 +78,6 @@
     "url": "https://news.bitcoin.com/luxor-signs-microbt-hardware-commitment-worth-100m-alongside-firmware-launch/",
     "author": "Jamie Redman",
     "created_at": "2026-04-28T04:30:19.000Z"
-  },
-  {
-    "id": "c5928e68-7ef3-4768-bb6e-0a02b926c0e5",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "US lawmaker pushing bill to limit Chinese takeovers of Bitcoin miners",
-    "summary": "U.S. Republican Congressman Zach Nunn is pushing for legislation to restrict Chinese investors from acquiring American Bitcoin mining companies, he announced at the 2026 Bitcoin Conference. Nunn stated that Chinese investors have recently been active in pursuing such takeovers. He warned that if Chinese capital were to secure a majority stake in these firms, it could weaken the strategic position of the United States in the digital asset sector.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-28T04:20:10+00:00"
   },
   {
     "id": "39c77bb3-b23c-4174-b54e-1c839748c0fb",
@@ -110,14 +150,14 @@
     "created_at": "2026-04-28T02:00:47.000Z"
   },
   {
-    "id": "6aa3b5db-a8e7-4311-9e02-88d5b427f7ce",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🇨🇦 Canada's Bill C-25, which would ban crypto donations to federal political campaigns, passed second reading in the House of Commons with cross-party support and little opposition.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-28T01:44:19+00:00"
+    "id": "ce9ac5a7-e1c6-49cf-874a-c995045acdf0",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Strategy Adds $255M in Bitcoin While Bitmine Purchase $236M in ETH",
+    "summary": "1. Strategy Adds $255M in Bitcoin While Bitmine Purchase $236M in ETH",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1sxnhzq/strategy_adds_255m_in_bitcoin_while_bitmine/",
+    "author": "u/ourcryptotalk",
+    "created_at": "2026-04-28T01:44:56.000Z"
   },
   {
     "id": "5e4239b1-1011-4558-8a99-efa170b59b79",
@@ -198,35 +238,5 @@
     "url": "https://bitcoinmagazine.com/news/billionaire-tim-draper-scared-bitcoin",
     "author": "Micah Zimmerman",
     "created_at": "2026-04-27T23:50:55.000Z"
-  },
-  {
-    "id": "7caddded-c6b1-49a7-9b22-1adbcc698d32",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait of Hormuz as an \"economic nuclear weapon.\"\"They're bragging about how they can hold 20% of the world's energy hostage.\"@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru",
-    "author": "@WatcherGuru",
-    "created_at": "2026-04-27T23:35:52+00:00"
-  },
-  {
-    "id": "3ed2debd-74cf-4759-949b-9cf3931fc8e9",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Ether triple top strikes at $2.4K as ETH analysts doubt bullish trend change",
-    "summary": "1. Ether charts flash an ominous triple-top pattern as ETH fails to overcome $2,400.\n2. Will bears maintain control over the altcoin’s price action?",
-    "url": "https://cointelegraph.com/markets/ether-triple-top-pattern-rejects-24k-as-eth-analyst-questions-uptrend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Biraajmaan Tamuly",
-    "created_at": "2026-04-27T23:19:40.000Z"
-  },
-  {
-    "id": "513889c4-bc9e-4426-a040-188e241a1606",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "SEC Chair Paul Atkins Tells Bitcoin Las Vegas 2026 a New Era Starts Now at the Agency",
-    "summary": "1. Securities and Exchange Commission (SEC) Chairman Paul Atkins told attendees at Bitcoin Las Vegas 2026 on Monday that the agency is moving to embrace digital asset innovation, end enforcement-driven regulation, and work alongside the Commodity Futures Trading Commission (CFTC) to bring clarity to U.S.\n2. crypto markets.\n3. Key Takeaways: SEC Chair Atkins confirmed that an […]",
-    "url": "https://news.bitcoin.com/sec-chair-paul-atkins-tells-bitcoin-las-vegas-2026-a-new-era-starts-now-at-the-agency/",
-    "author": "Jamie Redman",
-    "created_at": "2026-04-27T23:14:08.000Z"
   }
 ]
