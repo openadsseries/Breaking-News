@@ -1,13 +1,53 @@
 [
   {
-    "id": "0c9bb714-c6b7-436b-810d-52b3c9da14d1",
+    "id": "e086f0a5-1bab-489e-af73-7bf87aba71d7",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin pressured by Fed uncertainty, oil, and AI slowdown",
+    "summary": "1. Enflux points to oil-driven inflation as the main constraint, while questions around AI demand could reshape miner selling in the months ahead.",
+    "url": "https://www.coindesk.com/markets/2026/04/28/the-uncertainty-of-the-fed-oil-and-a-possible-ai-slowdown-are-all-weighing-heavy-on-btc",
+    "author": "Sam Reynolds",
+    "created_at": "2026-04-28T04:42:11.000Z"
+  },
+  {
+    "id": "58f40040-08d9-4b07-9ceb-93e5e58edc98",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "MARA forms foundation to support Bitcoin network health, adoption ",
+    "summary": "1. As part of its launch, the MARA Foundation has asked the community to vote on which of three Bitcoin companies should receive a $100,000 contribution.",
+    "url": "https://cointelegraph.com/news/mara-forms-foundation-to-harden-bitcoin-against-quantum-other-threats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-04-28T04:36:26.000Z"
+  },
+  {
+    "id": "28d552a3-f685-42c6-8819-e52032866b0c",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Luxor Signs MicroBT Hardware Commitment Worth $100M Alongside Firmware Launch",
+    "summary": "1. Luxor Technology Corporation has expanded its LuxOS firmware to support MicroBT Whatsminer series miners and secured a term sheet for a strategic investment from MicroBT, paired with a $100 million hardware purchase commitment.\n2. Key Takeaways: Luxor Technology expanded LuxOS firmware to MicroBT Whatsminer miners, covering select M50 series models.\n3. MicroBT’s investment manager ITL signed a […]",
+    "url": "https://news.bitcoin.com/luxor-signs-microbt-hardware-commitment-worth-100m-alongside-firmware-launch/",
+    "author": "Jamie Redman",
+    "created_at": "2026-04-28T04:30:19.000Z"
+  },
+  {
+    "id": "c5928e68-7ef3-4768-bb6e-0a02b926c0e5",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "US spot ETH ETFs flip to net outflows",
-    "summary": "U.S. spot Ethereum ETFs recorded approximately $50.4 million in net outflows on April 27, according to data from Farside Investors. The funds flipped back to net outflows after a single day of net inflows.- BlackRock's ETHA: -$13.8 million- Fidelity's FETH: -$48.4 million- BlackRock's Staking ETHB: +$11.8 million",
+    "title": "US lawmaker pushing bill to limit Chinese takeovers of Bitcoin miners",
+    "summary": "U.S. Republican Congressman Zach Nunn is pushing for legislation to restrict Chinese investors from acquiring American Bitcoin mining companies, he announced at the 2026 Bitcoin Conference. Nunn stated that Chinese investors have recently been active in pursuing such takeovers. He warned that if Chinese capital were to secure a majority stake in these firms, it could weaken the strategic position of the United States in the digital asset sector.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-28T04:12:22+00:00"
+    "created_at": "2026-04-28T04:20:10+00:00"
+  },
+  {
+    "id": "39c77bb3-b23c-4174-b54e-1c839748c0fb",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bitcoin support resistance flip in play as longs to shorts delta highlights bullish bias",
+    "summary": "1. Bitcoin pulled back to retest $76,500 as support, but the long-to-short delta indicates bulls have a significant advantage if the range highs are reclaimed.",
+    "url": "https://cointelegraph.com/markets/bitcoin-support-resistance-flip-in-play-as-longs-to-shorts-delta-highlights-bullish-bias?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Antonio Oliveira",
+    "created_at": "2026-04-28T03:48:14.000Z"
   },
   {
     "id": "667bc872-ffbf-4d95-a8a7-53de7211c6a7",
@@ -70,7 +110,7 @@
     "created_at": "2026-04-28T02:00:47.000Z"
   },
   {
-    "id": "e0fc6aee-2fe7-4e14-878d-d956d9756223",
+    "id": "6aa3b5db-a8e7-4311-9e02-88d5b427f7ce",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇨🇦 Canada's Bill C-25, which would ban crypto donations to federal political campaigns, passed second reading in the House of Commons with cross-party support and little opposition.",
@@ -160,7 +200,7 @@
     "created_at": "2026-04-27T23:50:55.000Z"
   },
   {
-    "id": "2f0c60d3-1589-4883-b805-7f9990e255fe",
+    "id": "7caddded-c6b1-49a7-9b22-1adbcc698d32",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait of Hormuz as an \"economic nuclear weapon.\"\"They're bragging about how they can hold 20% of the world's energy hostage.\"@WatcherGuru",
@@ -188,25 +228,5 @@
     "url": "https://news.bitcoin.com/sec-chair-paul-atkins-tells-bitcoin-las-vegas-2026-a-new-era-starts-now-at-the-agency/",
     "author": "Jamie Redman",
     "created_at": "2026-04-27T23:14:08.000Z"
-  },
-  {
-    "id": "c1ad54c9-ac44-45d2-83b6-b6c36adc825a",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Israeli regulators approve shekel-pegged stablecoin",
-    "summary": "1. The approval of the BILS stablecoin issued by Israeli exchange Bits of Gold came after a two-year pilot program on the Solana blockchain.",
-    "url": "https://cointelegraph.com/news/israel-shekel-pegged-stablecoin-bils?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Turner Wright",
-    "created_at": "2026-04-27T22:40:45.000Z"
-  },
-  {
-    "id": "ab22c04a-a70e-47d8-8cc8-1aaea782853b",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Elon Musk’s Fight With Colorado Over AI Law Hits Pause as State Considers Revisions",
-    "summary": "1. The joint motion halts deadlines and enforcement in xAI’s lawsuit while Colorado lawmakers weigh changes to the state’s AI bias law.",
-    "url": "https://decrypt.co/365751/elon-musk-colorado-ai-law-pause-state-considers-revisions",
-    "author": "Jason Nelson",
-    "created_at": "2026-04-27T22:22:51.000Z"
   }
 ]
