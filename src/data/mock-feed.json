@@ -1,13 +1,23 @@
 [
   {
-    "id": "f905142d-35fa-443d-85c2-c9b2f65b7e9e",
+    "id": "22127370-4f4e-4071-88e9-ea2e4f2da753",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Saipan woman gets 71 months in prison for bitcoin fraud targeting senior victims",
+    "summary": "1. The criminal built trust with her targets and solicited bitcoin investments under false pretenses, according to the DOJ.",
+    "url": "https://www.theblock.co/post/399107/saipan-woman-bitcoin-fraud?utm_source=rss&utm_medium=rss",
+    "author": "Timmy Shen",
+    "created_at": "2026-04-28T03:00:15.000Z"
+  },
+  {
+    "id": "7124cdc4-6948-4ed8-afc4-d4e70641f138",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "SEC reviews NYSE Arca proposal to tighten crypto ETF listing rules",
-    "summary": "The U.S. Securities and Exchange Commission (SEC) has begun reviewing a proposal from NYSE Arca to tighten listing standards for crypto ETFs, a move dubbed the \"85% qualified asset requirement\" rule, Bitcoin.com reported. NYSE Arca is seeking to amend its rules to mandate that at least 85% of the assets in a commodity-based ETF must be \"verified assets.\" These include qualified commodities, stocks, cash, and cash equivalents. Assets like BTC, ETH, SOL, and XRP could qualify, as futures for these have been trading for over six months. The outlet noted that the amendment also includes a provision to calculate over-the-counter (OTC) derivatives based on their total notional value, which could make it difficult for products with a high concentration of derivatives to maintain their listing. NYSE Arca explained that the change aims to prevent market manipulation and protect investors. The SEC is expected to gather industry feedback before making a final decision on whether to approve the rule.",
+    "title": "SEC chairman calls for blockchain-based instant stock settlement",
+    "summary": "U.S. Securities and Exchange Commission (SEC) Chairman Paul Atkins stated that the stock settlement system should be converted to an instant (T+0) framework, calling blockchain technology a key tool to bridge the gap between asset delivery and clearing. Speaking at the Bitcoin 2026 Conference, he also addressed the criteria for determining whether a cryptocurrency is a security. Atkins argued that the classification should depend on the issuer's substantive investment promise rather than the token's technical format. He further suggested that if a cryptocurrency is listed and traded separately from the issuer's investment promise, it should no longer be subject to disclosure obligations under securities law.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-28T02:57:17+00:00"
+    "created_at": "2026-04-28T02:59:40+00:00"
   },
   {
     "id": "1924f0b7-7093-48ee-8019-23d7355063e9",
@@ -30,7 +40,7 @@
     "created_at": "2026-04-28T02:00:47.000Z"
   },
   {
-    "id": "9b976d47-745e-4264-8a0d-469d9d757ef9",
+    "id": "5c982c40-2f5a-4bd7-9632-95ae669b1e05",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "LATEST: 🇨🇦 Canada's Bill C-25, which would ban crypto donations to federal political...",
@@ -120,7 +130,7 @@
     "created_at": "2026-04-27T23:50:55.000Z"
   },
   {
-    "id": "07eb64ee-9bd4-4b6f-81f5-9dcbf2e9d4a3",
+    "id": "e8360b83-85dd-4662-9a87-970deab96c63",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "JUST IN: 🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait of Hormuz...",
@@ -208,35 +218,5 @@
     "url": "https://www.theblock.co/post/399087/white-house-crypto-advisor-trump-strategic-bitcoin-reserve-coming-weeks?utm_source=rss&utm_medium=rss",
     "author": "Sarah Wynn",
     "created_at": "2026-04-27T21:25:23.000Z"
-  },
-  {
-    "id": "ad014dda-2b4d-45cb-8b93-460fb53e451c",
-    "source": "Politico",
-    "type": "rss",
-    "title": "Kat and Zo’s affordability goooooaaaals",
-    "summary": "1. Kat and Zo’s affordability goooooaaaals",
-    "url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/04/27/hochul-world-cup-affordability-mamdani-00893762",
-    "author": "By Ry Rivard",
-    "created_at": "2026-04-27T21:01:24.000Z"
-  },
-  {
-    "id": "61e2d996-375e-4429-b4ab-0b24d380bff1",
-    "source": "Bitcoin Magazine",
-    "type": "rss",
-    "title": "Lawmakers Warn Crypto Clarity Will Decide U.S. Leadership as 2026 Election Looms",
-    "summary": "1. Bitcoin Magazine\n\nLawmakers Warn Crypto Clarity Will Decide U.S.\n2. Leadership as 2026 Election Looms\nU.S.\n3. lawmakers and White House officials said that clear crypto rules will determine whether the U.S.",
-    "url": "https://bitcoinmagazine.com/news/lawmakers-warn-crypto-clarity-usa",
-    "author": "Micah Zimmerman",
-    "created_at": "2026-04-27T21:00:36.000Z"
-  },
-  {
-    "id": "be94c98c-6c32-4bea-8b61-1a332fb4f137",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Bitcoin rally shows signs of fatigue as key indicators turn bearish",
-    "summary": "1. Cooling U.S.\n2. demand, elevated Bitfinex whale positioning and a key on chain rejection point to short term downside during the Las Vegas Bitcoin conference.",
-    "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-rally-shows-signs-of-fatigue-as-key-indicators-turn-bearish",
-    "author": "James Van Straten",
-    "created_at": "2026-04-27T21:00:00.000Z"
   }
 ]
