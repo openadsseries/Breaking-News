@@ -1,13 +1,33 @@
 [
   {
-    "id": "97aaccc6-c852-42fb-b4b4-3757d7d64b57",
+    "id": "f1f78d86-878f-47cf-8add-0dc2d8c52e5a",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "What next as XRP drops 3% under $1.40 on strong selling",
+    "summary": "1. High-volume breakdown confirms sellers in control, with failed support turning into a key pivot as downside targets come into focus.",
+    "url": "https://www.coindesk.com/markets/2026/04/28/what-next-as-xrp-drops-3-under-usd1-40-on-strong-selling",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-04-28T05:35:10.000Z"
+  },
+  {
+    "id": "487f7d76-9bbb-4da2-ba54-5bf17202da36",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "ZetaChain-based AI integration service Anuma officially launches",
-    "summary": "ZetaChain has announced the official launch of Anuma, an AI integration service built on ZetaChain 2.0, via its official X account. Anuma integrates major AI models like ChatGPT, Gemini, and Claude into a single application, providing a unified memory function that works seamlessly across sessions, devices, and models. The service also features a \"Council Mode\" for comparing responses from multiple AI models simultaneously and a \"Text AI\" function that allows users to send text messages to AI from their phones. Data privacy is a core design element, with user information protection set as the default.The Anuma team explained that most current AI services are inconvenient because they use separate apps and memories, forcing users to start over when trying a new model. They noted that Anuma was designed to allow users to leverage the different strengths of various AI models within a single app, all based on a unified memory.",
+    "title": "US Senate Banking Committee to vote on Kevin Warsh's Fed Chair nomination today",
+    "summary": "The U.S. Senate Banking Committee is scheduled to hold a vote at 2:00 p.m. UTC today, April 28, on the nomination of Kevin Warsh for Chairman of the Federal Reserve (Fed). If the committee approves the nomination, it will proceed to a full Senate floor vote before a final appointment by the President.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-28T05:26:15+00:00"
+    "created_at": "2026-04-28T05:33:37+00:00"
+  },
+  {
+    "id": "bae59264-d6a0-4e83-9828-c3b5c62934aa",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "B3 to Launch Bitcoin-Linked Prediction Contracts as Brazil Bans Polymarket and Kalshi",
+    "summary": "1. Brazilian stock exchange B3 is launching six “Event Contracts” today, including instruments tied to bitcoin price movements.\n2. The country’s first federally regulated prediction market comes three days after the National Monetary Council prohibited derivatives based on sports, political, and entertainment events, while explicitly preserving the financial-asset category B3’s contracts fall under.\n3. Key Takeaways: B3 launches […]",
+    "url": "https://news.bitcoin.com/b3-to-launch-bitcoin-linked-prediction-contracts-as-brazil-bans-polymarket-and-kalshi/",
+    "author": "Luci Kelemen",
+    "created_at": "2026-04-28T05:30:18.000Z"
   },
   {
     "id": "88b085b4-29f2-42fe-9fa9-2a61c07763f9",
@@ -20,7 +40,7 @@
     "created_at": "2026-04-28T05:23:25.000Z"
   },
   {
-    "id": "5eb421a4-0b9f-4262-b7ca-0f30f3b5ce11",
+    "id": "645aa74d-37ca-45c1-a549-62d0b3397166",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🗣️ Lyn Alden says Bitcoin \"has to be an order of magnitude bigger\" before it can fix the monetary system, arguing it's still seen as a \"fringe alternative\" today.",
@@ -30,7 +50,7 @@
     "created_at": "2026-04-28T05:19:43+00:00"
   },
   {
-    "id": "54934e6b-4759-4175-8e37-53c7f440fda6",
+    "id": "e43b716e-4fcd-43ec-846d-3a7f141803f6",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Google $GOOGL signs classified AI deal with the Pentagon.@WatcherGuru",
