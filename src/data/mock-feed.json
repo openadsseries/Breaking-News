@@ -1,13 +1,73 @@
 [
   {
-    "id": "15a48393-ff14-4542-9077-334b2857eed6",
+    "id": "f905142d-35fa-443d-85c2-c9b2f65b7e9e",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "Altcoin Season Index falls to 39",
-    "summary": "CoinMarketCap's Altcoin Season Index has dropped three points from yesterday to 39. The index measures whether it is an \"altcoin season\" or a \"Bitcoin season.\" It is considered an altcoin season if 75% of the top 100 cryptocurrencies by market capitalization, excluding stablecoins and wrapped coins, have outperformed Bitcoin over the past 90 days. A score closer to 100 indicates an altcoin season.https://coinness.com/en/news/1155619",
+    "title": "SEC reviews NYSE Arca proposal to tighten crypto ETF listing rules",
+    "summary": "The U.S. Securities and Exchange Commission (SEC) has begun reviewing a proposal from NYSE Arca to tighten listing standards for crypto ETFs, a move dubbed the \"85% qualified asset requirement\" rule, Bitcoin.com reported. NYSE Arca is seeking to amend its rules to mandate that at least 85% of the assets in a commodity-based ETF must be \"verified assets.\" These include qualified commodities, stocks, cash, and cash equivalents. Assets like BTC, ETH, SOL, and XRP could qualify, as futures for these have been trading for over six months. The outlet noted that the amendment also includes a provision to calculate over-the-counter (OTC) derivatives based on their total notional value, which could make it difficult for products with a high concentration of derivatives to maintain their listing. NYSE Arca explained that the change aims to prevent market manipulation and protect investors. The SEC is expected to gather industry feedback before making a final decision on whether to approve the rule.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-28T00:46:18+00:00"
+    "created_at": "2026-04-28T02:57:17+00:00"
+  },
+  {
+    "id": "1924f0b7-7093-48ee-8019-23d7355063e9",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Chainalysis Maps Iran Stablecoin Pipeline Behind $344M USDT Freeze",
+    "summary": "1. A $344 million USDT freeze has exposed how Iran-linked funds are routed through stablecoin networks.\n2. Chainalysis analyzed the activity across brokers, intermediary wallets, and DeFi protocols tied to Central Bank of Iran-linked addresses.\n3. Key Takeaways: $344M USDT freeze exposed a multi-step crypto pipeline across Iran-linked networks.",
+    "url": "https://news.bitcoin.com/chainalysis-maps-iran-stablecoin-pipeline-behind-344m-usdt-freeze/",
+    "author": "Kevin Helms",
+    "created_at": "2026-04-28T02:30:19.000Z"
+  },
+  {
+    "id": "28051935-d495-4243-9ade-4a85723c7ee3",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "TRON DAO Joins the Programmable Economy: AI and Blockchain Redefining Markets Conference at Cornell Tech",
+    "summary": "1. This sponsored press release was provided by TRON DAO and was not written by Bitcoin.com News.\n2. Bitcoin.com News does not necessarily endorse the statements made within this announcement.\n3. PRESS RELEASE.",
+    "url": "https://news.bitcoin.com/tron-dao-joins-the-programmable-economy-ai-and-blockchain-redefining-markets-conference-at-cornell-tech/",
+    "author": "Media",
+    "created_at": "2026-04-28T02:00:47.000Z"
+  },
+  {
+    "id": "9b976d47-745e-4264-8a0d-469d9d757ef9",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "LATEST: 🇨🇦 Canada's Bill C-25, which would ban crypto donations to federal political...",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-28T01:44:19+00:00"
+  },
+  {
+    "id": "5e4239b1-1011-4558-8a99-efa170b59b79",
+    "source": "The Block",
+    "type": "rss",
+    "title": "ZetaChain halts cross-chain transactions following attack on smart contract",
+    "summary": "1. The attack has only impacted internal ZetaChain team wallets, and no user funds were affected, the team said.",
+    "url": "https://www.theblock.co/post/399092/zetachain-attack-smart-contract?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-04-28T01:41:47.000Z"
+  },
+  {
+    "id": "44ce809d-6d81-4439-9e2f-f71093c46b03",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "SEC Reviews 85% Proposal That Could Impact Bitcoin and XRP ETF Listings",
+    "summary": "1. SEC notice opens comments on NYSE Arca’s 85% asset rule proposal, tightening crypto and commodity trust listing requirements.\n2. Key Takeaways: SEC notice seeks comment on NYSE Arca proposal requiring 85% of assets meet eligibility standards.\n3. NYSE Arca rule would count derivatives by gross notional value, impacting crypto trust qualification calculations.",
+    "url": "https://news.bitcoin.com/sec-reviews-85-proposal-that-could-impact-bitcoin-and-xrp-etf-listings/",
+    "author": "Kevin Helms",
+    "created_at": "2026-04-28T01:40:25.000Z"
+  },
+  {
+    "id": "1d3e3784-e541-4c8d-b98e-ec28ad32a655",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bitcoin shorts create $1.4B liquidation risk: Is a price squeeze to $80K next?",
+    "summary": "1. Bitcoin failed to overcome $79,000, but a potential bear trap formed as $1.4 billion in short positions face liquidation at $80,000.\n2. Will spot market demand be the trigger?",
+    "url": "https://cointelegraph.com/markets/bitcoin-shorts-create-14b-liquidation-risk-is-a-price-squeeze-to-80k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Marcel Pechman",
+    "created_at": "2026-04-28T01:26:36.000Z"
   },
   {
     "id": "b50b3fbd-0e52-46f3-a41a-b2a1b38505bf",
@@ -60,10 +120,10 @@
     "created_at": "2026-04-27T23:50:55.000Z"
   },
   {
-    "id": "1b369eac-112d-4728-8db0-c6ce6b4eb469",
+    "id": "07eb64ee-9bd4-4b6f-81f5-9dcbf2e9d4a3",
     "source": "@WatcherGuru",
     "type": "telegram",
-    "title": "JUST IN: 🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait...",
+    "title": "JUST IN: 🇺🇸🇮🇷 Secretary of State Marco Rubio says Iran is using the Strait of Hormuz...",
     "summary": "",
     "url": "https://t.me/WatcherGuru",
     "author": "@WatcherGuru",
@@ -88,16 +148,6 @@
     "url": "https://news.bitcoin.com/sec-chair-paul-atkins-tells-bitcoin-las-vegas-2026-a-new-era-starts-now-at-the-agency/",
     "author": "Jamie Redman",
     "created_at": "2026-04-27T23:14:08.000Z"
-  },
-  {
-    "id": "69e4f91f-023c-4d34-92ef-814407142a11",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "LATEST: 📊 Fidelity Digital Assets says Bitcoin is leading crypto market...",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-27T22:49:29+00:00"
   },
   {
     "id": "c1ad54c9-ac44-45d2-83b6-b6c36adc825a",
@@ -188,115 +238,5 @@
     "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-rally-shows-signs-of-fatigue-as-key-indicators-turn-bearish",
     "author": "James Van Straten",
     "created_at": "2026-04-27T21:00:00.000Z"
-  },
-  {
-    "id": "806ea619-b431-41d8-b067-17565021d946",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Aave-Led 'DeFi United' Relief Effort Raises $300 Million to Cover Kelp DAO Exploit Losses",
-    "summary": "1. The Aave-led relief effort has gained widespread support, securing enough commitments to replenish the swiped funds.",
-    "url": "https://decrypt.co/365724/aave-led-defi-united-relief-effort-raises-300m-kelp-dao-losses",
-    "author": "André Beganski",
-    "created_at": "2026-04-27T20:56:27.000Z"
-  },
-  {
-    "id": "2fb247ae-c531-4fc2-847a-9f23ffa0c88c",
-    "source": "The Block",
-    "type": "rss",
-    "title": "‘We don’t take Satoshi’s bitcoin’: eCash fork sparks backlash over ‘reassigned’ coins",
-    "summary": "1. The eCash fork will act as a live test of Paul Sztorc’s long-running drivechains-sidechains vision for the bitcoin network.",
-    "url": "https://www.theblock.co/post/399054/we-dont-take-satoshis-bitcoin-ecash-fork-backlash-reassigned-coins?utm_source=rss&utm_medium=rss",
-    "author": "Kyle Baird",
-    "created_at": "2026-04-27T20:48:07.000Z"
-  },
-  {
-    "id": "9fd18d77-9e2b-48e3-8aef-0a97f2bf862f",
-    "source": "r/ethereum",
-    "type": "reddit",
-    "title": "Fill out Ethstaker's 2026 Staking Survey",
-    "summary": "1. Ethstaker conducts annual surveys to gather a current picture of the staking landscape and sentiment.\n2. This year's survey is still open for responses, so please fill it out:    \n\n\n  \n  \nThe survey is designed for anyone to answer it:    \n- Stakers of any type: solo stakers, liquid staking node operators, liquid staking token holders, staking with centralized providers, non-custodial stakers.\n3. - Non-stakers: staking-curious, never staked before, or those who used to stake but no longer do.",
-    "url": "https://reddit.com/r/ethereum/comments/1sxg7ae/fill_out_ethstakers_2026_staking_survey/",
-    "author": "u/cfdbit",
-    "created_at": "2026-04-27T20:46:32.000Z"
-  },
-  {
-    "id": "a30bdfaf-622f-433b-ac21-56d60f5e2a25",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "OpenAI Is Building Its Own Smartphone Chip With Qualcomm and MediaTek: Report",
-    "summary": "1. Six weeks after telling staff to stop chasing distractions, OpenAI is reportedly planning a phone targeting 400 million units a year.",
-    "url": "https://decrypt.co/365726/openai-smartphone-chip-qualcomm-mediatek",
-    "author": "Jose Antonio Lanz",
-    "created_at": "2026-04-27T20:45:08.000Z"
-  },
-  {
-    "id": "16e766cf-e85e-45bc-acf2-d0835dd0e416",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Acting AG Blanche: DOJ has ‘fundamentally changed the game’ for developers",
-    "summary": "1. Acting AG Blanche offered some reassurance to software developers as the Justice Department continues its case against Roman Storm.",
-    "url": "https://www.theblock.co/post/399078/acting-ag-blanche-doj-has-fundamentally-changed-the-game-for-developers?utm_source=rss&utm_medium=rss",
-    "author": "Sarah Wynn",
-    "created_at": "2026-04-27T20:38:13.000Z"
-  },
-  {
-    "id": "ad33bbf9-6b1c-4a3e-861c-44ca70a34f10",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Letterboxd, the social platform for film buffs, reportedly looking for new owner",
-    "summary": "1. Potential buyers of Letterboxd include Versant, the parent company of CNBC and MS NOW, and Hollywood media company The Ankler, according to Semafor.",
-    "url": "https://techcrunch.com/2026/04/27/letterboxd-sale-film-social-media-semafor-versant-ankler/",
-    "author": "Lucas Ropek",
-    "created_at": "2026-04-27T20:37:49.000Z"
-  },
-  {
-    "id": "b54762b6-3c09-45f7-83fa-813229bc658f",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Western Union eyeing stablecoin launch to settle global transactions without SWIFT, CEO says",
-    "summary": "1. The 175-year-old money-transfer firm also plans to issue a stablecoin-linked card for payments and cash-out options from crypto to local currencies, CEO Devin McGranahan said.",
-    "url": "https://www.coindesk.com/business/2026/04/27/western-union-eyeing-stablecoin-launch-to-settle-global-transactions-without-swift-ceo-says",
-    "author": "Krisztian Sandor",
-    "created_at": "2026-04-27T20:35:56.000Z"
-  },
-  {
-    "id": "3ceb9807-0a8d-4001-916d-2a7686d48c18",
-    "source": "The Defiant",
-    "type": "rss",
-    "title": "Bitcoin Stalls Below $80K as Geopolitical Risk Returns Ahead of Fed",
-    "summary": "1. Crude oil jumped as Trump called off Iran peace talks, dragging BTC back below $77,000 and triggering $288 million in long liquidations.",
-    "url": "https://thedefiant.io/news/markets/bitcoin-stalls-below-usd80k-as-geopolitical-risk-returns-ahead-of-fed",
-    "author": "yyctrader",
-    "created_at": "2026-04-27T20:12:07.000Z"
-  },
-  {
-    "id": "3aefd3ab-d111-424b-8a04-f2adaed271db",
-    "source": "The Defiant",
-    "type": "rss",
-    "title": "NFTs Attempt Another Comeback as Blue Chips Surge",
-    "summary": "1. Bored Apes, Mutant Apes, Pudgy Penguins, Azuki and Doodles are all up double digits on the month.",
-    "url": "https://thedefiant.io/news/nfts-and-web3/nfts-attempt-another-comeback-as-blue-chips-surge",
-    "author": "yyctrader",
-    "created_at": "2026-04-27T19:39:01.000Z"
-  },
-  {
-    "id": "17067dc8-c63b-46ae-b248-b60daf11e1f3",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Consumers lost $2.1B to social media scams in 2025, FTC reports",
-    "summary": "1. The agency reports that losses from social media scams have increased eightfold and that social media scams resulted in higher losses than any other method scammers used to contact consumers.",
-    "url": "https://techcrunch.com/2026/04/27/consumers-lost-2-1-billion-to-social-media-scams-in-2025-ftc-reports/",
-    "author": "Aisha Malik",
-    "created_at": "2026-04-27T19:09:53.000Z"
-  },
-  {
-    "id": "b6c719be-6590-4111-bdd1-ceda832440b7",
-    "source": "The Defiant",
-    "type": "rss",
-    "title": "Sky Proposes to Streamline Treasury Management",
-    "summary": "1. With Genesis Capital fully deployed, the protocol looks to shift from governance-determined capital outflows to rules-bound expenses capped at a fixed percentage of revenue.",
-    "url": "https://thedefiant.io/news/defi/sky-proposes-to-streamline-treasury-management",
-    "author": "yyctrader",
-    "created_at": "2026-04-27T19:00:08.000Z"
   }
 ]
