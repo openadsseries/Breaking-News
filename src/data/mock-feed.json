@@ -1,5 +1,135 @@
 [
   {
+    "id": "945a4ce3-5528-487f-a456-416228a71d5b",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Core Scientific to repurpose part of BTC mining capacity for AI data centers",
+    "summary": "Cryptocurrency mining firm Core Scientific (CORZ) will develop its site in Pecos, Texas, into an AI-focused data center campus with up to 1.5 GW of capacity, Cointelegraph reported. Of the planned capacity, approximately 1 GW will be available for lease, and about 300 megawatts (MW) currently used for Bitcoin mining will be converted for data center operations. Core Scientific has also purchased over 200 additional acres of land to support the site.",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-28T08:54:32+00:00"
+  },
+  {
+    "id": "755036cc-8755-45b1-b785-530b7327d09c",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "🇺🇸 TD Cowen says Senator Tillis has become the \"latest roadblock\" to the CLARITY Act after he told Politico he won't support the bill without ethics provisions that would likely apply to the Trump family.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-28T08:54:20+00:00"
+  },
+  {
+    "id": "9ab28bde-6b96-43d9-b4cf-319ca7abbf11",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "White House Adviser Patrick Witt Teases ‘Big Announcement’ at Bitcoin 2026",
+    "summary": "1. Patrick Witt, executive director of the President’s Council of Advisors for Digital Assets, told attendees at Bitcoin 2026 that the White House will make a “big announcement” on the U.S.\n2. Strategic Bitcoin Reserve within the coming weeks.\n3. Key Takeaways: White House crypto adviser Patrick Witt said news on the Strategic Bitcoin Reserve, covering its operations […]",
+    "url": "https://news.bitcoin.com/white-house-patrick-witt-strategic-bitcoin-reserve-announcement/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-04-28T08:30:12.000Z"
+  },
+  {
+    "id": "bd1abc47-f578-4f58-ad80-ac36b8f9f80e",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitmine's ether buys are catching up to Strategy's bitcoin accumulation pace",
+    "summary": "1. Bitmine bought $234 million of ether in its largest weekly purchase this year, closing in on Strategy's regular bitcoin buys once the firm's STRC-fueled spikes are stripped out.",
+    "url": "https://www.coindesk.com/business/2026/04/28/bitmine-s-ether-buys-are-catching-up-to-strategy-s-bitcoin-accumulation-pace",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-04-28T08:27:42.000Z"
+  },
+  {
+    "id": "3f50b9b3-6c17-439a-9aff-4b1e757fea60",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Gulf Cooperation Council leaders convene extraordinary summit in Jeddah to address regional escalation and security threats after attacks on KuwaitTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-28T08:16:23+00:00"
+  },
+  {
+    "id": "2c5ab539-27ce-461e-af34-c1ad518991e2",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Aave Releases Technical Plan to Restore rsETH Backing as Defi United’s Coalition Expands",
+    "summary": "1. Aave founder Stani Kulechov published a technical implementation plan on Tuesday to restore rsETH backing across affected protocols, with execution sequences set to begin within days.\n2. Key Takeaways: The recovery runs two parallel tracks, i.e., restoring rsETH’s nominal 1.07 ETH backing ratio through tranched ETH deposits, and clearing eight Aave positions.\n3. Post-exploit analysis found that […]",
+    "url": "https://news.bitcoin.com/defi-united-rseth-recovery-plan-aave-compound/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-04-28T07:55:46.000Z"
+  },
+  {
+    "id": "b9052c1c-ba21-4fea-a240-975a5cd91e1a",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Jack Dorsey’s Block reveals $2.2 billion in bitcoin holdings in Q1",
+    "summary": "1. Jack Dorsey's Block Inc.\n2. disclosed that it held a total of 28,355 BTC, including customer assets, as of March 2026.",
+    "url": "https://www.theblock.co/post/399123/block-q1-bitcoin?utm_source=rss&utm_medium=rss",
+    "author": "Timmy Shen",
+    "created_at": "2026-04-28T07:45:39.000Z"
+  },
+  {
+    "id": "1460f324-099f-4f85-952f-04578f8dfc0d",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Bitbank Launches 0.5% Crypto Rewards Credit Card",
+    "summary": "1. The two companies partnered to issue this credit card, which, in addition to being the first credit card to allow monthly payments to be deducted from crypto balances in an exchange, also offers cryptocurrency rewards in BTC, ETH, and ASTR.\n2. Key Takeaways: Bitbank and EPOS Card launched Japan’s 1st Visa credit card, allowing monthly installment […]",
+    "url": "https://news.bitcoin.com/bitbank-launches-0-5-crypto-rewards-credit-card/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-04-28T07:30:21.000Z"
+  },
+  {
+    "id": "35143f06-17be-46f4-b06d-dc60585e5a32",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Ondo Finance adds proxy voting for holders of its $700 million tokenized equities",
+    "summary": "1. The move aims to bring Ondo's tokenized stocks and ETFs closer to traditional ones held in a brokerage account.",
+    "url": "https://www.coindesk.com/tech/2026/04/28/ondo-finance-adds-proxy-voting-for-holders-of-its-usd700-million-tokenized-equities",
+    "author": "Krisztian Sandor",
+    "created_at": "2026-04-28T07:29:34.000Z"
+  },
+  {
+    "id": "2973d588-a8c7-44a3-96b7-43e5e0b749e2",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Trump changes tune on prediction markets days after saying he disliked them",
+    "summary": "1. Donald Trump says the US can’t be “left out in the cold” on prediction markets just days after he said he was “not happy” with the fast-growing platforms.",
+    "url": "https://cointelegraph.com/news/trump-changes-stance-after-saying-he-disliked-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Jesse Coghlan",
+    "created_at": "2026-04-28T07:11:31.000Z"
+  },
+  {
+    "id": "cde030b8-e794-4a29-bdc1-5db5111bb068",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Crypto lobby backs formal removal of ‘reputation risk’ from bank examinations",
+    "summary": "1. The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corp.\n2. finalized a similar rule removing reputation risk earlier this month.",
+    "url": "https://cointelegraph.com/news/blockchain-association-supports-reputation-risk-removal-from-supervisory-programs-to-end-crypto-debanking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Stephen Katte",
+    "created_at": "2026-04-28T07:00:30.000Z"
+  },
+  {
+    "id": "da035106-0224-42fa-977d-ad44c40eae28",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Three Bitcoin charts say BTC price may rally toward $82K",
+    "summary": "1. Bitcoin’s ascending channel setup and rising stablecoin inflows suggest improving liquidity conditions could support a push toward higher price levels.",
+    "url": "https://cointelegraph.com/markets/three-bitcoin-charts-signaling-btc-price-rebound-to-82k-and-above?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Yashu Gola",
+    "created_at": "2026-04-28T06:57:26.000Z"
+  },
+  {
+    "id": "169fda22-ef03-4a53-a0bc-c4cb0da2616a",
+    "source": "The Block",
+    "type": "rss",
+    "title": "DeFi United unveils plan to restore rsETH after $292 million Kelp DAO exploit",
+    "summary": "1. The restoration process involves converting ETH into rsETH in tranches, which will then be transferred to the affected lockbox contract.",
+    "url": "https://www.theblock.co/post/399118/defi-united-detailed-plan?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-04-28T06:52:53.000Z"
+  },
+  {
     "id": "19dae28d-7847-498d-8afa-950b72542270",
     "source": "CoinDesk",
     "type": "rss",
@@ -10,6 +140,16 @@
     "created_at": "2026-04-28T06:40:07.000Z"
   },
   {
+    "id": "fdbb63ec-91f6-4405-81e5-d0e3365b8feb",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Kevin O’Leary just dumped all his alts and went 90% BTC/ETH",
+    "summary": "1. yo so kevin oleary literally exited his entire altcoin portfolio and moved 90% into bitcoin and ethereum and everyone’s acting like this is some random thing that’s an L, its not random yo.\n2. this guy makes money off attention and he just signaled something with his portfolio that matters.\n3. his reasoning was simple: scale and survivability.",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1sxtfp0/kevin_oleary_just_dumped_all_his_alts_and_went_90/",
+    "author": "u/Repulsive_Counter_79",
+    "created_at": "2026-04-28T06:35:52.000Z"
+  },
+  {
     "id": "a0998a49-cb9d-4050-86ab-d5eedfd58ecc",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -18,26 +158,6 @@
     "url": "https://news.bitcoin.com/zetachain-gatewayzevm-exploit-mainnet-paused/",
     "author": "Shiraz Jagati",
     "created_at": "2026-04-28T06:30:22.000Z"
-  },
-  {
-    "id": "b0dfc95f-13ae-437d-8383-790e9d3c135e",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🇺🇸 President Trump has walked back his criticism of prediction markets, saying, \"I know some people that are very smart.",
-    "summary": "They like it.\"",
-    "url": "https://t.me/CoinMarketCapAnnouncements",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-28T06:29:40+00:00"
-  },
-  {
-    "id": "f32a296c-407b-47bf-8a51-684f4e1818d2",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Monad's official X account suspended",
-    "summary": "The official X account (@monad) for the EVM-compatible project Monad (MON) has been suspended. The reason for the suspension is unknown.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-28T06:29:01+00:00"
   },
   {
     "id": "46c37424-2c4b-4911-851a-59b73620dc68",
@@ -100,7 +220,7 @@
     "created_at": "2026-04-28T05:23:25.000Z"
   },
   {
-    "id": "dcc8b334-19ea-490b-a884-668582c247d9",
+    "id": "ee258c01-3ffa-4ab5-a17a-93576631d061",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Google $GOOGL signs classified AI deal with the Pentagon.@WatcherGuru",
@@ -188,75 +308,5 @@
     "url": "https://techcrunch.com/2026/04/27/indias-snabbit-closes-56m-round-as-investor-interest-heats-up-in-on-demand-home-services/",
     "author": "Jagmeet Singh",
     "created_at": "2026-04-28T03:30:00.000Z"
-  },
-  {
-    "id": "22127370-4f4e-4071-88e9-ea2e4f2da753",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Saipan woman gets 71 months in prison for bitcoin fraud targeting senior victims",
-    "summary": "1. The criminal built trust with her targets and solicited bitcoin investments under false pretenses, according to the DOJ.",
-    "url": "https://www.theblock.co/post/399107/saipan-woman-bitcoin-fraud?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-04-28T03:00:15.000Z"
-  },
-  {
-    "id": "1924f0b7-7093-48ee-8019-23d7355063e9",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Chainalysis Maps Iran Stablecoin Pipeline Behind $344M USDT Freeze",
-    "summary": "1. A $344 million USDT freeze has exposed how Iran-linked funds are routed through stablecoin networks.\n2. Chainalysis analyzed the activity across brokers, intermediary wallets, and DeFi protocols tied to Central Bank of Iran-linked addresses.\n3. Key Takeaways: $344M USDT freeze exposed a multi-step crypto pipeline across Iran-linked networks.",
-    "url": "https://news.bitcoin.com/chainalysis-maps-iran-stablecoin-pipeline-behind-344m-usdt-freeze/",
-    "author": "Kevin Helms",
-    "created_at": "2026-04-28T02:30:19.000Z"
-  },
-  {
-    "id": "28051935-d495-4243-9ade-4a85723c7ee3",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "TRON DAO Joins the Programmable Economy: AI and Blockchain Redefining Markets Conference at Cornell Tech",
-    "summary": "1. This sponsored press release was provided by TRON DAO and was not written by Bitcoin.com News.\n2. Bitcoin.com News does not necessarily endorse the statements made within this announcement.\n3. PRESS RELEASE.",
-    "url": "https://news.bitcoin.com/tron-dao-joins-the-programmable-economy-ai-and-blockchain-redefining-markets-conference-at-cornell-tech/",
-    "author": "Media",
-    "created_at": "2026-04-28T02:00:47.000Z"
-  },
-  {
-    "id": "ce9ac5a7-e1c6-49cf-874a-c995045acdf0",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Strategy Adds $255M in Bitcoin While Bitmine Purchase $236M in ETH",
-    "summary": "1. Strategy Adds $255M in Bitcoin While Bitmine Purchase $236M in ETH",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1sxnhzq/strategy_adds_255m_in_bitcoin_while_bitmine/",
-    "author": "u/ourcryptotalk",
-    "created_at": "2026-04-28T01:44:56.000Z"
-  },
-  {
-    "id": "5e4239b1-1011-4558-8a99-efa170b59b79",
-    "source": "The Block",
-    "type": "rss",
-    "title": "ZetaChain halts cross-chain transactions following attack on smart contract",
-    "summary": "1. The attack has only impacted internal ZetaChain team wallets, and no user funds were affected, the team said.",
-    "url": "https://www.theblock.co/post/399092/zetachain-attack-smart-contract?utm_source=rss&utm_medium=rss",
-    "author": "Danny Park",
-    "created_at": "2026-04-28T01:41:47.000Z"
-  },
-  {
-    "id": "44ce809d-6d81-4439-9e2f-f71093c46b03",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "SEC Reviews 85% Proposal That Could Impact Bitcoin and XRP ETF Listings",
-    "summary": "1. SEC notice opens comments on NYSE Arca’s 85% asset rule proposal, tightening crypto and commodity trust listing requirements.\n2. Key Takeaways: SEC notice seeks comment on NYSE Arca proposal requiring 85% of assets meet eligibility standards.\n3. NYSE Arca rule would count derivatives by gross notional value, impacting crypto trust qualification calculations.",
-    "url": "https://news.bitcoin.com/sec-reviews-85-proposal-that-could-impact-bitcoin-and-xrp-etf-listings/",
-    "author": "Kevin Helms",
-    "created_at": "2026-04-28T01:40:25.000Z"
-  },
-  {
-    "id": "1d3e3784-e541-4c8d-b98e-ec28ad32a655",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin shorts create $1.4B liquidation risk: Is a price squeeze to $80K next?",
-    "summary": "1. Bitcoin failed to overcome $79,000, but a potential bear trap formed as $1.4 billion in short positions face liquidation at $80,000.\n2. Will spot market demand be the trigger?",
-    "url": "https://cointelegraph.com/markets/bitcoin-shorts-create-14b-liquidation-risk-is-a-price-squeeze-to-80k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Marcel Pechman",
-    "created_at": "2026-04-28T01:26:36.000Z"
   }
 ]
