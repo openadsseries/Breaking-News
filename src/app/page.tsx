@@ -4,15 +4,23 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useAccount, useConnect, useWriteContract } from 'wagmi';
 import { distributorAbi } from '@/lib/abi';
-import mockFeed from "@/data/mock-feed.json";
+type Article = {
+  id: string;
+  source: string;
+  type: string;
+  title: string;
+  summary: string;
+  url: string;
+  author: string;
+  created_at: string;
+};
 
 const READS_TO_CLAIM = 5;
 const CONTRACT_ADDRESS = "0x9e6ea0c8871287d2d4c83d1e5c0602bbe0b97a82"; // BNDistributor v3
 const APP_URL = "https://breaking-news-omega.vercel.app";
 const SHARE_TEXT = `* read it before warren buffett does.\n\n${APP_URL}`;
 
-// Session ID = first article ID
-const SESSION_ID = mockFeed.length > 0 ? mockFeed[0].id : "empty";
+
 
 type Phase = "READING" | "SHARE_GATE" | "CLAIMABLE" | "READING_CONTINUED" | "ALL_READ";
 
@@ -30,6 +38,7 @@ const ARTICLE_SHARE_VARIANTS = [
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
+  const [feed, setFeed] = useState<Article[]>([]);
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
   const [readCount, setReadCount] = useState(0);
   const [hasShared, setHasShared] = useState(false);
@@ -37,20 +46,32 @@ export default function Home() {
   const [saved, setSaved] = useState<Record<string, boolean>>({});
   const [fid, setFid] = useState<string | null>(null);
 
+  // Fetch feed from API (runtime — no rebuild needed)
+  useEffect(() => {
+    fetch("/api/feed")
+      .then(r => r.json())
+      .then((data: Article[]) => setFeed(data))
+      .catch(() => {});
+  }, []);
+
   const { isConnected, address } = useAccount();
   const { connect, connectors } = useConnect();
   const { writeContract, isPending, isSuccess } = useWriteContract();
 
   // ── ALL HOOKS ──
 
+  // Session ID = first article ID
+  const sessionId = feed.length > 0 ? feed[0].id : "empty";
+
   useEffect(() => {
+    if (feed.length === 0) return; // wait for feed to load
     const today = new Date().toISOString().slice(0, 10);
     try {
       if (localStorage.getItem("bn_claim_date") === today) setClaimedToday(true);
 
       const savedSession = localStorage.getItem("bn_session");
-      if (savedSession !== SESSION_ID) {
-        localStorage.setItem("bn_session", SESSION_ID);
+      if (savedSession !== sessionId) {
+        localStorage.setItem("bn_session", sessionId);
         localStorage.removeItem("bn_read_count");
         localStorage.removeItem("bn_shared");
         localStorage.removeItem("bn_read_ids");
@@ -63,7 +84,7 @@ export default function Home() {
       }
     } catch {}
     setMounted(true);
-  }, []);
+  }, [feed, sessionId]);
 
   useEffect(() => {
     if (!mounted) return;
@@ -94,10 +115,10 @@ export default function Home() {
   // Filter: only show UNREAD articles from the last 6 hours, newest first
   const todaysFeed = useMemo(() => {
     const cutoff = Date.now() - 6 * 60 * 60 * 1000;
-    return mockFeed
+    return feed
       .filter(a => new Date(a.created_at).getTime() > cutoff && !readIds.has(a.id))
       .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
-  }, [readIds]);
+  }, [feed, readIds]);
 
   // Derived
   const totalArticles = todaysFeed.length;
@@ -127,7 +148,7 @@ export default function Home() {
   }, [todaysFeed, readCount]);
 
 
-  const handleSave = useCallback(async (article: typeof mockFeed[0]) => {
+  const handleSave = useCallback(async (article: Article) => {
     try {
       const sdk = await import('@farcaster/miniapp-sdk').catch(() => null);
       if (sdk?.default?.actions?.composeCast) {
