@@ -1,182 +1,232 @@
 [
   {
-    "id": "ecac10b4-e71b-4ed4-a6c0-f4f9243b7bc4",
+    "id": "9083a74c-71ab-4d79-a6ca-34fc59b81577",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Canadian Government Pushes for Sweeping Ban on Bitcoin, Crypto ATMs",
+    "summary": "1. The country hosts nearly 4,000 crypto ATMs, second only to the U.S.",
+    "url": "https://decrypt.co/365983/canadian-government-pushes-sweeping-ban-bitcoin-crypto-atms",
+    "author": "André Beganski",
+    "created_at": "2026-04-29T16:20:39.000Z"
+  },
+  {
+    "id": "123e53e2-66ed-4103-a6d0-50982fd9ee03",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Bill Gurley, Jack Altman back startup Pursuit, which helps companies sell to government",
+    "summary": "1. On Wednesday, Pursuit announced a $22 million seed round led by Mike Rosengarten, the co-founder of OpenGov with out big-name VCs participating.",
+    "url": "https://techcrunch.com/2026/04/29/bill-gurley-jack-altman-back-startup-pursuit-which-helps-companies-sell-to-government/",
+    "author": "Dominic-Madori Davis",
+    "created_at": "2026-04-29T16:20:02.000Z"
+  },
+  {
+    "id": "46020739-2db3-44b2-b0f6-be43efa92345",
     "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "Coinone places SYND on delisting watchlist",
-    "summary": "South Korean crypto exchange Coinone announced that it has placed Syndicate (SYND) on its delisting watchlist.",
+    "title": "Genesis Trading deposits 1,482 ETH to major exchanges",
+    "summary": "According to Lookonchain, the bankrupt crypto lender Genesis Trading has deposited 1,482 ETH to Binance, OKX, and Bybit. Such moves are often seen as a precursor to selling.",
     "url": "https://t.me/CoinnessGL",
     "author": "@CoinnessGL",
-    "created_at": "2026-04-29T07:01:31+00:00"
+    "created_at": "2026-04-29T16:16:08+00:00"
   },
   {
-    "id": "b64b0cee-62cf-46bd-b4df-96075ca382c9",
+    "id": "1b9ed663-abe7-4b86-b309-754bf8755586",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin's widely tracked Coinbase Premium turns negative as realized losses spike to $6 billion",
+    "summary": "1. A metric tracking U.S.\n2. spot demand has flipped red just as onchain data shows realized losses surging to $5.97 billion.",
+    "url": "https://www.coindesk.com/markets/2026/04/29/bitcoin-s-widely-tracked-coinbase-premium-turns-negative-as-realized-losses-spike-to-usd6-billion",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-04-29T16:13:55.000Z"
+  },
+  {
+    "id": "66bc7551-7037-40b4-b80d-19f0ef92761b",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "The Protocol: Mythos forces crypto industry to rethink security practices",
+    "summary": "1. Also: Aave’s $300 million recovery effort, crypto for AI agents, and Bitcoin proposal for Satoshi-linked tokens.",
+    "url": "https://www.coindesk.com/tech/2026/04/29/the-protocol-mythos-forces-crypto-industry-to-rethink-security-practices",
+    "author": "Margaux Nijkerk",
+    "created_at": "2026-04-29T15:57:38.000Z"
+  },
+  {
+    "id": "abf2a62d-dcab-4d49-8996-0050a3dd49c2",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Hyperliquid is preparing to take on Polymarket with a new way to trade real-world events",
+    "summary": "1. Hyperliquid is gearing up to challenge Polymarket with a zero-fee entry for event betting as the $63 billion prediction market sector continues to explode.",
+    "url": "https://www.coindesk.com/business/2026/04/29/hyperliquid-is-preparing-to-take-on-polymarket-with-a-new-way-to-trade-real-world-events",
+    "author": "Oliver Knight",
+    "created_at": "2026-04-29T15:49:57.000Z"
+  },
+  {
+    "id": "030565c1-2a2a-4b3f-a2c1-f8502020ed6a",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Trump says he will not lift naval blockade without a deal that includes Iran’s nuclear programTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-29T15:42:33+00:00"
+  },
+  {
+    "id": "ad6b5d2a-1474-4c84-a099-182ba8e0e6dc",
     "source": "The Block",
     "type": "rss",
-    "title": "Hong Kong warns of fake tokens posing as HSBC’s stablecoin",
-    "summary": "1. HSBC and Anchorpoint Financial both clarified that they have not launched any stablecoins in Hong Kong, but plan to do so this year.",
-    "url": "https://www.theblock.co/post/399308/hong-kong-warns-fake-stablecoins?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-04-29T06:56:48.000Z"
+    "title": "Tether stakeholder’s undisclosed £5 million gift to Farage adds to Reform UK funding scrutiny: reports",
+    "summary": "1. Christopher Harborne has already donated more than £12 million to Reform UK, making him one of the party’s largest financial backers.",
+    "url": "https://www.theblock.co/post/399391/tether-stakeholder-undisclosed-5-million-gift-farage-reform-uk-funding-scrutiny?utm_source=rss&utm_medium=rss",
+    "author": "Kyle Baird",
+    "created_at": "2026-04-29T15:35:18.000Z"
   },
   {
-    "id": "736ee685-61f1-4caf-bc2c-4db8aaaf3dc6",
+    "id": "5ceb23fd-b7d7-4f5e-b3d6-ee085c717fb4",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Roku’s $3 streaming service, Howdy, reaches 1M subs, per recent report",
+    "summary": "1. Roku’s $2.99 streaming service Howdy has topped 1M subscribers, showing demand for cheaper, low-commitment alternatives to pricier streamers.",
+    "url": "https://techcrunch.com/2026/04/29/rokus-3-streaming-service-howdy-reaches-1m-subs-per-recent-report/",
+    "author": "Lauren Forristal",
+    "created_at": "2026-04-29T15:33:35.000Z"
+  },
+  {
+    "id": "0f0d534d-cd48-4b74-8bcf-c59b139de0e5",
     "source": "Bitcoin.com",
     "type": "rss",
-    "title": "Twenty One Capital’s Jack Mallers Argues BTC’s Proof of Reserves Outclasses Gold at Bitcoin 2026",
-    "summary": "1. At Bitcoin 2026, Jack Mallers, chief executive of the $3.3 billion bitcoin treasury firm Twenty One Capital, stated that bitcoin has a structural advantage over gold, pointing to its onchain proof of reserves as something no gold custodian can replicate.\n2. Key Takeaways: Twenty One Capital CEO Jack Mallers says bitcoin’s onchain auditability gives it an […]",
-    "url": "https://news.bitcoin.com/jack-mallers-twenty-one-capital-bitcoin-proof-reserves-beats-gold/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-04-29T06:56:40.000Z"
+    "title": "Senate Panel Clears Kevin Warsh 13-11, Setting up Fed Leadership Change Before May 15",
+    "summary": "1. The Senate Banking Committee voted 13-11 along party lines Wednesday to advance Kevin Warsh’s nomination as the next chair of the Federal Reserve, sending the pick to the full Senate for a final confirmation vote.\n2. Key Takeaways: The Senate Banking Committee advanced Kevin Warsh’s Fed Chair nomination 13-11 on April 29, 2026.\n3. Thom Tillis […]",
+    "url": "https://news.bitcoin.com/senate-panel-clears-kevin-warsh-13-11-setting-up-fed-leadership-change-before-may-15/",
+    "author": "Jamie Redman",
+    "created_at": "2026-04-29T15:30:01.000Z"
   },
   {
-    "id": "61ed1057-55df-4b04-98ba-c29618217458",
-    "source": "Bitcoin.com",
+    "id": "d6936f2b-c39b-474d-bda5-e19e7fe9fedd",
+    "source": "Decrypt",
     "type": "rss",
-    "title": "Crypto Regulation Crossroads: Certik Report Maps Divergent Global Paths",
-    "summary": "1. The findings of a new study reveals a global shift from drafting crypto policies to aggressive active enforcement.\n2. Key Takeaways: Certik reports EMEA fines hit $168.2M in H1 2025, a 767% surge as regulators shift to active supervision.\n3. The EU’s MiCA framework is driving major exchanges to France and Ireland by providing 100% legal certainty.",
-    "url": "https://news.bitcoin.com/crypto-regulation-crossroads-certik-report-maps-divergent-global-paths/",
-    "author": "Terence Zimwara",
-    "created_at": "2026-04-29T06:30:34.000Z"
+    "title": "MoonPay Launches Institutional Division, Acquires Crypto Key Management Firm Sodot",
+    "summary": "1. Crypto payments processor MoonPay is expanding into institutional services with a veteran regulator at the helm.",
+    "url": "https://decrypt.co/365975/moonpay-launches-institutional-division-sodot-acquisition",
+    "author": "Decrypt Agent",
+    "created_at": "2026-04-29T15:20:43.000Z"
   },
   {
-    "id": "7a0c0d34-72cf-4033-9734-f538cc45d5d8",
-    "source": "Bitcoin.com",
+    "id": "5e325aa8-2277-46fc-933e-c95c86428461",
+    "source": "TechCrunch",
     "type": "rss",
-    "title": "Ripple Positions Custody as Core to Institutional Crypto Growth",
-    "summary": "1. Ripple custody strategy gains traction as European institutions move into production environments requiring secure digital asset infrastructure.\n2. The shift positions custody systems as the operational foundation for scaling institutional crypto use cases across payments, tokenization, and treasury management.\n3. Key Takeaways: Ripple highlights custody as core infrastructure driving institutional crypto adoption across Europe.",
-    "url": "https://news.bitcoin.com/ripple-positions-custody-as-core-to-institutional-crypto-growth/",
-    "author": "Kevin Helms",
-    "created_at": "2026-04-29T05:30:03.000Z"
+    "title": "Uber is in the hotel business now, thanks in part to AI",
+    "summary": "1. Uber announced several new features on Wednesday during its annual event, which push far beyond the company's original ride-hailing purpose and deeper into its users' lives.",
+    "url": "https://techcrunch.com/2026/04/29/uber-is-in-the-hotel-business-now-thanks-in-part-to-ai/",
+    "author": "Kirsten Korosec",
+    "created_at": "2026-04-29T15:12:14.000Z"
   },
   {
-    "id": "4e948d78-ffb3-4e72-8bcd-0e3916f44226",
-    "source": "CoinTelegraph",
+    "id": "48b0ab59-a5d8-414d-a6b3-70b9e31ff8f6",
+    "source": "The Block",
     "type": "rss",
-    "title": "CFTC pulls Wisconsin into fight over prediction market jurisdiction",
-    "summary": "1. The US Commodity Futures Trading Commission has sued Wisconsin in the agency’s fifth lawsuit against a US state to assert jurisdiction over prediction markets.",
-    "url": "https://cointelegraph.com/news/cftc-sues-wisconsin-over-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Jesse Coghlan",
-    "created_at": "2026-04-29T05:27:05.000Z"
+    "title": "Visa stablecoin settlement hits $7 billion run rate as pilot expands to nine blockchains",
+    "summary": "1. Visa added five blockchains to its stablecoin settlement pilot as annualized volume reached $7 billion, up 50% from last quarter.",
+    "url": "https://www.theblock.co/post/399405/visa-stablecoin-settlement-hits-7-billion-run-rate-pilot-expands-nine-blockchains?utm_source=rss&utm_medium=rss",
+    "author": "Brian Danga",
+    "created_at": "2026-04-29T15:08:38.000Z"
   },
   {
-    "id": "f7550d6b-45ae-4334-8aa0-5baf25783bfe",
+    "id": "c4d397b3-e368-41b2-9912-a9f0be46149e",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Polymarket Eyes US Return for Crypto Exchange as Lone CFTC Chair Weighs Approval​​​​​​​​​​​​​​​​",
+    "summary": "1. With four of five CFTC commissioner seats vacant, the decision on whether to lift Polymarket's U.S.\n2. ban rests with Chair Michael Selig alone.",
+    "url": "https://decrypt.co/365970/polymarket-eyes-us-return-for-crypto-exchange-as-lone-cftc-chair-weighs-approval",
+    "author": "Vince Dioquino",
+    "created_at": "2026-04-29T15:01:02.000Z"
+  },
+  {
+    "id": "d00fd3b7-af82-456c-8095-a8b2127846c5",
     "source": "@WatcherGuru",
     "type": "telegram",
-    "title": "Elon Musk says AI \"could kill us all\" during OpenAI lawsuit testimony.@WatcherGuru",
+    "title": "🇺🇸 US oil exports hit a record 6 million barrels per day last week.@WatcherGuru",
     "summary": "",
     "url": "https://t.me/WatcherGuru",
     "author": "@WatcherGuru",
-    "created_at": "2026-04-29T05:15:57+00:00"
+    "created_at": "2026-04-29T14:56:37+00:00"
   },
   {
-    "id": "c10933e3-55c4-49c6-b84c-2fe1c67b9b07",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Canada proposes ban on crypto ATMs as fraud cases mount",
-    "summary": "1. Canada's Liberal government calls machines a “primary method” for scams as data and law enforcement link them to rising losses",
-    "url": "https://www.coindesk.com/markets/2026/04/29/canada-proposes-ban-on-bitcoin-atms-as-fraud-cases-mount",
-    "author": "Sam Reynolds",
-    "created_at": "2026-04-29T05:14:33.000Z"
-  },
-  {
-    "id": "a902a917-6013-4f08-8842-f770d91d6f3a",
+    "id": "8cb1e90c-177f-4d95-84b0-51241340d2be",
     "source": "The Block",
     "type": "rss",
-    "title": "Ethereum ICO whale moves $23 million in ETH after 10-year dormancy",
-    "summary": "1. The Ethereum whale address received the ETH on July 30, 2015, after participating in the ICO event with $3,100.",
-    "url": "https://www.theblock.co/post/399300/ethereum-ico-whale-moves-23-million?utm_source=rss&utm_medium=rss",
-    "author": "Danny Park",
-    "created_at": "2026-04-29T05:11:11.000Z"
+    "title": "‘Tokenize the world’: Securitize partners with Computershare to bring more stocks onchain",
+    "summary": "1. The agreement could prove to be a major unlock for bringing U.S.\n2. equities onchain as tokenization becomes part of the ownership layer.",
+    "url": "https://www.theblock.co/post/399390/tokenize-world-securitize-computershare-to-bring-more-stocks-onchain?utm_source=rss&utm_medium=rss",
+    "author": "RT Watson",
+    "created_at": "2026-04-29T14:56:06.000Z"
   },
   {
-    "id": "a9fa70b5-e6bf-4cca-b453-ac07263e0266",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "XRP falls to $1.38 after breaking below $1.40 on rising selling pressure",
-    "summary": "1. High-volume move flips support into resistance, leaving price stuck at a key decision level.",
-    "url": "https://www.coindesk.com/markets/2026/04/29/xrp-falls-to-usd1-38-after-breaking-below-usd1-40-on-rising-selling-pressure",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-04-29T04:52:22.000Z"
-  },
-  {
-    "id": "11d726bf-8e7b-436e-b4d5-4b8b5d984205",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Bitcoin rises to $77,000 ahead of Fed decision as Trump preps for lengthy Hormuz block",
-    "summary": "1. Bitcoin is sitting almost still while the rest of the majors give back gains and oil pushes above $111 on reports of an extended U.S.\n2. naval blockade against Iran.",
-    "url": "https://www.coindesk.com/markets/2026/04/29/bitcoin-rises-to-usd77-000-ahead-of-fed-decision-as-trump-preps-for-lengthy-hormuz-block",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-04-29T04:27:13.000Z"
-  },
-  {
-    "id": "2bc729e8-212c-493a-8d88-3f651bf91fc0",
+    "id": "6610f2d3-4524-4a0e-80d2-42439ff95ffb",
     "source": "CoinTelegraph",
     "type": "rss",
-    "title": "Robinhood dips as Q1 earnings miss and crypto revenue, volume fall nearly 50%",
-    "summary": "1. Robinhood’s Q1 earnings per share and revenue figures missed industry expectations, sending the company’s shares down nearly 10%.",
-    "url": "https://cointelegraph.com/news/robinhoods-prediction-market-drives-q1-revenue-as-crypto-takes-a-back-seat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-04-29T04:22:36.000Z"
+    "title": "Here’s what happened in crypto today",
+    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Cointelegraph",
+    "created_at": "2026-04-29T14:37:23.000Z"
   },
   {
-    "id": "67b7dce0-d7ad-491b-89ad-e9b3e4a35ab6",
-    "source": "The Block",
+    "id": "acc5b04f-9089-412b-8d95-960a389ae566",
+    "source": "Bitcoin.com",
     "type": "rss",
-    "title": "Canada moves to ban crypto ATMs, labeling them as ‘primary method’ for fraud",
-    "summary": "1. The government said it aims to shut down a 'primary method' used by scammers to defraud victims and facilitate money laundering.",
-    "url": "https://www.theblock.co/post/399294/canada-crypto-atm-ban?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-04-29T04:20:43.000Z"
+    "title": "Blackrock Pulls $112M From IBIT as Bitcoin ETF Outflows Extend Cooling Phase",
+    "summary": "1. A second straight day of outflows in bitcoin and ether exchange-traded funds (ETFs) points to a cooling phase in institutional demand, even as selective inflows in XRP suggest pockets of opportunistic positioning.\n2. Key Takeaways: Bitcoin ETFs saw $89.68M outflows on Apr 28, led by Blackrock IBIT’s $112.25M exit.\n3. Ether ETFs lost $21.80M as Blackrock ETHA […]",
+    "url": "https://news.bitcoin.com/blackrock-pulls-112m-from-ibit-as-bitcoin-etf-outflows-extend-cooling-phase/",
+    "author": "Emmanuel Musa",
+    "created_at": "2026-04-29T14:30:08.000Z"
   },
   {
-    "id": "8c5cda26-c6b2-478b-ba8d-7badf8e799ae",
+    "id": "1e667b9e-ec96-4af3-868d-5f01d1a19d08",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "KuCoin EU hires new AML chief after Austria ban on new business under MiCA",
+    "summary": "1. KuCoin EU hires a new AML chief and deputies in Vienna weeks after Austria’s regulator banned the MiCA‑licensed exchange from taking on new business over compliance gaps.",
+    "url": "https://cointelegraph.com/news/kucoin-eu-hires-new-aml-chief-after-austria-ban-on-new-business-under-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Christina Comben",
+    "created_at": "2026-04-29T14:28:24.000Z"
+  },
+  {
+    "id": "6e4d852d-8f9f-4e39-891d-c0ca0ca82c0b",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "MoonPay buys crypto security firm Sodot in $100M push into institutional crypto",
+    "summary": "1. MoonPay has acquired Israel-based crypto security infrastructure provider Sodot, forming the foundation of its new institutional unit led by former CFTC Acting Chair Caroline Pham.",
+    "url": "https://cointelegraph.com/news/moonpay-acquires-sodot-institutional-crypto-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Helen Partz",
+    "created_at": "2026-04-29T14:25:12.000Z"
+  },
+  {
+    "id": "061452a9-dc37-44d4-9f75-bb21203db6d6",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "KuCoin EU Strengthens Compliance Leadership With Appointment of Experienced AMLO and Expansion of AML Team",
+    "summary": "1. This sponsored press release was provided by KuCoin and was not written by Bitcoin.com News.\n2. Bitcoin.com News does not necessarily endorse the statements made within this announcement.\n3. PRESS RELEASE.",
+    "url": "https://news.bitcoin.com/kucoin-eu-strengthens-compliance-leadership-appointment-experienced-amlo-and-expansion-of-aml-team/",
+    "author": "Media",
+    "created_at": "2026-04-29T14:00:16.000Z"
+  },
+  {
+    "id": "375ea45f-4bb9-424f-a752-379cb37b8b03",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "Bullish Invests 250 BTC in BTCFi Company Mezo",
+    "summary": "1. The investment, worth over $19M at current prices, coincides with Mezo's launch of Bitcoin yield vaults for institutional clients.",
+    "url": "https://thedefiant.io/news/tradfi-and-fintech/bullish-invests-250-btc-mezo-institutional-bitcoin-yield-vaults",
+    "author": "DefAInt",
+    "created_at": "2026-04-29T12:08:38.000Z"
+  },
+  {
+    "id": "211afae7-bd4e-42f2-92bc-2aeaaa98b97f",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
-    "title": "📊 Strategy has bought $7.2 billion in Bitcoin over eight weeks, and Bitwise CIO Matt Hougan expects more purchases through its STRC instrument.",
+    "title": "⚡ Investor Paul Tudor Jones called Bitcoin \"unequivocally the best inflation hedge that there is, more than gold,\" citing its finite supply and \"greatest scarcity value of anything.\"",
     "summary": "",
     "url": "https://t.me/CoinMarketCapAnnouncements",
     "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-29T04:09:31+00:00"
-  },
-  {
-    "id": "a0c8e29a-9064-4e8a-9fdb-fcf67a6fb32a",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin’s recent rally is largely fueled by Strategy purchases: Bitwise's Hougan",
-    "summary": "1. While Bitcoin exchange-traded funds and whale buying have contributed to the recent Bitcoin rally, the key driver has been consistent buying by Michael Saylor's treasury firm, Strategy, according to Bitwise's chief investment officer.",
-    "url": "https://cointelegraph.com/news/recent-btc-rally-fueled-by-strategy-btc-purchases-bitwise-cio-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Stephen Katte",
-    "created_at": "2026-04-29T04:01:52.000Z"
-  },
-  {
-    "id": "8187efaf-13cd-4b1e-af43-06786ca74078",
-    "source": "GitHub",
-    "type": "github",
-    "title": "anthropics/claude-code: v2.1.123",
-    "summary": "1. ## What's changed\n\n- Fixed OAuth authentication failing with a 401 retry loop when `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` is set",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
-    "author": "ashwin-ant",
-    "created_at": "2026-04-29T03:29:13Z"
-  },
-  {
-    "id": "76e3c0e6-85e0-4806-a3a2-ea7cae444334",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "How one venture firm is investing in an increasingly fragmented world",
-    "summary": "1. Geopolitical turmoil has made venture investing challenging, leading Kompas VC to carve out a niche in startups focused on the physical world.",
-    "url": "https://techcrunch.com/2026/04/28/how-one-venture-firm-is-navigating-an-increasingly-fragmented-world/",
-    "author": "Tim De Chant",
-    "created_at": "2026-04-29T03:00:00.000Z"
-  },
-  {
-    "id": "e899cdea-be49-4600-b6a2-c86509078037",
-    "source": "r/ethereum",
-    "type": "reddit",
-    "title": "What are the best communities for Ethereum Builders?",
-    "summary": "1. Hello everyone.\n2. We are building a lending protocol with a focus on RWAs on Ethereum.\n3. We wonder to ask what are the best places, communities and groups to connect with other builders, stakeholders, KOLs and users on the Ethereum ecosystem.",
-    "url": "https://reddit.com/r/ethereum/comments/1syl8yt/what_are_the_best_communities_for_ethereum/",
-    "author": "u/gkm-chicken",
-    "created_at": "2026-04-29T02:00:36.000Z"
+    "created_at": "2026-04-29T11:54:45+00:00"
   }
 ]
