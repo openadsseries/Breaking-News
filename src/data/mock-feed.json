@@ -1,5 +1,15 @@
 [
   {
+    "id": "ecac10b4-e71b-4ed4-a6c0-f4f9243b7bc4",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Coinone places SYND on delisting watchlist",
+    "summary": "South Korean crypto exchange Coinone announced that it has placed Syndicate (SYND) on its delisting watchlist.",
+    "url": "https://t.me/CoinnessGL",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-29T07:01:31+00:00"
+  },
+  {
     "id": "b64b0cee-62cf-46bd-b4df-96075ca382c9",
     "source": "The Block",
     "type": "rss",
@@ -18,16 +28,6 @@
     "url": "https://news.bitcoin.com/jack-mallers-twenty-one-capital-bitcoin-proof-reserves-beats-gold/",
     "author": "Shiraz Jagati",
     "created_at": "2026-04-29T06:56:40.000Z"
-  },
-  {
-    "id": "e5ca7c03-ad4a-4e61-9f8c-edcafef402a7",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Fenbushi Capital deposits $7.13M in ETH to Binance",
-    "summary": "Blockchain-focused venture capital firm Fenbushi Capital withdrew 3,063 ETH, worth $7.13 million, from Aave and subsequently deposited the funds to Binance, Lookonchain reported. Such deposits to exchanges are often interpreted as a precursor to selling.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-29T06:53:31+00:00"
   },
   {
     "id": "61ed1057-55df-4b04-98ba-c29618217458",
@@ -60,7 +60,7 @@
     "created_at": "2026-04-29T05:27:05.000Z"
   },
   {
-    "id": "e838b825-f8a3-44f0-b0c8-593934d69e21",
+    "id": "f7550d6b-45ae-4334-8aa0-5baf25783bfe",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Elon Musk says AI \"could kill us all\" during OpenAI lawsuit testimony.@WatcherGuru",
@@ -130,7 +130,7 @@
     "created_at": "2026-04-29T04:20:43.000Z"
   },
   {
-    "id": "af23c590-02a1-4952-9e20-484af74bb314",
+    "id": "8c5cda26-c6b2-478b-ba8d-7badf8e799ae",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "📊 Strategy has bought $7.2 billion in Bitcoin over eight weeks, and Bitwise CIO Matt Hougan expects more purchases through its STRC instrument.",
