@@ -22,7 +22,7 @@ node scripts/fetch-news.mjs >> "$LOG_FILE" 2>&1
 # Git push if changed
 if ! git diff --quiet src/data/mock-feed.json 2>/dev/null; then
   git add src/data/mock-feed.json
-  git commit -m "chore: auto-update news feed (local) [skip ci]"
+  git commit -m "chore: auto-update news feed (local)"
   git push >> "$LOG_FILE" 2>&1
   echo "$(date '+%Y-%m-%d %H:%M:%S') — Pushed new articles ✅" >> "$LOG_FILE"
 else
