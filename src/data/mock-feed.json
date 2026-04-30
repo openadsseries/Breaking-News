@@ -1,5 +1,25 @@
 [
   {
+    "id": "41d0776f-c42a-4872-8a42-9210fca4c4ec",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Crypto’s Next 2 Billion Users Won’t Come From Trading Alone, Binance Explains",
+    "summary": "1. Binance says crypto adoption is moving beyond trading toward payments, yield, tokenized assets, and AI.\n2. The company cited stablecoin supply above $320 billion and monthly on-chain volume of $7.2 trillion.\n3. Key Takeaways: Binance said crypto adoption is expanding through payments, yield products, AI, and tokenized assets.",
+    "url": "https://news.bitcoin.com/cryptos-next-2-billion-users-wont-come-from-trading-alone-binance-explains/",
+    "author": "Kevin Helms",
+    "created_at": "2026-04-30T01:30:38.000Z"
+  },
+  {
+    "id": "f74dfda4-0f50-45ba-8270-c2ca45fbb519",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Legend protocol raises $3.5M in seed funding",
+    "summary": "Decentralized exchange protocol Legend announced on X that it has raised $3.5 million in a seed funding round led by Electric Capital. Market makers Amber Group and GSR also participated in the round. The investment brings Legend's total funding to $5 million.",
+    "url": "https://t.me/CoinnessGL#6d4598a9",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-30T01:03:03+00:00"
+  },
+  {
     "id": "e7c827f5-eebd-4980-bd17-8a50d601108d",
     "source": "@CoinnessGL",
     "type": "telegram",
@@ -18,6 +38,26 @@
     "url": "https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/",
     "author": "Jagmeet Singh",
     "created_at": "2026-04-30T01:00:00.000Z"
+  },
+  {
+    "id": "e740069a-027c-4099-9378-9237fc714948",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Bitmine buys $147M in ETH over past 24 hours",
+    "summary": "Lookonchain reported that Bitmine (BMNR) has purchased an additional 20,000 ETH ($44.8 million) over the past three hours. This brings the company's total purchases in the last 24 hours to 65,000 ETH, valued at $147 million.",
+    "url": "https://t.me/CoinnessGL#1f721b17",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-30T00:55:03+00:00"
+  },
+  {
+    "id": "0c2a0bee-b607-4e2f-af26-f9fadf655758",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Anonymous SHIB whale deposits $4.9M to exchange in one day",
+    "summary": "An anonymous Shiba Inu (SHIB) whale address transferred 800 billion SHIB, worth $4.91 million, to the exchange CoinMENA over the past day, EmberCN reported. Deposits to exchanges are typically interpreted as a precursor to selling. The whale initially acquired 1.03 trillion SHIB for $13,700 in 2020 and currently holds a total of 954.2 trillion SHIB, equivalent to 16.2% of the total supply and valued at $588 million.",
+    "url": "https://t.me/CoinnessGL#9724ef6a",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-30T00:38:21+00:00"
   },
   {
     "id": "312f1a12-95e4-4e38-bd97-21b09e933832",
@@ -70,6 +110,16 @@
     "created_at": "2026-04-29T23:30:02.000Z"
   },
   {
+    "id": "c952e93f-4831-458e-8e14-3c24a35b3ac1",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "💰 Stable Sea is partnering with WisdomTree to bring tokenized Treasury fund access to businesses.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#56985009",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-29T23:29:36+00:00"
+  },
+  {
     "id": "7da1bcf5-dbbc-4330-a81d-32e9039a8a0f",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
@@ -118,6 +168,16 @@
     "url": "https://news.bitcoin.com/powell-keeps-fed-governor-role-past-may-15-in-first-such-move-since-1948/",
     "author": "Jamie Redman",
     "created_at": "2026-04-29T22:30:52.000Z"
+  },
+  {
+    "id": "b3418e1f-4a58-45e3-adfc-cbf02b6f5a4b",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Meta has begun rolling out USDC payouts to select creators on Solana and Polygon, marking its return to stablecoin payments after shutting down Diem in 2022.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#90aa4fbc",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-29T22:29:32+00:00"
   },
   {
     "id": "8a93d1e8-8ba5-4dc8-a1d7-a64615e85da8",
@@ -170,6 +230,26 @@
     "created_at": "2026-04-29T22:11:03.000Z"
   },
   {
+    "id": "5120ed35-f31d-4078-8e88-400847bf74f1",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Prediction market trading volume hit $25.7 billion in March, with 82.3% of Polymarket users in Q1 trading less than $10,000, according to a Bitget Wallet/Polymarket report.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#a47c85ed",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-29T21:59:40+00:00"
+  },
+  {
+    "id": "a38df611-c9b7-4906-b565-f88ed384f970",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "🇺🇸 President Trump says \"Jerome 'Too Late' Powell wants to stay at the Fed because he can't get a job anywhere else.\"\"Nobody wants him.\"@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#c2fcf97d",
+    "author": "@WatcherGuru",
+    "created_at": "2026-04-29T21:57:26+00:00"
+  },
+  {
     "id": "9b280a5e-0075-4289-9c60-351a86f4c9b9",
     "source": "@WatcherGuru",
     "type": "telegram",
@@ -200,6 +280,16 @@
     "created_at": "2026-04-29T21:27:46.000Z"
   },
   {
+    "id": "aa796d98-a8dc-40d1-b49f-3864d7e38e8b",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Brent crude oil price up 8%, hits $120.Twitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#93dc5c2f",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-29T21:27:19+00:00"
+  },
+  {
     "id": "b2a70ab1-9ae8-4481-980a-6d81c39dd18f",
     "source": "@SolidIntelX",
     "type": "telegram",
@@ -218,6 +308,16 @@
     "url": "https://decrypt.co/366097/labor-department-ai-apprenticeship-portal",
     "author": "Jason Nelson",
     "created_at": "2026-04-29T21:22:39.000Z"
+  },
+  {
+    "id": "73c40715-a796-4d5f-b56f-03a16ba2547d",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "🇮🇷🇺🇸 Iranian Parliament Speaker Ghalibaf says President Trump \"cranked oil up to $120\" from the US blockade in the Strait of Hormuz.\"Next stop: $140\"@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#7aaac9ed",
+    "author": "@WatcherGuru",
+    "created_at": "2026-04-29T21:21:28+00:00"
   },
   {
     "id": "e6d57c46-2868-4c77-84aa-1ef76f5551f3",
@@ -260,6 +360,36 @@
     "created_at": "2026-04-29T21:01:08.000Z"
   },
   {
+    "id": "1eef149d-cf34-4c1b-bb5b-68f10069ed77",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Mamdani declares a “budget crisis” after four months in office as NYC Mayor.Twitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#6048427c",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-29T20:36:09+00:00"
+  },
+  {
+    "id": "d7918cd3-ae65-4801-9168-d2f86f091a2e",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "IRGC SAYS THEY CARRIED OUT SEVEN MISSILE OPERATIONS AGAINST THE USS ABRAHAM LINCOLN, LEAVING THE UNITED STATES UNABLE FOR A PERIOD OF TIME TO LAUNCH ITS AIRCRAFT OR CONDUCT AIR OPERATIONSTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#0c4a8b88",
+    "author": "@SolidIntelX",
+    "created_at": "2026-04-29T20:24:03+00:00"
+  },
+  {
+    "id": "4b208645-34c3-430a-a602-6496cb57196d",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "$META falls 7% after-hours following earnings report.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#9074354e",
+    "author": "@WatcherGuru",
+    "created_at": "2026-04-29T20:22:28+00:00"
+  },
+  {
     "id": "11611408-07c6-4973-b72c-695a49dd314e",
     "source": "CoinTelegraph",
     "type": "rss",
@@ -278,35 +408,5 @@
     "url": "https://www.coindesk.com/markets/2026/04/29/eric-trump-says-bitcoin-in-its-greatest-period-ever-as-wall-street-falls-in-line",
     "author": "James Van Straten",
     "created_at": "2026-04-29T19:49:14.000Z"
-  },
-  {
-    "id": "48daf1f8-6e3b-4289-99b9-4fd17f88c30f",
-    "source": "The Defiant",
-    "type": "rss",
-    "title": "Bitcoin Dips Under $76K as Fed Holds Rates in Rare 8-4 Split",
-    "summary": "1. ETH is down 7% on the week as the Fed signals the bar for rate cuts has risen, and ETF outflows top $350 million over two days.",
-    "url": "https://thedefiant.io/news/markets/bitcoin-dips-under-usd76k-as-fed-holds-rates-in-rare-8-4-split",
-    "author": "yyctrader",
-    "created_at": "2026-04-29T19:35:08.000Z"
-  },
-  {
-    "id": "f5bc3c4a-9fde-427d-b20c-23a7542aa228",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Markets may have moved ahead of Jerome Powell’s exit",
-    "summary": "1. Markets may have moved ahead of Jerome Powell’s exit",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1sz8nfi/markets_may_have_moved_ahead_of_jerome_powells/",
-    "author": "u/cashflashmil",
-    "created_at": "2026-04-29T19:16:04.000Z"
-  },
-  {
-    "id": "f9b12a76-3425-4b99-b0e8-120f30f11e4a",
-    "source": "The Defiant",
-    "type": "rss",
-    "title": "Meta Launches Stablecoin Payouts In Colombia And The Philippines",
-    "summary": "1. The social media giant has rolled out USDC payments via Stripe on Solana and Polygon.",
-    "url": "https://thedefiant.io/news/defi/meta-launches-stablecoin-payouts-in-colombia-and-the-philippines",
-    "author": "yyctrader",
-    "created_at": "2026-04-29T19:12:38.000Z"
   }
 ]

@@ -292,7 +292,7 @@ async function fetchTelegram(existingUrls) {
           id: crypto.randomUUID(), source: `@${channel}`, type: 'telegram',
           title,
           summary: (body || '').replace(/https?:\/\/\S+/g, '').trim(),
-          url: `https://t.me/${channel}`,
+          url: `https://t.me/${channel}#${crypto.createHash('md5').update(title).digest('hex').slice(0, 8)}`,
           author: `@${channel}`,
           created_at: times[i] || new Date().toISOString(),
         });
