@@ -11,7 +11,7 @@ export async function GET() {
       version: "1",
       name: "Breaking News",
       subtitle: "Read It Before Everyone Else",
-      description: "Crypto moves fast. Read breaking news before anyone else. Swipe, share, earn $BREAKING NEWS tokens on Base.",
+      description: "Crypto moves fast. Read breaking news before anyone else. Swipe, share, earn BREAKING NEWS tokens on Base.",
       iconUrl: "https://news.openads.world/icon.png",
       homeUrl: "https://news.openads.world",
       imageUrl: "https://news.openads.world/og-image.png",
