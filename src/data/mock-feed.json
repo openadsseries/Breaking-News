@@ -1,5 +1,225 @@
 [
   {
+    "id": "6bb33f8c-3920-4121-a4a7-6486e9c71153",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Binance adds Monitoring Tag to NFP, 4 other tokens",
+    "summary": "Binance announced today that it has designated five tokens—NFP, NOM, POND, QUICK, and VIC—with its Monitoring Tag. The exchange applies this tag to tokens that exhibit notably higher volatility and risk compared to other listed assets, indicating they could be delisted in the future.",
+    "url": "https://t.me/CoinnessGL#a239d6d7",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-30T07:03:31+00:00"
+  },
+  {
+    "id": "6bc91e44-2ae9-49e6-9bdc-c6ad81cae40b",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Bybit to list Megaether (MEGA) for spot trading",
+    "summary": "Bybit announced it will list Megaether (MEGA) for spot trading at 11:00 a.m. UTC on April 30.",
+    "url": "https://t.me/CoinnessGL#701fb78c",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-30T07:03:05+00:00"
+  },
+  {
+    "id": "224b0ea2-5bbf-400f-9fb8-712a73aae5e2",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Visa's stablecoin settlement network has hit a $7B annualized run rate, up 50% in a quarter.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#32aab9cd",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-30T06:39:16+00:00"
+  },
+  {
+    "id": "8bbc7424-9bd6-4c2f-8d87-0035d2cfe5ee",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Ouch. The U.S. 30-year Treasury yield just hit 5% and bitcoin may pay the price",
+    "summary": "1. Hawkish dissent within the Federal Reserve, elevated oil prices and rising long-term inflation expectations are pushing bond yields higher.",
+    "url": "https://www.coindesk.com/markets/2026/04/30/ouch-the-u-s-30-year-treasury-yield-just-hit-5-and-bitcoin-may-pay-the-price",
+    "author": "Omkar Godbole",
+    "created_at": "2026-04-30T06:31:57.000Z"
+  },
+  {
+    "id": "ee391083-de1f-4ed2-ba77-987c3d22f811",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Kambi Commits to 100% AI-Traded World Cup as Q1 Bet Automation Hits 60%",
+    "summary": "1. Regulated B2B sportsbook supplier Kambi reported Q1 2026 EBITDA up 63.5% on the year.\n2. CEO Werner Bercher repeated his assertion that the entire 2026 FIFA World Cup will be priced and risk-managed by its AI trading system, with a new data point supporting his statement – Q1 bet automation is already at 60% across the […]",
+    "url": "https://news.bitcoin.com/kambi-commits-to-100-ai-traded-world-cup-as-q1-bet-automation-hits-60/",
+    "author": "Luci Kelemen",
+    "created_at": "2026-04-30T06:30:54.000Z"
+  },
+  {
+    "id": "b5f10076-a19c-4d13-97a3-043a260555df",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Ripple accelerates UAE expansion with new MEA headquarters in Dubai",
+    "summary": "Ripple has announced the establishment of a new regional headquarters for the Middle East and Africa (MEA) in the Dubai International Financial Centre (DIFC) to strengthen its presence in the United Arab Emirates. The company stated that the new office provides a foundation to potentially double its local workforce and will enable it to meet regional demand for blockchain-based payment and custody services.",
+    "url": "https://t.me/CoinnessGL#0cd5d96d",
+    "author": "@CoinnessGL",
+    "created_at": "2026-04-30T06:18:39+00:00"
+  },
+  {
+    "id": "23a84852-36ed-4744-aaae-38919247ecd5",
+    "source": "The Block",
+    "type": "rss",
+    "title": "South Korea’s Shinhan Card to test real-world stablecoin payments on Solana",
+    "summary": "1. Shinhan Card has partnered with the Solana Foundation for a proof-of-concept project testing a real-world payment system using stablecoins.",
+    "url": "https://www.theblock.co/post/399519/shinhan-card-stablecoin-solana?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-04-30T06:10:05.000Z"
+  },
+  {
+    "id": "c213dc68-d90b-4dbb-9eab-6ee335fb1b75",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin slides toward $75,000, ETH, SOL, XRP drop as oil hits four-year high",
+    "summary": "1. Crypto sold off across the board with bitcoin down 2.1% and ether off 3.4% as Brent crude surged 7.1% to $126 a barrel on reports President Trump is being briefed on military options for Iran.",
+    "url": "https://www.coindesk.com/markets/2026/04/30/bitcoin-slides-toward-usd75-000-eth-sol-xrp-drop-as-oil-hits-four-year-high",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-04-30T06:02:31.000Z"
+  },
+  {
+    "id": "4b85ee64-fa13-47d5-835f-8e90eae99edc",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "WLFI drops 14% as controversial token unlock goes to vote",
+    "summary": "1. The proposal to unlock more than 62 billion WLFI tokens over four to five years has 99.95% approval but is still facing backlash on X.",
+    "url": "https://cointelegraph.com/news/wlfi-token-tanks-10-as-voting-begins-on-controversial-token-lock-up-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brian Quarmby",
+    "created_at": "2026-04-30T05:56:28.000Z"
+  },
+  {
+    "id": "1443f46f-492a-4fd6-ab4d-f85a4b5dca6a",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Maduro Raid Commando Pleads Not Guilty After $400K Polymarket Bet on His Own Mission",
+    "summary": "1. Army Master Sergeant Gannon Ken Van Dyke pleaded not guilty Tuesday to five federal charges over a series of Polymarket bets that turned $33,000 into more than $404,000, in what prosecutors describe as the first insider-trading case ever filed against a prediction-markets trader.\n2. Key Takeaways: Van Dyke pleads not guilty to five federal charges […]",
+    "url": "https://news.bitcoin.com/maduro-raid-commando-pleads-not-guilty-after-400k-polymarket-bet-on-his-own-mission/",
+    "author": "Luci Kelemen",
+    "created_at": "2026-04-30T05:30:57.000Z"
+  },
+  {
+    "id": "949de2b4-c9b5-43dd-82f4-6dcbdecc5571",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📈 Eric Trump says Bitcoin is in its “greatest period ever,” pointing to banks offering BTC-backed mortgages and custody services.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#e9262d08",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-04-30T05:19:43+00:00"
+  },
+  {
+    "id": "c538606f-3ffb-4151-9012-cd0412ff7892",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "RealOpen and TRON Verify $9.4M in USDT for Crypto-Enabled Real Estate Purchases",
+    "summary": "1. This sponsored press release was provided by TRON DAO and was not written by Bitcoin.com News.\n2. Bitcoin.com News does not necessarily endorse the statements made within this announcement.\n3. PRESS RELEASE.",
+    "url": "https://news.bitcoin.com/realopen-and-tron-verify-9-4m-in-usdt-for-crypto-enabled-real-estate-purchases/",
+    "author": "Media",
+    "created_at": "2026-04-30T05:00:07.000Z"
+  },
+  {
+    "id": "9d9f57e7-ae50-4b2c-a9f3-84614623acb9",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Here’s what happened in crypto today",
+    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Cointelegraph",
+    "created_at": "2026-04-30T05:00:00.000Z"
+  },
+  {
+    "id": "74aeb950-1db1-48b3-998b-b1610c25676c",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Twenty One Capital rises on proposed merger with Strike and Elektron",
+    "summary": "1. Tether proposed that Elektron founder and CEO Raphael Zagury serve as president of the proposed merged company, while Strike's Jack Mallers would also serve in an executive role.",
+    "url": "https://cointelegraph.com/news/twenty-one-capital-proposed-merger-strike-elektron?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Jesse Coghlan",
+    "created_at": "2026-04-30T04:58:25.000Z"
+  },
+  {
+    "id": "b56d1f9a-49b5-4c43-bb43-0fa9f6e9f703",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Hyperliquid’s HYPE token could be its prediction market weapon, Arthur Hayes says",
+    "summary": "1. HIP-4 could become a dominant prediction-market venue because Hyperliquid users can get economic exposure to platform usage through HYPE, unlike users of Polymarket or Kalshi.",
+    "url": "https://www.coindesk.com/markets/2026/04/30/hyperliquid-s-hype-token-could-be-its-prediction-market-weapon-arthur-hayes-says",
+    "author": "Sam Reynolds",
+    "created_at": "2026-04-30T04:54:23.000Z"
+  },
+  {
+    "id": "1ad2269a-7cfb-46d7-8b5e-178c1932dcd9",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "Brent Crude oil rises over $120@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#ad48d476",
+    "author": "@WatcherGuru",
+    "created_at": "2026-04-30T04:21:10+00:00"
+  },
+  {
+    "id": "c90b6829-abdb-4534-82d7-62008837a153",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "Dexscreener",
+    "summary": "1. How many of you all have an actual Dexscreener account?\n2. Is it good to have an account vs no account?",
+    "url": "https://reddit.com/r/ethereum/comments/1szlax0/dexscreener/",
+    "author": "u/NULLBASED",
+    "created_at": "2026-04-30T04:04:54.000Z"
+  },
+  {
+    "id": "d5b888be-ebaa-4dc4-9032-ec59bdc194b5",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
+    "summary": "1. You need infrastructure to build AI a and robots, but apparently you also need AI and robots to build infrastructure.",
+    "url": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+    "author": "Lucas Ropek",
+    "created_at": "2026-04-30T03:58:22.000Z"
+  },
+  {
+    "id": "ac5d6a44-72d5-4990-a8a7-d0cc81c0fd0c",
+    "source": "The Block",
+    "type": "rss",
+    "title": "FBI leads arrests of 276 in global crypto ‘pig butchering’ scams",
+    "summary": "1. Dubai police arrested 275 individuals, while Thai authorities arrested one suspect allegedly involved in crypto scams.",
+    "url": "https://www.theblock.co/post/399515/fbi-task-force-arrests-276-crypto-scams?utm_source=rss&utm_medium=rss",
+    "author": "Timmy Shen",
+    "created_at": "2026-04-30T03:53:32.000Z"
+  },
+  {
+    "id": "444344ad-bb57-433b-8c5e-634df7d8adb7",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. “86” is a mob term for “kill him.” They say 86 him!\n2. 86 47 means “kill President Trump.”James Comey, who is a Dirty Cop, one of the worst, knows this full well!\n3. EIGHT MILES OUT, SIX FEET DOWN!",
+    "url": "https://trumpstruth.org/statuses/38097",
+    "author": "Trump Truth",
+    "created_at": "2026-04-30T03:35:30.000Z"
+  },
+  {
+    "id": "943dde58-76ec-4a52-8398-4e7fe909841c",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Harvard Harris Poll: Strong Majority back President Trump on Iran Nuclear stoppage.",
+    "url": "https://trumpstruth.org/statuses/38096",
+    "author": "Trump Truth",
+    "created_at": "2026-04-30T03:12:45.000Z"
+  },
+  {
+    "id": "d9246b43-5e0c-484f-b8b2-366879b208c9",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "JPMorgan executive Lorna Hajdini accused in new lawsuit of drugging, sexually harassing, and threatening the career of a junior male employee.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#06a6edcd",
+    "author": "@WatcherGuru",
+    "created_at": "2026-04-30T02:34:20+00:00"
+  },
+  {
     "id": "41d0776f-c42a-4872-8a42-9210fca4c4ec",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -10,403 +230,13 @@
     "created_at": "2026-04-30T01:30:38.000Z"
   },
   {
-    "id": "f74dfda4-0f50-45ba-8270-c2ca45fbb519",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Legend protocol raises $3.5M in seed funding",
-    "summary": "Decentralized exchange protocol Legend announced on X that it has raised $3.5 million in a seed funding round led by Electric Capital. Market makers Amber Group and GSR also participated in the round. The investment brings Legend's total funding to $5 million.",
-    "url": "https://t.me/CoinnessGL#6d4598a9",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-30T01:03:03+00:00"
-  },
-  {
-    "id": "e7c827f5-eebd-4980-bd17-8a50d601108d",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Legend protocol raises $3.5M in seed funding",
-    "summary": "Decentralized exchange protocol Legend announced on X that it has raised $3.5 million in a seed funding round led by Electric Capital. Market makers Amber Group and GSR also participated in the round. The investment brings Legend's total funding to $5 million.",
-    "url": "https://t.me/CoinnessGL",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-30T01:03:03+00:00"
-  },
-  {
-    "id": "0364aec9-5fb9-494d-8402-d537d4249d5d",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Amazon, Meta join fight to end Google Pay, PhonePe dominance in India",
-    "summary": "1. PhonePe and Google Pay command 80% of India's UPI instant payments network.\n2. Rivals are set to meet with regulators to lobby for restrictions.",
-    "url": "https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/",
-    "author": "Jagmeet Singh",
-    "created_at": "2026-04-30T01:00:00.000Z"
-  },
-  {
-    "id": "e740069a-027c-4099-9378-9237fc714948",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Bitmine buys $147M in ETH over past 24 hours",
-    "summary": "Lookonchain reported that Bitmine (BMNR) has purchased an additional 20,000 ETH ($44.8 million) over the past three hours. This brings the company's total purchases in the last 24 hours to 65,000 ETH, valued at $147 million.",
-    "url": "https://t.me/CoinnessGL#1f721b17",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-30T00:55:03+00:00"
-  },
-  {
-    "id": "0c2a0bee-b607-4e2f-af26-f9fadf655758",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Anonymous SHIB whale deposits $4.9M to exchange in one day",
-    "summary": "An anonymous Shiba Inu (SHIB) whale address transferred 800 billion SHIB, worth $4.91 million, to the exchange CoinMENA over the past day, EmberCN reported. Deposits to exchanges are typically interpreted as a precursor to selling. The whale initially acquired 1.03 trillion SHIB for $13,700 in 2020 and currently holds a total of 954.2 trillion SHIB, equivalent to 16.2% of the total supply and valued at $588 million.",
-    "url": "https://t.me/CoinnessGL#9724ef6a",
-    "author": "@CoinnessGL",
-    "created_at": "2026-04-30T00:38:21+00:00"
-  },
-  {
-    "id": "312f1a12-95e4-4e38-bd97-21b09e933832",
-    "source": "Bitcoin Magazine",
-    "type": "rss",
-    "title": "Strike CEO Jack Mallers Announces Lending Proof-of-Reserves, Volatility-Proof Loans, and Backs Tether Merger Plan",
-    "summary": "1. Bitcoin Magazine\n\nStrike CEO Jack Mallers Announces Lending Proof-of-Reserves, Volatility-Proof Loans, and Backs Tether Merger Plan\nStrike CEO Jack Mallers announced a series of product updates and strategic moves at the Bitcoin 2026 Conference.\n2. This post Strike CEO Jack Mallers Announces Lending Proof-of-Reserves, Volatility-Proof Loans, and Backs Tether Merger Plan first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-    "url": "https://bitcoinmagazine.com/news/strike-ceo-jack-mallers-bitcoin-conference",
-    "author": "Micah Zimmerman",
-    "created_at": "2026-04-30T00:37:57.000Z"
-  },
-  {
-    "id": "d0ac2500-a869-4e75-a9fb-21ea9e6f1e15",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Ripple, Bullish Expand Institutional Access to BTC Options Trading",
-    "summary": "1. Ripple Prime clients gained direct BTC options access through Bullish on April 29, expanding institutional derivatives trading.\n2. The rollout enables RLUSD use in options trading and connects clients to one of the largest regulated BTC options markets by open interest.\n3. Key Takeaways: Ripple Prime clients can now trade BTC options on Bullish using RLUSD.",
-    "url": "https://news.bitcoin.com/ripple-bullish-expand-institutional-access-to-btc-options-trading/",
-    "author": "Kevin Helms",
-    "created_at": "2026-04-30T00:30:18.000Z"
-  },
-  {
-    "id": "03cfe93d-6da2-485a-9935-206a7a819add",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Amazon’s cloud business is surging — and so is its capital spending",
-    "summary": "1. The e-commerce giant is making more money than expected from AWS but it's also spending a lot, and will continue to do so in the near term, its chief executive said.",
-    "url": "https://techcrunch.com/2026/04/29/amazons-cloud-business-is-surging-and-so-is-its-capital-spending/",
-    "author": "Lucas Ropek",
-    "created_at": "2026-04-30T00:14:23.000Z"
-  },
-  {
-    "id": "8bce6d5f-e398-4cfb-a0dd-1a3a381651aa",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
-    "summary": "1. The maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter.",
-    "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-    "author": "Marina Temkin, Jagmeet Singh",
-    "created_at": "2026-04-30T00:07:15.000Z"
-  },
-  {
-    "id": "32d62420-e85e-4d09-b083-29f84c95fb77",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Bitcoin’s August Hard Fork May Dwarf Every Previous Split Combined — Here’s Why",
-    "summary": "1. Bitcoin is scheduled to fork in August 2026, and for the first time, the entities holding a great deal of coins are not retail traders but exchange-traded fund (ETF) sponsors, corporate treasuries like Strategy, and regulated custodians sitting on more than two million BTC.\n2. Key Takeaways: Bitcoin’s August 2026 eCash hard fork will distribute 1:1 […]",
-    "url": "https://news.bitcoin.com/bitcoins-august-hard-fork-may-dwarf-every-previous-split-combined-heres-why/",
-    "author": "Jamie Redman",
-    "created_at": "2026-04-29T23:30:02.000Z"
-  },
-  {
-    "id": "c952e93f-4831-458e-8e14-3c24a35b3ac1",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "💰 Stable Sea is partnering with WisdomTree to bring tokenized Treasury fund access to businesses.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#56985009",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-29T23:29:36+00:00"
-  },
-  {
-    "id": "7da1bcf5-dbbc-4330-a81d-32e9039a8a0f",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "💰 Stable Sea is partnering with WisdomTree to bring tokenized Treasury fund access to businesses.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-29T23:29:36+00:00"
-  },
-  {
-    "id": "f2cbf9c4-976c-4d0c-be3a-f63a5d4f7e69",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Robert Hardman has written an amazing book about the incredible life of the beloved and deeply respected Queen Elizabeth II.\n2. In his research, Robert discovers many interesting things about the Queen, King Charles, and other members of the Royal Family.\n3. Robert's book, \"Elizabeth II: In Private.",
-    "url": "https://trumpstruth.org/statuses/38093",
-    "author": "Trump Truth",
-    "created_at": "2026-04-29T23:04:28.000Z"
-  },
-  {
-    "id": "5821175d-866e-4fea-8dbb-fc6c3aa3dbbf",
-    "source": "Bitcoin Magazine",
-    "type": "rss",
-    "title": "Strategy and Blockstream CEOs Paint Vision of Bitcoin’s Financial Future",
-    "summary": "1. Bitcoin Magazine\n\nStrategy and Blockstream CEOs Paint Vision of Bitcoin’s Financial Future\nStrategy CEO Phong Le and Blockstream CEO Adam Back joined moderator Natalie Brunell on Wednesday to discuss Bitcoin treasury strategy, tokenization, digital credit, and Satoshi Nakamoto’s identity.\n2. This post Strategy and Blockstream CEOs Paint Vision of Bitcoin’s Financial Future first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-    "url": "https://bitcoinmagazine.com/news/strategy-and-blockstream-bitcoins-future",
-    "author": "Micah Zimmerman",
-    "created_at": "2026-04-29T22:52:50.000Z"
-  },
-  {
-    "id": "64ea8e67-dd86-463a-8ab3-d092f81fd19e",
-    "source": "Bitcoin Magazine",
-    "type": "rss",
-    "title": "Morgan Stanley Executive on Bitcoin: ‘We Are Still So Early on This Journey’",
-    "summary": "1. Bitcoin Magazine\n\nMorgan Stanley Executive on Bitcoin: ‘We Are Still So Early on This Journey’\nAmy Oldenburg, head of digital assets at Morgan Stanley, says client education — not product design — is the central challenge facing bitcoin adoption at the firm and across the industry.\n2. This post Morgan Stanley Executive on Bitcoin: ‘We Are Still So Early on This Journey’ first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-    "url": "https://bitcoinmagazine.com/news/morgan-stanley-executive-on-bitcoin",
-    "author": "Micah Zimmerman",
-    "created_at": "2026-04-29T22:50:30.000Z"
-  },
-  {
-    "id": "ec74058c-3c78-447c-bcee-d3ffd88491ea",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Powell Keeps Fed Governor Role Past May 15 in First Such Move Since 1948",
-    "summary": "1. Federal Reserve Chair Jerome Powell announced on Wednesday that he will remain on the Fed’s Board of Governors after his chairmanship ends May 15, a decision rooted in a Justice Department probe and the politics of central bank independence.\n2. Key Takeaways: Powell holds a separate Governor term through January 2028, allowing him to stay on […]",
-    "url": "https://news.bitcoin.com/powell-keeps-fed-governor-role-past-may-15-in-first-such-move-since-1948/",
-    "author": "Jamie Redman",
-    "created_at": "2026-04-29T22:30:52.000Z"
-  },
-  {
-    "id": "b3418e1f-4a58-45e3-adfc-cbf02b6f5a4b",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "⚡ Meta has begun rolling out USDC payouts to select creators on Solana and Polygon, marking its return to stablecoin payments after shutting down Diem in 2022.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#90aa4fbc",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-29T22:29:32+00:00"
-  },
-  {
-    "id": "8a93d1e8-8ba5-4dc8-a1d7-a64615e85da8",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin recovery stalls after Fed holds interest rates, citing ‘uncertainty’ in Middle East",
-    "summary": "1. Bitcoin dropped under $75,000 after FOMC minutes showed the US Federal Reserve holding interest rates and expressing slight concerns over inflation and the war in Iran.",
-    "url": "https://cointelegraph.com/markets/bitcoin-recovery-stalls-after-fed-holds-interest-rates-citing-uncertainty-in-middle-east?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Antonio Oliveira",
-    "created_at": "2026-04-29T22:22:54.000Z"
-  },
-  {
-    "id": "7e496f13-a70e-44db-b323-5aa1332e18a8",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Intel Stock continues to rise.\n2. I’m very proud of that Company in that I am responsible for making the United States of America over 30 Billion Dollars in the last 90 days on that stock alone.\n3. There are others that, likewise, I have been very successful with by taking pieces of the Equity for support.",
-    "url": "https://trumpstruth.org/statuses/38092",
-    "author": "Trump Truth",
-    "created_at": "2026-04-29T22:20:21.000Z"
-  },
-  {
-    "id": "46641663-3492-49c0-886b-840f58752963",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Google and Microsoft Just Proved the AI Trade Is Alive—While OpenAI Is Sweating",
-    "summary": "1. Alphabet and Microsoft crushed Q1 estimates on the same day, with Google Cloud up 63% and Microsoft's AI business hitting a $37 billion run rate.",
-    "url": "https://decrypt.co/366100/google-microsoft-ai-trade-openai-revenue-estimates",
-    "author": "Jose Antonio Lanz",
-    "created_at": "2026-04-29T22:14:49.000Z"
-  },
-  {
-    "id": "64cdda4b-3451-47c1-aae7-e9289f61d019",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Jack Mallers' Twenty One Capital surges after majority holder Tether proposes 3-way merger",
-    "summary": "1. Tether has moved to combine bitcoin treasury, mining, and financial services under one roof.",
-    "url": "https://www.coindesk.com/markets/2026/04/29/jack-mallers-twenty-one-capital-surges-after-majority-holder-tether-proposes-3-way-merger",
-    "author": "James Van Straten",
-    "created_at": "2026-04-29T22:12:53.000Z"
-  },
-  {
-    "id": "a7a8c226-feb7-4ac4-b986-7f4c48fb9dcf",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Grayscale’s Zcash Trust volume doubles as ZEC’s shielded supply hits record highs",
-    "summary": "1. It will be worth watching whether ZCSH can sustain over $2 million in daily volume into the new month.",
-    "url": "https://www.theblock.co/post/399264/zcash-etf-volume-doubles-zec-shielded-supply-record-highs?utm_source=rss&utm_medium=rss",
-    "author": "Ivan Wu and Bryan Samsoedin",
-    "created_at": "2026-04-29T22:11:03.000Z"
-  },
-  {
-    "id": "5120ed35-f31d-4078-8e88-400847bf74f1",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "⚡ Prediction market trading volume hit $25.7 billion in March, with 82.3% of Polymarket users in Q1 trading less than $10,000, according to a Bitget Wallet/Polymarket report.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#a47c85ed",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-04-29T21:59:40+00:00"
-  },
-  {
-    "id": "a38df611-c9b7-4906-b565-f88ed384f970",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸 President Trump says \"Jerome 'Too Late' Powell wants to stay at the Fed because he can't get a job anywhere else.\"\"Nobody wants him.\"@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#c2fcf97d",
-    "author": "@WatcherGuru",
-    "created_at": "2026-04-29T21:57:26+00:00"
-  },
-  {
-    "id": "9b280a5e-0075-4289-9c60-351a86f4c9b9",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸 President Trump says \"Jerome 'Too Late' Powell wants to stay at the Fed because he can't get a job anywhere else.\"\"Nobody wants him.\"@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru",
-    "author": "@WatcherGuru",
-    "created_at": "2026-04-29T21:57:26+00:00"
-  },
-  {
-    "id": "aa3a2feb-3cb2-4cf9-a3c6-4e71dfa14b66",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Jerome “Too Late” Powell wants to stay at the Fed because he can’t get a job anywhere else — Nobody wants him.\n2. President DONALD J.",
-    "url": "https://trumpstruth.org/statuses/38091",
-    "author": "Trump Truth",
-    "created_at": "2026-04-29T21:55:11.000Z"
-  },
-  {
-    "id": "3600baae-54f6-4391-9938-c8581124bf18",
-    "source": "The Block",
-    "type": "rss",
-    "title": "SWEAT protocol thwarts multi-million dollar exploit, restores user balances",
-    "summary": "1. Blockaid estimates the attacker stole roughly 13.71 billion SWEAT, about 65% of the total supply, worth about $3.5 million at the time.",
-    "url": "https://www.theblock.co/post/399498/sweat-protocol-thwarts-multi-million-dollar-exploit-restores-user-balances?utm_source=rss&utm_medium=rss",
-    "author": "Daniel Kuhn",
-    "created_at": "2026-04-29T21:27:46.000Z"
-  },
-  {
-    "id": "aa796d98-a8dc-40d1-b49f-3864d7e38e8b",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Brent crude oil price up 8%, hits $120.Twitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#93dc5c2f",
-    "author": "@SolidIntelX",
-    "created_at": "2026-04-29T21:27:19+00:00"
-  },
-  {
-    "id": "b2a70ab1-9ae8-4481-980a-6d81c39dd18f",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Brent crude oil price up 8%, hits $120.Twitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX",
-    "author": "@SolidIntelX",
-    "created_at": "2026-04-29T21:27:19+00:00"
-  },
-  {
-    "id": "5ca4469e-09ac-44c2-9629-a107faa7d3bb",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Labor Department Launches AI Apprenticeship Portal as Trump Admin Continues AI Policy Push",
-    "summary": "1. The Labor Department unveils an online hub to help workers and employers build AI skills amid a quickly changing jobs market.",
-    "url": "https://decrypt.co/366097/labor-department-ai-apprenticeship-portal",
-    "author": "Jason Nelson",
-    "created_at": "2026-04-29T21:22:39.000Z"
-  },
-  {
-    "id": "73c40715-a796-4d5f-b56f-03a16ba2547d",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇮🇷🇺🇸 Iranian Parliament Speaker Ghalibaf says President Trump \"cranked oil up to $120\" from the US blockade in the Strait of Hormuz.\"Next stop: $140\"@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#7aaac9ed",
-    "author": "@WatcherGuru",
-    "created_at": "2026-04-29T21:21:28+00:00"
-  },
-  {
-    "id": "e6d57c46-2868-4c77-84aa-1ef76f5551f3",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Big Tech's multi-billion dollar AI bets are still on track as Mag 7 giants report earnings",
-    "summary": "1. The four Mag 7 giants reported quarterly results on Wednesday, showing that they are still on track to spend multi-billion on AI.\n2. Here is what it means for crypto.",
-    "url": "https://www.coindesk.com/markets/2026/04/29/big-tech-s-multi-billion-dollar-ai-bets-are-still-on-track-as-mag-7-giants-report-earnings",
-    "author": "James Van Straten",
-    "created_at": "2026-04-29T21:07:33.000Z"
-  },
-  {
-    "id": "7e297cc1-309c-4aea-8ae7-8aa98f2acb16",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "RealOpen and TRON verify $9.4M in USDT for crypto-enabled real estate purchases",
-    "summary": "1. RealOpen, the leading platform for buying real estate with crypto, today announced the conclusion of its collaborative \"Fast Moves, Fast Payments\" Holiday Campaign with TRON",
-    "url": "https://cointelegraph.com/press-releases/realopen-and-tron-verify-94m-in-usdt-for-crypto-enabled-real-estate-purchases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Advertorial",
-    "created_at": "2026-04-29T21:02:38.000Z"
-  },
-  {
-    "id": "87c43da7-114a-491d-a3d3-cd71d383a4e0",
-    "source": "The Block",
-    "type": "rss",
-    "title": "OKX rolls out Agent Payments Protocol designed to support AI business cycles",
-    "summary": "1. OKX's Agent Payments Protocol (APP) is designed to support entire bot business cycles, from making offers to disputing transactions.",
-    "url": "https://www.theblock.co/post/399490/okx-agent-payments-protocol-ai-business-cycles-quotes-disputes-transactions?utm_source=rss&utm_medium=rss",
-    "author": "Daniel Kuhn",
-    "created_at": "2026-04-29T21:02:30.000Z"
-  },
-  {
-    "id": "f81e89c2-210d-4d7e-9b73-e4b688d47749",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Mayo Clinic Says AI Can Detect Pancreatic Cancer Years Before Human Doctors",
-    "summary": "1. The AI model analyzes subtle tissue changes on routine CT scans invisible to human specialists, detecting pancreatic cancer up to three years earlier than doctors can.",
-    "url": "https://decrypt.co/366095/mayo-clinic-says-ai-can-detect-pancreatic-cancer-years-before-human-doctors",
-    "author": "Decrypt Agent",
-    "created_at": "2026-04-29T21:01:08.000Z"
-  },
-  {
-    "id": "1eef149d-cf34-4c1b-bb5b-68f10069ed77",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Mamdani declares a “budget crisis” after four months in office as NYC Mayor.Twitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#6048427c",
-    "author": "@SolidIntelX",
-    "created_at": "2026-04-29T20:36:09+00:00"
-  },
-  {
-    "id": "d7918cd3-ae65-4801-9168-d2f86f091a2e",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "IRGC SAYS THEY CARRIED OUT SEVEN MISSILE OPERATIONS AGAINST THE USS ABRAHAM LINCOLN, LEAVING THE UNITED STATES UNABLE FOR A PERIOD OF TIME TO LAUNCH ITS AIRCRAFT OR CONDUCT AIR OPERATIONSTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#0c4a8b88",
-    "author": "@SolidIntelX",
-    "created_at": "2026-04-29T20:24:03+00:00"
-  },
-  {
-    "id": "4b208645-34c3-430a-a602-6496cb57196d",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "$META falls 7% after-hours following earnings report.@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#9074354e",
-    "author": "@WatcherGuru",
-    "created_at": "2026-04-29T20:22:28+00:00"
-  },
-  {
-    "id": "11611408-07c6-4973-b72c-695a49dd314e",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Stable Sea integrates WisdomTree tokenized Treasury fund for corporate cash management",
-    "summary": "1. Businesses can now allocate idle cash to a government-backed fund via Stable Sea, as tokenized Treasury products gain traction in corporate finance.",
-    "url": "https://cointelegraph.com/news/stable-sea-integrates-wisdomtree-tokenized-treasury-fund-for-corporate-cash-management?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Sam Bourgi",
-    "created_at": "2026-04-29T19:57:45.000Z"
-  },
-  {
-    "id": "8fb5afbf-f02f-471b-bf7c-5946a443d1ed",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Eric Trump says bitcoin in its 'greatest period ever' as Wall Street falls in line",
-    "summary": "1. Speaking at Bitcoin Las Vegas 2026, the American Bitcoin co-founder declared the last six months a turning point.",
-    "url": "https://www.coindesk.com/markets/2026/04/29/eric-trump-says-bitcoin-in-its-greatest-period-ever-as-wall-street-falls-in-line",
-    "author": "James Van Straten",
-    "created_at": "2026-04-29T19:49:14.000Z"
+    "id": "8665ca63-c887-4e8f-bd67-09ad38c271bf",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Celsius Founder Alex Mashinsky Banned for Life From Crypto by FTC",
+    "summary": "1. Celsius Founder Alex Mashinsky Banned for Life From Crypto by FTC",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1szhezf/celsius_founder_alex_mashinsky_banned_for_life/",
+    "author": "u/ourcryptotalk",
+    "created_at": "2026-04-30T01:05:05.000Z"
   }
 ]
