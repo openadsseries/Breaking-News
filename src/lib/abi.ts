@@ -2,7 +2,10 @@ export const distributorAbi = [
   {
     type: "function",
     name: "claim",
-    inputs: [{ name: "signature", type: "bytes" }],
+    inputs: [
+      { name: "amount", type: "uint256" },
+      { name: "signature", type: "bytes" },
+    ],
     outputs: [],
     stateMutability: "nonpayable",
   },

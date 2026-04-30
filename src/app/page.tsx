@@ -16,7 +16,7 @@ type Article = {
 };
 
 const READS_TO_CLAIM = 5;
-const CONTRACT_ADDRESS = "0x9e6ea0c8871287d2d4c83d1e5c0602bbe0b97a82"; // BNDistributor v3
+const CONTRACT_ADDRESS = "0x12acfe1a0cf664eefe3a97b4165b5dfc10ad5b21"; // BNDistributorV2 (tiered)
 const APP_URL = "https://breaking-news-omega.vercel.app";
 const SHARE_TEXT = `* read it before warren buffett does.\n\n${APP_URL}`;
 
@@ -210,12 +210,12 @@ export default function Home() {
         return;
       }
 
-      // 2. Call contract with verified signature
+      // 2. Call contract with verified signature + tiered amount
       writeContract({
         address: CONTRACT_ADDRESS,
         abi: distributorAbi,
         functionName: 'claim',
-        args: [data.signature],
+        args: [BigInt(data.amount), data.signature],
       });
     } catch {
       setClaimError("Something went wrong. Try again.");
