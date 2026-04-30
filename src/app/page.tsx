@@ -17,7 +17,7 @@ type Article = {
 
 const READS_TO_CLAIM = 5;
 const CONTRACT_ADDRESS = "0x12acfe1a0cf664eefe3a97b4165b5dfc10ad5b21"; // BNDistributorV2 (tiered)
-const APP_URL = "https://breaking-news-omega.vercel.app";
+const APP_URL = "https://news.openads.world";
 const SHARE_TEXT = `* read it before warren buffett does.\n\n${APP_URL}`;
 
 

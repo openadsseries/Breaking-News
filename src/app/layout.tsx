@@ -30,14 +30,14 @@ export const metadata: Metadata = {
     // Frame v2 embed — renders as mini app launch button in casts
     "fc:frame": JSON.stringify({
       version: "next",
-      imageUrl: "https://breaking-news-omega.vercel.app/og-image.png",
+      imageUrl: "https://news.openads.world/og-image.png",
       button: {
         title: "Read It First",
         action: {
           type: "launch_frame",
           name: "Breaking News",
-          url: "https://breaking-news-omega.vercel.app",
-          splashImageUrl: "https://breaking-news-omega.vercel.app/splash.png",
+          url: "https://news.openads.world",
+          splashImageUrl: "https://news.openads.world/splash.png",
           splashBackgroundColor: "#dcdad2",
         },
       },
@@ -65,10 +65,10 @@ export default function RootLayout({
 
         {/* OpenAds Network */}
         <Script src="https://api.openads.world/snippet.js" strategy="afterInteractive" />
-        <iframe className="openads-popup" src="https://api.openads.world/serve?publisher=0x895af8672d72528f168a239a16c4c07eee4890c0&placement=300x250-0x895af8672d72528f168a239a16c4c07eee4890c0&position=popup&parent_url=https%3A%2F%2Fbreaking-news-omega.vercel.app%2F&app_id=a14f5673-2662-4871-9fb6-e3bc874ffd10" title="Advertisement" width="300" height="250" style={{display:'none', border:'none'}} scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="clipboard-write"></iframe>
-        <iframe className="openads-floating" src="https://api.openads.world/serve?publisher=0x895af8672d72528f168a239a16c4c07eee4890c0&placement=64x64-0x895af8672d72528f168a239a16c4c07eee4890c0&position=floating&parent_url=https%3A%2F%2Fbreaking-news-omega.vercel.app%2F&app_id=a14f5673-2662-4871-9fb6-e3bc874ffd10" title="Advertisement" width="64" height="64" style={{display:'none', position:'fixed', top:'20px', right:'20px', width:'64px', height:'64px', border:'none', borderRadius:'50%', zIndex:999999}} scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="clipboard-write"></iframe>
-        <iframe className="openads-top-banner" src="https://api.openads.world/serve?publisher=0x895af8672d72528f168a239a16c4c07eee4890c0&placement=320x50_top-0x895af8672d72528f168a239a16c4c07eee4890c0&position=top&parent_url=https%3A%2F%2Fbreaking-news-omega.vercel.app%2F&app_id=a14f5673-2662-4871-9fb6-e3bc874ffd10" title="Advertisement" width="320" height="50" style={{display:'none', border:'none'}} scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="clipboard-write"></iframe>
-        <iframe className="openads-banner" src="https://api.openads.world/serve?publisher=0x895af8672d72528f168a239a16c4c07eee4890c0&placement=320x50-0x895af8672d72528f168a239a16c4c07eee4890c0&position=bottom&parent_url=https%3A%2F%2Fbreaking-news-omega.vercel.app%2F&app_id=a14f5673-2662-4871-9fb6-e3bc874ffd10" title="Advertisement" width="320" height="50" style={{display:'none', border:'none'}} scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="clipboard-write"></iframe>
+        <iframe className="openads-popup" src="https://api.openads.world/serve?publisher=0x895af8672d72528f168a239a16c4c07eee4890c0&placement=300x250-0x895af8672d72528f168a239a16c4c07eee4890c0&position=popup&parent_url=https%3A%2F%2Fnews.openads.world%2F&app_id=a14f5673-2662-4871-9fb6-e3bc874ffd10" title="Advertisement" width="300" height="250" style={{display:'none', border:'none'}} scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="clipboard-write"></iframe>
+        <iframe className="openads-floating" src="https://api.openads.world/serve?publisher=0x895af8672d72528f168a239a16c4c07eee4890c0&placement=64x64-0x895af8672d72528f168a239a16c4c07eee4890c0&position=floating&parent_url=https%3A%2F%2Fnews.openads.world%2F&app_id=a14f5673-2662-4871-9fb6-e3bc874ffd10" title="Advertisement" width="64" height="64" style={{display:'none', position:'fixed', top:'20px', right:'20px', width:'64px', height:'64px', border:'none', borderRadius:'50%', zIndex:999999}} scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="clipboard-write"></iframe>
+        <iframe className="openads-top-banner" src="https://api.openads.world/serve?publisher=0x895af8672d72528f168a239a16c4c07eee4890c0&placement=320x50_top-0x895af8672d72528f168a239a16c4c07eee4890c0&position=top&parent_url=https%3A%2F%2Fnews.openads.world%2F&app_id=a14f5673-2662-4871-9fb6-e3bc874ffd10" title="Advertisement" width="320" height="50" style={{display:'none', border:'none'}} scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="clipboard-write"></iframe>
+        <iframe className="openads-banner" src="https://api.openads.world/serve?publisher=0x895af8672d72528f168a239a16c4c07eee4890c0&placement=320x50-0x895af8672d72528f168a239a16c4c07eee4890c0&position=bottom&parent_url=https%3A%2F%2Fnews.openads.world%2F&app_id=a14f5673-2662-4871-9fb6-e3bc874ffd10" title="Advertisement" width="320" height="50" style={{display:'none', border:'none'}} scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="clipboard-write"></iframe>
       </body>
     </html>
   );
