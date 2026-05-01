@@ -1,5 +1,205 @@
 [
   {
+    "id": "bb4767a9-96cc-461e-a578-24a7ca649978",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Morning Minute: MegaETH's MEGA Debut Biggest of 2026",
+    "summary": "1. MegaETH just debuted the biggest token of 2026 to date, while Kalshi is now officially a top-five U.S.\n2. sportsbook.",
+    "url": "https://decrypt.co/366299/morning-minute-megaeths-mega-debut-biggest-of-2026",
+    "author": "Tyler Warner",
+    "created_at": "2026-05-01T11:55:19.000Z"
+  },
+  {
+    "id": "8ad1ac64-3898-405c-a7cf-d1edb8c0f85e",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Bitcoin Closes April Up 12% as Strategy's MSTR Posts First Positive Month Since July",
+    "summary": "1. Bitcoin rallied 12% in April as Strategy added $4.1 billion in BTC, but on-chain data suggests gains may be speculative.",
+    "url": "https://decrypt.co/366297/bitcoin-closes-april-up-12-as-strategys-mstr-posts-first-positive-month-since-july",
+    "author": "Akash Girimath",
+    "created_at": "2026-05-01T11:47:53.000Z"
+  },
+  {
+    "id": "55e1e4ee-e7f0-4b78-a5d2-0a6cad06f6ee",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Brazil central bank prohibits crypto use in regulated cross-border payments under new FX rules",
+    "summary": "1. The rule forms part of the central bank's broader effort to bring cross-border payments fully inside the regulated FX system.",
+    "url": "https://www.theblock.co/post/399713/brazil-central-bank-prohibits-crypto-use-in-regulated-cross-border-payments-under-new-fx-rules?utm_source=rss&utm_medium=rss",
+    "author": "James Hunt",
+    "created_at": "2026-05-01T11:42:16.000Z"
+  },
+  {
+    "id": "2038d3f8-0f83-4453-936a-7b6df9805bf1",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Justin Sun: Why Crypto Cards Are the ‘Next Evolution’ for Stablecoin Distribution",
+    "summary": "1. Tron founder Justin Sun has declared that crypto cards are the next structural phase in how digital assets reach everyday users.\n2. This follows a seismic year where stablecoins processed $33 trillion, surpassing Visa’s $14 trillion volume.\n3. Key Takeaways: Justin Sun identifies crypto cards as the “next evolution,” capitalizing on a $310 billion stablecoin market that […]",
+    "url": "https://news.bitcoin.com/justin-sun-why-crypto-cards-are-the-next-evolution-for-stablecoin-distribution/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-01T11:30:40.000Z"
+  },
+  {
+    "id": "f2fcd0df-6b12-4135-a3fb-cbcc16db1118",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin bounces as big tech earnings fuel optimism; short-term pressures remain",
+    "summary": "1. Your day-ahead look for May 1, 2026",
+    "url": "https://www.coindesk.com/daybook-us/2026/05/01/bitcoin-bounces-as-big-tech-earnings-fuel-optimism-short-term-pressures-remain",
+    "author": "Francisco Rodrigues",
+    "created_at": "2026-05-01T11:15:02.000Z"
+  },
+  {
+    "id": "9085085b-89c6-4861-b404-038ca35dab93",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
+    "summary": "1. The Tokyo-based broker is betting big on crypto with plans in Singapore and a Visa partnership for bank cards that allows users to accumulate digital assets.",
+    "url": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
+    "author": "Olivier Acuna",
+    "created_at": "2026-05-01T11:11:32.000Z"
+  },
+  {
+    "id": "8d1f1ef7-c684-4408-bcec-3d8d7811b1e4",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Bitcoin rally seen as unstable, driven by futures amid weak spot demand",
+    "summary": "The current market rebound is being driven by perpetual futures trading while spot demand remains weak, raising concerns about its stability, CryptoSlate reported, citing CryptoQuant data. The analysis compared the current market to the volatile structure of the 2022 bear market, where price surges not backed by spot buying led to sharp declines. Currently, futures trading volume is approximately 11.7 times that of the spot market, with open interest exceeding $54.1 billion. The outlet noted that recent outflows of about $490 million from U.S. spot ETFs over three days have further weakened market support. Experts advise a cautious approach until spot accumulation is confirmed, warning that the high degree of leverage could trigger large-scale forced liquidations even with minor price fluctuations.",
+    "url": "https://t.me/CoinnessGL#c3d0a09e",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-01T11:06:02+00:00"
+  },
+  {
+    "id": "2e283f96-3ec5-4732-a077-7a7a6a05ad20",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Aptos DEX Tapp Exchange to shut down, withdrawals open until end of May",
+    "summary": "Tapp Exchange, a major decentralized exchange (DEX) in the Aptos ecosystem, has officially announced it is gradually shutting down its operations about one year after its launch. The exchange will maintain full protocol functionality and support asset withdrawals until May 31, 2026. Tapp Exchange launched in June 2025 and was noted as the first V4-style DEX on Aptos.",
+    "url": "https://t.me/CoinnessGL#ebadda3a",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-01T10:56:59+00:00"
+  },
+  {
+    "id": "679c5cea-cb0a-4e64-a615-3c765ec25d39",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bitcoin ETFs draw $2B in April for highest monthly inflows this year",
+    "summary": "1. US spot Bitcoin ETFs posted strong April inflows as Bitcoin rallied, with IBIT leading gains despite late-month outflows across funds.",
+    "url": "https://cointelegraph.com/news/bitcoin-etf-2-billion-inflow-april-biggest-month-ytd?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Helen Partz",
+    "created_at": "2026-05-01T10:53:44.000Z"
+  },
+  {
+    "id": "5145d8a7-d76d-401a-8de9-14c5ae5c5110",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "ZachXBT calls out Toobit for listing alleged scam token BDAG",
+    "summary": "Prominent crypto whistleblower ZachXBT pointed out that crypto exchange Toobit announced the listing of BDAG, an alleged investment scam, about an hour ago. The account further emphasized that Toobit does not disclose any details about its co-founders, legal entity, or licenses.",
+    "url": "https://t.me/CoinnessGL#3abec643",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-01T10:38:43+00:00"
+  },
+  {
+    "id": "014b523d-ac86-42ba-b4fd-2b536e198594",
+    "source": "The Block",
+    "type": "rss",
+    "title": "SBI Holdings in talks to acquire stake in crypto exchange Bitbank, eyes subsidiary status",
+    "summary": "1. The talks are at an early stage, pending due diligence and internal procedures, with more details on the acquisition timing to come.",
+    "url": "https://www.theblock.co/post/399709/sbi-holdings-in-talks-to-acquire-stake-in-crypto-exchange-bitbank-eyes-subsidiary-status?utm_source=rss&utm_medium=rss",
+    "author": "James Hunt",
+    "created_at": "2026-05-01T10:34:13.000Z"
+  },
+  {
+    "id": "b143e8d3-c90c-4828-ae43-1d9358d121f5",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "South Korean Court Lifts Bithumb's Six-Month Business Suspension",
+    "summary": "1. A Seoul court has reversed March sanctions that would have restricted the exchange's core functions over alleged compliance failures.",
+    "url": "https://decrypt.co/366292/south-korean-court-lifts-bithumbs-six-month-business-suspension",
+    "author": "Decrypt Agent",
+    "created_at": "2026-05-01T10:32:10.000Z"
+  },
+  {
+    "id": "62d07fa5-fc5e-4d26-9241-319c5cbe6bbc",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Kenyan Central Bank Moves to Vet VASP Applications With 4 Hires",
+    "summary": "1. The Central Bank of Kenya is reportedly actively recruiting for its first-ever dedicated virtual asset service provider supervision team.\n2. Key Takeaways: CBK opened recruitment for 4 VASP oversight roles following the passage of the 2025 VASP Act.\n3. The recruitment signals that the CBK aims to professionalize and stabilize Kenya’s growing crypto market.",
+    "url": "https://news.bitcoin.com/kenyan-central-bank-moves-to-vet-vasp-applications-with-4-hires/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-05-01T10:30:49.000Z"
+  },
+  {
+    "id": "777edfe3-b3c8-4daf-a706-6f287f55902e",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin ticks higher, but remains range-bound as traders keep short bias",
+    "summary": "1. BTC rises to $77,000 after holding $75,000 support, but negative funding, unchanged open interest and cautious positioning signal a lack of conviction.",
+    "url": "https://www.coindesk.com/markets/2026/05/01/bitcoin-ticks-higher-but-remains-range-bound-as-traders-keep-short-bias",
+    "author": "Oliver Knight",
+    "created_at": "2026-05-01T10:20:23.000Z"
+  },
+  {
+    "id": "e4d561e7-016e-4e5b-9c68-1e0cd5b957b8",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "💰 Steak 'n Shake says all Bitcoin sales are held directly in a corporate reserve and used to fund the $0.21 per hour BTC bonus it offers employees.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#2927264b",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-01T10:14:14+00:00"
+  },
+  {
+    "id": "dd01b2ce-bdcb-4156-8046-5586f677f180",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Brazil bars crypto settlement in regulated cross-border payment rails",
+    "summary": "1. Brazil’s central bank barred virtual assets from settlement inside regulated eFX payment rails as it tightens oversight of crypto-linked flows.",
+    "url": "https://cointelegraph.com/news/brazil-central-bank-bars-virtual-assets-from-cross-border-payment-service-efx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Ezra Reguerra",
+    "created_at": "2026-05-01T10:07:14.000Z"
+  },
+  {
+    "id": "5b672294-15f4-491e-a3ca-042c8feec0a9",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "SBI eyes Bitbank deal as Japan’s crypto exchange market consolidates",
+    "summary": "1. SBI Holdings is in discussions to make Bitbank a subsidiary, adding to its push to acquire crypto exchanges amid improving regulatory clarity in Japan.",
+    "url": "https://cointelegraph.com/news/sbi-seeks-to-make-bitbank-a-subsidiary-in-japan-crypto-consolidation-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Zoltan Vardai",
+    "created_at": "2026-05-01T09:39:34.000Z"
+  },
+  {
+    "id": "b9306bd3-0be4-4fb6-b895-79253086fa9a",
+    "source": "The Block",
+    "type": "rss",
+    "title": "South Korean court grants stay on Bithumb’s six-month suspension pending final ruling: reports",
+    "summary": "1. South Korea's financial watchdog issued the suspension in March, alongside a 36.8 billion won ($25 million) fine.",
+    "url": "https://www.theblock.co/post/399706/south-korean-court-grants-stay-on-bithumbs-six-month-suspension-pending-final-ruling-reports?utm_source=rss&utm_medium=rss",
+    "author": "James Hunt",
+    "created_at": "2026-05-01T09:32:59.000Z"
+  },
+  {
+    "id": "64bfc854-19e6-4558-a07d-e9a59b329e38",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Bitcoin Miner Riot Platforms Offloads Another 500 BTC to NYDIG, Extending Sell Streak",
+    "summary": "1. Bitcoin miner Riot Platforms has deposited another 500 BTC, worth $38.24 million, to institutional custodian NYDIG, extending one of the most consistent miner-selling patterns of 2026.\n2. Key Takeaways: Riot deposited 500 BTC worth $38.24M to NYDIG, extending its sustained 2026 sell streak.\n3. The move adds persistent supply pressure from one of the largest publicly listed […]",
+    "url": "https://news.bitcoin.com/bitcoin-miner-riot-platforms-offloads-another-500-btc-to-nydig-extending-sell-streak/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-01T09:30:52.000Z"
+  },
+  {
+    "id": "29d1d438-b1c7-4aa8-a93b-c0557e9f4bd2",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "The biggest API upgrade we’ve ever shipped is rolling out!🔹 Call credits up...",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#720ef65c",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-01T09:09:25+00:00"
+  },
+  {
     "id": "8759c35c-20cc-420b-951d-75b6269cf1b3",
     "source": "Politico",
     "type": "rss",
@@ -10,7 +210,7 @@
     "created_at": "2026-05-01T09:00:00.000Z"
   },
   {
-    "id": "1afa5c82-1cf7-45e6-9c82-ebfb0880488c",
+    "id": "2a943c0e-75ad-44dc-a12d-3aaeda352061",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Japan signals readiness to intervene in crude oil futures to curb currency volatility after stepping into FX markets to support the yen from 160 per dollar, with U.S.",
@@ -58,6 +258,16 @@
     "url": "https://t.me/CoinnessGL#1725f817",
     "author": "@CoinnessGL",
     "created_at": "2026-05-01T08:26:17+00:00"
+  },
+  {
+    "id": "1cd27391-cb54-4a94-a093-00579e9b4505",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Michael Saylor called Bitcoin \"the highest form of capital that the human race has yet to discover,\" saying stronger forms of capital always displace weaker ones.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#e7d8899d",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-01T08:19:30+00:00"
   },
   {
     "id": "258ed962-bb22-489c-9f0e-443737250aaa",
@@ -138,35 +348,5 @@
     "url": "https://news.bitcoin.com/porvenir-launches-crypto-pension-fund-in-colombia/",
     "author": "Sergio Goschenko",
     "created_at": "2026-05-01T06:30:07.000Z"
-  },
-  {
-    "id": "21a3564b-bdfc-460a-ae2a-a7a14a4f7857",
-    "source": "Politico",
-    "type": "rss",
-    "title": "Can America trust AI? David Sacks makes the case.",
-    "summary": "1. Can America trust AI?\n2. David Sacks makes the case.",
-    "url": "https://www.politico.com/video/2026/04/30/can-america-trust-ai-david-sacks-makes-the-case-2032422",
-    "author": "Politico",
-    "created_at": "2026-05-01T03:59:00.000Z"
-  },
-  {
-    "id": "cf448d0a-24a6-4fd7-8749-9f047e7aa072",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "28,000 Americans Sign Petition Urging Senate CLARITY Act Markup",
-    "summary": "1. Stand With Crypto delivered a 28,000-signature petition to Washington, pressing the Senate Banking Committee to mark up the CLARITY Act.\n2. The campaign frames crypto regulation as a voter demand from organized digital asset owners.\n3. Key Takeaways: Stand With Crypto delivered a petition urging Senate action on the CLARITY Act.",
-    "url": "https://news.bitcoin.com/28000-americans-sign-petition-urging-senate-clarity-act-markup/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-01T03:30:45.000Z"
-  },
-  {
-    "id": "23c8bb3e-d5b4-4ecf-adbd-97fdd2f05a3f",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "BTC rises above $77,000",
-    "summary": "According to CoinNess market monitoring, BTC has risen above $77,000. BTC is trading at $77,138.48 on the Binance USDT market.",
-    "url": "https://t.me/CoinnessGL#9317de59",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-01T03:19:58+00:00"
   }
 ]
