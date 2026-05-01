@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const GITHUB_RAW =
-  "https://raw.githubusercontent.com/mcdonaldbikmac-source/Breaking-News/main/src/data/mock-feed.json";
+  "https://raw.githubusercontent.com/openadsseries/Breaking-News/main/src/data/mock-feed.json";
 
 export const dynamic = "force-dynamic";          // never cache at build-time
 export const revalidate = 0;                     // ISR off — always fresh
