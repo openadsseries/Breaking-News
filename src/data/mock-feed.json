@@ -1,6 +1,166 @@
 [
   {
-    "id": "084d6fed-78fb-424c-8ed2-458295f88212",
+    "id": "8759c35c-20cc-420b-951d-75b6269cf1b3",
+    "source": "Politico",
+    "type": "rss",
+    "title": "The nation’s cartoonists on the week in politics",
+    "summary": "1. Every week political cartoonists throughout the country and across the political spectrum apply their ink-stained skills to capture the foibles, memes, hypocrisies and other head-slapping events in the world of politics.\n2. The fruits of these labors are hundreds of cartoons that entertain and enrage readers of all political stripes.\n3. Here's an offering of the best of this week's crop, picked fresh off the Toonosphere.",
+    "url": "https://www.politico.com/gallery/2026/05/01/the-nations-cartoonists-on-the-week-in-politics-00901977",
+    "author": "By POLITICO Staff",
+    "created_at": "2026-05-01T09:00:00.000Z"
+  },
+  {
+    "id": "1afa5c82-1cf7-45e6-9c82-ebfb0880488c",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Japan signals readiness to intervene in crude oil futures to curb currency volatility after stepping into FX markets to support the yen from 160 per dollar, with U.S.",
+    "summary": "officials notifiedTwitter",
+    "url": "https://t.me/SolidIntelX#f3b22e8a",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-01T08:51:05+00:00"
+  },
+  {
+    "id": "859b3be0-aec1-4fbe-8d2a-72543efb1574",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Coinbase: 75% of institutions see BTC as undervalued despite AI hacking risks",
+    "summary": "Despite the emergence of AI models like Anthropic's Claude Mythos that can automatically detect and exploit security vulnerabilities—a risk to the crypto market highlighted by DL News—75% of institutional investors still view Bitcoin (BTC) as an undervalued asset, according to Coinbase. David Duong, Head of Institutional Research at Coinbase, acknowledged that this type of AI could target weaknesses across protocols, exchanges, and infrastructure. However, he added that while the outlook for the next quarter is neutral, there are early signs of the market forming a bottom. BTC is currently trading at around $77,000, down approximately 40% from its October high.",
+    "url": "https://t.me/CoinnessGL#0e44a73d",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-01T08:35:52+00:00"
+  },
+  {
+    "id": "835a2b7a-7ad3-47d9-afb0-abd5ea638f9d",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Riot reports $33 million in first data center revenue as AMD doubles contracted capacity",
+    "summary": "1. Most of Riot Platforms' data center revenue came from lower-margin fit-out work, while recurring leases played a smaller role.",
+    "url": "https://www.theblock.co/post/399685/riot-33-million-data-center-revenue-debut-amd-doubles-contracted-capacity?utm_source=rss&utm_medium=rss",
+    "author": "Kyle Baird",
+    "created_at": "2026-05-01T08:31:15.000Z"
+  },
+  {
+    "id": "f049cc4d-4a47-4a10-9e79-31eb905e4f0b",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "US Debt Nears $39T GDP Mark for First Time Since 1946, Validating Bitcoin",
+    "summary": "1. national debt has officially surpassed $38.9 trillion, eclipsing 100% of the country’s gross domestic product (GDP) for the first time since the end of World War II.\n2. This historic fiscal threshold offers a real-world validation for bitcoin’s 21 million fixed supply.\n3. Key Takeaways: U.S.",
+    "url": "https://news.bitcoin.com/us-national-debt-surpasses-gdp-wwii-bitcoin/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-01T08:30:46.000Z"
+  },
+  {
+    "id": "dd5b1d31-d9d6-4b20-9422-2927ea8375bb",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Duan Bin's fund buys 31,700 Circle shares for $3.02M",
+    "summary": "Eastern Harbor, a fund managed by Chinese investor Duan Bin, has purchased an additional 31,700 shares of Circle. According to a filing, the stake is valued at approximately $3.02 million.",
+    "url": "https://t.me/CoinnessGL#1725f817",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-01T08:26:17+00:00"
+  },
+  {
+    "id": "258ed962-bb22-489c-9f0e-443737250aaa",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "US decision on military action against Iran imminent, Israeli media says",
+    "summary": "The United States could soon decide whether to resume military operations against Iran, an Israeli media outlet reported on May 1. The report comes as Israel is intensifying its preparations for a potential renewed conflict with Iran. According to Israel's Channel 12, Israeli officials are on full alert for the possibility of U.S.-Iran negotiations breaking down as early as next week. Citing a senior Israeli government official, the report added that the U.S. is increasing pressure on Iran over issues related to the Strait of Hormuz and may conduct military strikes against the country's energy facilities and government infrastructure.",
+    "url": "https://t.me/CoinnessGL#82403bf7",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-01T08:11:40+00:00"
+  },
+  {
+    "id": "bb05e9f4-66af-4a62-920e-ba843bd9b050",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bakkt completes acquisition of stablecoin payments firm Distributed Technologies Research",
+    "summary": "1. Bakkt announced the deal in January, which was originally for 9.3 million shares, along with a corporate name change to Bakkt Inc.",
+    "url": "https://cointelegraph.com/news/bakkt-completes-deal-to-acquire-distributed-technologies-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Stephen Katte",
+    "created_at": "2026-05-01T07:43:18.000Z"
+  },
+  {
+    "id": "a4fb756a-61ce-4d05-bdcc-3364e6a32424",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bithumb scores a legal win in South Korea as six-month suspension is lifted by local judge",
+    "summary": "1. South Korea's financial watchdog imposed a $24.6 million fine on Bithumb and partial suspension that came into effect last month.",
+    "url": "https://www.coindesk.com/policy/2026/05/01/bithumb-scores-a-legal-win-in-south-korea-as-six-month-suspension-is-lifted-by-local-judge",
+    "author": "Olivier Acuna",
+    "created_at": "2026-05-01T07:41:24.000Z"
+  },
+  {
+    "id": "e2f7b2f5-feb9-408f-b6a6-b47903c17c5b",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "France Drops Self-Custody Reporting Mandate",
+    "summary": "1. The article that established the duty for taxpayers to disclose the value and characteristics of their crypto funds held in self-custody was dropped during the last stages of the upcoming Fraud Law discussion.\n2. The law will now proceed without this measure.\n3. Key Takeaways: The French National Assembly axed an article requiring users to report self-custody […]",
+    "url": "https://news.bitcoin.com/france-drops-self-custody-reporting-mandate/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-01T07:30:28.000Z"
+  },
+  {
+    "id": "c742f7c4-9dac-4ff8-8ece-e8373c54db33",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Strategy keeps STRC dividend at 11.5% as stock logs first monthly gain in nine",
+    "summary": "1. STRC’s volume weighted average price of $99.76 for April kept the dividend steady for a third consecutive month.",
+    "url": "https://www.coindesk.com/markets/2026/05/01/strategy-keeps-strc-dividend-at-11-5-as-stock-logs-first-monthly-gain-in-nine",
+    "author": "James Van Straten",
+    "created_at": "2026-05-01T07:01:47.000Z"
+  },
+  {
+    "id": "c0282cda-b453-4c1e-b121-35a6bf7e2d49",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bitcoin risks extended retreat as April rally was futures-driven: CryptoQuant",
+    "summary": "1. Futures drove up Bitcoin's price in April while spot demand declined, which CryptoQuant warned has historically preceded extended price declines.",
+    "url": "https://cointelegraph.com/news/bitcoin-risks-decline-rally-speculative-not-structural-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Jesse Coghlan",
+    "created_at": "2026-05-01T06:53:44.000Z"
+  },
+  {
+    "id": "37434508-939a-4587-90d8-c790c1926032",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bitcoiners launch 'The Bitcoin Evidence Base' to stamp out FUD ",
+    "summary": "1. The Bitcoin FUD-stopping tool cites over 22 peer-reviewed research papers to address common misconceptions about Bitcoin.",
+    "url": "https://cointelegraph.com/news/bitcoiner-launches-the-bitcoin-evidence-base-to-stamp-out-fud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-05-01T06:51:37.000Z"
+  },
+  {
+    "id": "ba2820be-52bc-4dee-aa09-e72a8626a22f",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Porvenir Launches Crypto Pension Fund in Colombia",
+    "summary": "1. Porvenir, the largest Colombian pension fund manager, opened the doors to cryptocurrency to its users by launching a new crypto investment portfolio option.\n2. “ Crypto Porvenir” allows exposure to crypto assets starting from 100,000 Colombian pesos, leveraging BlackRock’s IBIT ETF to simplify management and minimize costs.\n3. Key Takeaways: Porvenir launched a crypto portfolio using Blackrock’s […]",
+    "url": "https://news.bitcoin.com/porvenir-launches-crypto-pension-fund-in-colombia/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-01T06:30:07.000Z"
+  },
+  {
+    "id": "21a3564b-bdfc-460a-ae2a-a7a14a4f7857",
+    "source": "Politico",
+    "type": "rss",
+    "title": "Can America trust AI? David Sacks makes the case.",
+    "summary": "1. Can America trust AI?\n2. David Sacks makes the case.",
+    "url": "https://www.politico.com/video/2026/04/30/can-america-trust-ai-david-sacks-makes-the-case-2032422",
+    "author": "Politico",
+    "created_at": "2026-05-01T03:59:00.000Z"
+  },
+  {
+    "id": "cf448d0a-24a6-4fd7-8749-9f047e7aa072",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "28,000 Americans Sign Petition Urging Senate CLARITY Act Markup",
+    "summary": "1. Stand With Crypto delivered a 28,000-signature petition to Washington, pressing the Senate Banking Committee to mark up the CLARITY Act.\n2. The campaign frames crypto regulation as a voter demand from organized digital asset owners.\n3. Key Takeaways: Stand With Crypto delivered a petition urging Senate action on the CLARITY Act.",
+    "url": "https://news.bitcoin.com/28000-americans-sign-petition-urging-senate-clarity-act-markup/",
+    "author": "Kevin Helms",
+    "created_at": "2026-05-01T03:30:45.000Z"
+  },
+  {
+    "id": "23c8bb3e-d5b4-4ecf-adbd-97fdd2f05a3f",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "BTC rises above $77,000",
@@ -8,145 +168,5 @@
     "url": "https://t.me/CoinnessGL#9317de59",
     "author": "@CoinnessGL",
     "created_at": "2026-05-01T03:19:58+00:00"
-  },
-  {
-    "id": "2d1f8740-7b73-485f-938a-542faaf9b0ba",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "24-hour crypto futures liquidations",
-    "summary": "The following shows estimated liquidation volumes and position ratios for major crypto perpetual futures over the past 24 hours:- BTC: $16.32 million liquidated (73.38% shorts)- ETH: $17.80 million liquidated (62.29% shorts)- DOGE: $4.52 million liquidated (62.38% shorts)",
-    "url": "https://t.me/CoinnessGL#ca825c6a",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-01T03:02:03+00:00"
-  },
-  {
-    "id": "0ae4630d-5a24-4aa0-991d-d5b861d8b255",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Arbitrum DAO votes on returning ETH frozen in Kelp DAO hack",
-    "summary": "The Arbitrum (ARB) DAO has launched a governance vote on a proposal to return Ethereum (ETH) that was frozen following a hack on Kelp DAO. The proposal calls for the creation of a multi-sig wallet involving Aave Labs, Kelp DAO, and ether.fi to ensure the frozen funds are used exclusively for recovery procedures. The vote, which currently has 100% approval, is set to conclude on May 8.",
-    "url": "https://t.me/CoinnessGL#c383354e",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-01T02:55:30+00:00"
-  },
-  {
-    "id": "172d897c-4003-40d3-8f5a-db85a75d10b8",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Ripple Expands Korea Banking Footprint With Kbank Custody Deal",
-    "summary": "1. Ripple Custody will support Kbank’s digital asset wallet expansion in Korea’s regulated banking sector.\n2. The deal gives Korea’s first internet-only bank managed infrastructure for custody, asset control, and cross-border payment capabilities.\n3. Key Takeaways: Ripple will provide Kbank with managed custody infrastructure for institutional digital asset wallets.",
-    "url": "https://news.bitcoin.com/ripple-expands-korea-banking-footprint-with-kbank-custody-deal/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-01T02:30:45.000Z"
-  },
-  {
-    "id": "11e19d66-41ef-4471-8f62-d55fa73379c2",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Spot Bitcoin ETF outflows top $490M: Is BTC’s rally losing momentum? ",
-    "summary": "1. Spot Bitcoin ETF outflows reached $490 million as crypto investors considered the impact of high oil prices, Big Tech earnings and a shortfall in AI industry growth metrics.",
-    "url": "https://cointelegraph.com/markets/spot-bitcoin-etf-outflows-top-490m-is-btcs-rally-losing-momentum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Marcel Pechman",
-    "created_at": "2026-05-01T02:15:18.000Z"
-  },
-  {
-    "id": "cbb94cf7-50de-411c-b6ad-e6e4c94daa29",
-    "source": "GitHub",
-    "type": "github",
-    "title": "anthropics/claude-code: v2.1.126",
-    "summary": "1. ## What's changed\n\n- The `/model` picker now lists models from your gateway's `/v1/models` endpoint when `ANTHROPIC_BASE_URL` points at an Anthropic-compatible gateway\n- - Added `claude project purge [path]` to delete all Claude Code state for a project (transcripts, tasks, file history, config entry) — supports `--dry-run`, `-y/--yes`, `-i/--interactive`, and `--all`\n- `--dangerously-skip-permissions` now bypasses prompts for writes to `.claude/`, `.git/`, `.vscode/`, shell config files, and other previously-protected paths (catastrophic removal commands still prompt as a safety net)\n- `claude auth login` now accepts the OAuth code pasted into the terminal when the browser callback can't reach localhost (WSL2, SSH, containers)\n- `claude_code.skill_activated` OpenTelemetry event now fires for user-typed slash commands and carries a new `invocation_trigger` attribute (`\"user-slash\"`, `\"claude-proactive\"`, or `\"nested-skill\"`)\n- Auto mode: the spinner now turns red when a permission check stalls, instead of looking like the tool is running\n- Host-managed deployments (`CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`) no longer auto-disable analytics on Bedrock/Vertex/Foundry\n- Windows: PowerShell 7 installed via the Microsoft Store, MSI without PATH, or `.NET global tool` is now detected\n- Windows: when the PowerShell tool is enabled, Claude now treats PowerShell as the primary shell instead of defaulting to Bash\n- Read tool: removed the per-file malware-assessment reminder that could cause spurious refusals and \"this is not malware\" commentary on legacy models\n- **Security:** Fixed `allowManagedDomainsOnly` / `allowManagedReadPathsOnly` being ignored when a higher-priority managed-settings source lacked a `sandbox` block\n- Fixed pasting an image larger than 2000px breaking the session — images are now downscaled on paste, and oversized images in history are automatically removed and the request retried\n- Fixed showing the login screen for \"OAuth not allowed for organization\" errors — now shows guidance to contact your admin\n- Fixed OAuth login failing with timeout on slow or proxied connections, in IPv6-only devcontainers, and when the browser callback can't reach localhost\n- Fixed a rare race where a concurrent credential write could clear a valid OAuth refresh token\n- Fixed API retry countdown sticking at \"0s\" instead of counting down between attempts\n- Fixed \"Stream idle timeout\" error after waking Mac from sleep mid-request\n- Fixed background and remote sessions falsely aborting with \"Stream idle timeout\" during long model thinking pauses\n- Fixed a hang where the assistant could finish thinking but show no output after a run of empty turns\n- Fixed overly fast trackpad scrolling in Cursor and VS Code 1.92–1.104 integrated terminals\n- Fixed claude.ai MCP connectors being suppressed by manual servers stuck in needs-auth state\n- Fixed Japanese/Korean/Chinese text rendering as garbled characters on Windows in no-flicker mode\n- Fixed `Ctrl+L` clearing the prompt input — it now only forces a screen redraw, matching readline behavior\n- Fixed deferred tools (WebSearch, WebFetch, etc.) not being available to skills with `context: fork` and other subagents on their first turn\n- Fixed plan-mode tools being unavailable in interactive sessions launched with `--channels`\n- Fixed `/plugin` Uninstall reporting \"Enabled\" instead of \"Uninstalled\"\n- Bounded total size of file-modified reminders when a linter touches many files at once\n- Fixed `/remote-control` retries appearing stuck on \"connecting…\" — each retry now shows its result\n- Fixed Remote Control failure notification not showing the error reason for initial connection failures\n- Windows: clipboard writes no longer expose copied content in process command-line arguments visible to EDR/SIEM telemetry; also fixes >22KB selections not reaching the clipboard\n- PowerShell tool: bare `--` (e.g.\n2. `git diff -- file`) is no longer mis-flagged as the `--%` stop-parsing token\n- Fixed Agent SDK hang when the model emits a malformed tool name in a parallel tool call batch",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
-    "author": "ashwin-ant",
-    "created_at": "2026-05-01T02:05:23Z"
-  },
-  {
-    "id": "d5bb7222-f28c-43dc-9ca2-0b6a15dc5d95",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
-    "summary": "1. Users in India are embracing ChatGPT Images 2.0 for creative, personal visuals — from avatars to cinematic portraits.",
-    "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
-    "author": "Jagmeet Singh",
-    "created_at": "2026-05-01T02:00:00.000Z"
-  },
-  {
-    "id": "dd04331b-fe17-4bd8-a603-5ea96cba735d",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "XRP Eyes Bigger US Payments Role Amid Fed Access Talks",
-    "summary": "1. Evernorth CEO Asheesh Birla linked XRP to a potential U.S.\n2. payments shift as policymakers weigh limited Federal Reserve account access for stablecoin issuers.\n3. The proposal frames XRP as a possible dollar movement rail if RLUSD qualifies under the structure.",
-    "url": "https://news.bitcoin.com/xrp-eyes-bigger-us-payments-role-amid-fed-access-talks/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-01T01:30:24.000Z"
-  },
-  {
-    "id": "27b9277b-31fb-4c2a-970d-3281acfb28cb",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Dormant Ethereum Wallets Drained in Mass Exploit - 261 ETH Drained",
-    "summary": "1. Dormant Ethereum Wallets Drained in Mass Exploit - 261 ETH Drained",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1t0f7fb/dormant_ethereum_wallets_drained_in_mass_exploit/",
-    "author": "u/ourcryptotalk",
-    "created_at": "2026-05-01T01:26:50.000Z"
-  },
-  {
-    "id": "13a04a6d-b1e8-41cc-b387-f995032f4680",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Great job by highly respected Navy Commander Kirk Lippold in interview with Jesse Watters on FoxNews.\n2. Very smart and insightful concerning Iran, and more.\n3. Thank you, Commander!",
-    "url": "https://trumpstruth.org/statuses/38111",
-    "author": "Trump Truth",
-    "created_at": "2026-05-01T01:26:13.000Z"
-  },
-  {
-    "id": "64af87e4-1904-4f22-9756-8aef5bf54dce",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Robert Kiyosaki Escalates Giant Crash Warning, Says It Could Turn Into Depression",
-    "summary": "1. Robert Kiyosaki says a 2026-27 market crash could reward prepared investors willing to buy discounted assets.\n2. The Rich Dad Poor Dad author cited past downturns where he profited, including crashes in 1987, 2000, 2008, 2015, 2019, and 2022.\n3. His latest message urged followers to prepare capital before volatility rises and focus on opportunity rather than […]",
-    "url": "https://news.bitcoin.com/robert-kiyosaki-escalates-giant-crash-warning-says-it-could-turn-into-depression/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-01T00:30:03.000Z"
-  },
-  {
-    "id": "1c826a00-b2ff-43b7-a42a-600bf0e581cf",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "As Tim Cook steps down, Apple hit record sales — but a chip shortage looms",
-    "summary": "1. Cook warned that Apple is facing supply-chain headwinds from RAMageddon that could impact its business.",
-    "url": "https://techcrunch.com/2026/04/30/as-tim-cook-steps-down-apple-hit-record-sales-but-a-chip-shortage-looms/",
-    "author": "Lucas Ropek",
-    "created_at": "2026-04-30T23:59:15.000Z"
-  },
-  {
-    "id": "66483157-d3a9-4566-ac1d-5a2a68f2939b",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Y Combinator alum Skio sells for $105M cash, only raised $8M, founder says",
-    "summary": "1. Subscription billing fintech Skio sold to its competitor Recharge in what was a healthy exit, according to its founder and former CEO.",
-    "url": "https://techcrunch.com/2026/04/30/y-combinator-alum-skio-sells-for-105m-cash-only-raised-8m-founder-says/",
-    "author": "Julie Bort",
-    "created_at": "2026-04-30T23:58:52.000Z"
-  },
-  {
-    "id": "6df84d74-3412-4126-a4cf-e83ffc955054",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "U.S. senators won't be weighing in on prediction markets bets after banning themselves",
-    "summary": "1. The Senate agreed unanimously to revise its rules to ban members and their staffs from wagers on prediction markets platforms.",
-    "url": "https://www.coindesk.com/policy/2026/04/30/u-s-senators-won-t-be-weighing-in-on-prediction-markets-bets-after-banning-themselves",
-    "author": "Jesse Hamilton",
-    "created_at": "2026-04-30T22:13:13.000Z"
-  },
-  {
-    "id": "ce22a748-4744-4bbd-9efa-3bec2e77e52c",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Mistral AI Drops New Open-Source Model. The Internet Is Not Impressed, Except for One Thing",
-    "summary": "1. Mistral Medium 3.5 is the rare Western entry in the open-source top tier, but it costs multiples more than Chinese rivals that beat it on benchmarks.",
-    "url": "https://decrypt.co/366275/mistral-ai-open-source-model-agents-internet-not-impressed",
-    "author": "Jose Antonio Lanz",
-    "created_at": "2026-04-30T21:31:03.000Z"
   }
 ]
