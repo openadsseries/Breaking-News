@@ -16,6 +16,10 @@ export $(grep -v '^#' .env.local | xargs 2>/dev/null)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
+# Sync with remote first (avoid conflicts from manual pushes)
+git fetch origin >> "$LOG_FILE" 2>&1
+git reset --hard origin/main >> "$LOG_FILE" 2>&1
+
 # Fetch news
 node scripts/fetch-news.mjs >> "$LOG_FILE" 2>&1
 
