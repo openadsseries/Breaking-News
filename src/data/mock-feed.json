@@ -1,6 +1,46 @@
 [
   {
-    "id": "d62460a8-055f-4109-b892-99f5603a8e06",
+    "id": "f43ff80c-fafe-41d5-933b-8ea00b88dc86",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Developer claims new tool can recover 8,999 BTC lost in 2010",
+    "summary": "A developer claims to have created a new CUDA-based tool capable of recovering 8,999 BTC lost in 2010, BeInCrypto reported. The funds, which belonged to a user known as Stone Man, were lost due to a bug in an early version of the Bitcoin client. The developer, a Reddit user named CompetitiveRough8180, asserts the tool can exploit weak entropy, or randomness, in the old client software to retrieve the lost coins. The stash of 8,999 BTC is currently valued at over $700 million.",
+    "url": "https://t.me/CoinnessGL#aec102cf",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-02T11:31:23+00:00"
+  },
+  {
+    "id": "9bb5928e-9923-4abd-a6b2-58f953d11198",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "MiCA Decoded: Why the Regulator Sees Your Compliance Team as a Single Brain",
+    "summary": "1. The organizational chart with the right job titles will not get you licensed.\n2. What the regulator is looking for is a compliance architecture: documented independence, collective expertise across three distinct knowledge domains, and real institutional substance.\n3. This is how that standard works in practice.",
+    "url": "https://news.bitcoin.com/mica-decoded-why-the-regulator-sees-your-compliance-team-as-a-single-brain/",
+    "author": "Guest Author",
+    "created_at": "2026-05-02T11:30:13.000Z"
+  },
+  {
+    "id": "bf30d665-54cc-4755-a0a3-221096871602",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Hyperliquid launches its first prediction market",
+    "summary": "Hyperliquid has launched its first prediction market contract, BlockBeat reported. The inaugural contract on the HIP-4 binary prediction market will settle based on whether Bitcoin surpasses $78,213 at 5:00 a.m. UTC on May 3. Users can participate in the market using their existing futures trading margin without needing to connect a separate wallet.",
+    "url": "https://t.me/CoinnessGL#1860da4d",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-02T11:27:22+00:00"
+  },
+  {
+    "id": "dd59b321-0a92-4169-ae2b-5df6db8dc4c8",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "TRON DAO and Securitize Host TRON Whale Night at Bitcoin 2026 With MetaMask, DSA, and B.AI",
+    "summary": "1. This sponsored press release was provided by TRON DAO and was not written by Bitcoin.com News.\n2. Bitcoin.com News does not necessarily endorse the statements made within this announcement.\n3. PRESS RELEASE.",
+    "url": "https://news.bitcoin.com/tron-dao-and-securitize-host-tron-whale-night-at-bitcoin-2026-with-metamask-dsa-and-b-ai/",
+    "author": "Media",
+    "created_at": "2026-05-02T11:00:15.000Z"
+  },
+  {
+    "id": "4c01aadb-dbed-4ae1-9413-a290503f4541",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Ark Invest projects Bitcoin's market cap will reach $16T by 2030, driven by institutional adoption via ETFs, corporate treasuries, and sovereign entities.",
@@ -30,7 +70,7 @@
     "created_at": "2026-05-02T10:05:44.000Z"
   },
   {
-    "id": "a7e0efd1-95b6-4c77-b371-e7176e3bff72",
+    "id": "3b4b71c7-a82f-4186-976c-daee0f9fcd9c",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "$424M in BTC longs face liquidation below $77,547",
@@ -50,7 +90,7 @@
     "created_at": "2026-05-02T08:30:20.000Z"
   },
   {
-    "id": "ef6c10f3-5338-4dd1-ae99-c9a599e7608b",
+    "id": "b498f4fc-2c30-464f-82b6-7c04d70731d2",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Iran says war with US will 'likely' resumeTwitter",
@@ -140,7 +180,7 @@
     "created_at": "2026-05-02T06:36:28.000Z"
   },
   {
-    "id": "32e31c68-8ee1-4047-878c-a100df82a46f",
+    "id": "30a2db71-22f4-4360-8add-cef5e9a4b02d",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Spirit Airlines officially shuts down.@WatcherGuru",
