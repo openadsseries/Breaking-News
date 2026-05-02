@@ -62,7 +62,7 @@ const TELEGRAM_CHANNELS = [
 ];
 
 const ARTICLES_PER_FEED = 3;
-const MAX_AGE_HOURS = 24;
+const MAX_AGE_HOURS = 6;
 const OUTPUT_PATH = path.join(process.cwd(), 'src', 'data', 'mock-feed.json');
 
 // ─── Helpers ───

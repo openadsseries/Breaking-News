@@ -111,11 +111,11 @@ export default function Home() {
     }
   }, [isSuccess]);
 
-  // Filter: only show UNREAD articles, newest first
-  // (staleness is already handled server-side by fetch-news.mjs removeOld)
+  // Filter: only show UNREAD articles from the last 6 hours, newest first
   const todaysFeed = useMemo(() => {
+    const cutoff = Date.now() - 6 * 60 * 60 * 1000;
     return feed
-      .filter(a => !readIds.has(a.id))
+      .filter(a => new Date(a.created_at).getTime() > cutoff && !readIds.has(a.id))
       .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
   }, [feed, readIds]);
 
