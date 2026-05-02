@@ -1,5 +1,125 @@
 [
   {
+    "id": "4969ed13-f15d-43f9-b3b1-f1028c6d5694",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Here’s what happened in crypto today",
+    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Cointelegraph",
+    "created_at": "2026-05-02T14:00:00.000Z"
+  },
+  {
+    "id": "dd44b99b-b308-4a41-a0e5-c6740d8505ff",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Beyond Lovable and Mistral: 21 European startups to watch",
+    "summary": "1. It is not that European startups never get attention — Lovable and Mistral AI are proof of that.\n2. But there are many more that insiders are tracking.",
+    "url": "https://techcrunch.com/2026/05/02/beyond-lovable-and-mistral-21-european-startups-to-watch/",
+    "author": "Anna Heim",
+    "created_at": "2026-05-02T14:00:00.000Z"
+  },
+  {
+    "id": "1f0bde86-b573-4578-bcc1-88d491c7e7ed",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Strategy CEO Phong Le called STRC \"the iPhone moment\" for credit markets, predicting hundreds of layer-2 products will be built on top, just like AirPods built on iPhone.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#7d42bfed",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-02T13:59:21+00:00"
+  },
+  {
+    "id": "6100263b-dfea-4907-a8e0-bc8c2e542015",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "A16z sides with CFTC against states seeking to ban prediction markets",
+    "summary": "1. Venture capital firm a16z argues that state crackdowns on platforms like Kalshi and Polymarket conflict with federal law and hurt market access for ordinary users.",
+    "url": "https://cointelegraph.com/news/a16z-sides-with-cftc-against-states-seeking-to-ban-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Amin Haqshanas",
+    "created_at": "2026-05-02T13:51:00.000Z"
+  },
+  {
+    "id": "e5d7686d-48d8-48e3-9ecd-5df89659a244",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Suspected insider wallet profits $1.1M from LAB after 10x surge",
+    "summary": "A wallet suspected of being an insider or market maker has realized an estimated profit of $1.13 million from the token LAB, which surged tenfold over the past month, EmberCN reported. Before the price increase, the wallet accumulated 575,000 LAB for $128,000 at an average price of $0.20. The holdings were deposited into Gate.io and KuCoin approximately 30 minutes ago.",
+    "url": "https://t.me/CoinnessGL#62c52043",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-02T13:37:57+00:00"
+  },
+  {
+    "id": "7c8007f3-1108-448f-b031-2c560e104160",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Hyperliquid Launches HIP-4 and Targets Polymarket With Zero-Fee Outcome Markets",
+    "summary": "1. Hyperliquid activated its HIP-4 Outcome Markets on mainnet May 2, 2026, bringing fully collateralized, onchain prediction markets directly into the same account where traders already run perpetual futures and spot positions.\n2. Key Takeaways: Hyperliquid launched HIP-4 Outcome Markets on mainnet May 2, 2026, with BTC daily binary contracts live and trading.\n3. HIP-4 charges zero fees […]",
+    "url": "https://news.bitcoin.com/hyperliquid-launches-hip-4-and-targets-polymarket-with-zero-fee-outcome-markets/",
+    "author": "Jamie Redman",
+    "created_at": "2026-05-02T13:30:19.000Z"
+  },
+  {
+    "id": "234a3dec-df73-4015-acf2-f73ad58ca8ab",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Prediction markets shifting to platforms for small, frequent retail trades",
+    "summary": "Prediction markets are evolving from platforms for one-off event betting to hubs for small, frequent trades by individual users, Bitget and Polymarket said in a report. Polymarket's monthly trading volume surged from about $1.2 billion in 2025 to over $20 billion in early 2026, while its number of active wallets more than tripled in six months. Small-scale traders with under $10,000 account for 82% of all users. These users are trading on the real-time prices of a wide range of events, from cryptocurrency prices and economic indicators to sports and entertainment news. The total market size is projected to exceed $240 billion this year and is expected to grow into a $1 trillion industry in the long term.",
+    "url": "https://t.me/CoinnessGL#605d7778",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-02T13:07:46+00:00"
+  },
+  {
+    "id": "57dd59a5-24f6-4ae9-9cd2-d32709d15f42",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "OpenClaw Put Apple Back in the AI Game—And Now They Can't Build Macs Fast Enough",
+    "summary": "1. The Mac mini went from a $599 desktop nobody cared about to the hottest piece of AI hardware on the planet.\n2. One open-source agent framework did it.",
+    "url": "https://decrypt.co/366389/openclaw-apple-mac-mini-shortage-ai-2026",
+    "author": "Jose Antonio Lanz",
+    "created_at": "2026-05-02T13:01:02.000Z"
+  },
+  {
+    "id": "e5f89ef8-b8c9-4bf8-ba2d-760b64c298b8",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "The $292M crypto hack exposed DeFi's weak spots. Here’s what must change, insiders say",
+    "summary": "1. As Wall Street moves onchain, the year's biggest crypto hack and DeFi crisis is forcing a rethink of risk, security and market structure, industry insiders told CoinDesk.",
+    "url": "https://www.coindesk.com/business/2026/05/02/the-usd292m-crypto-hack-exposed-defi-s-weak-spots-here-s-what-must-change-insiders-say",
+    "author": "Krisztian Sandor",
+    "created_at": "2026-05-02T13:00:00.000Z"
+  },
+  {
+    "id": "c50eecbf-e08a-4fa4-9363-cee3008444fe",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Prediction markets are ditching the 'casino' label to become a regular part of how people track the news",
+    "summary": "1. A new report from Bitget and Polymarket reveals that prediction markets are evolving into a $240 billion industry driven by retail users who are trading more frequently on everything from crypto to politics.",
+    "url": "https://www.coindesk.com/markets/2026/05/02/prediction-markets-are-ditching-the-casino-label-to-become-a-regular-part-of-how-people-track-the-news",
+    "author": "Helene Braun",
+    "created_at": "2026-05-02T13:00:00.000Z"
+  },
+  {
+    "id": "4aca0f46-d493-4590-81e9-7456ef140422",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Ethereum Validators Confirm Block 25 Million After Nearly 11 Years of Runtime",
+    "summary": "1. Ethereum finalized block 25,000,000 on May 1, 2026, marking nearly 11 years of operation since the network’s genesis block on July 30, 2015.\n2. Key Takeaways: Ethereum finalized block 25 million on May 1, 2026, nearly 11 years after its July 2015 genesis with no prolonged global network shutdown.\n3. The milestone reflects Ethereum’s decade-long operation through […]",
+    "url": "https://news.bitcoin.com/ethereum-validators-confirm-block-25-million-after-nearly-11-years-of-runtime/",
+    "author": "Jamie Redman",
+    "created_at": "2026-05-02T12:33:23.000Z"
+  },
+  {
+    "id": "06396e1f-ad26-4ad5-a0f0-20e93f9856d9",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Ethereum mainnet transactions hit all-time high in April",
+    "summary": "Ethereum mainnet transactions reached a new all-time high of 72.8 million in April, according to a report from Blockbeat. The breakdown of transaction types was as follows:- Token transfers: 62%- Utility: 13%- Financial: 8%- Cross-chain: 2%- Other: 15%",
+    "url": "https://t.me/CoinnessGL#6dbff282",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-02T11:38:40+00:00"
+  },
+  {
     "id": "f43ff80c-fafe-41d5-933b-8ea00b88dc86",
     "source": "@CoinnessGL",
     "type": "telegram",
@@ -40,7 +160,7 @@
     "created_at": "2026-05-02T11:00:15.000Z"
   },
   {
-    "id": "4c01aadb-dbed-4ae1-9413-a290503f4541",
+    "id": "8d60456e-b6e5-4a29-a318-fa0a12b2d5a6",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Ark Invest projects Bitcoin's market cap will reach $16T by 2030, driven by institutional adoption via ETFs, corporate treasuries, and sovereign entities.",
@@ -68,145 +188,5 @@
     "url": "https://news.bitcoin.com/el-salvador-crypto-remittances-reach-17-38m/",
     "author": "Sergio Goschenko",
     "created_at": "2026-05-02T10:05:44.000Z"
-  },
-  {
-    "id": "3b4b71c7-a82f-4186-976c-daee0f9fcd9c",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "$424M in BTC longs face liquidation below $77,547",
-    "summary": "According to data from Coinglass, a drop below $77,547 for BTC could trigger the liquidation of $424.31 million in long positions on major centralized exchanges. Conversely, a move above $79,067 would liquidate an estimated $395.66 million in short positions.",
-    "url": "https://t.me/CoinnessGL#7576e611",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T08:31:35+00:00"
-  },
-  {
-    "id": "e1234f10-051e-4d45-a095-9866d211febb",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Paolo Ardoino Drives $1.04B Profit for Tether as Reserves Climb to $8.23B in Q1",
-    "summary": "1. Tether posted over $1 billion in profit for the first quarter of 2026, with excess reserves reaching a record $8.23 billion.\n2. The stablecoin issuer continues to anchor its backing in U.S.\n3. Treasuries while expanding into gold and bitcoin.",
-    "url": "https://news.bitcoin.com/paolo-ardoino-drives-1-04b-profit-for-tether-as-reserves-climb-to-8-23b-in-q1/",
-    "author": "Emmanuel Musa",
-    "created_at": "2026-05-02T08:30:20.000Z"
-  },
-  {
-    "id": "b498f4fc-2c30-464f-82b6-7c04d70731d2",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Iran says war with US will 'likely' resumeTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#d07d7dbc",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-02T08:17:48+00:00"
-  },
-  {
-    "id": "103d249f-26bd-4fdc-95ae-72b563f3172f",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "ETH whale's long position nets $3.1M in unrealized profit",
-    "summary": "A whale with an 80,000 ETH ($182 million) long position on Hyperliquid (HYPE) currently has an unrealized profit of $3.11 million, ai_9684xtpa reported. The position was opened from two separate wallets, each with 40,000 ETH, at an average entry price of around $2,265.",
-    "url": "https://t.me/CoinnessGL#f0764cd5",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T08:05:37+00:00"
-  },
-  {
-    "id": "e3f2bc47-2810-452b-872d-c480a6261905",
-    "source": "r/ethereum",
-    "type": "reddit",
-    "title": "need help with trustwallet",
-    "summary": "1. need help with trustwallet",
-    "url": "https://reddit.com/r/ethereum/comments/1t1jp9r/need_help_with_trustwallet/",
-    "author": "u/Outrageous-Lack2218",
-    "created_at": "2026-05-02T08:04:02.000Z"
-  },
-  {
-    "id": "cd8ac73e-dfce-454c-a8e0-1e0686fc7529",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Ethereum Foundation sells another 10,000 ETH to BitMine in third OTC deal",
-    "summary": "1. The Ethereum Foundation has now sold roughly $47 million worth of ETH to BitMine in a week, drawing fresh criticism over the pace and scale of its sales.",
-    "url": "https://cointelegraph.com/news/ethereum-foundation-sells-another-10000-eth-to-bitmine-in-third-otc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Amin Haqshanas",
-    "created_at": "2026-05-02T08:03:06.000Z"
-  },
-  {
-    "id": "ef4a7cb9-5f74-4cf4-b8cf-3d2cfae8b587",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "BTC has not yet shown signs of a bottom, analyst says",
-    "summary": "On-chain analyst Axel Adler Jr. argued that Bitcoin has historically ended its bear markets and begun to rebound only after a significant price drop, a signal that has not yet appeared in the current cycle. In a post on X, he stated that while many influential figures are claiming Bitcoin has already formed a bottom, a model based on the past four cycles indicates otherwise. According to Adler, bear markets have always concluded after a major decline, a phase he believes the market has not yet entered.",
-    "url": "https://t.me/CoinnessGL#d5e81f9f",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T08:00:40+00:00"
-  },
-  {
-    "id": "ea3300f4-a8aa-4309-a089-425587e0056a",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "DSA Addresses the Future of Payments at PayCLT Webinar and AI and Blockchain Conference at Cornell Tech",
-    "summary": "1. This sponsored press release was provided by DSA and was not written by Bitcoin.com News.\n2. Bitcoin.com News does not necessarily endorse the statements made within this announcement.\n3. PRESS RELEASE.",
-    "url": "https://news.bitcoin.com/dsa-addresses-the-future-of-payments-at-payclt-webinar-and-ai-and-blockchain-conference-at-cornell-tech/",
-    "author": "Media",
-    "created_at": "2026-05-02T08:00:19.000Z"
-  },
-  {
-    "id": "64188a47-beb8-4024-b86a-3eef7b1d4407",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Bitcoin above $78,000 as Senate clears Clarity Act yield hurdle, S&P 500 sets new record",
-    "summary": "1. Bitcoin recovered from a midweek dip to $75,500 to climb back above $78,000 by Saturday morning in Asia, with the Senate's stablecoin yield compromise removing a key roadblock to crypto market structure legislation.",
-    "url": "https://www.coindesk.com/markets/2026/05/02/bitcoin-above-usd78-000-as-senate-clears-clarity-act-yield-hurdle-s-and-p-500-sets-new-record",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-05-02T06:49:39.000Z"
-  },
-  {
-    "id": "18d78d59-6ed7-4c0f-aa2f-7997782cf0b1",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Cardano founder Charles Hoskinson Says Monero Is What Bitcoin Should Have Been",
-    "summary": "1. Cardano founder Charles Hoskinson Says Monero Is What Bitcoin Should Have Been",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1t1i6z3/cardano_founder_charles_hoskinson_says_monero_is/",
-    "author": "u/ourcryptotalk",
-    "created_at": "2026-05-02T06:38:10.000Z"
-  },
-  {
-    "id": "827e3699-ccf6-4cb3-91ad-43f63fb68ea0",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Uber wants to turn its millions of drivers into a sensor grid for self-driving companies",
-    "summary": "1. Praveen Neppalli Naga, Uber's chief technology officer, revealed the plan in an interview at TechCrunch's StrictlyVC event in San Francisco on Thursday night, describing it as a natural extension of a nascent program the company announced in late January called AV Labs.",
-    "url": "https://techcrunch.com/2026/05/01/uber-wants-to-turn-its-millions-of-drivers-into-a-sensor-grid-for-self-driving-companies/",
-    "author": "Connie Loizos",
-    "created_at": "2026-05-02T06:36:28.000Z"
-  },
-  {
-    "id": "30a2db71-22f4-4360-8add-cef5e9a4b02d",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "Spirit Airlines officially shuts down.@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#9ee665f0",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-02T06:27:04+00:00"
-  },
-  {
-    "id": "ec72e0b8-9007-4730-a91c-07e06f3a9ef0",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "New Bitcoin quantum proposal offers Satoshi Nakamoto a way to prove control without moving BTC",
-    "summary": "1. A new design proposed by venture fund Paradigm would let holders privately timestamp proof that they control vulnerable keys before quantum computers arrive, creating a possible rescue path if Bitcoin ever sunsets old addresses.",
-    "url": "https://www.coindesk.com/tech/2026/05/02/new-bitcoin-quantum-proposal-offers-satoshi-nakamoto-a-way-to-prove-control-without-moving-btc",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-05-02T06:24:06.000Z"
-  },
-  {
-    "id": "1574f16d-5bcd-4606-a171-71574b1a3d17",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin doesn’t need a fresh narrative to reclaim $100K: Analyst",
-    "summary": "1. With attention spilling into multiple other technology sectors, crypto may struggle to capture a strong, price-driving narrative, a crypto analyst says.",
-    "url": "https://cointelegraph.com/news/bitcoin-doesnt-need-a-fresh-narrative-to-reclaim-100k-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Ciaran Lyons",
-    "created_at": "2026-05-02T06:11:22.000Z"
   }
 ]
