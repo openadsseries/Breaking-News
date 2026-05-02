@@ -47,7 +47,7 @@ export default function Home() {
 
   // Fetch feed from API (runtime — no rebuild needed)
   useEffect(() => {
-    fetch("/api/feed")
+    fetch(`/api/feed?t=${Date.now()}`)
       .then(r => r.json())
       .then((data: Article[]) => setFeed(data))
       .catch(() => {});

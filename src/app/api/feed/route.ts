@@ -23,7 +23,7 @@ export async function GET() {
 
     const feed = await res.json();
     return NextResponse.json(feed, {
-      headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" },
+      headers: { "Cache-Control": "no-store, s-maxage=300, stale-while-revalidate=600" },
     });
   } catch {
     const { default: fallback } = await import("@/data/mock-feed.json");
