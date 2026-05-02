@@ -330,4 +330,4 @@ async function main() {
 
 // 2-minute hard limit
 const timeout = setTimeout(() => { console.log('⏰ 2min timeout, exiting'); process.exit(0); }, 120000);
-main().then(() => clearTimeout(timeout)).catch(console.error);
+main().then(() => { clearTimeout(timeout); process.exit(0); }).catch(console.error);
