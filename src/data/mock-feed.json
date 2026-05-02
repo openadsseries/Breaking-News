@@ -1,5 +1,135 @@
 [
   {
+    "id": "2c51957b-5128-4b8a-81d6-c737a8521e0d",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Netflix delays Greta Gerwig’s ‘Narnia’ movie for big theatrical push in 2027",
+    "summary": "1. \"The Magician's Nephew\" looks like a big next step in Netflix's thawing relationship with movie theaters.",
+    "url": "https://techcrunch.com/2026/05/02/netflix-delays-greta-gerwigs-narnia-movie-for-big-theatrical-push-in-2027/",
+    "author": "Anthony Ha",
+    "created_at": "2026-05-02T17:05:41.000Z"
+  },
+  {
+    "id": "cdd3f32c-c0b5-4415-80bc-a0797a1c8666",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
+    "summary": "1. The ban applies to fintechs and payment firms, closing the back-end payment rail for cross-border flows, but individual crypto investors can still buy and hold assets.",
+    "url": "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments",
+    "author": "Francisco Rodrigues",
+    "created_at": "2026-05-02T16:56:08.000Z"
+  },
+  {
+    "id": "ba8f7180-05bc-4706-8523-c42c41ca8799",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Whale Pulls 1,051 BTC Worth $82.35M From Binance in Single Transaction",
+    "summary": "1. A freshly created wallet has withdrawn 1,051 bitcoin from Binance in a single move worth approximately $82.35 million, with analysts pointing to the transaction as a signal of deliberate accumulation.\n2. Key Takeaways: A new wallet pulled 1,051 BTC worth $82.35 million from Binance, per Lookonchain.\n3. bitcoin ETFs recorded $630 million in net inflows on […]",
+    "url": "https://news.bitcoin.com/whale-1051-btc-binance-withdrawal/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-02T16:45:32.000Z"
+  },
+  {
+    "id": "1b53b8a5-1990-46c9-baef-11bba0ed4459",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ WisdomTree's crypto ETPs saw $137M in net inflows in Q1,  a sharp reversal from $89M in outflows during the same period last year.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#0a89eef1",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-02T16:24:25+00:00"
+  },
+  {
+    "id": "54924ce0-a0b3-4366-baa9-4fa5e7b508d0",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Crypto industry backs CLARITY Act yield compromise, pushes Senate Banking for markup",
+    "summary": "1. The agreement necessitates firms restructure reward programs from a \"buy and hold\" to a \"buy and use\" model; however, CCI raised concerns over its broad prohibition.",
+    "url": "https://www.coindesk.com/policy/2026/05/02/crypto-industry-backs-clarity-act-yield-compromise-pushes-senate-banking-for-markup",
+    "author": "Francisco Rodrigues",
+    "created_at": "2026-05-02T16:01:01.000Z"
+  },
+  {
+    "id": "a8202fb0-3bce-4a75-8131-a5cc55f2a503",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin's 'hazardous' airdrop: Why developers are warning against Paul Sztorc’s eCash fork",
+    "summary": "1. Developers and industry figures say the eCash proposal introduces user risk, uneven distribution and philosophical tension.",
+    "url": "https://www.coindesk.com/tech/2026/05/02/bitcoin-s-hazardous-airdrop-why-developers-are-warning-against-paul-sztorc-s-ecash-fork",
+    "author": "Jamie Crawley",
+    "created_at": "2026-05-02T16:00:00.000Z"
+  },
+  {
+    "id": "88149bec-a18b-4f9c-9784-375a376e9eb4",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "The best AI dictation apps, tested and ranked",
+    "summary": "1. AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice",
+    "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+    "author": "Ivan Mehta",
+    "created_at": "2026-05-02T16:00:00.000Z"
+  },
+  {
+    "id": "259daae1-fea6-4fab-a836-9473eabb193a",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "ZachXBT Exposes US Law Firm Gerstein Harrow’s $71M Grab of Stolen Lazarus Funds",
+    "summary": "1. Onchain investigator ZachXBT has accused U.S.\n2. law firm Gerstein Harrow LLP of filing fraudulent claims over frozen crypto assets linked to North Korea’s Lazarus Group, a tactic he says directly harms the actual victims of recent exploits.\n3. Key Takeaways: ZachXBT named Gerstein Harrow LLP for filing fake DPRK claims to seize $71M in frozen KelpDAO […]",
+    "url": "https://news.bitcoin.com/zachxbt-law-firm-lazarus-group-frozen-funds/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-02T15:45:06.000Z"
+  },
+  {
+    "id": "249a0938-e535-4c47-b728-9a5b53365eed",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Coinbase says deal reached on Clarity Act stablecoin yield, clearing path to long-stalled Senate markup",
+    "summary": "1. Coinbase CEO Brian Armstrong urged the Senate Banking Committee to \"mark it up\" as a months-long stalemate appears to be at an end.",
+    "url": "https://www.theblock.co/post/399780/coinbase-says-deal-reached-on-clarity-act-stablecoin-yield-clearing-path-to-long-stalled-senate-markup?utm_source=rss&utm_medium=rss",
+    "author": "Zack Abrams",
+    "created_at": "2026-05-02T15:40:00.000Z"
+  },
+  {
+    "id": "df5b7f3b-6a4d-4d12-a990-30531d93ed93",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "In 2021, Nancy Pelosi was asked if Congress should be banned from trading...",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#a61f3950",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-02T15:17:56+00:00"
+  },
+  {
+    "id": "1035812b-c604-4967-b3de-c1b0b0937739",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "CoinNess Live Feed operating hours",
+    "summary": "We provide real-time cryptocurrency updates around the clock from 10:00 p.m. UTC on Sunday through 3:00 p.m. UTC on Saturday. Outside these hours, coverage is limited to critical market-moving developments.Note: Overseas economic news flashes will continue to be provided through the CoinNess Live app and the CoinNess website.",
+    "url": "https://t.me/CoinnessGL#b5a72c17",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-02T15:00:14+00:00"
+  },
+  {
+    "id": "18abae18-86a7-4a7a-824c-be335b4e9bb9",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Cryptoquant Researchers Warn Bitcoin’s April Rally Mirrors 2022 Bear Market Demand Pattern",
+    "summary": "1. Cryptoquant data shows bitcoin’s 20% April rally from $66,000 to $79,000 was built entirely on perpetual futures demand while spot buying contracted throughout the move, raising serious questions about the rally’s durability.\n2. Key Takeaways: Cryptoquant data shows bitcoin’s April 2026 rally from $66K to $79K was driven entirely by perpetual futures demand, with zero spot […]",
+    "url": "https://news.bitcoin.com/cryptoquant-researchers-warn-bitcoins-april-rally-mirrors-2022-bear-market-demand-pattern/",
+    "author": "Jamie Redman",
+    "created_at": "2026-05-02T14:43:48.000Z"
+  },
+  {
+    "id": "a24dc751-b689-4a6a-a70d-33b30f170eb1",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "US CFTC chair pushes to limit state interference in prediction markets",
+    "summary": "U.S. Commodity Futures Trading Commission (CFTC) Chairman Michael Selig is pursuing a plan to limit state government interference in prediction markets, The Information reported. The outlet noted that Selig is known as an avid sports fan with a deep interest in the field, displaying a large amount of sports memorabilia in his office. If the measure is implemented, platforms such as Polymarket and Kalshi, which have been hindered by state-level gambling laws and regulations, would be able to more freely offer trading services on sports and current events across the United States.",
+    "url": "https://t.me/CoinnessGL#acccdb97",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-02T14:43:15+00:00"
+  },
+  {
     "id": "4969ed13-f15d-43f9-b3b1-f1028c6d5694",
     "source": "CoinTelegraph",
     "type": "rss",
@@ -20,7 +150,7 @@
     "created_at": "2026-05-02T14:00:00.000Z"
   },
   {
-    "id": "1f0bde86-b573-4578-bcc1-88d491c7e7ed",
+    "id": "412f3971-8d0f-4a02-83f2-8cc7a73cc73f",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Strategy CEO Phong Le called STRC \"the iPhone moment\" for credit markets, predicting hundreds of layer-2 products will be built on top, just like AirPods built on iPhone.",
@@ -40,7 +170,7 @@
     "created_at": "2026-05-02T13:51:00.000Z"
   },
   {
-    "id": "e5d7686d-48d8-48e3-9ecd-5df89659a244",
+    "id": "e91dceb6-dfe7-4ca7-87d4-6e2f0df69881",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Suspected insider wallet profits $1.1M from LAB after 10x surge",
@@ -118,75 +248,5 @@
     "url": "https://t.me/CoinnessGL#6dbff282",
     "author": "@CoinnessGL",
     "created_at": "2026-05-02T11:38:40+00:00"
-  },
-  {
-    "id": "f43ff80c-fafe-41d5-933b-8ea00b88dc86",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Developer claims new tool can recover 8,999 BTC lost in 2010",
-    "summary": "A developer claims to have created a new CUDA-based tool capable of recovering 8,999 BTC lost in 2010, BeInCrypto reported. The funds, which belonged to a user known as Stone Man, were lost due to a bug in an early version of the Bitcoin client. The developer, a Reddit user named CompetitiveRough8180, asserts the tool can exploit weak entropy, or randomness, in the old client software to retrieve the lost coins. The stash of 8,999 BTC is currently valued at over $700 million.",
-    "url": "https://t.me/CoinnessGL#aec102cf",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T11:31:23+00:00"
-  },
-  {
-    "id": "9bb5928e-9923-4abd-a6b2-58f953d11198",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "MiCA Decoded: Why the Regulator Sees Your Compliance Team as a Single Brain",
-    "summary": "1. The organizational chart with the right job titles will not get you licensed.\n2. What the regulator is looking for is a compliance architecture: documented independence, collective expertise across three distinct knowledge domains, and real institutional substance.\n3. This is how that standard works in practice.",
-    "url": "https://news.bitcoin.com/mica-decoded-why-the-regulator-sees-your-compliance-team-as-a-single-brain/",
-    "author": "Guest Author",
-    "created_at": "2026-05-02T11:30:13.000Z"
-  },
-  {
-    "id": "bf30d665-54cc-4755-a0a3-221096871602",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Hyperliquid launches its first prediction market",
-    "summary": "Hyperliquid has launched its first prediction market contract, BlockBeat reported. The inaugural contract on the HIP-4 binary prediction market will settle based on whether Bitcoin surpasses $78,213 at 5:00 a.m. UTC on May 3. Users can participate in the market using their existing futures trading margin without needing to connect a separate wallet.",
-    "url": "https://t.me/CoinnessGL#1860da4d",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T11:27:22+00:00"
-  },
-  {
-    "id": "dd59b321-0a92-4169-ae2b-5df6db8dc4c8",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "TRON DAO and Securitize Host TRON Whale Night at Bitcoin 2026 With MetaMask, DSA, and B.AI",
-    "summary": "1. This sponsored press release was provided by TRON DAO and was not written by Bitcoin.com News.\n2. Bitcoin.com News does not necessarily endorse the statements made within this announcement.\n3. PRESS RELEASE.",
-    "url": "https://news.bitcoin.com/tron-dao-and-securitize-host-tron-whale-night-at-bitcoin-2026-with-metamask-dsa-and-b-ai/",
-    "author": "Media",
-    "created_at": "2026-05-02T11:00:15.000Z"
-  },
-  {
-    "id": "8d60456e-b6e5-4a29-a318-fa0a12b2d5a6",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "⚡ Ark Invest projects Bitcoin's market cap will reach $16T by 2030, driven by institutional adoption via ETFs, corporate treasuries, and sovereign entities.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#4bc4bae4",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-02T10:49:36+00:00"
-  },
-  {
-    "id": "6f749ae5-3b33-4c74-b9a0-1041160396f8",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Riot posts $167M in Q1 revenue as data center arm pulls in $33M in first quarter",
-    "summary": "1. Riot Platforms reported $167.2 million in Q1 2026 revenue, with its new data center business contributing $33.2 million as Bitcoin mining income fell.",
-    "url": "https://cointelegraph.com/news/riot-posts-167m-in-q1-revenue-as-data-center-arm-pulls-in-33m-in-first-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Amin Haqshanas",
-    "created_at": "2026-05-02T10:18:31.000Z"
-  },
-  {
-    "id": "01110824-c2e4-4520-9a7b-aab97bd93d0a",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "El Salvador Crypto Remittances Reach $17.38M",
-    "summary": "1. According to El Salvador’s Central Bank, the share of crypto-linked remittances sent to El Salvador rose by nearly 50% in Q1 2026 compared to the same period in 2025.\n2. Even so, crypto remittances have failed to reach even 1% of the country’s total remittances.\n3. Key Takeaways: El Salvador’s Central Bank reported Q1 crypto remittances hit […]",
-    "url": "https://news.bitcoin.com/el-salvador-crypto-remittances-reach-17-38m/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-05-02T10:05:44.000Z"
   }
 ]
