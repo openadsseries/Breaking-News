@@ -1,6 +1,46 @@
 [
   {
-    "id": "505613f5-f2c3-4143-8ddc-97916b667017",
+    "id": "01110824-c2e4-4520-9a7b-aab97bd93d0a",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "El Salvador Crypto Remittances Reach $17.38M",
+    "summary": "1. According to El Salvador’s Central Bank, the share of crypto-linked remittances sent to El Salvador rose by nearly 50% in Q1 2026 compared to the same period in 2025.\n2. Even so, crypto remittances have failed to reach even 1% of the country’s total remittances.\n3. Key Takeaways: El Salvador’s Central Bank reported Q1 crypto remittances hit […]",
+    "url": "https://news.bitcoin.com/el-salvador-crypto-remittances-reach-17-38m/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-02T10:05:44.000Z"
+  },
+  {
+    "id": "10449935-bca6-439e-9222-6d90febccce9",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "$424M in BTC longs face liquidation below $77,547",
+    "summary": "According to data from Coinglass, a drop below $77,547 for BTC could trigger the liquidation of $424.31 million in long positions on major centralized exchanges. Conversely, a move above $79,067 would liquidate an estimated $395.66 million in short positions.",
+    "url": "https://t.me/CoinnessGL#7576e611",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-02T08:31:35+00:00"
+  },
+  {
+    "id": "e1234f10-051e-4d45-a095-9866d211febb",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Paolo Ardoino Drives $1.04B Profit for Tether as Reserves Climb to $8.23B in Q1",
+    "summary": "1. Tether posted over $1 billion in profit for the first quarter of 2026, with excess reserves reaching a record $8.23 billion.\n2. The stablecoin issuer continues to anchor its backing in U.S.\n3. Treasuries while expanding into gold and bitcoin.",
+    "url": "https://news.bitcoin.com/paolo-ardoino-drives-1-04b-profit-for-tether-as-reserves-climb-to-8-23b-in-q1/",
+    "author": "Emmanuel Musa",
+    "created_at": "2026-05-02T08:30:20.000Z"
+  },
+  {
+    "id": "ec6f6d7c-3916-434d-a166-c61bda38cdd5",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Iran says war with US will 'likely' resumeTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#d07d7dbc",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-02T08:17:48+00:00"
+  },
+  {
+    "id": "c73332e8-0028-4b6e-b69c-50b107dbd87d",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "ETH whale's long position nets $3.1M in unrealized profit",
@@ -10,7 +50,27 @@
     "created_at": "2026-05-02T08:05:37+00:00"
   },
   {
-    "id": "a8814473-fcbc-4bc2-ba6c-c0002d1d2cdb",
+    "id": "e3f2bc47-2810-452b-872d-c480a6261905",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "need help with trustwallet",
+    "summary": "1. need help with trustwallet",
+    "url": "https://reddit.com/r/ethereum/comments/1t1jp9r/need_help_with_trustwallet/",
+    "author": "u/Outrageous-Lack2218",
+    "created_at": "2026-05-02T08:04:02.000Z"
+  },
+  {
+    "id": "cd8ac73e-dfce-454c-a8e0-1e0686fc7529",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Ethereum Foundation sells another 10,000 ETH to BitMine in third OTC deal",
+    "summary": "1. The Ethereum Foundation has now sold roughly $47 million worth of ETH to BitMine in a week, drawing fresh criticism over the pace and scale of its sales.",
+    "url": "https://cointelegraph.com/news/ethereum-foundation-sells-another-10000-eth-to-bitmine-in-third-otc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Amin Haqshanas",
+    "created_at": "2026-05-02T08:03:06.000Z"
+  },
+  {
+    "id": "851ba888-100c-4a8d-aa25-a8e8afb8d9fc",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "BTC has not yet shown signs of a bottom, analyst says",
@@ -20,7 +80,7 @@
     "created_at": "2026-05-02T08:00:40+00:00"
   },
   {
-    "id": "5a4b5283-86e6-428d-8e3a-0385f34cb616",
+    "id": "ea3300f4-a8aa-4309-a089-425587e0056a",
     "source": "Bitcoin.com",
     "type": "rss",
     "title": "DSA Addresses the Future of Payments at PayCLT Webinar and AI and Blockchain Conference at Cornell Tech",
@@ -30,17 +90,7 @@
     "created_at": "2026-05-02T08:00:19.000Z"
   },
   {
-    "id": "0fed1ff6-e4c2-43fe-8152-bcbebf9c02d7",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Nansen Predicts AI Agent Dominance by 2028",
-    "summary": "1. Blockchain analytics firm Nansen has predicted that by 2028, the default way most people invest will not be through picking tokens or reading charts but through autonomous artificial intelligence (AI) agents operating on their behalf.\n2. Key Takeaways: Nansen predicts billions of AI agents will become the default crypto investment vehicle by 2028.\n3. The forecast compares […]",
-    "url": "https://news.bitcoin.com/nansen-predicts-ai-agent-dominance-by-2028/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-02T07:05:37.000Z"
-  },
-  {
-    "id": "214c6af6-573a-4b29-b27e-0d270045671e",
+    "id": "64188a47-beb8-4024-b86a-3eef7b1d4407",
     "source": "CoinDesk",
     "type": "rss",
     "title": "Bitcoin above $78,000 as Senate clears Clarity Act yield hurdle, S&P 500 sets new record",
@@ -50,7 +100,17 @@
     "created_at": "2026-05-02T06:49:39.000Z"
   },
   {
-    "id": "de6b82eb-a6e6-43b4-bffb-24cbc4dcb041",
+    "id": "18d78d59-6ed7-4c0f-aa2f-7997782cf0b1",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Cardano founder Charles Hoskinson Says Monero Is What Bitcoin Should Have Been",
+    "summary": "1. Cardano founder Charles Hoskinson Says Monero Is What Bitcoin Should Have Been",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1t1i6z3/cardano_founder_charles_hoskinson_says_monero_is/",
+    "author": "u/ourcryptotalk",
+    "created_at": "2026-05-02T06:38:10.000Z"
+  },
+  {
+    "id": "827e3699-ccf6-4cb3-91ad-43f63fb68ea0",
     "source": "TechCrunch",
     "type": "rss",
     "title": "Uber wants to turn its millions of drivers into a sensor grid for self-driving companies",
@@ -60,7 +120,7 @@
     "created_at": "2026-05-02T06:36:28.000Z"
   },
   {
-    "id": "def16e50-7fcf-43f9-a8c1-3fa8341c3c52",
+    "id": "d0ccb468-11f0-4230-b182-fd9102505368",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Spirit Airlines officially shuts down.@WatcherGuru",
@@ -70,7 +130,7 @@
     "created_at": "2026-05-02T06:27:04+00:00"
   },
   {
-    "id": "602b58ef-41b3-4a32-b2d3-4588501a9828",
+    "id": "ec72e0b8-9007-4730-a91c-07e06f3a9ef0",
     "source": "CoinDesk",
     "type": "rss",
     "title": "New Bitcoin quantum proposal offers Satoshi Nakamoto a way to prove control without moving BTC",
@@ -80,7 +140,7 @@
     "created_at": "2026-05-02T06:24:06.000Z"
   },
   {
-    "id": "bf2f4e33-1415-4445-9d4a-3fe3e4af37fb",
+    "id": "1574f16d-5bcd-4606-a171-71574b1a3d17",
     "source": "CoinTelegraph",
     "type": "rss",
     "title": "Bitcoin doesn’t need a fresh narrative to reclaim $100K: Analyst",
@@ -90,27 +150,7 @@
     "created_at": "2026-05-02T06:11:22.000Z"
   },
   {
-    "id": "7af627ed-5ec4-46d7-a1d6-5e86e59cf531",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "BTC perp long/short ratios on top exchanges by open interest",
-    "summary": "The following are the 24-hour long/short ratios for BTC perpetual futures on the world’s three largest crypto futures exchanges by open interest:Overall: 49.96% long, 50.04% short- Binance: 51.4% long, 48.6% short- OKX: 51.59% long, 48.42% short- Bybit: 51.12% long, 48.88% short",
-    "url": "https://t.me/CoinnessGL#e5fd12de",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T06:08:28+00:00"
-  },
-  {
-    "id": "478a5904-8e3c-47dd-ad4b-dbbb3c7ff3ed",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Bitso: Stablecoins Hit 40% of Latam Crypto Buys",
-    "summary": "1. In its latest Crypto Landscape in Latin America 2025 report, Bitso found that 40% of all crypto purchases in the region involved dollar-linked assets, such as USDT and USDC.\n2. Even so, Bitcoin remains the most widely held asset, representing 52% of all portfolios.\n3. Key Takeaways: Bitso’s 2025 report reveals that stablecoins like USDC drove nearly […]",
-    "url": "https://news.bitcoin.com/bitso-stablecoins-hit-40-of-latam-crypto-buys/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-05-02T05:30:17.000Z"
-  },
-  {
-    "id": "aafd8551-72e9-47da-8bf2-420aec458aee",
+    "id": "f65205a4-5c72-4a35-9fd9-d7302ed45341",
     "source": "CoinTelegraph",
     "type": "rss",
     "title": "Bitcoin rally extends, yet BTC options price only 25% chance of $84K in May",
@@ -118,15 +158,5 @@
     "url": "https://cointelegraph.com/markets/bitcoin-rally-extends-yet-btc-options-price-only-25-chance-of-84k-in-may?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "author": "Cointelegraph by Marcel Pechman",
     "created_at": "2026-05-02T04:42:07.000Z"
-  },
-  {
-    "id": "b2012de1-cad2-4664-84c2-59eb3c3091b6",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. This is what our Country was before, and after, “TRUMP!”",
-    "url": "https://trumpstruth.org/statuses/38137",
-    "author": "Trump Truth",
-    "created_at": "2026-05-02T03:40:12.000Z"
   }
 ]
