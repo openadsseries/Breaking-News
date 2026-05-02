@@ -1,5 +1,75 @@
 [
   {
+    "id": "60233c15-c9d9-4505-b759-f1ae247c7d09",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Trump’s WLFI Sells 5.9 Billion Tokens to Private Buyers, Leaving Early Investors Locked Out",
+    "summary": "1. World Liberty Financial has sold an additional 5.9 billion WLFI tokens to undisclosed private investors, without informing existing backers, sending the token to an all-time low and deepening scrutiny over the Trump family-backed decentralized finance ( DeFi) project.\n2. Key Takeaways: WLFI sold 5.9 billion tokens privately without disclosing buyers, sending the token to an all-time […]",
+    "url": "https://news.bitcoin.com/wlfi-world-liberty-financial-5-9-billion-token-private-sale/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-02T19:37:31.000Z"
+  },
+  {
+    "id": "690f0c01-3ac3-43fb-a6e0-2dc3625d65cd",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Leading Iranian crypto exchange Nobitex was founded by sons of elite political family tied to supreme leaders: Reuters",
+    "summary": "1. Reuters found that hundreds of millions of dollars in transactions tied to sanctioned Iranian state entities have moved through Nobitex since 2018.",
+    "url": "https://www.theblock.co/post/399784/leading-iranian-crypto-exchange-nobitex-was-founded-by-sons-of-elite-political-family-tied-to-supreme-leaders-reuters?utm_source=rss&utm_medium=rss",
+    "author": "Zack Abrams",
+    "created_at": "2026-05-02T18:57:20.000Z"
+  },
+  {
+    "id": "e5e651eb-8789-46e8-9760-e57344c31815",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "OpenAI GPT Image 2 vs Google Nano Banana 2: Which AI Image Generator Is Best?",
+    "summary": "1. Which state-of-the-art AI image generator is most effective at producing A+ results?\n2. We put GPT Image 2 and Nano Banana 2 to the test.",
+    "url": "https://decrypt.co/366408/openai-gpt-image-2-vs-google-nano-banana-2-review",
+    "author": "Jose Antonio Lanz",
+    "created_at": "2026-05-02T18:50:19.000Z"
+  },
+  {
+    "id": "199619a9-40aa-4485-bc41-947f12eeb1b4",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Mixed Signals: Bitcoin Options Show 58% Calls vs 42% Puts as Price Holds Steady",
+    "summary": "1. Bitcoin derivatives markets are sending mixed signals Saturday as open interest climbs back toward $30 billion as options and futures traders hold positions across every major exchange.\n2. Key Takeaways: Binance leads all exchanges in BTC futures open interest at 134,620 BTC, while CME posted the strongest 24-hour gain at plus 6.16% on May 2.\n3. Deribit’s […]",
+    "url": "https://news.bitcoin.com/mixed-signals-bitcoin-options-show-58-calls-vs-42-puts-as-price-holds-steady/",
+    "author": "Jamie Redman",
+    "created_at": "2026-05-02T18:35:30.000Z"
+  },
+  {
+    "id": "62600d28-67b2-42c3-a321-1b2fd46fa333",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Oscars Ban AI Performances and Screenplays From Eligibility",
+    "summary": "1. New rules require human actors and writers for Oscar consideration.",
+    "url": "https://decrypt.co/366405/oscars-ban-ai-performances-screenplays-eligibility",
+    "author": "Jason Nelson",
+    "created_at": "2026-05-02T18:17:28.000Z"
+  },
+  {
+    "id": "caa21612-4aa8-4f85-be9d-f6fe8f7ff510",
+    "source": "Politico",
+    "type": "rss",
+    "title": "Ohio Republicans fear former ICE official could cost them a battleground House seat",
+    "summary": "1. Madison Sheahan is facing attacks from GOP primary opponents over her tenure in the Trump administration.",
+    "url": "https://www.politico.com/news/2026/05/02/ohio-election-trump-immigration-official-00901314",
+    "author": "By Aaron Pellish",
+    "created_at": "2026-05-02T18:00:00.000Z"
+  },
+  {
+    "id": "0f6a2427-c4d8-4048-9e70-ac62ab173d43",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Paradigm Researcher Proposes PACTs to Shield Dormant Bitcoin From Quantum Computing Risk",
+    "summary": "1. Paradigm researcher Dan Robinson published a proposal on May 1 that could let dormant bitcoin holders, including those believed to be Satoshi Nakamoto’s coins, silently prove address control before quantum computers can crack their keys.\n2. Key Takeaways: Paradigm’s Dan Robinson proposed PACTs on May 1, 2026, offering bitcoin holders a free, private way to timestamp […]",
+    "url": "https://news.bitcoin.com/paradigm-researcher-proposes-pacts-to-shield-dormant-bitcoin-from-quantum-computing-risk/",
+    "author": "Jamie Redman",
+    "created_at": "2026-05-02T17:45:25.000Z"
+  },
+  {
     "id": "2c51957b-5128-4b8a-81d6-c737a8521e0d",
     "source": "TechCrunch",
     "type": "rss",
@@ -30,7 +100,7 @@
     "created_at": "2026-05-02T16:45:32.000Z"
   },
   {
-    "id": "1b53b8a5-1990-46c9-baef-11bba0ed4459",
+    "id": "313fd7cc-16f5-4e4f-a2c8-b0c2bb86ef35",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ WisdomTree's crypto ETPs saw $137M in net inflows in Q1,  a sharp reversal from $89M in outflows during the same period last year.",
@@ -90,7 +160,7 @@
     "created_at": "2026-05-02T15:40:00.000Z"
   },
   {
-    "id": "df5b7f3b-6a4d-4d12-a990-30531d93ed93",
+    "id": "e88a1b58-ab2f-4a0c-9940-c4275d135a4c",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "In 2021, Nancy Pelosi was asked if Congress should be banned from trading...",
@@ -100,7 +170,7 @@
     "created_at": "2026-05-02T15:17:56+00:00"
   },
   {
-    "id": "1035812b-c604-4967-b3de-c1b0b0937739",
+    "id": "8982d6a7-8baf-4fbe-b25a-6d1ebeb7300c",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "CoinNess Live Feed operating hours",
@@ -120,7 +190,7 @@
     "created_at": "2026-05-02T14:43:48.000Z"
   },
   {
-    "id": "a24dc751-b689-4a6a-a70d-33b30f170eb1",
+    "id": "bded58f5-3919-49a1-8099-f8b4dd9cc01f",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "US CFTC chair pushes to limit state interference in prediction markets",
@@ -128,125 +198,5 @@
     "url": "https://t.me/CoinnessGL#acccdb97",
     "author": "@CoinnessGL",
     "created_at": "2026-05-02T14:43:15+00:00"
-  },
-  {
-    "id": "4969ed13-f15d-43f9-b3b1-f1028c6d5694",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Here’s what happened in crypto today",
-    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Cointelegraph",
-    "created_at": "2026-05-02T14:00:00.000Z"
-  },
-  {
-    "id": "dd44b99b-b308-4a41-a0e5-c6740d8505ff",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Beyond Lovable and Mistral: 21 European startups to watch",
-    "summary": "1. It is not that European startups never get attention — Lovable and Mistral AI are proof of that.\n2. But there are many more that insiders are tracking.",
-    "url": "https://techcrunch.com/2026/05/02/beyond-lovable-and-mistral-21-european-startups-to-watch/",
-    "author": "Anna Heim",
-    "created_at": "2026-05-02T14:00:00.000Z"
-  },
-  {
-    "id": "412f3971-8d0f-4a02-83f2-8cc7a73cc73f",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "⚡ Strategy CEO Phong Le called STRC \"the iPhone moment\" for credit markets, predicting hundreds of layer-2 products will be built on top, just like AirPods built on iPhone.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#7d42bfed",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-02T13:59:21+00:00"
-  },
-  {
-    "id": "6100263b-dfea-4907-a8e0-bc8c2e542015",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "A16z sides with CFTC against states seeking to ban prediction markets",
-    "summary": "1. Venture capital firm a16z argues that state crackdowns on platforms like Kalshi and Polymarket conflict with federal law and hurt market access for ordinary users.",
-    "url": "https://cointelegraph.com/news/a16z-sides-with-cftc-against-states-seeking-to-ban-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Amin Haqshanas",
-    "created_at": "2026-05-02T13:51:00.000Z"
-  },
-  {
-    "id": "e91dceb6-dfe7-4ca7-87d4-6e2f0df69881",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Suspected insider wallet profits $1.1M from LAB after 10x surge",
-    "summary": "A wallet suspected of being an insider or market maker has realized an estimated profit of $1.13 million from the token LAB, which surged tenfold over the past month, EmberCN reported. Before the price increase, the wallet accumulated 575,000 LAB for $128,000 at an average price of $0.20. The holdings were deposited into Gate.io and KuCoin approximately 30 minutes ago.",
-    "url": "https://t.me/CoinnessGL#62c52043",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T13:37:57+00:00"
-  },
-  {
-    "id": "7c8007f3-1108-448f-b031-2c560e104160",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Hyperliquid Launches HIP-4 and Targets Polymarket With Zero-Fee Outcome Markets",
-    "summary": "1. Hyperliquid activated its HIP-4 Outcome Markets on mainnet May 2, 2026, bringing fully collateralized, onchain prediction markets directly into the same account where traders already run perpetual futures and spot positions.\n2. Key Takeaways: Hyperliquid launched HIP-4 Outcome Markets on mainnet May 2, 2026, with BTC daily binary contracts live and trading.\n3. HIP-4 charges zero fees […]",
-    "url": "https://news.bitcoin.com/hyperliquid-launches-hip-4-and-targets-polymarket-with-zero-fee-outcome-markets/",
-    "author": "Jamie Redman",
-    "created_at": "2026-05-02T13:30:19.000Z"
-  },
-  {
-    "id": "234a3dec-df73-4015-acf2-f73ad58ca8ab",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Prediction markets shifting to platforms for small, frequent retail trades",
-    "summary": "Prediction markets are evolving from platforms for one-off event betting to hubs for small, frequent trades by individual users, Bitget and Polymarket said in a report. Polymarket's monthly trading volume surged from about $1.2 billion in 2025 to over $20 billion in early 2026, while its number of active wallets more than tripled in six months. Small-scale traders with under $10,000 account for 82% of all users. These users are trading on the real-time prices of a wide range of events, from cryptocurrency prices and economic indicators to sports and entertainment news. The total market size is projected to exceed $240 billion this year and is expected to grow into a $1 trillion industry in the long term.",
-    "url": "https://t.me/CoinnessGL#605d7778",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T13:07:46+00:00"
-  },
-  {
-    "id": "57dd59a5-24f6-4ae9-9cd2-d32709d15f42",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "OpenClaw Put Apple Back in the AI Game—And Now They Can't Build Macs Fast Enough",
-    "summary": "1. The Mac mini went from a $599 desktop nobody cared about to the hottest piece of AI hardware on the planet.\n2. One open-source agent framework did it.",
-    "url": "https://decrypt.co/366389/openclaw-apple-mac-mini-shortage-ai-2026",
-    "author": "Jose Antonio Lanz",
-    "created_at": "2026-05-02T13:01:02.000Z"
-  },
-  {
-    "id": "e5f89ef8-b8c9-4bf8-ba2d-760b64c298b8",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "The $292M crypto hack exposed DeFi's weak spots. Here’s what must change, insiders say",
-    "summary": "1. As Wall Street moves onchain, the year's biggest crypto hack and DeFi crisis is forcing a rethink of risk, security and market structure, industry insiders told CoinDesk.",
-    "url": "https://www.coindesk.com/business/2026/05/02/the-usd292m-crypto-hack-exposed-defi-s-weak-spots-here-s-what-must-change-insiders-say",
-    "author": "Krisztian Sandor",
-    "created_at": "2026-05-02T13:00:00.000Z"
-  },
-  {
-    "id": "c50eecbf-e08a-4fa4-9363-cee3008444fe",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Prediction markets are ditching the 'casino' label to become a regular part of how people track the news",
-    "summary": "1. A new report from Bitget and Polymarket reveals that prediction markets are evolving into a $240 billion industry driven by retail users who are trading more frequently on everything from crypto to politics.",
-    "url": "https://www.coindesk.com/markets/2026/05/02/prediction-markets-are-ditching-the-casino-label-to-become-a-regular-part-of-how-people-track-the-news",
-    "author": "Helene Braun",
-    "created_at": "2026-05-02T13:00:00.000Z"
-  },
-  {
-    "id": "4aca0f46-d493-4590-81e9-7456ef140422",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Ethereum Validators Confirm Block 25 Million After Nearly 11 Years of Runtime",
-    "summary": "1. Ethereum finalized block 25,000,000 on May 1, 2026, marking nearly 11 years of operation since the network’s genesis block on July 30, 2015.\n2. Key Takeaways: Ethereum finalized block 25 million on May 1, 2026, nearly 11 years after its July 2015 genesis with no prolonged global network shutdown.\n3. The milestone reflects Ethereum’s decade-long operation through […]",
-    "url": "https://news.bitcoin.com/ethereum-validators-confirm-block-25-million-after-nearly-11-years-of-runtime/",
-    "author": "Jamie Redman",
-    "created_at": "2026-05-02T12:33:23.000Z"
-  },
-  {
-    "id": "06396e1f-ad26-4ad5-a0f0-20e93f9856d9",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Ethereum mainnet transactions hit all-time high in April",
-    "summary": "Ethereum mainnet transactions reached a new all-time high of 72.8 million in April, according to a report from Blockbeat. The breakdown of transaction types was as follows:- Token transfers: 62%- Utility: 13%- Financial: 8%- Cross-chain: 2%- Other: 15%",
-    "url": "https://t.me/CoinnessGL#6dbff282",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T11:38:40+00:00"
   }
 ]
