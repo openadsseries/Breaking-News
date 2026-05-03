@@ -70,10 +70,15 @@ export default function Home() {
 
       const savedSession = localStorage.getItem("bn_session");
       if (savedSession !== sessionId) {
+        // New feed session — clear everything
         localStorage.setItem("bn_session", sessionId);
         localStorage.removeItem("bn_read_count");
         localStorage.removeItem("bn_shared");
         localStorage.removeItem("bn_read_ids");
+        // Also reset React state (critical for Farcaster WebView rehydration)
+        setReadIds(new Set());
+        setReadCount(0);
+        setHasShared(false);
       } else {
         const rc = localStorage.getItem("bn_read_count");
         if (rc) setReadCount(parseInt(rc, 10));
