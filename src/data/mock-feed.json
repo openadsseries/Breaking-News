@@ -1,5 +1,15 @@
 [
   {
+    "id": "719b0262-b9e8-4f76-8150-10f1409b61ec",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Iran’s largest crypto exchange founded by sons of family tied to supreme leaders: Reuters",
+    "summary": "1. Nobitex, Iran’s largest crypto exchange, was founded by brothers linked to the powerful Kharrazi family, which has ties to the country’s supreme leaders.",
+    "url": "https://cointelegraph.com/news/irans-largest-crypto-exchange-founded-by-sons-of-family-tied-to-supreme-leaders-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Amin Haqshanas",
+    "created_at": "2026-05-03T11:12:56.000Z"
+  },
+  {
     "id": "8ee83c42-11d2-49f2-b076-b6449d2eed57",
     "source": "Politico",
     "type": "rss",
@@ -30,6 +40,16 @@
     "created_at": "2026-05-03T09:30:31.000Z"
   },
   {
+    "id": "05727ad1-46b8-4b14-ac59-2e1a61991567",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "North Korea Stole $71 Million From KelpDAO. Now a Law Firm Is Trying to Steal It From the Victims",
+    "summary": "1. North Korea Stole $71 Million From KelpDAO.\n2. Now a Law Firm Is Trying to Steal It From the Victims",
+    "url": "https://reddit.com/r/ethereum/comments/1t2gcbc/north_korea_stole_71_million_from_kelpdao_now_a/",
+    "author": "u/zakoal",
+    "created_at": "2026-05-03T09:03:12.000Z"
+  },
+  {
     "id": "b853b99c-10ee-4ac2-bfb5-d56340eba046",
     "source": "CoinTelegraph",
     "type": "rss",
@@ -58,25 +78,5 @@
     "url": "https://news.bitcoin.com/this-week-in-crypto-law-apr-26-2026/",
     "author": "Guest Author",
     "created_at": "2026-05-03T06:30:35.000Z"
-  },
-  {
-    "id": "1d918372-d499-4889-8e76-907a651d3853",
-    "source": "r/ethereum",
-    "type": "reddit",
-    "title": "Ethereum mainnet may get a lot more room after Glamsterdam",
-    "summary": "1. Hasu pointed out something pretty under-discussed: after Glamsterdam, Ethereum’s gas limit could go from around 60M to roughly 200M.\n2. What’s interesting is that this is not just “raise the limit and hope nodes survive” — ePBS gives payloads more time, BALs help clients prefetch/parallelize execution work, and gas repricing is supposed to keep state growth from getting reckless.\n3. If demand does not grow at the same pace, L1 fees could stay very low for a while.",
-    "url": "https://reddit.com/r/ethereum/comments/1t2d5mr/ethereum_mainnet_may_get_a_lot_more_room_after/",
-    "author": "u/Enough_Angle_7839",
-    "created_at": "2026-05-03T06:01:19.000Z"
-  },
-  {
-    "id": "4251f91a-f75d-436e-a157-21ceef895d1c",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Crypto industry will be ‘just fine’ if CLARITY Act doesn’t pass: Chris Perkins",
-    "summary": "1. The efforts of the SEC and CFTC chairmen indicate that the crypto industry will not suffer without the CLARITY Act, according to crypto executive Chris Perkins.",
-    "url": "https://cointelegraph.com/news/crypto-industry-will-be-just-fine-if-clarity-act-doesnt-pass-chris-perkins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Ciaran Lyons",
-    "created_at": "2026-05-03T05:51:03.000Z"
   }
 ]
