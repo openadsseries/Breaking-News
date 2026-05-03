@@ -1,5 +1,105 @@
 [
   {
+    "id": "c75ebd68-9036-43e0-a3c9-538ac1b299c4",
+    "source": "The Block",
+    "type": "rss",
+    "title": "New York AG settles for $5 million with Uphold in first enforcement action against a crypto yield product promoter",
+    "summary": "1. The settlement is the first New York enforcement action to target a platform that promoted someone else's crypto yield product rather than its own issuer.",
+    "url": "https://www.theblock.co/post/399825/new-york-ag-settles-for-5-million-with-uphold-in-first-enforcement-action-against-a-crypto-yield-product-promoter?utm_source=rss&utm_medium=rss",
+    "author": "Zack Abrams",
+    "created_at": "2026-05-03T21:26:02.000Z"
+  },
+  {
+    "id": "240d681e-cbe7-43a6-8bb8-2e6a74bd66cc",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "MicroStrategy made no additional BTC purchases last week",
+    "summary": "MicroStrategy (MSTR) founder Michael Saylor announced on X yesterday that the company made no additional BTC purchases last week, adding that buying would resume next week.As of April 27, MicroStrategy holds 818,334 BTC acquired at an average price of $75,535.24, valued at $62.643 billion.",
+    "url": "https://t.me/CoinnessGL#eed50236",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-03T21:19:05+00:00"
+  },
+  {
+    "id": "2812826a-9be3-4a47-bc44-3b624339f60c",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Trump announces the U.S.",
+    "summary": "will launch “Project Freedom” on Monday to escort stranded neutral ships out of the Strait of Hormuz.Twitter",
+    "url": "https://t.me/SolidIntelX#f88f2b6c",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-03T21:12:36+00:00"
+  },
+  {
+    "id": "e6c2cd95-27e5-457f-9d32-284cd058638e",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "A ‘Generational Play’ Arises Amid Economic Fury – Week In Review",
+    "summary": "1. This editorial is from last week’s edition of the newsletter Week in Review.\n2. Subscribe to the newsletter to get this weekly editorial the second it’s finished.\n3. The newsletter also includes the biggest stories of the week with a comment on each story.",
+    "url": "https://news.bitcoin.com/a-generational-play-arises-amid-economic-fury-week-in-review/",
+    "author": "Alex Richardson",
+    "created_at": "2026-05-03T21:10:30.000Z"
+  },
+  {
+    "id": "d72fc809-cfd6-458a-8ca7-322e9b790130",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Trump says US to help ships exit Strait of Hormuz, cites positive Iran talks",
+    "summary": "U.S. President Donald Trump announced on May 4 that the United States will help guide ships out of the Strait of Hormuz after receiving requests from multiple countries to free their blockaded vessels. Stressing that the ships are neutral parties unrelated to the conflict in the Middle East, Trump said the operation, dubbed 'Project Freedom,' is set to begin on the morning of May 4, Middle East time. He noted that a U.S. delegation is engaged in very positive discussions with Iran that could lead to a beneficial outcome for all parties. Trump described the move as a humanitarian measure for the U.S., the Middle East, and particularly Iran, as many of the ships are running out of food and essential supplies, making it difficult to maintain the health and hygiene of their large crews. However, he warned that any interference with the humanitarian process would be met with a strong response.",
+    "url": "https://t.me/CoinnessGL#1240b051",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-03T21:04:48+00:00"
+  },
+  {
+    "id": "aca07d19-47e2-4278-8443-fc98abfa6925",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Trump says US delegation in active negotiations with Iran",
+    "summary": "U.S. President Donald Trump said a U.S. delegation is engaged in very active negotiations with Iran, adding that he expects the talks to yield a positive outcome for all parties.",
+    "url": "https://t.me/CoinnessGL#57264200",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-03T21:02:02+00:00"
+  },
+  {
+    "id": "ea8aab95-138f-492e-983d-2ef5089a2c09",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "Elon Musk says his goal is to reach a $10 trillion net worth.\"$10T or bust\"@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#ba1f9006",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-03T20:39:07+00:00"
+  },
+  {
+    "id": "6971222c-9e34-44f9-a80a-774321738093",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Countries from all over the World, almost all of which are not involved in the Middle Eastern dispute going on so visibly, and violently, for all to see, have asked the United States if we could help free up their Ships, which are locked up in the Strait of Hormuz, on something which they have absolutely nothing to do with — They are merely neutral and innocent bystanders!\n2. For the good of Iran, the Middle East, and the United States, we have told these Countries that we will guide their Ships safely out of these restricted Waterways, so that they can freely and ably get on with their business.\n3. Again, these are Ships from areas of the World that are not in any way involved with that which is currently taking place in the Middle East.",
+    "url": "https://trumpstruth.org/statuses/38147",
+    "author": "Trump Truth",
+    "created_at": "2026-05-03T20:35:01.000Z"
+  },
+  {
+    "id": "1f51cf39-abfd-46af-9fa0-70fc3aae0e19",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "How Canton Network Lets Institutions Guard Against DeFi Security Risks: Digital Asset CEO",
+    "summary": "1. Because Canton allows participants to implement guardrails, Digital Asset's Yuval Rooz said institutions can protect against bad actors.",
+    "url": "https://decrypt.co/366086/how-canton-network-lets-institutions-guard-against-defi-security-risks",
+    "author": "André Beganski",
+    "created_at": "2026-05-03T20:20:00.000Z"
+  },
+  {
+    "id": "94b8bc52-17ae-4ee3-afea-ca3f261ac6f1",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "‘This is fine’ creator says AI startup stole his art",
+    "summary": "1. The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.\"",
+    "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+    "author": "Anthony Ha",
+    "created_at": "2026-05-03T20:16:51.000Z"
+  },
+  {
     "id": "40f2cf94-9036-43b1-a670-0e886cdd5236",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -60,6 +160,16 @@
     "created_at": "2026-05-03T18:00:09.000Z"
   },
   {
+    "id": "7d547910-eac2-4e12-919c-bdb3327d42b3",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "MicroStrategy Hits Pause—BTC Traders Watching Closely",
+    "summary": "1. MicroStrategy Hits Pause—BTC Traders Watching Closely",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1t2rntf/microstrategy_hits_pausebtc_traders_watching/",
+    "author": "u/diwalost",
+    "created_at": "2026-05-03T17:26:22.000Z"
+  },
+  {
     "id": "342f8c5d-ab35-460a-9f6c-bf17b98cd14e",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -70,7 +180,7 @@
     "created_at": "2026-05-03T17:00:11.000Z"
   },
   {
-    "id": "77373b15-0a38-4209-a07f-0c43a428cf52",
+    "id": "ba404555-4eac-40ce-97ac-fc422e13b1c9",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "PRESIDENT TRUMP SAYS IRANIAN PROPOSAL IS UNACCEPTABLETwitter",
@@ -80,7 +190,7 @@
     "created_at": "2026-05-03T16:59:00+00:00"
   },
   {
-    "id": "cd1282d5-05fe-498f-9f17-9b819020ba40",
+    "id": "85bd4817-0a44-4056-a94d-cf7764359b43",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "IRANIAN FOREIGN MINISTRY SPOKESPERSON SAYS IRAN'S 14-POINT PLAN IS FOCUSED ON ENDING WAR, NUCLEAR ISSUE HAS NO PLACE IN THESE CLAUSESTwitter",
@@ -118,65 +228,5 @@
     "url": "https://decrypt.co/366086/north-korea-crypto-hack-playbook-wont-work-canton-ceo",
     "author": "André Beganski",
     "created_at": "2026-05-03T15:33:28.000Z"
-  },
-  {
-    "id": "dd4d0584-acb8-4fa9-933d-9694950ad104",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Trump Tells German Chancellor Merz ‘Fix Your Broken Country,’ Mulls Pulling U.S.\n2. Troops from Spain and Italy:",
-    "url": "https://trumpstruth.org/statuses/38145",
-    "author": "Trump Truth",
-    "created_at": "2026-05-03T15:14:16.000Z"
-  },
-  {
-    "id": "bf0aa6f2-4358-4045-8faf-fe1cd0f5a31d",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Trump Administration to Withdraw Thousands of Troops From NATO Ally Germany, Pentagon Says:",
-    "url": "https://trumpstruth.org/statuses/38146",
-    "author": "Trump Truth",
-    "created_at": "2026-05-03T15:13:45.000Z"
-  },
-  {
-    "id": "56a31812-fcdb-40e3-a144-03c9972a2c2f",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "FED'S KASHKARI SAYS IRAN WAR ALREADY HAVING A BIG IMPACT ON INFLATION, EVEN IF WAR FULLY OVER NOW, SUPPLY CHAINS WILL TAKE MONTHS TO RECOVER, VERY CONCERNED BY DOWNSIDE RISKSTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#4a4c67c7",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-03T15:07:54+00:00"
-  },
-  {
-    "id": "453e1b46-c74f-4c33-bcff-c97371001b55",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Exclusive — Deputy Italian Prime Minister Matteo Salvini: Trump’s ‘Courage’ for ‘Cultural Foundation’ Critical to Survival of the West:",
-    "url": "https://trumpstruth.org/statuses/38144",
-    "author": "Trump Truth",
-    "created_at": "2026-05-03T14:40:25.000Z"
-  },
-  {
-    "id": "0b12559d-0de3-45fd-99e2-2d9393a6c3b7",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "China rejects US sanctions on Iran-linked refineriesTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#7ac049cb",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-03T14:33:24+00:00"
-  },
-  {
-    "id": "a92dad13-9900-4321-8aff-aa899aa49611",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Bitcoin Difficulty Falls 2.3% as Hashrate Slips Below 1 ZH/s and Block Times Slow",
-    "summary": "1. This week, the Bitcoin network recorded its second consecutive difficulty reduction, easing another 2.3% on May 1 after the April 17 epoch posted a 2.43% decline.\n2. Hashrate has also trended lower, now resting beneath the 1 zettahash per second (ZH/s) threshold.\n3. Key Takeaways: Bitcoin difficulty fell 2.3% on May 1, marking 6 cuts in 2026 […]",
-    "url": "https://news.bitcoin.com/bitcoin-difficulty-falls-2-3-as-hashrate-slips-below-1-zh-s-and-block-times-slow/",
-    "author": "Jamie Redman",
-    "created_at": "2026-05-03T14:30:17.000Z"
   }
 ]
