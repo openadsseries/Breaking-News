@@ -1,5 +1,55 @@
 [
   {
+    "id": "8ee83c42-11d2-49f2-b076-b6449d2eed57",
+    "source": "Politico",
+    "type": "rss",
+    "title": "Poll: Americans uneasy with AI, crypto even as they spend big on midterms",
+    "summary": "1. An April POLITICO Poll finds broad skepticism about both crypto and AI, creating a growing tension for candidates benefiting from the influx of cash.",
+    "url": "https://www.politico.com/news/2026/05/03/poll-ai-crypto-super-pacs-voter-skepticism-midterms-00903376",
+    "author": "By Erin Doherty, Jasper Goodman, Jessica Piper, Daniel Barnes and Brendan Bordelon",
+    "created_at": "2026-05-03T11:00:00.000Z"
+  },
+  {
+    "id": "daf2f470-2e6e-4197-8a45-eb4f9e94e06e",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "France Scraps Dangerous Reporting Rule, Pension Fund Buys MSTR, And More – Week In Review",
+    "summary": "1. This week’s crypto stories spanned enforcement, mining, regulation, adoption, and institutional flows.\n2. Chainalysis traced Iran-linked stablecoin routing behind a major USDT freeze, while Riot continued its steady BTC sales to NYDIG.\n3. France dropped a proposed self-custody reporting rule, Binance argued crypto’s next wave of users will come through payments and utility, and Canada’s AIMCo disclosed […]",
+    "url": "https://news.bitcoin.com/france-scraps-dangerous-reporting-rule-pension-fund-buys-mstr-and-more-week-in-review/",
+    "author": "Alex Richardson",
+    "created_at": "2026-05-03T10:30:31.000Z"
+  },
+  {
+    "id": "c37a452a-86fa-4327-949d-0d0074b3ce37",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Latam Insights: Brazil Bans Crypto Transfers as Meta Launches USDC Payouts",
+    "summary": "1. Welcome to Latam Insights, a compilation of the most relevant crypto news from Latin America over the past week.\n2. In this edition, Brazil’s central bank issues a resolution banning the use of crypto rails in regulated cross-border payments, Bitso estimates 40% of all crypto purchases include stablecoins, and Meta launches USDC payments in Colombia.",
+    "url": "https://news.bitcoin.com/latam-insights-brazil-bans-crypto-transfers-as-meta-launches-usdc-payouts/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-03T09:30:31.000Z"
+  },
+  {
+    "id": "b853b99c-10ee-4ac2-bfb5-d56340eba046",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "New York forces Uphold to pay $5M over fraudulent crypto investment scheme",
+    "summary": "1. New York AG Letitia James secured a $5 million settlement from Uphold for promoting CredEarn, a crypto savings product that misled users about its risks.",
+    "url": "https://cointelegraph.com/news/new-york-forces-uphold-to-pay-5m-over-fraudulent-crypto-investment-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Amin Haqshanas",
+    "created_at": "2026-05-03T08:56:10.000Z"
+  },
+  {
+    "id": "6856ed69-c830-495c-837d-4c80a806b945",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Worker Wins Landmark AI Substitution Case in China",
+    "summary": "1. Experts stated that the decision, which sets a precedent for future AI substitution cases, establishes that AI replacement cannot be brandished as a justification to abandon a labor contract.\n2. China is the world’s second-largest AI hub.\n3. Key Takeaways: The Hangzhou Court ruled that replacing Zhou with an AI model didn’t justify his forced termination.",
+    "url": "https://news.bitcoin.com/worker-wins-landmark-ai-substitution-case-in-china/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-03T08:30:03.000Z"
+  },
+  {
     "id": "160f671f-e3c1-42af-b4aa-c375159f244b",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -28,45 +78,5 @@
     "url": "https://cointelegraph.com/news/crypto-industry-will-be-just-fine-if-clarity-act-doesnt-pass-chris-perkins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "author": "Cointelegraph by Ciaran Lyons",
     "created_at": "2026-05-03T05:51:03.000Z"
-  },
-  {
-    "id": "39a4987f-f433-4801-987d-7bf682719d5b",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Stables CEO Says Migrant Flows Favor USDT, Driving 60% Cross-Border Dollar Demand",
-    "summary": "1. Bernardo Bilotta argues that banks avoid stablecoins not due to a lack of technical understanding, but to protect their vital relationships with central banks and Western correspondent banks, who are notoriously risk-averse.\n2. Key Takeaways: Bernardo Bilotta notes Asia handles 50% of global stablecoin flows, but banks fear regulatory risk.\n3. Tether and eStable now enable local […]",
-    "url": "https://news.bitcoin.com/stables-ceo-says-migrant-flows-favor-usdt-driving-60-cross-border-dollar-demand/",
-    "author": "Terence Zimwara",
-    "created_at": "2026-05-03T05:30:39.000Z"
-  },
-  {
-    "id": "898acba4-f7b9-4379-b5f2-8bdea2c9be00",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Academy Board Bans AI Content at 99th Oscars, Forcing Human-Only Wins",
-    "summary": "1. The Academy of Motion Picture Arts and Sciences has established strict new regulations for the 99th Oscars, officially banning AI-generated content from top categories to protect human creativity.\n2. Key Takeaways: Academy Board bans AI for the 99th Oscars, requiring human-only billing for acting and writing by March 2027.\n3. Tyler Perry halted an $800M studio expansion […]",
-    "url": "https://news.bitcoin.com/academy-board-bans-ai-content-at-99th-oscars-forcing-human-only-wins/",
-    "author": "Terence Zimwara",
-    "created_at": "2026-05-03T04:30:26.000Z"
-  },
-  {
-    "id": "158fa70d-4990-4ec4-b919-eac86df51132",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Starlink Usage Turns Fatal in Iran Internet Blackout",
-    "summary": "1. As the digital blockade imposed by the Iranian regime reaches its tenth week, reports indicate that an individual has allegedly died for using Starlink devices to circumvent it.\n2. Hesam Alaeddin, a 40-year-old man, was reportedly beaten to death for this transgression.\n3. Key Takeaways: Iran’s 64-day digital blockade led to the death of Hesam Alaeddin for […]",
-    "url": "https://news.bitcoin.com/starlink-usage-turns-fatal-in-iran-internet-blackout/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-05-03T03:30:29.000Z"
-  },
-  {
-    "id": "1c0db63b-c9d2-4f3e-b404-9be229909fe4",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin logs best monthly performance in 12 months during April",
-    "summary": "1. Despite being the best-performing month in the past 12 months, it still came in slightly below its historical average, according to CoinGlass data.",
-    "url": "https://cointelegraph.com/news/bitcoin-posts-its-strongest-monthly-gain-in-12-months-in-april?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Ciaran Lyons",
-    "created_at": "2026-05-03T03:29:34.000Z"
   }
 ]
