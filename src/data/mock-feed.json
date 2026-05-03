@@ -1,5 +1,105 @@
 [
   {
+    "id": "453e1b46-c74f-4c33-bcff-c97371001b55",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Exclusive — Deputy Italian Prime Minister Matteo Salvini: Trump’s ‘Courage’ for ‘Cultural Foundation’ Critical to Survival of the West:",
+    "url": "https://trumpstruth.org/statuses/38144",
+    "author": "Trump Truth",
+    "created_at": "2026-05-03T14:40:25.000Z"
+  },
+  {
+    "id": "0b12559d-0de3-45fd-99e2-2d9393a6c3b7",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "China rejects US sanctions on Iran-linked refineriesTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#7ac049cb",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-03T14:33:24+00:00"
+  },
+  {
+    "id": "a92dad13-9900-4321-8aff-aa899aa49611",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Bitcoin Difficulty Falls 2.3% as Hashrate Slips Below 1 ZH/s and Block Times Slow",
+    "summary": "1. This week, the Bitcoin network recorded its second consecutive difficulty reduction, easing another 2.3% on May 1 after the April 17 epoch posted a 2.43% decline.\n2. Hashrate has also trended lower, now resting beneath the 1 zettahash per second (ZH/s) threshold.\n3. Key Takeaways: Bitcoin difficulty fell 2.3% on May 1, marking 6 cuts in 2026 […]",
+    "url": "https://news.bitcoin.com/bitcoin-difficulty-falls-2-3-as-hashrate-slips-below-1-zh-s-and-block-times-slow/",
+    "author": "Jamie Redman",
+    "created_at": "2026-05-03T14:30:17.000Z"
+  },
+  {
+    "id": "fb5f25be-819c-4abb-9c7c-f7e8240d0820",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Crypto is at bottom of U.S. voters' priorities heading into elections, CoinDesk survey shows",
+    "summary": "1. Americans had a generally unfavorable view of cryptocurrencies, the survey of 1,000 randomly selected registered voters found.",
+    "url": "https://www.coindesk.com/policy/2026/05/03/crypto-is-at-the-bottom-of-u-s-voters-priorities-heading-into-the-midterm-coindesk-survey-shows",
+    "author": "Nikhilesh De",
+    "created_at": "2026-05-03T14:00:00.000Z"
+  },
+  {
+    "id": "476e6521-9bbc-4934-9b3d-b9a97d525f99",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Americans still prefer banks over crypto for financial access, CoinDesk's survey shows",
+    "summary": "1. New polling of voters suggests they aren't yet warming much to crypto, tending to see it as a negative force in the economy, and they have similar distrust of AI.",
+    "url": "https://www.coindesk.com/policy/2026/05/03/americans-still-prefer-banks-over-crypto-for-financial-access-coindesk-s-survey-shows",
+    "author": "Jesse Hamilton",
+    "created_at": "2026-05-03T14:00:00.000Z"
+  },
+  {
+    "id": "4a97e0fd-ee48-483b-a33b-b257244642cb",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "U.S. voters don't trust Trump administration to oversee crypto sector, CoinDesk poll finds",
+    "summary": "1. The new poll suggests the vast majority of people think that government officials should keep their own financial interests separate from the industry.",
+    "url": "https://www.coindesk.com/policy/2026/05/03/u-s-voters-don-t-trust-trump-administration-to-oversee-crypto-sector-coindesk-poll-finds",
+    "author": "Jesse Hamilton",
+    "created_at": "2026-05-03T14:00:00.000Z"
+  },
+  {
+    "id": "d3cf9727-7d8d-4262-ae39-8d78a0256b82",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "331,462,197 USDT transferred from unknown wallet to Kraken",
+    "summary": "Whale Alert reported that 331,462,197 USDT has been transferred from an unknown wallet to Kraken. The transaction is valued at about $331 million.",
+    "url": "https://t.me/CoinnessGL#7db7b378",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-03T13:18:43+00:00"
+  },
+  {
+    "id": "dc36f1b7-ebff-442a-8e88-cff19c43142e",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Stablecoins Reach $321B Market Cap as $1B Inflows Lift Sector to New High",
+    "summary": "1. Following a week marked by an absence of both inflows and outflows, the stablecoin economy recorded $1.08 billion in inflows from April 26 through May 3.\n2. Data further indicates that, as of Sunday, the sector’s total market valuation stands at $321.759 billion, based on figures logged by defillama.com.\n3. Key Takeaways: Stablecoin market hits $321.759B after […]",
+    "url": "https://news.bitcoin.com/stablecoins-reach-321b-market-cap-as-1b-inflows-lift-sector-to-new-high/",
+    "author": "Jamie Redman",
+    "created_at": "2026-05-03T13:10:20.000Z"
+  },
+  {
+    "id": "449e56ea-026c-41b2-8a56-f8a23e896689",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Americans distrust crypto, AI as industry super PACs flood midterms, poll finds",
+    "summary": "1. A new Politico poll finds most Americans distrust crypto and AI, raising questions about whether candidates backed by industry super PACs could face voter backlash.",
+    "url": "https://cointelegraph.com/news/americans-distrust-crypto-ai-as-industry-super-pacs-flood-midterms-poll-finds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Amin Haqshanas",
+    "created_at": "2026-05-03T13:00:00.000Z"
+  },
+  {
+    "id": "d4a24e60-dfbd-4c08-829a-b08a6438f1d3",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Here’s what happened in crypto today",
+    "summary": "1. Need to know what happened in crypto today?\n2. Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Cointelegraph",
+    "created_at": "2026-05-03T13:00:00.000Z"
+  },
+  {
     "id": "59804849-b234-4240-adf2-d2b60bcb8de5",
     "source": "CoinDesk",
     "type": "rss",
@@ -68,35 +168,5 @@
     "url": "https://news.bitcoin.com/latam-insights-brazil-bans-crypto-transfers-as-meta-launches-usdc-payouts/",
     "author": "Sergio Goschenko",
     "created_at": "2026-05-03T09:30:31.000Z"
-  },
-  {
-    "id": "05727ad1-46b8-4b14-ac59-2e1a61991567",
-    "source": "r/ethereum",
-    "type": "reddit",
-    "title": "North Korea Stole $71 Million From KelpDAO. Now a Law Firm Is Trying to Steal It From the Victims",
-    "summary": "1. North Korea Stole $71 Million From KelpDAO.\n2. Now a Law Firm Is Trying to Steal It From the Victims",
-    "url": "https://reddit.com/r/ethereum/comments/1t2gcbc/north_korea_stole_71_million_from_kelpdao_now_a/",
-    "author": "u/zakoal",
-    "created_at": "2026-05-03T09:03:12.000Z"
-  },
-  {
-    "id": "b853b99c-10ee-4ac2-bfb5-d56340eba046",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "New York forces Uphold to pay $5M over fraudulent crypto investment scheme",
-    "summary": "1. New York AG Letitia James secured a $5 million settlement from Uphold for promoting CredEarn, a crypto savings product that misled users about its risks.",
-    "url": "https://cointelegraph.com/news/new-york-forces-uphold-to-pay-5m-over-fraudulent-crypto-investment-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Amin Haqshanas",
-    "created_at": "2026-05-03T08:56:10.000Z"
-  },
-  {
-    "id": "6856ed69-c830-495c-837d-4c80a806b945",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Worker Wins Landmark AI Substitution Case in China",
-    "summary": "1. Experts stated that the decision, which sets a precedent for future AI substitution cases, establishes that AI replacement cannot be brandished as a justification to abandon a labor contract.\n2. China is the world’s second-largest AI hub.\n3. Key Takeaways: The Hangzhou Court ruled that replacing Zhou with an AI model didn’t justify his forced termination.",
-    "url": "https://news.bitcoin.com/worker-wins-landmark-ai-substitution-case-in-china/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-05-03T08:30:03.000Z"
   }
 ]
