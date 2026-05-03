@@ -1,192 +1,52 @@
 [
   {
-    "id": "8845b5bf-fc16-403e-9385-8f981f4fba4b",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. I hate seeing Fox, and other Conservative Outlets, constantly making Low Rated Bill Maher “relevant” as it pertains to the Republican Party, and beyond.\n2. Bill Maher is a weak and ineffective person who I got to know very well during my dinner with him at the White House.\n3. He was nervous, scared, and the first words he uttered as he entered the Oval Office were, “Can I have a drink?” It was very endearing but, at the same time, absolutely pathetic.",
-    "url": "https://trumpstruth.org/statuses/38143",
-    "author": "Trump Truth",
-    "created_at": "2026-05-02T23:12:54.000Z"
+    "id": "1d918372-d499-4889-8e76-907a651d3853",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "Ethereum mainnet may get a lot more room after Glamsterdam",
+    "summary": "1. Hasu pointed out something pretty under-discussed: after Glamsterdam, Ethereum’s gas limit could go from around 60M to roughly 200M.\n2. What’s interesting is that this is not just “raise the limit and hope nodes survive” — ePBS gives payloads more time, BALs help clients prefetch/parallelize execution work, and gas repricing is supposed to keep state growth from getting reckless.\n3. If demand does not grow at the same pace, L1 fees could stay very low for a while.",
+    "url": "https://reddit.com/r/ethereum/comments/1t2d5mr/ethereum_mainnet_may_get_a_lot_more_room_after/",
+    "author": "u/Enough_Angle_7839",
+    "created_at": "2026-05-03T06:01:19.000Z"
   },
   {
-    "id": "e9c7df88-0110-421f-b657-048044d00536",
+    "id": "39a4987f-f433-4801-987d-7bf682719d5b",
     "source": "Bitcoin.com",
     "type": "rss",
-    "title": "Taiwan Lawmaker Calls for Bitcoin Reserve Funded by $602B FX Chest",
-    "summary": "1. A Taiwanese legislator has formally presented a proposal to the country’s premier and central bank governor to allocate part of Taiwan’s $602 billion in foreign exchange (FX) reserves into bitcoin.\n2. Key Takeaways: Legislator Ko Ju-Chun presented a BPI bitcoin reserve report to Taiwan’s premier and central bank.\n3. Taiwan’s $602B FX reserves are over 80% in […]",
-    "url": "https://news.bitcoin.com/taiwan-lawmaker-bitcoin-reserve-602b-fx-war-chest/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-02T23:10:40.000Z"
+    "title": "Stables CEO Says Migrant Flows Favor USDT, Driving 60% Cross-Border Dollar Demand",
+    "summary": "1. Bernardo Bilotta argues that banks avoid stablecoins not due to a lack of technical understanding, but to protect their vital relationships with central banks and Western correspondent banks, who are notoriously risk-averse.\n2. Key Takeaways: Bernardo Bilotta notes Asia handles 50% of global stablecoin flows, but banks fear regulatory risk.\n3. Tether and eStable now enable local […]",
+    "url": "https://news.bitcoin.com/stables-ceo-says-migrant-flows-favor-usdt-driving-60-cross-border-dollar-demand/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-05-03T05:30:39.000Z"
   },
   {
-    "id": "20df9bf5-ee94-491a-8547-b47bc15e1714",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. So ironic that Cryin’ Chuck Schumer and the Democrats are hiring SLEAZEBAGS like Barack Hussein Obama’s Crooked former Attorney General, Eric Holder, and others of that ilk, to look into Voter Integrity, when this same group of Human Garbage RIGGED the 2020 Presidential Election.\n2. GET TOUGH REPUBLICANS — THEY’RE COMING, AND THEY’RE COMING FAST!\n3. They’re no good for our Country, they almost destroyed it, and we don’t want to let that happen again!",
-    "url": "https://trumpstruth.org/statuses/38142",
-    "author": "Trump Truth",
-    "created_at": "2026-05-02T23:09:53.000Z"
-  },
-  {
-    "id": "3e0f19fa-4e92-4884-a636-beed848f7756",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. I will soon be reviewing the plan that Iran has just sent to us, but can’t imagine that it would be acceptable in that they have not yet paid a big enough price for what they have done to Humanity, and the World, over the last 47 years.\n2. Thank you for your attention to this matter!\n3. President DONALD J.",
-    "url": "https://trumpstruth.org/statuses/38141",
-    "author": "Trump Truth",
-    "created_at": "2026-05-02T22:47:44.000Z"
-  },
-  {
-    "id": "e70ecc12-2ee5-4849-8203-13fa32d7d788",
+    "id": "898acba4-f7b9-4379-b5f2-8bdea2c9be00",
     "source": "Bitcoin.com",
     "type": "rss",
-    "title": "Seoul Court Rescues Bithumb from Record 6-Month Suspension",
-    "summary": "1. A Seoul court has temporarily halted a six-month partial business suspension imposed on South Korean crypto exchange Bithumb, dealing a significant legal setback to the country’s financial regulator just weeks after a similar ruling went against it in the Upbit case.\n2. Key Takeaways: Seoul’s court halted Bithumb’s 6-month FIU suspension on April 30, allowing the […]",
-    "url": "https://news.bitcoin.com/bithumb-seoul-court-halts-six-month-suspension/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-02T22:30:41.000Z"
+    "title": "Academy Board Bans AI Content at 99th Oscars, Forcing Human-Only Wins",
+    "summary": "1. The Academy of Motion Picture Arts and Sciences has established strict new regulations for the 99th Oscars, officially banning AI-generated content from top categories to protect human creativity.\n2. Key Takeaways: Academy Board bans AI for the 99th Oscars, requiring human-only billing for acting and writing by March 2027.\n3. Tyler Perry halted an $800M studio expansion […]",
+    "url": "https://news.bitcoin.com/academy-board-bans-ai-content-at-99th-oscars-forcing-human-only-wins/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-05-03T04:30:26.000Z"
   },
   {
-    "id": "ed68cf76-12fc-4aa5-83ed-0f768919ff9e",
-    "source": "The Block",
-    "type": "rss",
-    "title": "BlackRock urges OCC to drop tokenized reserve cap idea, expand eligible assets in GENIUS Act comment letter",
-    "summary": "1. The world's largest asset manager opposed a potential 20% cap on tokenized reserve assets, a constraint that would limit products like its BUIDL fund.",
-    "url": "https://www.theblock.co/post/399812/blackrock-urges-occ-to-drop-tokenized-reserve-cap-idea-expand-eligible-assets-in-genius-act-comment-letter?utm_source=rss&utm_medium=rss",
-    "author": "Zack Abrams",
-    "created_at": "2026-05-02T22:19:07.000Z"
-  },
-  {
-    "id": "75fb2f74-fc63-4583-9499-d7ecb4e0cfac",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "AI-generated actors and scripts are now ineligible for Oscars",
-    "summary": "1. Bad news for Tilly Norwood.",
-    "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
-    "author": "Anthony Ha",
-    "created_at": "2026-05-02T21:54:58.000Z"
-  },
-  {
-    "id": "2fe19232-5765-4002-9399-edaa28dc7bae",
+    "id": "158fa70d-4990-4ec4-b919-eac86df51132",
     "source": "Bitcoin.com",
     "type": "rss",
-    "title": "MegaETH Token MEGA Falls 38% in 72 Hours After Binance and Coinbase Listings",
-    "summary": "1. MegaETH’s MEGA token launched across a myriad of major exchanges and immediately entered a sell-off that pushed it more than -38% below its opening-day highs within 72 hours.\n2. Key Takeaways: MEGA token launched on Binance, Coinbase, and a dozen other exchanges on April 30, dropping -38% from its $0.225 ATH within 72 hours.\n3. MegaETH TVL […]",
-    "url": "https://news.bitcoin.com/megaeth-token-mega-falls-38-in-72-hours-after-binance-and-coinbase-listings/",
-    "author": "Jamie Redman",
-    "created_at": "2026-05-02T21:45:01.000Z"
+    "title": "Starlink Usage Turns Fatal in Iran Internet Blackout",
+    "summary": "1. As the digital blockade imposed by the Iranian regime reaches its tenth week, reports indicate that an individual has allegedly died for using Starlink devices to circumvent it.\n2. Hesam Alaeddin, a 40-year-old man, was reportedly beaten to death for this transgression.\n3. Key Takeaways: Iran’s 64-day digital blockade led to the death of Hesam Alaeddin for […]",
+    "url": "https://news.bitcoin.com/starlink-usage-turns-fatal-in-iran-internet-blackout/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-03T03:30:29.000Z"
   },
   {
-    "id": "80643237-8316-41ee-ad26-6286f53579b8",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "Bitcoin reclaims $79,000@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#206169b0",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-02T21:39:56+00:00"
-  },
-  {
-    "id": "d4f18310-033a-45ad-956b-dcda6233a3c9",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "BTC rises above $79,000",
-    "summary": "According to CoinNess market monitoring, BTC has risen above $79,000. BTC is trading at $79,025.07 on the Binance USDT market.",
-    "url": "https://t.me/CoinnessGL#01ca6920",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-02T21:37:38+00:00"
-  },
-  {
-    "id": "79378854-a143-42d5-9bd1-3ff24abeb4c2",
-    "source": "TechCrunch",
+    "id": "1c0db63b-c9d2-4f3e-b404-9be229909fe4",
+    "source": "CoinTelegraph",
     "type": "rss",
-    "title": "Farewell, Jeeves: Ask.com shuts down",
-    "summary": "1. Owner IAC says it's discontinuing its search business.",
-    "url": "https://techcrunch.com/2026/05/02/farewell-jeeves-ask-com-shuts-down/",
-    "author": "Anthony Ha",
-    "created_at": "2026-05-02T21:11:28.000Z"
-  },
-  {
-    "id": "b1884a4f-f333-49b3-a392-830803141ffa",
-    "source": "The Block",
-    "type": "rss",
-    "title": "CryptoQuant says bitcoin’s April price surge was ‘speculative’ as spot demand remains weak, warns of correction risk",
-    "summary": "1. Bitcoin's price rose about 20% in April, but the rally was driven by speculative perpetual futures demand while spot demand remained weak, CryptoQuant said.",
-    "url": "https://www.theblock.co/post/399790/cryptoquant-bitcoin-april-price-surge-speculative-spot-demand-weak-correction-risk?utm_source=rss&utm_medium=rss",
-    "author": "Yogita Khatri",
-    "created_at": "2026-05-02T20:33:31.000Z"
-  },
-  {
-    "id": "60233c15-c9d9-4505-b759-f1ae247c7d09",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Trump’s WLFI Sells 5.9 Billion Tokens to Private Buyers, Leaving Early Investors Locked Out",
-    "summary": "1. World Liberty Financial has sold an additional 5.9 billion WLFI tokens to undisclosed private investors, without informing existing backers, sending the token to an all-time low and deepening scrutiny over the Trump family-backed decentralized finance ( DeFi) project.\n2. Key Takeaways: WLFI sold 5.9 billion tokens privately without disclosing buyers, sending the token to an all-time […]",
-    "url": "https://news.bitcoin.com/wlfi-world-liberty-financial-5-9-billion-token-private-sale/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-02T19:37:31.000Z"
-  },
-  {
-    "id": "690f0c01-3ac3-43fb-a6e0-2dc3625d65cd",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Leading Iranian crypto exchange Nobitex was founded by sons of elite political family tied to supreme leaders: Reuters",
-    "summary": "1. Reuters found that hundreds of millions of dollars in transactions tied to sanctioned Iranian state entities have moved through Nobitex since 2018.",
-    "url": "https://www.theblock.co/post/399784/leading-iranian-crypto-exchange-nobitex-was-founded-by-sons-of-elite-political-family-tied-to-supreme-leaders-reuters?utm_source=rss&utm_medium=rss",
-    "author": "Zack Abrams",
-    "created_at": "2026-05-02T18:57:20.000Z"
-  },
-  {
-    "id": "e5e651eb-8789-46e8-9760-e57344c31815",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "OpenAI GPT Image 2 vs Google Nano Banana 2: Which AI Image Generator Is Best?",
-    "summary": "1. Which state-of-the-art AI image generator is most effective at producing A+ results?\n2. We put GPT Image 2 and Nano Banana 2 to the test.",
-    "url": "https://decrypt.co/366408/openai-gpt-image-2-vs-google-nano-banana-2-review",
-    "author": "Jose Antonio Lanz",
-    "created_at": "2026-05-02T18:50:19.000Z"
-  },
-  {
-    "id": "199619a9-40aa-4485-bc41-947f12eeb1b4",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Mixed Signals: Bitcoin Options Show 58% Calls vs 42% Puts as Price Holds Steady",
-    "summary": "1. Bitcoin derivatives markets are sending mixed signals Saturday as open interest climbs back toward $30 billion as options and futures traders hold positions across every major exchange.\n2. Key Takeaways: Binance leads all exchanges in BTC futures open interest at 134,620 BTC, while CME posted the strongest 24-hour gain at plus 6.16% on May 2.\n3. Deribit’s […]",
-    "url": "https://news.bitcoin.com/mixed-signals-bitcoin-options-show-58-calls-vs-42-puts-as-price-holds-steady/",
-    "author": "Jamie Redman",
-    "created_at": "2026-05-02T18:35:30.000Z"
-  },
-  {
-    "id": "62600d28-67b2-42c3-a321-1b2fd46fa333",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Oscars Ban AI Performances and Screenplays From Eligibility",
-    "summary": "1. New rules require human actors and writers for Oscar consideration.",
-    "url": "https://decrypt.co/366405/oscars-ban-ai-performances-screenplays-eligibility",
-    "author": "Jason Nelson",
-    "created_at": "2026-05-02T18:17:28.000Z"
-  },
-  {
-    "id": "caa21612-4aa8-4f85-be9d-f6fe8f7ff510",
-    "source": "Politico",
-    "type": "rss",
-    "title": "Ohio Republicans fear former ICE official could cost them a battleground House seat",
-    "summary": "1. Madison Sheahan is facing attacks from GOP primary opponents over her tenure in the Trump administration.",
-    "url": "https://www.politico.com/news/2026/05/02/ohio-election-trump-immigration-official-00901314",
-    "author": "By Aaron Pellish",
-    "created_at": "2026-05-02T18:00:00.000Z"
-  },
-  {
-    "id": "0f6a2427-c4d8-4048-9e70-ac62ab173d43",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Paradigm Researcher Proposes PACTs to Shield Dormant Bitcoin From Quantum Computing Risk",
-    "summary": "1. Paradigm researcher Dan Robinson published a proposal on May 1 that could let dormant bitcoin holders, including those believed to be Satoshi Nakamoto’s coins, silently prove address control before quantum computers can crack their keys.\n2. Key Takeaways: Paradigm’s Dan Robinson proposed PACTs on May 1, 2026, offering bitcoin holders a free, private way to timestamp […]",
-    "url": "https://news.bitcoin.com/paradigm-researcher-proposes-pacts-to-shield-dormant-bitcoin-from-quantum-computing-risk/",
-    "author": "Jamie Redman",
-    "created_at": "2026-05-02T17:45:25.000Z"
+    "title": "Bitcoin logs best monthly performance in 12 months during April",
+    "summary": "1. Despite being the best-performing month in the past 12 months, it still came in slightly below its historical average, according to CoinGlass data.",
+    "url": "https://cointelegraph.com/news/bitcoin-posts-its-strongest-monthly-gain-in-12-months-in-april?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Ciaran Lyons",
+    "created_at": "2026-05-03T03:29:34.000Z"
   }
 ]
