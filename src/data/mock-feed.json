@@ -1,5 +1,15 @@
 [
   {
+    "id": "160f671f-e3c1-42af-b4aa-c375159f244b",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "This Week in Crypto Law (Apr. 26, 2026)",
+    "summary": "1. Law and Ledger is a news segment focusing on crypto legal news, brought to you by Kelman Law – A law firm focused on digital asset commerce.\n2. This Week in Crypto Law The opinion editorial below was written by Alex Forehand and Michael Handelsman for Kelman.Law.\n3. The final week of April highlighted a pivotal shift […]",
+    "url": "https://news.bitcoin.com/this-week-in-crypto-law-apr-26-2026/",
+    "author": "Guest Author",
+    "created_at": "2026-05-03T06:30:35.000Z"
+  },
+  {
     "id": "1d918372-d499-4889-8e76-907a651d3853",
     "source": "r/ethereum",
     "type": "reddit",
@@ -8,6 +18,16 @@
     "url": "https://reddit.com/r/ethereum/comments/1t2d5mr/ethereum_mainnet_may_get_a_lot_more_room_after/",
     "author": "u/Enough_Angle_7839",
     "created_at": "2026-05-03T06:01:19.000Z"
+  },
+  {
+    "id": "4251f91a-f75d-436e-a157-21ceef895d1c",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Crypto industry will be ‘just fine’ if CLARITY Act doesn’t pass: Chris Perkins",
+    "summary": "1. The efforts of the SEC and CFTC chairmen indicate that the crypto industry will not suffer without the CLARITY Act, according to crypto executive Chris Perkins.",
+    "url": "https://cointelegraph.com/news/crypto-industry-will-be-just-fine-if-clarity-act-doesnt-pass-chris-perkins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Ciaran Lyons",
+    "created_at": "2026-05-03T05:51:03.000Z"
   },
   {
     "id": "39a4987f-f433-4801-987d-7bf682719d5b",
