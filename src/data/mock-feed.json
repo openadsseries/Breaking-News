@@ -1,5 +1,35 @@
 [
   {
+    "id": "59804849-b234-4240-adf2-d2b60bcb8de5",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Mike Cagney’s second act: Turning blockchain into Wall Street’s new plumbing",
+    "summary": "1. Figure’s $1 billion month capped a years-long push to strip out middlemen from credit markets, bringing real-world assets, lending and even equities onchain.",
+    "url": "https://www.coindesk.com/business/2026/05/03/mike-cagney-s-second-act-turning-blockchain-into-wall-street-s-new-plumbing",
+    "author": "Will Canny",
+    "created_at": "2026-05-03T13:00:00.000Z"
+  },
+  {
+    "id": "05d6a108-340c-46d3-b3f8-d3d5bf495462",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "This tiny, magnetic e-reader could stop you from doomscrolling",
+    "summary": "1. The Xteink X3 is a delightfully tiny, MagSafe-compatible e-ink reader that attaches to the back of your phone like a Pop Socket.",
+    "url": "https://techcrunch.com/2026/05/03/xteink-x3-review-tiny-magnetic-ereader/",
+    "author": "Amanda Silberling",
+    "created_at": "2026-05-03T13:00:00.000Z"
+  },
+  {
+    "id": "5b76f176-b30a-4bf0-a400-f66a6ea78d15",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Crypto industry will be ‘just fine’ if CLARITY Act doesn’t pass",
+    "summary": "1. Crypto industry will be ‘just fine’ if CLARITY Act doesn’t pass",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1t2khk7/crypto_industry_will_be_just_fine_if_clarity_act/",
+    "author": "u/GreedVault",
+    "created_at": "2026-05-03T12:45:14.000Z"
+  },
+  {
     "id": "719b0262-b9e8-4f76-8150-10f1409b61ec",
     "source": "CoinTelegraph",
     "type": "rss",
@@ -68,15 +98,5 @@
     "url": "https://news.bitcoin.com/worker-wins-landmark-ai-substitution-case-in-china/",
     "author": "Sergio Goschenko",
     "created_at": "2026-05-03T08:30:03.000Z"
-  },
-  {
-    "id": "160f671f-e3c1-42af-b4aa-c375159f244b",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "This Week in Crypto Law (Apr. 26, 2026)",
-    "summary": "1. Law and Ledger is a news segment focusing on crypto legal news, brought to you by Kelman Law – A law firm focused on digital asset commerce.\n2. This Week in Crypto Law The opinion editorial below was written by Alex Forehand and Michael Handelsman for Kelman.Law.\n3. The final week of April highlighted a pivotal shift […]",
-    "url": "https://news.bitcoin.com/this-week-in-crypto-law-apr-26-2026/",
-    "author": "Guest Author",
-    "created_at": "2026-05-03T06:30:35.000Z"
   }
 ]
