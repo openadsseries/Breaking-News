@@ -1,5 +1,265 @@
 [
   {
+    "id": "0979a9ce-9c76-4f92-853a-b1fc962696f1",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "CoinDesk 20 performance update: Bittensor (TAO) jumps 4.1% over the weekend",
+    "summary": "1. Chainlink (LINK), up 2.7% since Friday, was also a top performer.",
+    "url": "https://www.coindesk.com/coindesk-indices/2026/05/04/coindesk-20-performance-update-bittensor-tao-jumps-4-1-over-the-weekend",
+    "author": "CoinDesk Indices",
+    "created_at": "2026-05-04T13:12:18.000Z"
+  },
+  {
+    "id": "3e063c20-ac70-4686-b823-73aff00fb858",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "US Treasury Secretary Bessent says US will respond if Iran escalates",
+    "summary": "U.S. Treasury Secretary Scott Bessent said the United States is prepared to respond if Iran attempts to escalate the situation.",
+    "url": "https://t.me/CoinnessGL#1e11633b",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T13:11:58+00:00"
+  },
+  {
+    "id": "e077e0ff-1353-4909-ae8d-7ca793ff433f",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "BESSENT ON STRAIT OF HORMUZ-U.S.",
+    "summary": "is opening up Strait of Hormuz-We have absolute control of the Strait-Iranians do not have control of the Strait-If Iranians want to escalate, we are willing to do so-Good time for US partners to step up, pressure IranTwitter",
+    "url": "https://t.me/SolidIntelX#4bb47c5a",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-04T13:10:48+00:00"
+  },
+  {
+    "id": "a7d2c0d3-9073-45a2-8a00-2c47a1c26dad",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "A beginner’s guide to stablecoins",
+    "summary": "1. From pegs to reserves to regulation, here's what you need to know ahead of Consensus Miami 2026.",
+    "url": "https://www.coindesk.com/learn/2026/05/04/a-beginner-s-guide-to-stablecoins",
+    "author": "Bailey Reutzel",
+    "created_at": "2026-05-04T13:05:07.000Z"
+  },
+  {
+    "id": "a6b05ad5-c0dc-4089-8715-8b216d17940d",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Kraken sues former partner Etana for $25M in custody fraud",
+    "summary": "Kraken has filed a $25 million lawsuit against its former custody partner, Etana, which previously handled its fiat deposits and withdrawals, CoinDesk reported. According to a complaint filed in a Colorado federal court, Kraken alleges that Etana engaged in a classic Ponzi scheme. The exchange claims Etana diverted client assets for operating expenses or used them in risky investments, then used new client deposits to cover the gaps.",
+    "url": "https://t.me/CoinnessGL#0a36bf9a",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T13:04:56+00:00"
+  },
+  {
+    "id": "aa01efb1-9966-405c-8512-67a4c03474a5",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Ondo joins DTCC working group to design tokenization standards",
+    "summary": "The U.S. Depository Trust & Clearing Corporation (DTCC) announced it has selected Ondo as an official partner for an industry working group to design tokenization standards for U.S. capital markets. The working group includes traditional finance (TradFi) giants such as BlackRock, JPMorgan, and Goldman Sachs, along with crypto firms like Circle and Robinhood.",
+    "url": "https://t.me/CoinnessGL#5e930cb0",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T13:02:50+00:00"
+  },
+  {
+    "id": "c85ae3ee-c4dc-44c1-8fcb-8a983cee1b70",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "WTI and Brent Surge Following False Reports of US Warship Attack in Hormuz",
+    "summary": "1. The prices of the two most relevant oil benchmark futures shot up after reports indicated that a U.S.\n2. warship was recently struck by the IRGC, reigniting the hostilities in the Strait of Hormuz.\n3. Nonetheless, U.S.",
+    "url": "https://news.bitcoin.com/wti-and-brent-surge-following-false-reports-of-us-warship-attack-in-hormuz/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-04T13:01:36.000Z"
+  },
+  {
+    "id": "61fce91f-495c-4e1d-a412-9056ed7a752c",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Bitcoin scaling layer Citrea rolls out CTR token and dual treasury model",
+    "summary": "1. Only xCTR used for voting will earn additional liquidity emissions, while staked CTR that is inactive will only earn unstaking penalty fees.",
+    "url": "https://www.theblock.co/post/399867/bitcoin-scaling-layer-citrea-rolls-out-ctr-token-and-dual-treasury-model?utm_source=rss&utm_medium=rss",
+    "author": "Daniel Kuhn",
+    "created_at": "2026-05-04T13:01:01.000Z"
+  },
+  {
+    "id": "6c650432-b8d0-4031-89ad-3b628a7048ee",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Kraken's parent company Payward alleges $25 million crypto custody fraud in lawsuit against Etana and firm's CEO",
+    "summary": "1. The crypto exchange claims client funds were misused, commingled and concealed in a “Ponzi-like” scheme that unraveled amid a liquidity crisis.",
+    "url": "https://www.coindesk.com/business/2026/05/04/kraken-s-parent-company-payward-alleges-usd25-million-crypto-custody-fraud-in-lawsuit-against-etana-and-firm-s-ceo",
+    "author": "Will Canny",
+    "created_at": "2026-05-04T13:00:00.000Z"
+  },
+  {
+    "id": "29218b7a-b058-40b0-bf1b-d94b8550ab8b",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Barocal can cool your food and drink by squeezing a hunk of plastic crystals",
+    "summary": "1. Barocal might have discovered a cheap, nonpolluting material that could dethrone today's refrigeration technology.",
+    "url": "https://techcrunch.com/2026/05/04/barocal-can-cool-your-food-and-drink-by-squeezing-a-hunk-of-plastic-crystals/",
+    "author": "Tim De Chant",
+    "created_at": "2026-05-04T13:00:00.000Z"
+  },
+  {
+    "id": "59ccc3ee-367e-4d1e-8617-a2276c432395",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Doordash adds AI tools to speed up merchant onboarding, edit photos of dishes",
+    "summary": "1. DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content.",
+    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+    "author": "Ivan Mehta",
+    "created_at": "2026-05-04T13:00:00.000Z"
+  },
+  {
+    "id": "8a8636c5-bdb6-4309-ad33-123451bfc02f",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ BitMine bought 101,745 ETH in the past week, bringing its total holdings to 5.18 million coins — 4.29% of all Ethereum in circulation.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#fc7cab3c",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-04T12:54:11+00:00"
+  },
+  {
+    "id": "2d8b3532-e7d4-4541-b7e0-b9e64f4d1e1b",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "BitMine $ETH holdings rise to 5.18M after buying 101,745 tokens last week, taking stake to ~4.29% of total supplyTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#7e53c654",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-04T12:37:55+00:00"
+  },
+  {
+    "id": "8f6519d8-8621-4114-8158-6eaae0eeb106",
+    "source": "The Block",
+    "type": "rss",
+    "title": "SOL Strategies to acquire cross-chain swap aggregator Houdini for $18 million",
+    "summary": "1. The acquisition is expected to create a new revenue stream and make SOL Strategies less reliant on market cycles.",
+    "url": "https://www.theblock.co/post/399844/sol-strategies-buy-houdini?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-05-04T12:30:00.000Z"
+  },
+  {
+    "id": "11df7ee0-5f80-4f6a-8228-d6992429fa00",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. When a devastated (he was crying like a baby!) Van Jones of CNN came to me with a group of African American leaders, he had “DEAD” in getting Criminal Justice Reform approved in Congress.\n2. Van Jones and these Black reps had been unsuccessfully fighting to get “Reform” for many years.\n3. He was just wasting everyone’s time - Needed 5 Conservative Senators - there was no chance, or even hope, for a win.",
+    "url": "https://trumpstruth.org/statuses/38159",
+    "author": "Trump Truth",
+    "created_at": "2026-05-04T12:20:16.000Z"
+  },
+  {
+    "id": "3f082521-7a5d-4e9d-ac8d-0509b5cf73dd",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "TWO U.S.-FLAGGED MERCHANT VESSELS HAVE SUCCESSFULLY TRANSITED THROUGH STRAIT OF HORMUZ- TRUMPTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#8f65768a",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-04T12:18:02+00:00"
+  },
+  {
+    "id": "7a7b840b-6f74-4dae-9aa9-320cfc89ac69",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "Western Union Solana-based stablecoin $USDPT goes lives.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#2abeff41",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-04T12:11:52+00:00"
+  },
+  {
+    "id": "09ae1149-4ba4-439d-a9d2-79c8090f1561",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Whales have opened 213M worth of short positions in the last hour. Could this be insider activity?",
+    "summary": "1. Whales have opened 213M worth of short positions in the last hour.\n2. Could this be insider activity?",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1t3fnb9/whales_have_opened_213m_worth_of_short_positions/",
+    "author": "u/LividReserve3520",
+    "created_at": "2026-05-04T12:02:06.000Z"
+  },
+  {
+    "id": "15ff03e0-9065-4577-9ecd-dfe657503f68",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📊 JPMorgan analysts say rising stablecoin velocity may limit market cap growth, even with onchain transaction volume running at a $17.2 trillion annualized pace in 2026.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#5ba02e34",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-04T11:54:26+00:00"
+  },
+  {
+    "id": "6bd14d29-060a-428e-8571-d37187cd49a1",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "ZachXBT Flags Polyarb as Fake Prediction Market With an Active Wallet Drainer",
+    "summary": "1. Onchain investigator ZachXBT has warned that Polyarb, a site presenting itself as a prediction market platform, is running an active wallet drainer and is gaining reach through prominent crypto accounts replying to its posts.\n2. Key Takeaways: ZachXBT warned on May 4, 2026, that Polyarb hosts an active wallet drainer targeting crypto users.\n3. Prominent accounts replying […]",
+    "url": "https://news.bitcoin.com/zachxbt-polyarb-fake-prediction-market-wallet-drainer/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-04T11:30:20.000Z"
+  },
+  {
+    "id": "2c5e14c4-e984-4aef-b72e-9a0f4b9867e5",
+    "source": "r/ethereum",
+    "type": "reddit",
+    "title": "Dev Tools Guild April 2026 update",
+    "summary": "1. Dev Tools Guild April 2026 update",
+    "url": "https://reddit.com/r/ethereum/comments/1t3ekon/dev_tools_guild_april_2026_update/",
+    "author": "u/abcoathup",
+    "created_at": "2026-05-04T11:11:21.000Z"
+  },
+  {
+    "id": "cfd70a50-32c7-4e86-baa6-a3bda769df3c",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "BTC price can ‘easily’ hit $95K: Five things to know in Bitcoin this week",
+    "summary": "1. Bitcoin gained fresh bullish BTC price targets after hitting new three-month highs above $80,000.",
+    "url": "https://cointelegraph.com/markets/btc-price-can-easily-hit-95k-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by William Suberg",
+    "created_at": "2026-05-04T11:05:33.000Z"
+  },
+  {
+    "id": "d6b34ec9-9875-469d-b41f-fd760458f079",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "GameStop makes $55.5B offer to buy eBay in surprise takeover bid",
+    "summary": "1. GameStop proposes a $55.5 billion cash-and-stock takeover of eBay, disclosing a 5% stake and says CEO Ryan Cohen would lead the combined company.",
+    "url": "https://cointelegraph.com/news/gamestop-56-billion-ebay-acquisition-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Helen Partz",
+    "created_at": "2026-05-04T11:00:32.000Z"
+  },
+  {
+    "id": "4a09e08c-66fc-495d-9f23-e046b9897022",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Gamestop Bids $56B for Ebay, Leveraging $519M Bitcoin Treasury",
+    "summary": "1. Gamestop has made an unsolicited $55.5 billion offer to acquire Ebay, backed by a $20 billion bank commitment alongside a $519 million bitcoin treasury that CEO Ryan Cohen quietly built during fiscal 2025.\n2. Key Takeaways: Gamestop offered $55.5B for Ebay at $125/share, with TD Bank providing $20B in debt financing.\n3. The bid draws on Gamestop’s […]",
+    "url": "https://news.bitcoin.com/gamestop-56-billion-ebay-bid-bitcoin-treasury/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-04T10:10:02.000Z"
+  },
+  {
+    "id": "44740602-63c5-4e0d-8a6f-8300614687e0",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Capital B raises $1.3M from Adam Back for Bitcoin strategy",
+    "summary": "1. The Blockstream CEO subscribed to 10 million warrants as Capital B pushes ahead with its Bitcoin treasury strategy.",
+    "url": "https://cointelegraph.com/news/capital-b-raises-12m-from-adam-back-to-fuel-bitcoin-treasury-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Zoltan Vardai",
+    "created_at": "2026-05-04T10:05:30.000Z"
+  },
+  {
+    "id": "6dd5ca54-4c3d-43e5-8311-62aea084a33a",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Ouster’s new color lidar is coming to replace cameras",
+    "summary": "1. A sensor that can simultaneously capture depth and image data has long been a \"holy grail,\" Ouster CEO Angus Pacala told TechCrunch.",
+    "url": "https://techcrunch.com/2026/05/04/ousters-new-color-lidar-is-coming-to-replace-cameras/",
+    "author": "Sean O'Kane",
+    "created_at": "2026-05-04T10:00:00.000Z"
+  },
+  {
     "id": "9b1767b6-efb5-4894-8417-31ca4d3f56b2",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -128,255 +388,5 @@
     "url": "https://www.coindesk.com/markets/2026/05/04/the-bitcoin-etf-recovery-in-flows-is-real-it-is-just-not-complete-yet",
     "author": "Omkar Godbole",
     "created_at": "2026-05-04T07:14:17.000Z"
-  },
-  {
-    "id": "11147203-f721-4488-9c38-9e19332e5725",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Nicolas Sauvage is betting on the boring parts of AI",
-    "summary": "1. The portfolio he has assembled since 2019 is dotted with technologies that have become more widely interesting to VCs over the last year:",
-    "url": "https://techcrunch.com/2026/05/04/nicolas-sauvage-is-betting-on-the-boring-parts-of-ai/",
-    "author": "Connie Loizos",
-    "created_at": "2026-05-04T07:10:18.000Z"
-  },
-  {
-    "id": "f5b10195-d3f7-448e-bf9e-19e26182c1d1",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Kraken parent Payward completes Bitnomial acquisition, unlocking US crypto derivatives offering",
-    "summary": "1. With the deal closed, Payward now holds a full suite of U.S.\n2. derivatives licenses issued by the Commodity Futures Trading Commission.",
-    "url": "https://www.theblock.co/post/399851/kraken-parent-payward-completes-bitnomial-acquisition?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-05-04T06:59:34.000Z"
-  },
-  {
-    "id": "2cb1d6f7-a125-4eb0-90bf-147e9171bc8f",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin climbs past $80K for the first time since January",
-    "summary": "1. Bitcoin soared as the MSCI AC Asia Index rose to a new high on Monday, an early indicator that investors viewed the weekend developments in a reasonably positive light.",
-    "url": "https://cointelegraph.com/news/bitcoin-climbs-past-80k-for-the-first-time-since-january?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-05-04T06:54:18.000Z"
-  },
-  {
-    "id": "223fa78f-3e68-4827-bb25-fb306338b7f7",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "$150 Million in Crypto Shorts Liquidated in 60 Minutes as Bitcoin Clears $80,000",
-    "summary": "1. Over $150 million in crypto short positions were wiped out in a single hour on May 4, 2026, as bitcoin’s breach of $80,000 triggered one of the sharpest short squeezes seen in recent months.\n2. Key Takeaways: $150 million in crypto shorts were liquidated in 60 minutes as bitcoin crossed $80,039.\n3. Binance futures showed a 62.8% […]",
-    "url": "https://news.bitcoin.com/150-million-crypto-shorts-liquidated-bitcoin-80000/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-04T06:52:46.000Z"
-  },
-  {
-    "id": "a04e4916-ea1f-412d-b87b-3184545c3cc6",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "North Korea denies crypto hack allegations, calls them 'absurd slander'",
-    "summary": "North Korea has denied allegations that it is behind recent international cryptocurrency hacking incidents. In a response to a question from the Korean Central News Agency (KCNA) on May 3, a spokesperson for the North Korean Ministry of Foreign Affairs called the claims \"false information and absurd slander for political purposes.\" The spokesperson accused the U.S. of attempting to spread a false perception of North Korea by using government agencies, compliant media, and conspiracy groups to publicize a non-existent \"cyber threat.\" They added that it is unfitting for the U.S., which they claimed controls global IT infrastructure and conducts indiscriminate cyberattacks, to portray itself as a victim. The international community and U.S. intelligence agencies have identified North Korean-linked hacking organizations, such as the Lazarus Group, as the primary culprits. North Korean hackers are estimated to have stolen over $6 billion in cryptocurrency since 2017 and accounted for 64% of all hacking damages in 2025.",
-    "url": "https://t.me/CoinnessGL#073714fb",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T06:33:15+00:00"
-  },
-  {
-    "id": "3501f2bf-3ebd-4b95-a98d-fb9045d31f85",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "BTC perpetual futures long/short ratios on 3 major exchanges",
-    "summary": "BTC perp long/short ratios on top exchanges by open interestThe following are the 24-hour long/short ratios for BTC perpetual futures on the world’s three largest crypto futures exchanges by open interest:Overall: 50.14% long, 49.86% short- Binance: 53.5% long, 46.5% short- OKX: 54.55% long, 45.45% short- Bybit: 53.43% long, 46.57% short",
-    "url": "https://t.me/CoinnessGL#d417dc94",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T06:06:43+00:00"
-  },
-  {
-    "id": "dcd442d6-3358-47af-8ed1-2d0441d35cfa",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Bitcoin Hits $80,000: Massive Short Squeeze and Institutional Buying Drive $96K Target",
-    "summary": "1. Bitcoin crossed $80,000 on May 4, 2026, snapping weeks of range-bound trading as institutional buying and a mass short liquidation combined to push the leading cryptocurrency past its most-watched resistance level.\n2. Key Takeaways: Bitcoin hit $80,039, breaking above key resistance for the first time in weeks.\n3. Capriole data shows institutions absorbing 500%+ of daily mined […]",
-    "url": "https://news.bitcoin.com/bitcoin-breaks-80000-institutional-demand-short-squeeze/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-04T05:52:13.000Z"
-  },
-  {
-    "id": "a43a51f0-242f-4d50-a2dd-6cacd271042f",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Bitcoin may have formed structural bottom at $60K, analysis suggests",
-    "summary": "Bitcoin (BTC) may not fall below $60,000 again, U.Today reported. The analysis is based on Bitcoin's 200-week moving average (200WMA) officially surpassing the $60,000 mark. Historically, this indicator has acted as a key support for the price floor, except in extreme bear markets, suggesting a structural rise in the baseline. Separately, anonymous crypto trader DonAlt, who has approximately 710,000 followers on X, suggested that a breakout above $87,000 for BTC would trigger a strong bullish reversal across the broader market.",
-    "url": "https://t.me/CoinnessGL#28f84c7e",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T05:41:33+00:00"
-  },
-  {
-    "id": "ac28bfe3-50b4-4902-9263-7ad7e7884492",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "CFTC sees mixed responses to prediction market rulemaking",
-    "summary": "1. The CFTC received more than 1,500 responses to its prediction market rulemaking proposal, with respondents divided on how it should police the platforms.",
-    "url": "https://cointelegraph.com/news/cftc-mixed-responses-prediction-market-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Jesse Coghlan",
-    "created_at": "2026-05-04T05:35:44.000Z"
-  },
-  {
-    "id": "8588f0c9-701e-41b5-ba6b-f153c4b754ea",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Strategy pauses bitcoin buys before Tuesday earnings",
-    "summary": "1. Michael Saylor says the company will resume purchases next week, but the pause lands as analysts focus on losses and the growing complexity of Strategy’s preferred-stock funding machine.",
-    "url": "https://www.coindesk.com/business/2026/05/04/strategy-pauses-bitcoin-buys-before-tuesday-earnings",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-05-04T05:14:53.000Z"
-  },
-  {
-    "id": "e0c17354-047d-4f04-8adb-b029a8d0bd3b",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "US CFTC receives over 1,500 comments on prediction market rules",
-    "summary": "The U.S. Commodity Futures Trading Commission (CFTC) has received more than 1,500 comment letters on its proposed regulations for prediction markets, Cointelegraph reported. The comment period pertains to rules proposed by the CFTC in March that would allow for modifying existing regulations or introducing new ones for event contracts within these markets. In a letter, Kalshi co-founder Luana Lopes Lara stated that the current regulations are effectively designed and that the CFTC should provide clear guidelines to allow event contracts to continue trading. In contrast, Kevin O'Toole, Executive Director of the Pennsylvania Gaming Control Board, expressed a dissenting view, arguing that prediction market platforms are effectively operating like sports betting in a regulatory blind spot.",
-    "url": "https://t.me/CoinnessGL#9fabd490",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T05:08:00+00:00"
-  },
-  {
-    "id": "abddc171-99ab-459e-b736-9bbc606a37d5",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Banks just won. Passive yield is dead in 8 days.",
-    "summary": "1. Saw the Bretton Woods 3.0 take making the rounds and want to push back on it.\n2. The take is basically: yield ban is cosmetic, activity rewards still allowed, platforms can just calculate rewards by balance + duration and call it something else, dollar wins globally, etc.\n3. Coinbase will absolutely do this.",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1t37tl8/banks_just_won_passive_yield_is_dead_in_8_days/",
-    "author": "u/melancholia13",
-    "created_at": "2026-05-04T04:49:07.000Z"
-  },
-  {
-    "id": "5ca70b4e-d43d-4975-b6c8-40000e423db2",
-    "source": "The Block",
-    "type": "rss",
-    "title": "The Funding: How DeFi hacks could hit crypto funds",
-    "summary": "1. DeFi’s latest hack wave is likely to add pressure on liquid and yield-focused crypto funds already navigating a tough market.",
-    "url": "https://www.theblock.co/post/399840/the-funding-how-defi-hacks-could-hit-crypto-funds?utm_source=rss&utm_medium=rss",
-    "author": "Yogita Khatri",
-    "created_at": "2026-05-04T04:46:47.000Z"
-  },
-  {
-    "id": "547597fd-0e8c-43f4-8c00-5b4e6af50f0b",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "DOGE recovers upward momentum, holding $0.109 is key: CoinDesk",
-    "summary": "Dogecoin (DOGE) has recovered its upward momentum after a prolonged period of sideways movement, CoinDesk reported. According to the outlet, DOGE rose from $0.1075 to $0.1119, establishing a pattern of higher lows and breaking through the key resistance level of $0.109. The increase was characterized by a surge in trading volume over a short period rather than a gradual trend. The price is currently holding around $0.111, and whether this level can be maintained as support is considered crucial.",
-    "url": "https://t.me/CoinnessGL#67f2977d",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T04:46:46+00:00"
-  },
-  {
-    "id": "7ade3d59-efdf-47ce-bb80-58c7cefa1f9d",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "‘Stablecoins’ are an outdated term from crypto’s early years: a16z Crypto",
-    "summary": "1. John Palmer, a developer and brand adviser, said it \"feels like a bug\" to call them stablecoins and that they should have a self-defined and non-reactionary name.",
-    "url": "https://cointelegraph.com/news/stablecoins-are-an-outdated-term-a16z-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Stephen Katte",
-    "created_at": "2026-05-04T04:44:12.000Z"
-  },
-  {
-    "id": "aef7fbcc-d2e7-49b9-b73a-a86472bc5b73",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Veteran trader Peter Brandt sees bitcoin hitting $250,000, but only after a bottom later this year",
-    "summary": "1. Veteran trader Peter Brandt sees bitcoin rallying to $250,000 in 2029, but only after the market finishes a long drawn-out bottoming process that could last into September 2026.",
-    "url": "https://www.coindesk.com/markets/2026/05/04/veteran-trader-peter-brandt-sees-bitcoin-hitting-usd250-000-but-only-after-a-bottom-later-this-year",
-    "author": "Omkar Godbole",
-    "created_at": "2026-05-04T04:43:46.000Z"
-  },
-  {
-    "id": "5495128f-a178-4094-8371-47f09fb0337a",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "XRP zooms above $1.40 on rising volume, putting focus on further breakout",
-    "summary": "1. Sharp volume surge drives move through $1.40, meaning traders may now watch whether the level holds as support.",
-    "url": "https://www.coindesk.com/markets/2026/05/04/xrp-zooms-above-usd1-40-on-rising-volume-putting-focus-on-further-breakout",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-05-04T04:40:24.000Z"
-  },
-  {
-    "id": "462a43ae-494c-4444-8fac-979e1957203d",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "BTC rally sustained by leverage, not spot demand, signaling weak confidence",
-    "summary": "Bitcoin's ongoing rally is being sustained by leverage demand, indicating a continued lack of market confidence, CoinDesk reported. The outlet noted that last month, BTC's price increase was driven by futures demand while spot demand declined. This divergence has historically created a fragile environment where price rallies are prone to reversal. While there is still potential for further gains, the market could react sensitively to a slowdown in capital inflows or a shift in positioning. CoinDesk pointed out that in the past, similar conditions have more often led to sharp downturns rather than sustained upward trends.",
-    "url": "https://t.me/CoinnessGL#be07d857",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T04:38:30+00:00"
-  },
-  {
-    "id": "607a82f7-cb83-4f1d-8a54-be592f20de3c",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Dogecoin jumps 4% to lead gains among majors as bitcoin zooms higher",
-    "summary": "1. Sharp volume spike drives breakout through resistance, with price now testing whether the level flips to support.",
-    "url": "https://www.coindesk.com/markets/2026/05/04/dogecoin-jumps-4-to-lead-gains-among-majors-as-bitcoin-zooms-higher",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-05-04T04:34:58.000Z"
-  },
-  {
-    "id": "55045044-afa5-4e37-8d6e-636a940bde31",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "China Defies US Sanctions on Oil Refiners With Sweeping Non-Compliance Order",
-    "summary": "1. The blocking statute invoked by MOFCOM requires other companies conducting commercial activities in the country to disregard the sanctions imposed on five domestic refiners linked to Iranian oil transactions, because they constitute an improper extraterritorial application of foreign laws and measures.\n2. Key Takeaways: On May 2, China’s MOFCOM invoked the Blocking Statute against U.S.",
-    "url": "https://news.bitcoin.com/china-defies-us-sanctions-on-oil-refiners-with-sweeping-non-compliance-order/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-05-04T04:30:32.000Z"
-  },
-  {
-    "id": "5227036d-8bd0-4497-a081-2a2d736ccb12",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Stablecoin firms have a $112B opportunity in LATAM remittance outside of US-Mexico: Bybit",
-    "summary": "1. The US-to-Mexico remittance corridor, while still the largest, shrank 4.5% in 2025 as other Latin American corridors grew.",
-    "url": "https://cointelegraph.com/news/stablecoin-firms-should-focus-on-non-us-corridors-in-latam-to-capture-opportunities-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-05-04T04:23:39.000Z"
-  },
-  {
-    "id": "090834a3-ae8e-4c39-9014-5cf9d6cc5532",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Swell burns 859.9M SWELL tokens in April",
-    "summary": "Swell Network (SWELL) announced that it burned a total of 859.9 million SWELL tokens in April. This represents 8.6% of the total supply.",
-    "url": "https://t.me/CoinnessGL#ab6ffdb5",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T04:19:23+00:00"
-  },
-  {
-    "id": "55211ec5-a067-4acf-8f02-04572aab897a",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Bitcoin rises past $80,000, breaking ‘major’ psychological resistance zone",
-    "summary": "1. Trump said the US will guide stranded ships through the Strait of Hormuz, while an Iranian official warned that this could violate ceasefire.",
-    "url": "https://www.theblock.co/post/399835/bitcoin-rises-past-80000-trump-hormuz-mission?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-05-04T04:04:11.000Z"
-  },
-  {
-    "id": "f6275a2c-e6cd-4327-9f34-cc57c6e60f9c",
-    "source": "Politico",
-    "type": "rss",
-    "title": "A note to our readers",
-    "summary": "1. As I begin my first week as POLITICO's Global Editor-in-Chief, I want to start by thanking you — our readers and subscribers — for the trust you place in POLITICO.",
-    "url": "https://www.politico.com/news/2026/05/04/jonathan-greenberger-global-editor-in-chief-00902558",
-    "author": "By Jonathan Greenberger",
-    "created_at": "2026-05-04T04:01:00.000Z"
-  },
-  {
-    "id": "1b7c270b-aab8-450d-9522-7f3536edf2a3",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Despite Warsh Replacing Powell at the Fed, Traders See No Rate Cut Coming in June",
-    "summary": "1. Kevin Warsh cleared a Senate Banking Committee vote on April 29 and is expected to chair his first Federal Open Market Committee (FOMC) meeting June 16-17, 2026, as futures and prediction markets put the odds of a rate hold above 93%.\n2. Key Takeaways: Kevin Warsh cleared a 13-11 Senate Banking Committee vote on April 29, […]",
-    "url": "https://news.bitcoin.com/despite-warsh-replacing-powell-at-the-fed-traders-see-no-rate-cut-coming-in-june/",
-    "author": "Jamie Redman",
-    "created_at": "2026-05-04T03:30:29.000Z"
   }
 ]
