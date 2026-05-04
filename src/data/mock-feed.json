@@ -1,5 +1,75 @@
 [
   {
+    "id": "a04aff1d-ef7e-44b8-ae23-1a28088cde7d",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "BTC perpetual futures long/short ratios on 3 major exchanges",
+    "summary": "BTC perp long/short ratios on top exchanges by open interestThe following are the 24-hour long/short ratios for BTC perpetual futures on the world’s three largest crypto futures exchanges by open interest:Overall: 50.14% long, 49.86% short- Binance: 53.5% long, 46.5% short- OKX: 54.55% long, 45.45% short- Bybit: 53.43% long, 46.57% short",
+    "url": "https://t.me/CoinnessGL#d417dc94",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T06:06:43+00:00"
+  },
+  {
+    "id": "dcd442d6-3358-47af-8ed1-2d0441d35cfa",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Bitcoin Hits $80,000: Massive Short Squeeze and Institutional Buying Drive $96K Target",
+    "summary": "1. Bitcoin crossed $80,000 on May 4, 2026, snapping weeks of range-bound trading as institutional buying and a mass short liquidation combined to push the leading cryptocurrency past its most-watched resistance level.\n2. Key Takeaways: Bitcoin hit $80,039, breaking above key resistance for the first time in weeks.\n3. Capriole data shows institutions absorbing 500%+ of daily mined […]",
+    "url": "https://news.bitcoin.com/bitcoin-breaks-80000-institutional-demand-short-squeeze/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-04T05:52:13.000Z"
+  },
+  {
+    "id": "c0d8bff1-acbd-4ce6-876b-c9f75969e693",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Bitcoin may have formed structural bottom at $60K, analysis suggests",
+    "summary": "Bitcoin (BTC) may not fall below $60,000 again, U.Today reported. The analysis is based on Bitcoin's 200-week moving average (200WMA) officially surpassing the $60,000 mark. Historically, this indicator has acted as a key support for the price floor, except in extreme bear markets, suggesting a structural rise in the baseline. Separately, anonymous crypto trader DonAlt, who has approximately 710,000 followers on X, suggested that a breakout above $87,000 for BTC would trigger a strong bullish reversal across the broader market.",
+    "url": "https://t.me/CoinnessGL#28f84c7e",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T05:41:33+00:00"
+  },
+  {
+    "id": "ac28bfe3-50b4-4902-9263-7ad7e7884492",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "CFTC sees mixed responses to prediction market rulemaking",
+    "summary": "1. The CFTC received more than 1,500 responses to its prediction market rulemaking proposal, with respondents divided on how it should police the platforms.",
+    "url": "https://cointelegraph.com/news/cftc-mixed-responses-prediction-market-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Jesse Coghlan",
+    "created_at": "2026-05-04T05:35:44.000Z"
+  },
+  {
+    "id": "8588f0c9-701e-41b5-ba6b-f153c4b754ea",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Strategy pauses bitcoin buys before Tuesday earnings",
+    "summary": "1. Michael Saylor says the company will resume purchases next week, but the pause lands as analysts focus on losses and the growing complexity of Strategy’s preferred-stock funding machine.",
+    "url": "https://www.coindesk.com/business/2026/05/04/strategy-pauses-bitcoin-buys-before-tuesday-earnings",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-05-04T05:14:53.000Z"
+  },
+  {
+    "id": "e0c17354-047d-4f04-8adb-b029a8d0bd3b",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "US CFTC receives over 1,500 comments on prediction market rules",
+    "summary": "The U.S. Commodity Futures Trading Commission (CFTC) has received more than 1,500 comment letters on its proposed regulations for prediction markets, Cointelegraph reported. The comment period pertains to rules proposed by the CFTC in March that would allow for modifying existing regulations or introducing new ones for event contracts within these markets. In a letter, Kalshi co-founder Luana Lopes Lara stated that the current regulations are effectively designed and that the CFTC should provide clear guidelines to allow event contracts to continue trading. In contrast, Kevin O'Toole, Executive Director of the Pennsylvania Gaming Control Board, expressed a dissenting view, arguing that prediction market platforms are effectively operating like sports betting in a regulatory blind spot.",
+    "url": "https://t.me/CoinnessGL#9fabd490",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T05:08:00+00:00"
+  },
+  {
+    "id": "abddc171-99ab-459e-b736-9bbc606a37d5",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Banks just won. Passive yield is dead in 8 days.",
+    "summary": "1. Saw the Bretton Woods 3.0 take making the rounds and want to push back on it.\n2. The take is basically: yield ban is cosmetic, activity rewards still allowed, platforms can just calculate rewards by balance + duration and call it something else, dollar wins globally, etc.\n3. Coinbase will absolutely do this.",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1t37tl8/banks_just_won_passive_yield_is_dead_in_8_days/",
+    "author": "u/melancholia13",
+    "created_at": "2026-05-04T04:49:07.000Z"
+  },
+  {
     "id": "5ca70b4e-d43d-4975-b6c8-40000e423db2",
     "source": "The Block",
     "type": "rss",
@@ -18,6 +88,16 @@
     "url": "https://t.me/CoinnessGL#67f2977d",
     "author": "@CoinnessGL",
     "created_at": "2026-05-04T04:46:46+00:00"
+  },
+  {
+    "id": "7ade3d59-efdf-47ce-bb80-58c7cefa1f9d",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "‘Stablecoins’ are an outdated term from crypto’s early years: a16z Crypto",
+    "summary": "1. John Palmer, a developer and brand adviser, said it \"feels like a bug\" to call them stablecoins and that they should have a self-defined and non-reactionary name.",
+    "url": "https://cointelegraph.com/news/stablecoins-are-an-outdated-term-a16z-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Stephen Katte",
+    "created_at": "2026-05-04T04:44:12.000Z"
   },
   {
     "id": "aef7fbcc-d2e7-49b9-b73a-a86472bc5b73",
@@ -130,7 +210,7 @@
     "created_at": "2026-05-04T03:05:49.000Z"
   },
   {
-    "id": "2eebe10e-ebb6-4e33-88ce-88cb1f75d0d6",
+    "id": "c4160a5d-128d-4455-8f23-c03e0ebb4763",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "$150,000,000 worth of crypto shorts liquidated in the past 60 minutes.@WatcherGuru",
@@ -160,7 +240,7 @@
     "created_at": "2026-05-04T02:30:27.000Z"
   },
   {
-    "id": "5dfa89db-39e9-4e61-9af0-dd53f9e94a64",
+    "id": "f401e11d-d928-4e1c-9368-bbd2fa088f57",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "$80,000 Bitcoin@WatcherGuru",
@@ -238,55 +318,5 @@
     "url": "https://www.coindesk.com/markets/2026/05/03/morgan-stanley-s-oldenburg-bitcoin-on-u-s-bank-balance-sheets-is-coming-just-not-yet",
     "author": "James Van Straten",
     "created_at": "2026-05-04T00:30:00.000Z"
-  },
-  {
-    "id": "966cc508-a21a-4c02-b088-ddc386b1c3bf",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Dormant Wallets Spend 793 BTC Over 72 Hours as Bitcoin Crosses $79,000",
-    "summary": "1. Onchain data shows 793.36 sleeping bitcoins changed hands between May 1 and May 3, 2026, with a notable portion traced back to wallets that had not moved coins since 2011.\n2. Key Takeaways: Onchain data shows 793 BTC spent May 1-3, 2026, with 56 of 62 outputs originating from 2016 wallets.\n3. A single 110 BTC output […]",
-    "url": "https://news.bitcoin.com/dormant-wallets-spend-793-btc-over-72-hours-as-bitcoin-crosses-79000/",
-    "author": "Jamie Redman",
-    "created_at": "2026-05-03T23:30:31.000Z"
-  },
-  {
-    "id": "e68e8402-fc4c-43d3-9bd6-ef53e2243838",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Our fabulous Rudy Giuliani, a True Warrior, and the Best Mayor in the History of New York City, BY FAR, has been hospitalized, and is in critical condition.\n2. What a tragedy that he was treated so badly by the Radical Left Lunatics, Democrats ALL — AND HE WAS RIGHT ABOUT EVERYTHING!\n3. They cheated on the Elections, fabricated hundreds of stories, did anything possible to destroy our Nation, and now, look at Rudy.",
-    "url": "https://trumpstruth.org/statuses/38157",
-    "author": "Trump Truth",
-    "created_at": "2026-05-03T23:17:54.000Z"
-  },
-  {
-    "id": "da760b8f-9bd6-433b-aeb5-cfd66c8cfa40",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. We cannot allow there to be an Election that is conducted unconstitutionally simply for the “convenience” of State Legislatures.\n2. If they have to vote twice, so be it.\n3. We should demand that State Legislatures do what the Supreme Court says must be done.",
-    "url": "https://trumpstruth.org/statuses/38155",
-    "author": "Trump Truth",
-    "created_at": "2026-05-03T23:09:49.000Z"
-  },
-  {
-    "id": "c3a222b7-b12a-4dcb-ac99-622c27bcc74d",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "GameStop $GME offers to buy $EBAY for $56,000,000,000.@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#374852a9",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-03T23:05:56+00:00"
-  },
-  {
-    "id": "f2f544e3-1907-471d-81a8-cc4d64da2858",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "ETH may rally to $2,700 if it overcomes $2,400 resistance",
-    "summary": "ETH could see further upside to $2,700, the level of its 200-day moving average (MA), if it breaks above the $2,400 resistance on a daily closing basis, according to an analysis by CryptoPotato. The outlet noted that ETH has been consolidating near the $2,400 mark for approximately three months. It is currently testing for support above its 100-day MA around $2,200, with the Relative Strength Index (RSI) remaining neutral at a level of 55. On-chain metrics show signs of structural improvement, with a continued decrease in exchange reserves and a trend of accumulation. Conversely, a daily close below $2,200 could trigger a decline of around 15%.",
-    "url": "https://t.me/CoinnessGL#67d219d8",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-03T23:00:44+00:00"
   }
 ]
