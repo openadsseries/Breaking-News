@@ -1,6 +1,96 @@
 [
   {
-    "id": "2801d6ae-0619-4e93-8704-485bad9db975",
+    "id": "8094f773-753d-4e0a-8ef4-72fc7ba0d5d9",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Prediction markets evolving into institutional products, Bernstein says",
+    "summary": "Prediction markets are evolving from speculative platforms for retail investors into institutional-grade financial products, according to a report from U.S. investment bank Bernstein. The report noted that institutional investors are increasingly drawn to these markets because they offer a way to hedge specific event risks—such as tariffs, elections, and geopolitical shifts—through simple yes-or-no contracts. Bernstein highlighted a recent, first-of-its-kind custom institutional block trade on Kalshi as a significant milestone. The introduction of block trades, which are typically large and privately negotiated between institutional investors, and custom contracts could expand participation from investors seeking targeted exposure to specific event risks, the report explained.",
+    "url": "https://t.me/CoinnessGL#3cf585bd",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T17:43:29+00:00"
+  },
+  {
+    "id": "a8734478-0d3e-4a02-a0bf-6219f575b90c",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Jonathan Karl, of ABC Fake News, made a statement that I called him early in the morning, the day after the assassination attempt, to ask whether or not HE was OK.\n2. No, this was a hit on ME, not HIM, and I didn’t make such a call, why would I do that?\n3. He called me, but I didn’t take his call — He just confirmed that to me when he called again.",
+    "url": "https://trumpstruth.org/statuses/38163",
+    "author": "Trump Truth",
+    "created_at": "2026-05-04T17:37:09.000Z"
+  },
+  {
+    "id": "879da081-a718-4d04-a595-76d849763dc1",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Circle, Coinbase lead crypto stocks rally amid Clarity Act progress, bitcoin hitting $80,000",
+    "summary": "1. The market is starting to price in potential winners as stablecoin yield compromise opens path for passing key U.S.\n2. digital asset regulation, one analyst said.",
+    "url": "https://www.coindesk.com/markets/2026/05/04/circle-coinbase-lead-crypto-stock-rally-amid-clarity-act-progress-bitcoin-above-usd80-000",
+    "author": "Krisztian Sandor",
+    "created_at": "2026-05-04T17:34:28.000Z"
+  },
+  {
+    "id": "3d7ef827-b3de-439c-bb47-a50557dadab5",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "Glamsterdam Upgrade Set To Triple Ethereum's Execution Capacity",
+    "summary": "1. ePBS, Block-Level Access Lists, and EIP-8037 repricings combine to unlock a 200M gas limit floor, a throughput jump that could keep network fees pinned for years.",
+    "url": "https://thedefiant.io/news/blockchains/glamsterdam-upgrade-set-to-triple-ethereum-s-execution-capacity",
+    "author": "yyctrader",
+    "created_at": "2026-05-04T17:31:51.000Z"
+  },
+  {
+    "id": "f98f0278-0a4d-4236-8021-107c9dd47c6f",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Western Union Launches USDPT Stablecoin on Solana via Anchorage Digital",
+    "summary": "1. Remittance giant Western Union’s USDPT token will power cross-border payments and a consumer spending product launching in 40+ countries.",
+    "url": "https://decrypt.co/366677/western-union-usdpt-stablecoin-solana-anchorage-digital",
+    "author": "Decrypt Agent",
+    "created_at": "2026-05-04T17:31:33.000Z"
+  },
+  {
+    "id": "7145068f-6592-4be6-a831-52c3e3e8eb88",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Texas residents sue MARA Holdings over Bitcoin mining noise, property value concerns",
+    "summary": "Nine residents in Texas have filed a lawsuit against MARA Holdings, citing noise, health concerns, and a decline in property values, Decrypt reported. The plaintiffs allege that the company's Bitcoin mining facility generates constant noise, vibrations, and low-frequency sounds that disrupt their daily lives and negatively affect their health. They are seeking over $1 million in damages and have requested a jury trial. The suit was filed in the U.S. District Court for the Northern District of Texas.",
+    "url": "https://t.me/CoinnessGL#ebf90212",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T17:30:26+00:00"
+  },
+  {
+    "id": "f14cfd2f-5feb-4015-aea6-ebdb49cea0f3",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Putin orders May 8-9 ceasefire for Victory Day",
+    "summary": "Russian President Vladimir Putin has decided to implement a ceasefire on the Ukrainian front from May 8 to 9, Russian state-run RIA Novosti news agency reported on May 4. The decision comes ahead of Victory Day on May 9, which commemorates the end of World War II.",
+    "url": "https://t.me/CoinnessGL#e81e6f3e",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T17:27:28+00:00"
+  },
+  {
+    "id": "2d2d7db7-e834-4708-b252-9c6bb6589e87",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "World Liberty Financial Sues Justin Sun for Defamation",
+    "summary": "1. The move is the latest in an escalating feud and comes just weeks after Sun filed a lawsuit against World Liberty Financial for freezing his WLFI, alongside other allegations.",
+    "url": "https://thedefiant.io/news/defi/world-liberty-financial-sues-justin-sun-for-defamation",
+    "author": "Olivia Capozzalo",
+    "created_at": "2026-05-04T17:22:59.000Z"
+  },
+  {
+    "id": "2fd54eb3-a83d-4f07-a9da-b9e7f6ce24db",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Coinbase-incubated Base network adopts Succinct’s zero-knowledge tech",
+    "summary": "1. Base, launched as an optimistic rollup, is hybridizing its tech stack with Succinct's SP1 zero-knowledge virtual machine.",
+    "url": "https://www.theblock.co/post/399926/coinbase-incubated-base-network-adopts-succincts-zero-knowledge-tech?utm_source=rss&utm_medium=rss",
+    "author": "Daniel Kuhn",
+    "created_at": "2026-05-04T17:18:18.000Z"
+  },
+  {
+    "id": "7e242f4c-eca5-442e-bd12-c5d6be741af3",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "PUTIN ANNOUNCED TEMPORARY CEASEFIRE IN CONFLICT WITH UKRAINETwitter",
@@ -8,6 +98,16 @@
     "url": "https://t.me/SolidIntelX#ddc67146",
     "author": "@SolidIntelX",
     "created_at": "2026-05-04T17:17:49+00:00"
+  },
+  {
+    "id": "b695742d-3683-42f9-b6e5-5cf40444c8d7",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Iran has taken some shots at unrelated Nations with respect to the Ship Movement, PROJECT FREEDOM, including a South Korean Cargo Ship.\n2. Perhaps it’s time for South Korea to come and join the mission!\n3. We’ve shot down seven small Boats or, as they like to call them, “fast” Boats.",
+    "url": "https://trumpstruth.org/statuses/38162",
+    "author": "Trump Truth",
+    "created_at": "2026-05-04T17:16:58.000Z"
   },
   {
     "id": "691b340b-b339-4ba6-8167-66e0b20ee874",
@@ -30,7 +130,7 @@
     "created_at": "2026-05-04T17:12:59.000Z"
   },
   {
-    "id": "531fb074-fd8f-476b-bff3-c179ab460197",
+    "id": "1492863b-7e32-4f13-b0cf-a21ec2e0e878",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ A16z says “stablecoin” is an outdated label for what the technology has become, arguing stability is now a baseline requirement rather than a defining feature.",
@@ -70,7 +170,7 @@
     "created_at": "2026-05-04T16:55:59+00:00"
   },
   {
-    "id": "4e01d60b-c08e-401c-b107-c2faa9a45692",
+    "id": "d7ff1eae-cc5a-4208-ae1a-f34dceb4af2a",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Brent Crude oil rises 7% to $120 following Iranian attack on UAE.@WatcherGuru",
@@ -220,7 +320,7 @@
     "created_at": "2026-05-04T16:20:48.000Z"
   },
   {
-    "id": "b7107e25-66f5-4045-b94a-9f8094574570",
+    "id": "da2757e5-0763-45e8-8f26-1bd1b0642e86",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "IRAN HAS NO PLAN TO TARGET THE UAE: IRANIAN STATE MEDIA, CITING SENIOR MILITARY OFFICIALTwitter",
@@ -230,7 +330,7 @@
     "created_at": "2026-05-04T16:20:13+00:00"
   },
   {
-    "id": "2c8e247e-62ac-46f1-8944-19c98efe3310",
+    "id": "b8c3ceb8-6249-4302-a58e-055c1fc4c8e4",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "💰 Capital B raised $1.28M from Blockstream CEO Adam Back through a warrant issuance, with proceeds set to accelerate its Bitcoin treasury strategy.",
@@ -260,7 +360,7 @@
     "created_at": "2026-05-04T16:01:46.000Z"
   },
   {
-    "id": "45716abb-fac8-469d-bb34-bb71877f56f8",
+    "id": "3d8963c1-1d60-4a05-ba6d-c374f6137330",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "ZELENSKIY DECLARES A CEASEFIRE WITH RUSSIA IS NOT POSSIBLETwitter",
@@ -310,7 +410,7 @@
     "created_at": "2026-05-04T15:34:02.000Z"
   },
   {
-    "id": "b7bbca9f-4279-4026-8980-173f0a46bf48",
+    "id": "e2af2a2a-dd98-4985-aa75-83e0ff0f7ca9",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ The CFTC received more than 1,500 comments on its proposed prediction market rules, with industry firms backing federal oversight and state regulators pushing back.",
@@ -400,6 +500,16 @@
     "created_at": "2026-05-04T14:39:32+00:00"
   },
   {
+    "id": "d6b26e9e-ba4a-4a0c-96d5-190c42b69857",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "Stablecoin startup Rain is worth $1.95 billion and plans to issue cards with Mastercard in a push to woo institutional customers",
+    "summary": "1. Stablecoin startup Rain is worth $1.95 billion and plans to issue cards with Mastercard in a push to woo institutional customers",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1t3jms7/stablecoin_startup_rain_is_worth_195_billion_and/",
+    "author": "u/NewFun2174",
+    "created_at": "2026-05-04T14:38:58.000Z"
+  },
+  {
     "id": "da52e414-48b9-4b28-b95a-ec440485a739",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -420,7 +530,7 @@
     "created_at": "2026-05-04T14:33:11.000Z"
   },
   {
-    "id": "e2c364b4-484f-473c-83c4-32bd74a25b66",
+    "id": "d52c1341-11b7-4a8a-a4bc-959ae170af24",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "DTCC to begin limited tokenized securities trading in July.@WatcherGuru",
@@ -460,7 +570,7 @@
     "created_at": "2026-05-04T14:19:04.000Z"
   },
   {
-    "id": "082b176d-0cf8-4225-9789-37bad915b57e",
+    "id": "fd79f958-5de9-481b-9a1f-d7717aebf26a",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 64% chance President Trump signs crypto market structure legislation into law this year.@WatcherGuru",
@@ -798,15 +908,5 @@
     "url": "https://thedefiant.io/news/tradfi-and-fintech/western-union-usdpt-stablecoin-solana-launch-frei03",
     "author": "DefAInt",
     "created_at": "2026-05-04T11:47:01.000Z"
-  },
-  {
-    "id": "6bd14d29-060a-428e-8571-d37187cd49a1",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "ZachXBT Flags Polyarb as Fake Prediction Market With an Active Wallet Drainer",
-    "summary": "1. Onchain investigator ZachXBT has warned that Polyarb, a site presenting itself as a prediction market platform, is running an active wallet drainer and is gaining reach through prominent crypto accounts replying to its posts.\n2. Key Takeaways: ZachXBT warned on May 4, 2026, that Polyarb hosts an active wallet drainer targeting crypto users.\n3. Prominent accounts replying […]",
-    "url": "https://news.bitcoin.com/zachxbt-polyarb-fake-prediction-market-wallet-drainer/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-04T11:30:20.000Z"
   }
 ]
