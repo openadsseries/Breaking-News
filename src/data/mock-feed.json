@@ -1,6 +1,16 @@
 [
   {
-    "id": "a04aff1d-ef7e-44b8-ae23-1a28088cde7d",
+    "id": "a04e4916-ea1f-412d-b87b-3184545c3cc6",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "North Korea denies crypto hack allegations, calls them 'absurd slander'",
+    "summary": "North Korea has denied allegations that it is behind recent international cryptocurrency hacking incidents. In a response to a question from the Korean Central News Agency (KCNA) on May 3, a spokesperson for the North Korean Ministry of Foreign Affairs called the claims \"false information and absurd slander for political purposes.\" The spokesperson accused the U.S. of attempting to spread a false perception of North Korea by using government agencies, compliant media, and conspiracy groups to publicize a non-existent \"cyber threat.\" They added that it is unfitting for the U.S., which they claimed controls global IT infrastructure and conducts indiscriminate cyberattacks, to portray itself as a victim. The international community and U.S. intelligence agencies have identified North Korean-linked hacking organizations, such as the Lazarus Group, as the primary culprits. North Korean hackers are estimated to have stolen over $6 billion in cryptocurrency since 2017 and accounted for 64% of all hacking damages in 2025.",
+    "url": "https://t.me/CoinnessGL#073714fb",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T06:33:15+00:00"
+  },
+  {
+    "id": "3501f2bf-3ebd-4b95-a98d-fb9045d31f85",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "BTC perpetual futures long/short ratios on 3 major exchanges",
@@ -20,7 +30,7 @@
     "created_at": "2026-05-04T05:52:13.000Z"
   },
   {
-    "id": "c0d8bff1-acbd-4ce6-876b-c9f75969e693",
+    "id": "a43a51f0-242f-4d50-a2dd-6cacd271042f",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Bitcoin may have formed structural bottom at $60K, analysis suggests",
@@ -210,7 +220,7 @@
     "created_at": "2026-05-04T03:05:49.000Z"
   },
   {
-    "id": "c4160a5d-128d-4455-8f23-c03e0ebb4763",
+    "id": "d1b8217f-3bb5-49f9-8415-9c366ac39754",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "$150,000,000 worth of crypto shorts liquidated in the past 60 minutes.@WatcherGuru",
@@ -240,7 +250,7 @@
     "created_at": "2026-05-04T02:30:27.000Z"
   },
   {
-    "id": "f401e11d-d928-4e1c-9368-bbd2fa088f57",
+    "id": "d7676d57-112d-41ec-8fbf-7f5c27fbb50f",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "$80,000 Bitcoin@WatcherGuru",
@@ -298,25 +308,5 @@
     "url": "https://t.me/CoinnessGL#0d66f741",
     "author": "@CoinnessGL",
     "created_at": "2026-05-04T01:27:53+00:00"
-  },
-  {
-    "id": "b728e2d2-54aa-4795-891f-2efd984e870f",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Tokenization Megatrend: Grayscale Names ETH, SOL, LINK in $30B Market",
-    "summary": "1. Grayscale Research said Ethereum, Solana, Canton, Avalanche, BNB Chain, and Chainlink are positioned to benefit as tokenized assets expand.\n2. The firm estimated tokenized assets at about $30 billion, up 217% year-over-year.\n3. Key Takeaways: Grayscale identified Ethereum, Solana, Canton, Avalanche, BNB Chain, and Chainlink as key beneficiaries of tokenization growth.",
-    "url": "https://news.bitcoin.com/tokenization-megatrend-grayscale-names-eth-sol-link-in-30b-market/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-04T00:30:18.000Z"
-  },
-  {
-    "id": "d10897fa-03b4-4434-bdaa-b91d7e9db5c6",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Morgan Stanley's Oldenburg: Bitcoin on U.S. bank balance sheets is coming, just not yet",
-    "summary": "1. Morgan Stanley launched the first bank-issued Bitcoin ETP, but Amy Oldenburg said advisors, regulators and balance sheets still have a long way to go.",
-    "url": "https://www.coindesk.com/markets/2026/05/03/morgan-stanley-s-oldenburg-bitcoin-on-u-s-bank-balance-sheets-is-coming-just-not-yet",
-    "author": "James Van Straten",
-    "created_at": "2026-05-04T00:30:00.000Z"
   }
 ]
