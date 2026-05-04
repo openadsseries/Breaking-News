@@ -1,5 +1,275 @@
 [
   {
+    "id": "a6f68613-241b-46b0-8593-fcb77ff96e50",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Kraken’s parent company alleges custodian Etana misappropriated $25 million",
+    "summary": "1. Etana is accused of operating a \"Ponzi-like enterprise\" the resulted in using capital to fund expenses and risky investments.",
+    "url": "https://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million?utm_source=rss&utm_medium=rss",
+    "author": "RT Watson",
+    "created_at": "2026-05-04T15:05:38.000Z"
+  },
+  {
+    "id": "fa9643d5-2bba-48a8-8434-2a508d7bfe63",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Haun Ventures raises $1B for new fund, expands focus to AI",
+    "summary": "Crypto investment firm Haun Ventures has raised $1 billion for a new fund. According to Unfolded, the capital will be invested over the next two to three years in companies related to cryptocurrency and blockchain. The firm also plans to expand its investment scope to include startups in financial services, artificial intelligence (AI), and alternative asset integration.",
+    "url": "https://t.me/CoinnessGL#8d5d58ef",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T15:02:24+00:00"
+  },
+  {
+    "id": "1752cd75-c4f3-476a-8a64-02a9427b3981",
+    "source": "The Block",
+    "type": "rss",
+    "title": "FINRA green lights Securitize for tokenized IPO underwriting and custody",
+    "summary": "1. Securitize is the first firm to receive FINRA approval to custody tokenized securities and underwrite onchain IPOs and secondary offerings.",
+    "url": "https://www.theblock.co/post/399895/finra-green-lights-securitize-for-tokenized-ipo-underwriting-and-custody?utm_source=rss&utm_medium=rss",
+    "author": "Daniel Kuhn",
+    "created_at": "2026-05-04T14:56:39.000Z"
+  },
+  {
+    "id": "c9c99152-37ae-415d-bada-6d1dd69261be",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "BTC rises above $80,000",
+    "summary": "According to CoinNess market monitoring, BTC has risen above $80,000. BTC is trading at $80,118.35 on the Binance USDT market.",
+    "url": "https://t.me/CoinnessGL#2be3ce6b",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T14:48:38+00:00"
+  },
+  {
+    "id": "335c52ef-22c3-4cf8-9662-40231ae13c88",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Binance introduces withdrawal lock feature to counter hacking",
+    "summary": "Binance has introduced a withdrawal protection feature allowing users to temporarily block their own withdrawals for one to seven days to counter cryptocurrency hacking attacks. According to CoinDesk, this is an on-chain withdrawal lock that users can set themselves. Once activated, the exchange cannot disable it, with the only exception being an order from a law enforcement agency. Binance Chief Security Officer (CSO) Jimmy Su explained that the feature was developed to address physical threats, particularly those targeting cryptocurrency holders.",
+    "url": "https://t.me/CoinnessGL#5ecdba79",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-04T14:47:18+00:00"
+  },
+  {
+    "id": "1add5417-a00f-4d72-8575-db318eb2b432",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Strategy Skips Bitcoin Buy as BTC Hits $80K for First Time Since January",
+    "summary": "1. Bitcoin just hit its highest price in months, right as $65 billion treasury firm Strategy took a rare week off from BTC accumulation.",
+    "url": "https://decrypt.co/366624/strategy-skips-bitcoin-buy-btc-80k-first-time-since-january",
+    "author": "Andrew Hayward",
+    "created_at": "2026-05-04T14:39:48.000Z"
+  },
+  {
+    "id": "7c906b46-b9c4-4341-8529-42c06ae6abcd",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📈 Bitcoin briefly topped $80,000 late Sunday, gaining roughly 2.5% in 24 hours, as US spot Bitcoin ETFs posted a fifth straight week of inflows, according to SoSoValue.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#5bb69c29",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-04T14:39:32+00:00"
+  },
+  {
+    "id": "da52e414-48b9-4b28-b95a-ec440485a739",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Remittance Giant Western Union Ditches Legacy Rails for Its Own Stablecoin",
+    "summary": "1. Issued by Anchorage Digital, the Solana-based dollar-pegged stablecoin comes to revitalize the remittances and settlements processes at Western Union, which rely largely on legacy rails that trap idle liquidity to function properly.\n2. Key Takeaways: Western Union launched its 1st stablecoin, USDPT, on Solana with Anchorage Digital Bank.\n3. Solana’s 24/7 settlement capabilities free up idle liquidity […]",
+    "url": "https://news.bitcoin.com/remittance-giant-western-union-ditches-legacy-rails-for-its-own-stablecoin/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-04T14:35:16.000Z"
+  },
+  {
+    "id": "1c1968fa-80eb-408a-a8a6-daed9661b121",
+    "source": "The Block",
+    "type": "rss",
+    "title": "BitMine adds 101,745 ETH for $238 million in third straight weekly buy above 100,000 tokens",
+    "summary": "1. BitMine Immersion's latest weekly buy pushes total ether holdings to 5.18 million tokens worth around $12.1 billion.",
+    "url": "https://www.theblock.co/post/399883/bitmine-adds-101745-eth-in-third-straight-weekly-buy-above-100000-tokens?utm_source=rss&utm_medium=rss",
+    "author": "Naga Avan-Nomayo",
+    "created_at": "2026-05-04T14:33:11.000Z"
+  },
+  {
+    "id": "b741466e-7275-40ff-8642-a7056ae6bab2",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "DTCC to begin limited tokenized securities trading in July.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#d21b54f5",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-04T14:32:23+00:00"
+  },
+  {
+    "id": "c6b6efa6-a7c1-4f91-8aab-2aad4bbed8c3",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "US healthcare marketplaces shared citizenship and race data with ad tech giants",
+    "summary": "1. Virginia and Washington D.C.\n2. paused the data collection and sharing, after Bloomberg's investigation found their health insurance marketplaces were sharing users' information with advertisers.",
+    "url": "https://techcrunch.com/2026/05/04/us-healthcare-marketplaces-shared-citizenship-and-race-data-with-ad-tech-giants/",
+    "author": "Zack Whittaker",
+    "created_at": "2026-05-04T14:30:23.000Z"
+  },
+  {
+    "id": "05cad2bd-1c30-4f3a-958d-1d1a0a2ec4cd",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Tom Lee says 'crypto spring' started as largest Ethereum treasury buys $238 million in ether",
+    "summary": "1. Bitmine's latest ETH purchase comes as Lee cited progress on digital asset regulation CLARITY Act as a key catalyst for crypto markets.",
+    "url": "https://www.coindesk.com/business/2026/05/04/tom-lee-says-crypto-spring-started-as-largest-ethereum-treasury-buys-usd238-million-in-ether",
+    "author": "Krisztian Sandor",
+    "created_at": "2026-05-04T14:23:18.000Z"
+  },
+  {
+    "id": "2c60e3fa-dd92-47f5-b1c3-da02996a1642",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Trump Family’s World Liberty Claims in Lawsuit That Justin Sun Shorted WLFI, Crashed Price",
+    "summary": "1. The defamation suit comes days after Justin Sun filed his own lawsuit against the Trump family’s crypto firm, claiming rampant misconduct.",
+    "url": "https://decrypt.co/366635/trump-family-world-liberty-lawsuit-justin-sun-shorted-wlfi-crashed-price",
+    "author": "Sander Lutz",
+    "created_at": "2026-05-04T14:19:04.000Z"
+  },
+  {
+    "id": "1b44fd8a-fd68-4384-88ff-6c87e1a5ef50",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "🇺🇸 64% chance President Trump signs crypto market structure legislation into law this year.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#d3951493",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-04T14:14:49+00:00"
+  },
+  {
+    "id": "fea5893b-ebfa-418a-8ee8-ba8d7520e5fe",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Amazon opens up its global logistics network to all businesses",
+    "summary": "1. The new service, called Amazon Supply Chain Services, pits the e-commerce giant directly against UPS and FedEx.",
+    "url": "https://techcrunch.com/2026/05/04/amazon-opens-up-its-global-logistics-network-to-all-businesses/",
+    "author": "Aisha Malik",
+    "created_at": "2026-05-04T14:13:53.000Z"
+  },
+  {
+    "id": "4b264d38-ccda-435c-b811-f5672fcef47b",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bitcoin in ‘disbelief rally’ as traders spot $84K BTC price target",
+    "summary": "1. Bitcoin’s rally on Monday pushed it above $80,000 for the first time since January as analysts say BTC price could rise further to fill the futures gap at $84,000 in the short term.",
+    "url": "https://cointelegraph.com/markets/bitcoin-in-disbelief-rally-as-traders-eye-84k-btc-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Nancy Lubale",
+    "created_at": "2026-05-04T14:08:41.000Z"
+  },
+  {
+    "id": "efabcda9-1346-4eb7-b269-58eeeecee256",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Tether Mints 5 Billion USDT in Two Weeks as Liquidity Signal Builds Alongside Bitcoin Rally",
+    "summary": "1. Tether has minted 5 billion USDT across Ethereum and Tron over the past two weeks, including a fresh 1 billion USDT issuance, in a liquidity injection that analysts read as a bullish demand signal for the broader crypto market.\n2. Key Takeaways: Tether minted 5B USDT in two weeks, including 1B USDT on Tron on May […]",
+    "url": "https://news.bitcoin.com/tether-mints-5-billion-usdt-two-weeks-bitcoin-rally/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-04T14:05:00.000Z"
+  },
+  {
+    "id": "1233eb6a-369b-4b67-a974-585ae9975e40",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Binance is launching a withdrawal lock to help deter crypto wrench attacks",
+    "summary": "1. The lock is meant to protect users from being forced into withdrawing their funds, though it's an internal policy and not a cryptographic lock.",
+    "url": "https://www.coindesk.com/business/2026/05/04/binance-is-launching-a-withdrawal-lock-to-help-deter-crypto-wrench-attacks",
+    "author": "Francisco Rodrigues",
+    "created_at": "2026-05-04T14:00:00.000Z"
+  },
+  {
+    "id": "f59ab2d8-dda9-4f16-b7f5-0c0ea43ab0c5",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+    "summary": "1. The BOGO offer is live.\n2. For a limited time, buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type.\n3. Offer ends this Friday, May 8.",
+    "url": "https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+    "author": "TechCrunch Events",
+    "created_at": "2026-05-04T14:00:00.000Z"
+  },
+  {
+    "id": "bc8e1d88-c78f-4725-8dda-756bd16d5403",
+    "source": "Bitcoin Magazine",
+    "type": "rss",
+    "title": "Strategy (MSTR) Pauses Bitcoin Buys Ahead of Earnings, Stock Jumps Over 10% in 2 Days",
+    "summary": "1. Bitcoin Magazine\n\nStrategy (MSTR) Pauses Bitcoin Buys Ahead of Earnings, Stock Jumps Over 10% in 2 Days\nStrategy paused its weekly bitcoin buys ahead of earnings as investors zero in on losses and the durability of its capital-raising machine.\n2. This post Strategy (MSTR) Pauses Bitcoin Buys Ahead of Earnings, Stock Jumps Over 10% in 2 Days first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+    "url": "https://bitcoinmagazine.com/news/strategy-mstr-pauses-bitcoin-buys-earnings",
+    "author": "Micah Zimmerman",
+    "created_at": "2026-05-04T13:55:34.000Z"
+  },
+  {
+    "id": "c1491f22-636f-4cf8-ae44-d00d8b2ae414",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Strategy will not buy Bitcoin this week, Michael Saylor said, marking the firm’s second pause in weekly acquisitions this year ahead of its Q1 earnings release Tuesday.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#f988c0bd",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-04T13:54:07+00:00"
+  },
+  {
+    "id": "142cfb76-2bef-4ee9-9743-10adf7aa7e5d",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "GameStop Makes $55.5 Billion Offer to Acquire eBay",
+    "summary": "1. GameStop has built a 5% stake in eBay and proposed to fund the deal with cash on hand plus third-party financing.",
+    "url": "https://decrypt.co/366627/gamestop-makes-55-5-billion-offer-acquire-ebay",
+    "author": "Decrypt Agent",
+    "created_at": "2026-05-04T13:50:55.000Z"
+  },
+  {
+    "id": "053110a4-f16e-4f63-8831-bf27fbce2a6e",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "🇺🇸 Trump family's crypto firm World Liberty Financial files defamation lawsuit against TRON Founder Justin Sun.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#5236aacb",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-04T13:39:49+00:00"
+  },
+  {
+    "id": "fb285b08-c8c5-423f-9bce-9b330efa2ccf",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "STRAIT OF HORMUZ IS CLOSED COMPLETELY- IRGCTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#c7a05f33",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-04T13:39:28+00:00"
+  },
+  {
+    "id": "cbe04fc5-fc9f-4936-b6fa-110ebd4c4b2b",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "SEC delays prediction market ETFs over mechanics and risk concerns: Report",
+    "summary": "1. The regulator reportedly requested more information from Roundhill, GraniteShares and Bitwise about how the event contract funds would work.",
+    "url": "https://cointelegraph.com/news/prediction-market-etf-sec-delay-mechanics-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Helen Partz",
+    "created_at": "2026-05-04T13:35:00.000Z"
+  },
+  {
+    "id": "df2b6833-ce9d-4091-aa52-3bec28f752bc",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Trump-affiliated World Liberty sues Justin Sun for 'defamation' after Tron creator's lawsuit",
+    "summary": "1. World Liberty alleged that Sun engaged in short-selling, straw purchases and defamation.",
+    "url": "https://www.coindesk.com/policy/2026/05/04/trump-affiliated-world-liberty-sues-justin-sun-for-defamation-after-tron-creator-s-lawsuit",
+    "author": "Nikhilesh De",
+    "created_at": "2026-05-04T13:25:16.000Z"
+  },
+  {
+    "id": "5c4f19f4-4ac8-45db-bbc0-ed1f7cc78be7",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bitcoin price eyes $96K as institutions absorb 500% of daily BTC supply",
+    "summary": "1. In past instances, BTC has averaged 24% gains in one month when institutional demand absorbed over 500% of the daily mined supply.",
+    "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-96k-as-institutions-absorb-500-of-daily-btc-supply?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Yashu Gola",
+    "created_at": "2026-05-04T13:21:59.000Z"
+  },
+  {
     "id": "0979a9ce-9c76-4f92-853a-b1fc962696f1",
     "source": "CoinDesk",
     "type": "rss",
@@ -20,7 +290,7 @@
     "created_at": "2026-05-04T13:11:58+00:00"
   },
   {
-    "id": "e077e0ff-1353-4909-ae8d-7ca793ff433f",
+    "id": "45f0b413-20a3-446f-a832-f85d836e72c7",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "BESSENT ON STRAIT OF HORMUZ-U.S.",
@@ -120,7 +390,7 @@
     "created_at": "2026-05-04T12:54:11+00:00"
   },
   {
-    "id": "2d8b3532-e7d4-4541-b7e0-b9e64f4d1e1b",
+    "id": "ba9c40b0-b64b-4c64-8c8f-a0321fd43c3b",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "BitMine $ETH holdings rise to 5.18M after buying 101,745 tokens last week, taking stake to ~4.29% of total supplyTwitter",
@@ -188,6 +458,16 @@
     "url": "https://t.me/CoinMarketCapAnnouncements#5ba02e34",
     "author": "@CoinMarketCapAnnouncements",
     "created_at": "2026-05-04T11:54:26+00:00"
+  },
+  {
+    "id": "9c6ac139-0d16-463d-a525-b8bb4f52472e",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "Western Union Stablecoin USDPT Launches on Solana",
+    "summary": "1. Western Union's USDPT stablecoin has gone live on the Solana blockchain, marking the traditional remittance giant's entry into on-chain digital assets.",
+    "url": "https://thedefiant.io/news/tradfi-and-fintech/western-union-usdpt-stablecoin-solana-launch-frei03",
+    "author": "DefAInt",
+    "created_at": "2026-05-04T11:47:01.000Z"
   },
   {
     "id": "6bd14d29-060a-428e-8571-d37187cd49a1",
@@ -258,135 +538,5 @@
     "url": "https://techcrunch.com/2026/05/04/ousters-new-color-lidar-is-coming-to-replace-cameras/",
     "author": "Sean O'Kane",
     "created_at": "2026-05-04T10:00:00.000Z"
-  },
-  {
-    "id": "9b1767b6-efb5-4894-8417-31ca4d3f56b2",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Raoul Pal Backs Zcash as Bitcoin’s ‘Younger Sibling’ While ZEC Climbs 8%, Outpacing Altcoins",
-    "summary": "1. Zcash has surged past $400 for the first time since January, peaking at $424 on May 3.\n2. The rally marks a 100% rebound from its year-to-date low and puts it within striking distance of Monero.\n3. Key Takeaways: Zcash (ZEC) surged past $400 on May 3, marking its first climb to that level since early 2026.",
-    "url": "https://news.bitcoin.com/raoul-pal-backs-zcash-as-bitcoins-younger-sibling-while-zec-climbs-8-outpacing-altcoins/",
-    "author": "Terence Zimwara",
-    "created_at": "2026-05-04T08:55:34.000Z"
-  },
-  {
-    "id": "940edfc0-c02c-4042-a050-fce0bc973a3f",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "US operation in Strait of Hormuz could begin within hours, with naval presence to protect ships but no close escort, I24News reportsTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#e06c61c4",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-04T08:49:06+00:00"
-  },
-  {
-    "id": "af587d65-4c94-499f-832b-4a741df433c2",
-    "source": "The Block",
-    "type": "rss",
-    "title": "North Korea blames ‘reptile media’ over reports of crypto theft",
-    "summary": "1. North Korea rejected U.S.\n2. cybercrime claims as 'absurd slander,' blaming media as crypto theft attributed to the country exceeded $6 billion.",
-    "url": "https://www.theblock.co/post/399854/north-korea-blames-crypto-theft-reports?utm_source=rss&utm_medium=rss",
-    "author": "Brian Danga",
-    "created_at": "2026-05-04T08:40:49.000Z"
-  },
-  {
-    "id": "1aaa9da8-fa6b-43e3-86da-91d211eb63e3",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🇺🇸 Senators Thom Tillis and Angela Alsobrooks have released a stablecoin yield compromise, potentially clearing the way for a long-stalled CLARITY Act markup.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#2bdacc1a",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-04T08:39:15+00:00"
-  },
-  {
-    "id": "1d7428bc-f4c7-4e99-bead-71c44300e29a",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Wintermute deposits $6.7M in B to exchange",
-    "summary": "Crypto market maker Wintermute deposited 17.16 million B, worth $6.67 million, to Gate.io five hours ago, according to ai_9684xtpa. In the three hours following the transfer, the price of B fell 16.8% from $0.3914 to $0.3257. Wintermute currently holds $33,000 worth of B.",
-    "url": "https://t.me/CoinnessGL#d64263d2",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T08:28:58+00:00"
-  },
-  {
-    "id": "11d2542c-bef4-4b96-8d15-574bc056b4f6",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "US law firm attempts to block transfer of frozen ETH from Kelp exploit",
-    "summary": "1. Gerstein Harrow has filed similar cases in the past, arguing its clients have a claim to funds stolen by the DPRK and frozen by crypto firms.",
-    "url": "https://cointelegraph.com/news/law-firm-tries-to-claim-kelp-exploit-eth-because-clients-owed-by-dprk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Stephen Katte",
-    "created_at": "2026-05-04T08:27:35.000Z"
-  },
-  {
-    "id": "8185cc28-a73c-4e75-be83-acc217e54f43",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Institutions absorb over 500% of daily BTC mining output in bullish sign",
-    "summary": "Institutional investors are purchasing more than five times the daily mining volume of BTC, according to Charles Edwards, founder of Capriole Investments. He noted that in similar situations in the past, the price of BTC has risen by an average of 24% within a month, suggesting that the cryptocurrency could potentially reach $96,000.",
-    "url": "https://t.me/CoinnessGL#8442ae7d",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T08:21:39+00:00"
-  },
-  {
-    "id": "ef584f80-05dd-4886-b54e-011cee1c03f1",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "1,000 million USDT minted",
-    "summary": "Whale Alert reported that 1,000 million USDT has been minted at the Tether Treasury.",
-    "url": "https://t.me/CoinnessGL#055f25a3",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-04T08:20:13+00:00"
-  },
-  {
-    "id": "af19e8d1-c933-4fab-a4ae-223fb1a0b870",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Kraken parent Payward completes Bitnomial acquisition, securing CFTC-regulated derivatives stack to offer crypto futures and options in the USTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#f3421422",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-04T08:02:00+00:00"
-  },
-  {
-    "id": "e0fb39e4-9a2e-42e2-90a2-08bb26c979fa",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Jobs data, earnings calls: Crypto Week Ahead",
-    "summary": "1. Your look at what's coming in the week starting May 4.",
-    "url": "https://www.coindesk.com/markets/2026/05/04/jobs-data-earnings-calls-crypto-week-ahead",
-    "author": "Francisco Rodrigues",
-    "created_at": "2026-05-04T08:00:00.000Z"
-  },
-  {
-    "id": "aa88436b-a9a5-40f2-a0bf-9ad6dbf21bce",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Blackrock’s European Bitcoin ETP Surpasses $1.1 Billion in Assets With 14,200 BTC",
-    "summary": "1. Blackrock’s European iShares Bitcoin exchange-traded product has crossed $1.1 billion in assets under management just over a year after its launch, confirming that institutional demand for regulated bitcoin exposure has taken hold well beyond the U.S.\n2. Key Takeaways: Blackrock’s European IB1T ETP crossed $1.1 billion AUM with 14,200 BTC as of May 4, 2026.",
-    "url": "https://news.bitcoin.com/blackrock-european-bitcoin-etp-1-billion-aum-ib1t/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-04T07:45:04.000Z"
-  },
-  {
-    "id": "61ee821d-ed44-4dde-97ce-34fc379e82db",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "⚡ BlackRock is urging the OCC to drop a proposed 20% cap on tokenized reserve assets, arguing it would limit growth of its $2.6B BUIDL fund.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#89053c9e",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-04T07:19:36+00:00"
-  },
-  {
-    "id": "f5c4c199-2f0e-46eb-98e2-fb3d1e546003",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Recovery in bitcoin ETF inflows is real. It is just not complete yet.",
-    "summary": "1. While ETF inflows have resumed, the recovery has yet to match last fall’s peak.",
-    "url": "https://www.coindesk.com/markets/2026/05/04/the-bitcoin-etf-recovery-in-flows-is-real-it-is-just-not-complete-yet",
-    "author": "Omkar Godbole",
-    "created_at": "2026-05-04T07:14:17.000Z"
   }
 ]
