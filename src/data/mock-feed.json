@@ -1,5 +1,25 @@
 [
   {
+    "id": "9b1767b6-efb5-4894-8417-31ca4d3f56b2",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Raoul Pal Backs Zcash as Bitcoin’s ‘Younger Sibling’ While ZEC Climbs 8%, Outpacing Altcoins",
+    "summary": "1. Zcash has surged past $400 for the first time since January, peaking at $424 on May 3.\n2. The rally marks a 100% rebound from its year-to-date low and puts it within striking distance of Monero.\n3. Key Takeaways: Zcash (ZEC) surged past $400 on May 3, marking its first climb to that level since early 2026.",
+    "url": "https://news.bitcoin.com/raoul-pal-backs-zcash-as-bitcoins-younger-sibling-while-zec-climbs-8-outpacing-altcoins/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-05-04T08:55:34.000Z"
+  },
+  {
+    "id": "940edfc0-c02c-4042-a050-fce0bc973a3f",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "US operation in Strait of Hormuz could begin within hours, with naval presence to protect ships but no close escort, I24News reportsTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#e06c61c4",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-04T08:49:06+00:00"
+  },
+  {
     "id": "af587d65-4c94-499f-832b-4a741df433c2",
     "source": "The Block",
     "type": "rss",
@@ -10,7 +30,7 @@
     "created_at": "2026-05-04T08:40:49.000Z"
   },
   {
-    "id": "3c88ac73-a33c-4099-b93e-8f7669763758",
+    "id": "1aaa9da8-fa6b-43e3-86da-91d211eb63e3",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇺🇸 Senators Thom Tillis and Angela Alsobrooks have released a stablecoin yield compromise, potentially clearing the way for a long-stalled CLARITY Act markup.",
@@ -20,7 +40,7 @@
     "created_at": "2026-05-04T08:39:15+00:00"
   },
   {
-    "id": "6602bb52-9d4a-4937-99a6-e6acc52a876e",
+    "id": "1d7428bc-f4c7-4e99-bead-71c44300e29a",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Wintermute deposits $6.7M in B to exchange",
@@ -40,7 +60,7 @@
     "created_at": "2026-05-04T08:27:35.000Z"
   },
   {
-    "id": "009565cb-ec1d-4a32-ad92-c7a3b9b356a4",
+    "id": "8185cc28-a73c-4e75-be83-acc217e54f43",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Institutions absorb over 500% of daily BTC mining output in bullish sign",
@@ -50,7 +70,7 @@
     "created_at": "2026-05-04T08:21:39+00:00"
   },
   {
-    "id": "cb445423-5936-4a0d-b684-7d0fb89e1101",
+    "id": "ef584f80-05dd-4886-b54e-011cee1c03f1",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "1,000 million USDT minted",
@@ -60,7 +80,7 @@
     "created_at": "2026-05-04T08:20:13+00:00"
   },
   {
-    "id": "eec0a53c-0d3c-4e1b-8d9a-c17a0576f827",
+    "id": "af19e8d1-c933-4fab-a4ae-223fb1a0b870",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Kraken parent Payward completes Bitnomial acquisition, securing CFTC-regulated derivatives stack to offer crypto futures and options in the USTwitter",
@@ -90,7 +110,7 @@
     "created_at": "2026-05-04T07:45:04.000Z"
   },
   {
-    "id": "57077015-53d5-4e8a-905d-2b61a6e70ff2",
+    "id": "61ee821d-ed44-4dde-97ce-34fc379e82db",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ BlackRock is urging the OCC to drop a proposed 20% cap on tokenized reserve assets, arguing it would limit growth of its $2.6B BUIDL fund.",
@@ -358,35 +378,5 @@
     "url": "https://news.bitcoin.com/despite-warsh-replacing-powell-at-the-fed-traders-see-no-rate-cut-coming-in-june/",
     "author": "Jamie Redman",
     "created_at": "2026-05-04T03:30:29.000Z"
-  },
-  {
-    "id": "ee025e8c-8682-4667-8bfb-87697b6c3f48",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Michael Saylor’s Strategy pauses weekly bitcoin purchases ahead of Q1 earnings release",
-    "summary": "1. Strategy's Q1 earnings report is set to release on Tuesday, with Wall Street expecting a $18.98 loss per share.",
-    "url": "https://www.theblock.co/post/399828/strategy-pauses-bitcoin-purchase-q1-earnings?utm_source=rss&utm_medium=rss",
-    "author": "Danny Park",
-    "created_at": "2026-05-04T03:05:49.000Z"
-  },
-  {
-    "id": "94c12937-17cf-474f-8ece-72cbc03df6c9",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "$150,000,000 worth of crypto shorts liquidated in the past 60 minutes.@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#2f9b4f05",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-04T02:52:47+00:00"
-  },
-  {
-    "id": "017e5eb2-29a1-4997-bd7f-fd2130b864ef",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. TERMINATE THE FILIBUSTER, AND WIN!!!\n2. President DJT",
-    "url": "https://trumpstruth.org/statuses/38158",
-    "author": "Trump Truth",
-    "created_at": "2026-05-04T02:51:11.000Z"
   }
 ]
