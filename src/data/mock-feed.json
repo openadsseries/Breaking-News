@@ -1,5 +1,125 @@
 [
   {
+    "id": "1b2c35f3-bc9c-4c70-b7db-fb1bec602588",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "It's transparency, not tech alone, that drives crypto adoption, panelists tell Consensus Miami",
+    "summary": "1. Execs from PayPal, Robinhood, Public.com and 248 Ventures said the way to move retail into crypto and AI is to slow down, show your work, and put users back in control.",
+    "url": "https://www.coindesk.com/business/2026/05/05/it-s-transparency-not-tech-alone-that-drives-crypto-adoption-panelists-tell-consensus-miami",
+    "author": "Jeffrey Albus",
+    "created_at": "2026-05-05T22:04:41.000Z"
+  },
+  {
+    "id": "f4669ff2-0ca4-47e4-9458-011baa1f8556",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Trump-related meme coins rise slightly after airport logo reveal",
+    "summary": "Meme coins related to U.S. President Donald Trump, including TRUMP, MAGA, and DJT, saw a slight increase after the president's second son, Eric Trump, unveiled the official logo for the forthcoming Trump International Airport, BeInCrypto reported. The airport, currently Palm Beach Airport in Florida, is scheduled to be renamed on July 1.Despite the rebound, the outlet noted that the tokens remain significantly below their 2025 highs, with all Trump-related meme coins down more than 96% from their peaks.",
+    "url": "https://t.me/CoinnessGL#d7350e43",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-05T22:04:41+00:00"
+  },
+  {
+    "id": "c04ae7e9-ba3c-4883-82a8-8050e1037b1b",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "CME Gearing Up to Launch Bitcoin Volatility Futures Independent From BTC’s Price",
+    "summary": "1. CME's upcoming futures product will track whether the market thinks the price of Bitcoin is about to swing wildly or stay steady.",
+    "url": "https://decrypt.co/366894/cme-launch-bitcoin-volatility-futures-independent-btc-price",
+    "author": "Sander Lutz",
+    "created_at": "2026-05-05T22:01:02.000Z"
+  },
+  {
+    "id": "dcc161fa-405a-4f05-8d1f-897a05ef8a0c",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Ledger to support Hyperliquid perpetual futures trading in hardware wallets",
+    "summary": "Cryptocurrency hardware wallet manufacturer Ledger has partnered with Yield.xyz to support trading in Hyperliquid (HYPE)-based perpetual futures markets within its wallet ecosystem, The Block reported. This integration allows users to conduct leveraged trading in an enhanced security environment while maintaining direct control over their private keys. Yield.xyz is a non-custodial API service that enables sourcing yield from various on-chain activities, including staking, lending, and RWA yields. The Hyperliquid-based service will initially be rolled out to 20% of users in select regions, with a gradual expansion to more countries planned.",
+    "url": "https://t.me/CoinnessGL#bc5df175",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-05T22:01:02+00:00"
+  },
+  {
+    "id": "4901d6fb-7a00-40f3-9409-fa25934600ef",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Different voices in product, policy and hiring change crypto outcomes, panelists tell Consensus Miami",
+    "summary": "1. Senior leaders from Mastercard, the Crypto Council for Innovation and Clerisy said the right people in the right rooms can reshape internal decisions, citing examples from stablecoin-linked cards and financial access to staking-policy framing in Washington.",
+    "url": "https://www.coindesk.com/business/2026/05/05/different-voices-in-product-policy-and-hiring-change-crypto-outcomes-panelists-tell-consensus-miami",
+    "author": "Jeffrey Albus",
+    "created_at": "2026-05-05T21:57:20.000Z"
+  },
+  {
+    "id": "7297b861-712d-41a0-beac-e178d47f4f03",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Strategy Posts $12.54B Loss as Bitcoin Holdings Reach 818,334 BTC",
+    "summary": "1. Strategy reported a $12.54 billion net loss in the first quarter of 2026 as bitcoin valuation losses overwhelmed revenue growth and active financing.\n2. The quarter showed how its bitcoin treasury model can scale quickly while exposing investors to sharp earnings volatility.\n3. Key Takeaways: Strategy posted a $12.54 billion net loss in Q1 2026 driven by […]",
+    "url": "https://news.bitcoin.com/strategy-posts-12-54b-loss-as-bitcoin-holdings-reach-818334-btc/",
+    "author": "Kevin Helms",
+    "created_at": "2026-05-05T21:50:38.000Z"
+  },
+  {
+    "id": "39269f2a-d048-4ed4-be90-f86253551a78",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "AI agents are breaking web economics, but Cloudflare says x402 can help",
+    "summary": "1. The company’s Chief Strategy Officer said that more than half of internet traffic is now non-human, but that the x402 Foundation is building the rails for a \"golden age of content.\"",
+    "url": "https://www.coindesk.com/tech/2026/05/05/ai-agents-are-breaking-web-economics-but-cloudflare-says-x402-can-help",
+    "author": "Jeffrey Albus",
+    "created_at": "2026-05-05T21:47:54.000Z"
+  },
+  {
+    "id": "01245152-11da-40f0-95a0-9e41539e18a2",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "'Moment of Danger': Anthropic CEO Warns of Cyber Risk Window as AI Uncovers Software Flaws",
+    "summary": "1. Experts warn that AI is exposing software bugs at scale, raising the risk of faster cyberattacks.",
+    "url": "https://decrypt.co/366891/anthropic-warns-cyber-risk-window-ai-uncovers-flaws",
+    "author": "Jason Nelson",
+    "created_at": "2026-05-05T21:36:03.000Z"
+  },
+  {
+    "id": "f6c86aa6-69b7-4536-8e06-2e745f6c6fb2",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Polygon Unveils Private Stablecoin Payments to Lure Traditional Finance",
+    "summary": "1. The solution, which uses zero-knowledge proofs to verify every transfer, will allow companies moving large volumes to maintain the secrecy of these movements, improving transaction confidentiality.\n2. The system implementation encompasses KYT screening from regulators.\n3. Key Takeaways: Polygon partnered with Hinkal to launch a ZKP-powered private payment solution for USDC and USDT.",
+    "url": "https://news.bitcoin.com/polygon-unveils-private-stablecoin-payments-to-lure-traditional-finance/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-05T21:35:38.000Z"
+  },
+  {
+    "id": "e215d6c4-71f5-4896-b910-ba3a2e03e020",
+    "source": "The Block",
+    "type": "rss",
+    "title": "CFTC looks to cement non-custodial software developer protections following Phantom no-action letter",
+    "summary": "1. The CFTC is considering writing rules to further cement its stance on whether software developers should register as brokers with the agency.",
+    "url": "https://www.theblock.co/post/400133/cftc-looks-to-cement-non-custodial-software-developer-protections-following-phantom-no-action-letter?utm_source=rss&utm_medium=rss",
+    "author": "Sarah Wynn",
+    "created_at": "2026-05-05T21:29:52.000Z"
+  },
+  {
+    "id": "cd6ad047-0809-4cdc-8aa7-560d94040612",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Binance will replace fixed pricing with a dynamic EWMA model for commodity TradFi perpetuals during weekends and off-hours, effective May 8 at 21:00 UTC.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#cad345ad",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-05T21:29:23+00:00"
+  },
+  {
+    "id": "64248456-e52a-4e8c-b0c4-4d0c1e6cda63",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "How Solana Exchange Drift Plans to Repay Users After $295 Million Crypto Hack",
+    "summary": "1. Solana's Drift Protocol says most of the stolen funds linked to North Korean hackers remain traceable—and it has a plan to make victims whole.",
+    "url": "https://decrypt.co/366897/how-solana-exchange-drift-repay-users-295-million-crypto-hack",
+    "author": "Decrypt Agent",
+    "created_at": "2026-05-05T21:25:23.000Z"
+  },
+  {
     "id": "0634a8b6-d9c8-4544-8ce0-7c794db29741",
     "source": "CoinDesk",
     "type": "rss",
@@ -80,7 +200,7 @@
     "created_at": "2026-05-05T21:12:52.000Z"
   },
   {
-    "id": "d2d47979-e339-40aa-83d7-4eeffff550e9",
+    "id": "4114b681-dfa6-4d03-ba46-a14f599c2197",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "$101 million worth of futures liquidated in the past hour",
@@ -90,7 +210,7 @@
     "created_at": "2026-05-05T21:06:08+00:00"
   },
   {
-    "id": "b15c1225-f48a-495a-82e9-ea2620bd64a8",
+    "id": "3176a780-2610-4b6e-8a6c-fc720ea042e8",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Strategy Posts Q1 Unrealised Loss Of $12.5BTwitter",
@@ -110,7 +230,7 @@
     "created_at": "2026-05-05T21:00:00.000Z"
   },
   {
-    "id": "c933593b-3770-4b9e-9c83-8ee92af43546",
+    "id": "570b7ad0-0bb0-48d3-b86f-bd3b9997381c",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ CME Group plans to launch the first regulated Bitcoin volatility futures on June 1, pending CFTC approval.",
@@ -140,7 +260,7 @@
     "created_at": "2026-05-05T20:53:11+00:00"
   },
   {
-    "id": "60f77403-5c60-496f-ba35-b63b93de81fc",
+    "id": "fe49645c-a9d2-4760-8487-88706d01e0f5",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "💰 Strategy reported a $14.47B operating loss in Q1 2026, driven by unrealized losses of $14.46B on its 818,334 BTC holdings.",
@@ -300,7 +420,7 @@
     "created_at": "2026-05-05T19:45:25.000Z"
   },
   {
-    "id": "e93cbc43-2e31-405c-baec-cb10446a1c2d",
+    "id": "664256ea-c262-4afe-8dfd-8ca79f8d4a28",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "OPERATION EPIC FURY 'IS OVER,' NOW 'PROJECT FREEDOM'- RUBIOTwitter",
@@ -360,7 +480,7 @@
     "created_at": "2026-05-05T19:19:31+00:00"
   },
   {
-    "id": "b7e0cbfc-d3a4-496e-a77e-db696aef263a",
+    "id": "ec1adacb-87dc-4004-b1cc-485fee72ff84",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "CME Group to launch Bitcoin volatility futures contracts on June 1st.@WatcherGuru",
@@ -400,7 +520,7 @@
     "created_at": "2026-05-05T19:11:47.000Z"
   },
   {
-    "id": "7287d0c4-6092-43fe-bf33-e640b5b3a93b",
+    "id": "f1fddd70-49f9-49ba-bf07-15cfa05e50c2",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "CME to launch bitcoin volatility futures on June 1 pending approval, settling to CME aCF Bitcoin Volatility Index (BVX)Twitter",
@@ -540,7 +660,7 @@
     "created_at": "2026-05-05T18:01:30.000Z"
   },
   {
-    "id": "b38deae5-98b6-4acd-84fa-e07b91347bc2",
+    "id": "e64751d3-9440-4134-af18-5ed48b88ce5c",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Apple $AAPL surpasses Silver to become the 4th largest asset in the world by market cap.@WatcherGuru",
@@ -588,15 +708,5 @@
     "url": "https://reddit.com/r/CryptoCurrency/comments/1t4ksmp/coinbase_didnt_just_lay_off_14_of_its_staff_due/",
     "author": "u/fortune",
     "created_at": "2026-05-05T16:38:19.000Z"
-  },
-  {
-    "id": "e3e176c9-246d-4a67-9ae6-02ce506b46d6",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸 SEC proposes allowing companies to report earnings twice a year.@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#fdf4a269",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-05T16:00:53+00:00"
   }
 ]
