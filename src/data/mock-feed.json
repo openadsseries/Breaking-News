@@ -1,452 +1,382 @@
 [
   {
-    "id": "c438edf2-7a52-4e63-aa34-8ea439f86e43",
-    "source": "@CoinnessGL",
+    "id": "2fcf1c13-20ea-40ee-9a86-e01022d9ca05",
+    "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
-    "title": "Uniswap discusses recalling $42M in UNI lent to delegates",
-    "summary": "The Uniswap DAO is discussing a governance proposal to recall 12.5 million UNI, worth $42 million, that was previously lent to its delegates, DL News reported. The tokens were loaned to the Uniswap Foundation and key delegates in 2022 and 2023 to stimulate governance activity. According to the proposal's author, the loaned tokens have served their purpose, as the governance environment is now sufficiently active. DL News added that addressing the practice of delegates voting without their own capital at stake is crucial for ensuring governance health, as it can create a misalignment between economic exposure and voting power.",
-    "url": "https://t.me/CoinnessGL#860abfbb",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-05T12:38:21+00:00"
+    "title": "📈 Bitcoin hit a 13-week high above $81,000, but traders warn the rally could stall if BTC fails to break and hold above key resistance levels.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#571a6e98",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-05T19:59:29+00:00"
   },
   {
-    "id": "68d587c9-6b08-4710-a0b9-0b5455c9e773",
+    "id": "4e908478-3187-4bf1-a69c-cc4af8fa7d56",
     "source": "TechCrunch",
     "type": "rss",
-    "title": "Coinbase to lay off 14% of staff as part of broader restructuring",
-    "summary": "1. The restructuring is aimed at addressing market volatility and increasing the use of AI tools to improve efficiency.",
-    "url": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/",
-    "author": "Ivan Mehta",
-    "created_at": "2026-05-05T12:35:46.000Z"
+    "title": "Volkswagen becomes Rivian’s top shareholder, displacing Amazon",
+    "summary": "1. VW Group's stake will continue to grow under the $5.8 billion joint venture with Rivian.",
+    "url": "https://techcrunch.com/2026/05/05/volkswagen-becomes-rivians-top-shareholder-displacing-amazon/",
+    "author": "Kirsten Korosec",
+    "created_at": "2026-05-05T19:58:57.000Z"
   },
   {
-    "id": "41d48fb2-9684-4a78-9f61-b0327916c834",
-    "source": "The Block",
+    "id": "16d4d902-846d-41c0-8ae2-cca0248353d2",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "SoFi to issue its stablecoin on Solana network",
+    "summary": "U.S. fintech platform SoFi (SOFI) announced it will issue its stablecoin on the Solana network, citing speed and cost savings. According to The Block, SoFi explained that Solana was chosen for its cost-effectiveness, settlement speed, and overall throughput. In December 2025, SoFi launched SoFiUSD, the first stablecoin issued by U.S. national bank SoFi Bank and backed by Federal Reserve cash.",
+    "url": "https://t.me/CoinnessGL#8c694498",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-05T19:51:37+00:00"
+  },
+  {
+    "id": "62f18153-e32d-4037-9699-9f515e173037",
+    "source": "Trump Truth",
     "type": "rss",
-    "title": "Global crypto ETP inflow streak extends to five weeks, masking sharp intraweek reversal: CoinShares",
-    "summary": "1. The inflows mark the fifth straight positive week, though the total masked strong outflows that were reversed by a single session on Friday.",
-    "url": "https://www.theblock.co/post/400016/global-crypto-etp-inflow-streak-extends-to-five-weeks-masking-sharp-intraweek-reversal-coinshares?utm_source=rss&utm_medium=rss",
-    "author": "James Hunt",
-    "created_at": "2026-05-05T12:23:55.000Z"
+    "title": "New post from Donald Trump",
+    "summary": "1. RT @EricTrumpFor the first time, I am extremely proud to share the OFFICIAL logo for the Donald J.\n2. Trump International Airport in Palm Beach, Florida.\n3. There is no person more deserving of this incredible honor than @realDonaldTrump!",
+    "url": "https://trumpstruth.org/statuses/38206",
+    "author": "Trump Truth",
+    "created_at": "2026-05-05T19:46:59.000Z"
   },
   {
-    "id": "b3b8fcb5-f5ce-4cb1-bac5-8c4a5422c8cb",
+    "id": "470dcf16-cf46-4362-a12d-817c56f65ba3",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "CME Group to Launch Bitcoin Volatility Futures on June 1",
+    "summary": "1. The derivatives giant is rolling out CFTC-regulated contracts that let traders isolate Bitcoin volatility from price direction, settling to a new 30-day implied volatility benchmark.",
+    "url": "https://thedefiant.io/news/tradfi-and-fintech/cme-group-to-launch-bitcoin-volatility-futures-on-june-1",
+    "author": "yyctrader",
+    "created_at": "2026-05-05T19:46:58.000Z"
+  },
+  {
+    "id": "2dfed725-4f7f-4461-b5b8-332ec3f06344",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Congressman Max Miller is a fantastic Champion for the Great People of Ohio’s 7th Congressional District!\n2. Max bravely served our Country in the U.S.\n3. Marine Corps and, during my First Administration, worked hard to advance our AMERICA FIRST Agenda.",
+    "url": "https://trumpstruth.org/statuses/38208",
+    "author": "Trump Truth",
+    "created_at": "2026-05-05T19:45:25.000Z"
+  },
+  {
+    "id": "5f3e7461-fbee-4332-9100-7e77594def5d",
     "source": "@SolidIntelX",
     "type": "telegram",
-    "title": "Hegseth says Iran ceasefire remains in effectTwitter",
+    "title": "OPERATION EPIC FURY 'IS OVER,' NOW 'PROJECT FREEDOM'- RUBIOTwitter",
     "summary": "",
-    "url": "https://t.me/SolidIntelX#fee86b67",
+    "url": "https://t.me/SolidIntelX#3386f2c4",
     "author": "@SolidIntelX",
-    "created_at": "2026-05-05T12:23:25+00:00"
+    "created_at": "2026-05-05T19:44:24+00:00"
   },
   {
-    "id": "6da566b8-e291-457f-9837-04dca98e95b4",
-    "source": "@SolidIntelX",
+    "id": "cf58d48f-154f-46a9-b5f0-1481139a46d5",
+    "source": "@CoinnessGL",
     "type": "telegram",
-    "title": "Iranian attacks since ceasefire remain below war threshold, Caine says, citing limited drone and missile activity as Tehran reconstitutes forces under US blockade pressureTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#cbab2f3b",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-05T12:20:26+00:00"
+    "title": "US banking industry divided on stablecoin interest proposal",
+    "summary": "The U.S. banking industry is divided over a proposed compromise on stablecoin interest within the crypto market structure bill, reported Eleanor Terrett, host of CryptoInAmerica. According to Terrett, large banks with consumer-facing business divisions are raising objections to the proposal, while banks without such divisions are more receptive. She added that some regional banks have expressed support for the measure, but the Independent Community Bankers of America (ICBA), which represents smaller banks, has also voiced concerns.",
+    "url": "https://t.me/CoinnessGL#11c831ab",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-05T19:43:14+00:00"
   },
   {
-    "id": "dd14a0ca-0dd2-490b-9f2b-543e15c2367d",
+    "id": "da3fbe8c-d03d-443d-9293-867311f4fe0b",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "Bitcoin Reclaims $81,000 As ETF Inflows Surge Despite Iran Escalation",
+    "summary": "1. BTC prints its highest level since January, even as UAE air defenses engage Iranian missiles and drones.",
+    "url": "https://thedefiant.io/news/markets/bitcoin-reclaims-usd81-000-as-etf-inflows-surge-despite-iran-escalation",
+    "author": "yyctrader",
+    "created_at": "2026-05-05T19:35:19.000Z"
+  },
+  {
+    "id": "6ea6d568-269f-4944-849a-6e897e871369",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "A16z Crypto Unveils $2.2 Billion Fund to Build the ‘Next Wave’ of Financial Innovation",
+    "summary": "1. The funds will focus on supporting founders who build solutions around crypto, including payments, financial services, creator platforms, and decentralized infrastructure, which produce lasting value by turning solutions into usable products.\n2. Key Takeaways: A16z Crypto launched its $2.2B Crypto Fund 5 to help startups build the next era of financial tech.\n3. Chris Dixon noted stablecoins […]",
+    "url": "https://news.bitcoin.com/a16z-crypto-unveils-2-2-billion-fund-to-build-the-next-wave-of-financial-innovation/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-05T19:30:23.000Z"
+  },
+  {
+    "id": "ce153f64-e00d-4f15-888f-598b7b5ab276",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "CME plans to launch BTC volatility futures on June 1",
+    "summary": "The U.S. Chicago Mercantile Exchange (CME) plans to launch a Bitcoin volatility futures product on June 1, pending regulatory approval, Solid Intel reported.",
+    "url": "https://t.me/CoinnessGL#4bb214e5",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-05T19:27:34+00:00"
+  },
+  {
+    "id": "316f05ad-b435-4bb2-8a0f-1e0494a1a509",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "💰 Andreessen Horowitz has launched a $2.2 billion crypto fund focused on areas including stablecoins, payments, and blockchain infrastructure.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#411914ef",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-05T19:19:31+00:00"
+  },
+  {
+    "id": "f6709658-a0b1-474c-93b6-040d3c895b08",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "CME Group to launch Bitcoin volatility futures contracts on June 1st.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#9152b6e1",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-05T19:17:55+00:00"
+  },
+  {
+    "id": "e21dc7d8-b417-465a-ac33-5c4f98ffe9b8",
     "source": "Decrypt",
     "type": "rss",
-    "title": "Coinbase Cuts 14% of Staff Amid Crypto 'Down Market,' AI Adoption: CEO",
-    "summary": "1. The crypto exchange is restructuring around artificial intelligence and flattening its org chart, CEO Brian Armstrong said.",
-    "url": "https://decrypt.co/366765/coinbase-cuts-14-of-staff-amid-crypto-down-market-ai-adoption-ceo",
-    "author": "Vismaya V",
-    "created_at": "2026-05-05T12:18:41.000Z"
+    "title": "Cybercrime Might Be the One Job AI Isn’t Taking, Study Suggests",
+    "summary": "1. A Cambridge-led study finds AI is not turning hackers into superhackers.\n2. It’s mostly helping them write blog spam.",
+    "url": "https://decrypt.co/366855/cybercrime-hacking-ai-study",
+    "author": "Jose Antonio Lanz",
+    "created_at": "2026-05-05T19:16:24.000Z"
   },
   {
-    "id": "ac62ae58-3523-4e17-b2b8-9c745087d1ea",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "US Defense Secretary: Threshold to resume operations against Iran not yet met",
-    "summary": "U.S. Secretary of Defense Pete Hegseth said that the truce with Iran is not yet over. He stated that U.S. President Donald Trump has directed the military to resume free commercial navigation in the Strait of Hormuz, warning that Iran will face consequences if it attacks any vessels. Two U.S. merchant ships have already passed through the strait accompanied by a U.S. destroyer, indicating that passage is proceeding smoothly, Hegseth noted. He added that he expects the international community to intervene at the appropriate time, at which point the U.S. will transfer related responsibilities. \"Iran's attacks to date have not met the criteria for resuming large-scale operations,\" Hegseth said. \"However, we are prepared to resume operations at any time.\"",
-    "url": "https://t.me/CoinnessGL#8bc46d76",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-05T12:16:25+00:00"
-  },
-  {
-    "id": "f0c0e67b-a0ce-4361-8f22-afdac38d7a8e",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "US Defense Sec: Hormuz passage smooth, Iran attacks below threshold for major operations",
-    "summary": "U.S. Secretary of Defense Pete Hegseth stated that President Donald Trump has ordered the military to ensure the resumption of free commercial navigation in the Strait of Hormuz, warning that Iran will face consequences if it attacks any vessels. He confirmed that two U.S. merchant ships have already passed through the strait accompanied by a U.S. destroyer, signaling that passage is smooth. Hegseth added that the U.S. expects the international community to step up and is prepared to hand over responsibility for security. He noted that Iranian attacks to date have not met the threshold for resuming large-scale military operations, but affirmed that the U.S. is prepared to do so at any time.",
-    "url": "https://t.me/CoinnessGL#336dd99a",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-05T12:16:25+00:00"
-  },
-  {
-    "id": "bcb7be42-c502-4013-a7e4-7347017b8bff",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Kraken partners with MoneyGram for crypto-to-cash withdrawals in over 100 countries",
-    "summary": "U.S. crypto exchange Kraken has partnered with global payments network MoneyGram to launch a service allowing users to withdraw cryptocurrency as cash in over 100 countries, Fortune Crypto exclusively reported. Kraken Co-CEO Arjun Sethi stated that providing fiat exchange access is crucial for people in countries with volatile currencies who use the platform like a bank. The partnership will enable Kraken customers to visit around 500,000 MoneyGram offline locations worldwide to exchange their crypto for local fiat currency.",
-    "url": "https://t.me/CoinnessGL#4a10c30c",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-05T12:11:17+00:00"
-  },
-  {
-    "id": "15ec3820-6904-414d-94a5-a88540b38d73",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "a16z Crypto raises $2.2B for fifth fund",
-    "summary": "a16z Crypto has closed its fifth fund at $2.2 billion, The Block reported. The new fund comes about four years after the firm raised $4.5 billion for its fourth fund in 2022.According to a16z Crypto, the market is transitioning from a speculative phase to one of practical adoption, and it is focusing on growth in the stablecoin, DeFi, and prediction market sectors. The firm explained that the fund will be invested 100% in cryptocurrency, not in related fields such as AI or robotics. It also added that on the regulatory front, clear legislation like the GENIUS Act for stablecoins will help attract institutional investors.",
-    "url": "https://t.me/CoinnessGL#726e43fd",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-05T12:06:42+00:00"
-  },
-  {
-    "id": "e199955a-14d3-408d-b45d-54b30f130009",
+    "id": "edd41686-81e2-4099-a57c-0a9f676d5c73",
     "source": "The Block",
     "type": "rss",
-    "title": "Coinbase cuts 14% of staff as it navigates downturn, shifts to AI-native operations",
-    "summary": "1. Coinbase CEO Brian Armstrong confirmed the layoffs on X, saying that the company's business remains \"volatile\" from quarter to quarter.",
-    "url": "https://www.theblock.co/post/400023/coinbase-cuts-staff?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-05-05T12:04:12.000Z"
+    "title": "SoFi to launch its stablecoin on Solana, citing speed and cost",
+    "summary": "1. SoFiUSD is a fully reserved U.S.\n2. dollar stablecoin issued by SoFi Bank, a nationally chartered bank.",
+    "url": "https://www.theblock.co/post/400098/sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost?utm_source=rss&utm_medium=rss",
+    "author": "RT Watson",
+    "created_at": "2026-05-05T19:15:55.000Z"
   },
   {
-    "id": "f312261a-8a37-4509-ba03-9656af1c6356",
+    "id": "0165e303-1097-4b90-9ad2-1e7bae55c296",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Tennessee Bankers Association names Stablecore as preferred digital asset provider",
+    "summary": "1. Regional lenders gain access to infrastructure for stablecoins, tokenized deposits and crypto-backed lending without building systems in-house, signaling wider bank adoption.",
+    "url": "https://cointelegraph.com/news/tennessee-bankers-association-stablecore-digital-asset-provider?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Sam Bourgi",
+    "created_at": "2026-05-05T19:11:47.000Z"
+  },
+  {
+    "id": "2b6e6569-3a02-4b4e-9564-6ff8a82dc375",
     "source": "@SolidIntelX",
     "type": "telegram",
-    "title": "Kraken to enable crypto cash withdrawals via MoneyGram locations in 100+ countriesTwitter",
+    "title": "CME to launch bitcoin volatility futures on June 1 pending approval, settling to CME aCF Bitcoin Volatility Index (BVX)Twitter",
     "summary": "",
-    "url": "https://t.me/SolidIntelX#317165cc",
+    "url": "https://t.me/SolidIntelX#ac022127",
     "author": "@SolidIntelX",
-    "created_at": "2026-05-05T12:02:11+00:00"
+    "created_at": "2026-05-05T19:09:23+00:00"
   },
   {
-    "id": "d7dfbf21-1955-4041-bebd-07da3dfe9d24",
+    "id": "af3efa4d-92ba-45f1-9e2c-7c933ee9d930",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Cryptoquant: BTC Dominance to Persist Until ETH Spot Demand Catches Up",
+    "summary": "1. Bitcoin and ether are recovering on fundamentally different supply and demand structures in 2026, according to a new Cryptoquant analysis.\n2. The divergence is now a key signal for whether a broader altcoin rally will follow.\n3. Key Takeaways: Cryptoquant analysts find that BTC and ETH have exhibited markedly diverging supply-demand structures throughout April 2026.",
+    "url": "https://news.bitcoin.com/cryptoquant-bitcoin-ethereum-divergence-dominance-may-2026/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-05T18:58:57.000Z"
+  },
+  {
+    "id": "6b98a97e-ce1b-408c-8f0c-c9b9870f9211",
     "source": "CoinDesk",
     "type": "rss",
-    "title": "Standard Chartered expands further into crypto with stake in GSR at $1 billion valuation",
-    "summary": "1. SC Ventures, Standard Chartered’s venture capital division takes a $150 million stake in crypto trading firm GSR at a valuation of more than $1 billion, according to Bloomberg.",
-    "url": "https://www.coindesk.com/business/2026/05/05/standard-chartered-expands-further-into-crypto-with-stake-in-gsr-at-usd1-billion-valuation",
+    "title": "Drift outlines a recovery plan for users after $295 million DPRK-linked exploit",
+    "summary": "1. The lending protocol proposed tokenized claims, a revenue-backed pool and a security overhaul as it works with law enforcement to recover the stolen funds.",
+    "url": "https://www.coindesk.com/business/2026/05/05/drift-outlines-a-recovery-plan-for-users-after-usd295-million-dprk-linked-exploit",
     "author": "Olivier Acuna",
-    "created_at": "2026-05-05T12:00:17.000Z"
+    "created_at": "2026-05-05T18:57:18.000Z"
   },
   {
-    "id": "92f86139-702b-466a-b397-e489e67a8196",
-    "source": "The Block",
-    "type": "rss",
-    "title": "a16z crypto raises $2.2 billion for fifth fund, promotes CTO to general partner",
-    "summary": "1. a16z crypto has raised $2.2 billion for its fifth fund as it points to growing use of stablecoins, onchain finance, and improving regulation.",
-    "url": "https://www.theblock.co/post/400012/a16z-crypto-raises-2-2-billion-fifth-fund-promotes-cto-general-partner?utm_source=rss&utm_medium=rss",
-    "author": "Yogita Khatri",
-    "created_at": "2026-05-05T12:00:00.000Z"
-  },
-  {
-    "id": "f0fa2d6e-fe54-4f1c-99e3-ecf4a569f7f9",
+    "id": "800aecd4-84fb-43bd-882d-f94129ee66a3",
     "source": "CoinDesk",
     "type": "rss",
-    "title": "Andreessen Horowitz raises $2.2 billion in a new fund, saying crypto fundamentals are at an 'all-time high'",
-    "summary": "1. The new fund arrives as firms like Haun Ventures raise $1 billion and VC firms adapt to an AI-driven shift in capital.",
-    "url": "https://www.coindesk.com/business/2026/05/05/andreessen-horowitz-raises-usd2-2-billion-in-a-new-fund-saying-crypto-fundamentals-are-at-an-all-time-high",
-    "author": "Aoyon Ashraf",
-    "created_at": "2026-05-05T12:00:00.000Z"
+    "title": "Tokenization won't disrupt banking rails but improve them, Wall Street executives say",
+    "summary": "1. Executives from Citigroup, JPMorgan and DTCC said at Consensus that genuine client demand is driving real-world use of tokenized assets.",
+    "url": "https://www.coindesk.com/business/2026/05/05/tokenization-won-t-disrupt-banking-rails-but-improve-them-wall-street-executives-say",
+    "author": "Krisztian Sandor",
+    "created_at": "2026-05-05T18:55:33.000Z"
   },
   {
-    "id": "d53153e9-7d5c-49c2-b2ff-175f81f4b78f",
+    "id": "d1aca053-ec1e-4477-a15d-e4f0523302d0",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin extends gains to $81,500 as tokenization push lifts Bullish, Galaxy, Centrifuge",
+    "summary": "1. Crypto market momentum could extend further unless geopolitical risks flare up again, one analyst said.",
+    "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-extends-gains-to-usd81-500-as-tokenization-push-lifts-bullish-galaxy-centrifuge",
+    "author": "Krisztian Sandor",
+    "created_at": "2026-05-05T18:52:16.000Z"
+  },
+  {
+    "id": "56aabf5f-b62e-49af-8791-d08129eb457b",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "a16z Crypto Raises $2.2B Fund to Turn New Infra into Everyday Products",
+    "summary": "1. a16z crypto's Crypto Fund 5 was announced just a day after Haun Ventures revealed its $1 billion fund focused on crypto and the agentic economy.",
+    "url": "https://thedefiant.io/news/tradfi-and-fintech/a16z-crypto-raises-usd2-2b-crypto-fund-5",
+    "author": "Olivia Capozzalo",
+    "created_at": "2026-05-05T18:42:58.000Z"
+  },
+  {
+    "id": "166b12d1-99fb-4000-9fb6-f15c43621a21",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📊 Bitcoin funds have logged five straight weeks of inflows, with year-to-date flows reaching $4.2 billion, according to CoinShares.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#3994e8b9",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-05T18:39:17+00:00"
+  },
+  {
+    "id": "7323b671-95a3-403e-b52a-3263f8dbafe5",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Crypto Fear and Greed Index turns neutral for first time since January: Is $100K BTC next?",
+    "summary": "1. Improving investor confidence supports Bitcoin’s hold on $80,000, as the Crypto Fear and Greed Index exited the “Extreme Fear” zone and now reads “neutral.” Are the bulls back in control?",
+    "url": "https://cointelegraph.com/markets/crypto-fear-and-greed-flips-to-neutral-for-the-first-time-since-january?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Biraajmaan Tamuly",
+    "created_at": "2026-05-05T18:35:46.000Z"
+  },
+  {
+    "id": "bf7c4116-0c95-4ffe-aa92-ca5c91371ce1",
     "source": "TechCrunch",
     "type": "rss",
-    "title": "Moment Energy raises $40M to meet ‘infinite demand for power’ with EV batteries",
-    "summary": "1. The startup has put a spin on repurposing EV batteries, CEO Edward Chiang told TechCrunch.",
-    "url": "https://techcrunch.com/2026/05/05/moment-energy-raises-40m-to-meet-infinite-demand-for-power-with-ev-batteries/",
-    "author": "Sean O'Kane",
-    "created_at": "2026-05-05T12:00:00.000Z"
+    "title": "Threads finally brings messaging to the web",
+    "summary": "1. By bringing messaging to the web, Threads is aligning its desktop experience more closely with competitors like X and Bluesky.",
+    "url": "https://techcrunch.com/2026/05/05/threads-finally-brings-messaging-to-the-web/",
+    "author": "Aisha Malik",
+    "created_at": "2026-05-05T18:34:20.000Z"
   },
   {
-    "id": "e9906ce2-d200-4d9b-bfd7-d12d211d6b9c",
+    "id": "8306204c-34d6-49ea-9d98-3a2cf7a190a2",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "OpenAI Just Upgraded ChatGPT's Default Model—Here's What GPT-5.5 Instant Actually Does",
+    "summary": "1. GPT-5.5 Instant is now the default ChatGPT model.\n2. It makes fewer things up, answers more concisely, and finally remembers what you told it last week.",
+    "url": "https://decrypt.co/366842/openai-upgraded-chatgpt-default-model-what-gpt-5-5-instant-does",
+    "author": "Jose Antonio Lanz",
+    "created_at": "2026-05-05T18:29:40.000Z"
+  },
+  {
+    "id": "dae14dcf-9ed9-4e66-af5e-bb59148d8d9f",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Pennsylvania Sues Character.AI Over Chatbot Posing as Licensed Psychiatrist",
+    "summary": "1. Pennsylvania Governor Josh Shapiro said the lawsuit targets AI bots that misrepresent themselves as licensed medical professionals.",
+    "url": "https://decrypt.co/366833/pennsylvania-sues-character-ai-chatbot-posing-licensed-psychiatrist",
+    "author": "Jason Nelson",
+    "created_at": "2026-05-05T18:20:26.000Z"
+  },
+  {
+    "id": "bbdeb578-e014-41f0-b824-b0d7f311b689",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Airbnb co-founder taps Peter Arnell as first US chief brand architect",
+    "summary": "1. Arnell joins Gebbia’s National Design Studio under Trump to unify UX across 27,000 federal sites and streamline how Americans use government services.",
+    "url": "https://techcrunch.com/2026/05/05/airbnb-co-founder-taps-peter-arnell-as-first-u-s-chief-brand-architect/",
+    "author": "Sarah Perez",
+    "created_at": "2026-05-05T18:09:03.000Z"
+  },
+  {
+    "id": "b26a5c81-ab7d-404f-9b10-0c366b838d8a",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Iran’s joint military command denies carrying out any attacks on the UAE in recent daysTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#13ab0bb8",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-05T18:08:51+00:00"
+  },
+  {
+    "id": "a71bbaf1-da5e-43a5-962b-8c1e072c6ad3",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "US prosecutors ask for leniency for ex-Celsius exec, citing cooperation",
+    "summary": "1. While Roni Cohen-Pavon’s lawyers have asked for time served, US Attorney Jay Clayton was unspecific in the federal government’s recommendation, requesting the judge defer to sentencing guidelines.",
+    "url": "https://cointelegraph.com/news/us-prosecutors-recommendation-celsius-exec-sentencing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Turner Wright",
+    "created_at": "2026-05-05T18:01:30.000Z"
+  },
+  {
+    "id": "e86beeeb-fd65-44cf-aaa5-911aea6ac02a",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "Apple $AAPL surpasses Silver to become the 4th largest asset in the world by market cap.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#9c1f4018",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-05T17:55:54+00:00"
+  },
+  {
+    "id": "be06ced9-b98f-46ae-8adf-58fd3a219632",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Triple Win for Bitcoin ETFs With $532M Inflow While Ethereum Adds $61M",
+    "summary": "1. bitcoin spot exchange-traded funds (ETFs) recorded $532 million in net inflows on May 4, marking the third consecutive day of positive flows, while U.S.\n2. ether spot ETFs added $61.29 million on the same day.\n3. Key Takeaways: U.S.",
+    "url": "https://news.bitcoin.com/triple-win-for-bitcoin-etfs-with-532m-inflow-while-ethereum-adds-61m/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-05T17:37:06.000Z"
+  },
+  {
+    "id": "152761a3-acb3-4a38-a773-817f9cf57360",
     "source": "The Block",
     "type": "rss",
-    "title": "FalconX and Sygnum partner to launch tokenized credit offering for institutional clients",
-    "summary": "1. FalconX’s facility extends credit through a special-purpose vehicle, backed by overcollateralized loans and monitored in real time.",
-    "url": "https://www.theblock.co/post/399947/falconx-sygnum-partner-tokenized-credit-offering-institutional-clients?utm_source=rss&utm_medium=rss",
-    "author": "Jason Shubnell",
-    "created_at": "2026-05-05T11:55:00.000Z"
+    "title": "State Street and Galaxy launch fund on Solana designed to ‘sweep’ stablecoins into productive vehicle",
+    "summary": "1. The State Street Galaxy Onchain Liquidity Sweep Fund lets investors push stablecoins into a yield-bearing tokenized fund.",
+    "url": "https://www.theblock.co/post/400086/state-street-and-galaxy-launch-fund-on-solana-designed-to-sweep-stablecoins-into-productive-vehicle?utm_source=rss&utm_medium=rss",
+    "author": "Daniel Kuhn",
+    "created_at": "2026-05-05T17:27:16.000Z"
   },
   {
-    "id": "76ad432b-fc4d-41ef-a4a3-87b24b00649a",
+    "id": "4982be2c-02aa-4139-907f-224b5830daaa",
+    "source": "The Block",
+    "type": "rss",
+    "title": "MoonPay acquires Solana execution layer firm DFlow used by Coinbase, Phantom",
+    "summary": "1. DFlow is used by both Coinbase and Phantom and has processed over $50 billion in cumulative trading volume.",
+    "url": "https://www.theblock.co/post/400078/moonpay-acquires-solana-execution-layer-firm-dflow-used-coinbase-phantom?utm_source=rss&utm_medium=rss",
+    "author": "RT Watson",
+    "created_at": "2026-05-05T17:21:11.000Z"
+  },
+  {
+    "id": "5c75918b-7d8e-41ec-b11a-a0c66c622135",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "🇺🇸 SEC proposes allowing companies to report earnings twice a year.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#fdf4a269",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-05T16:00:53+00:00"
+  },
+  {
+    "id": "5a14a85c-c863-4445-be19-a8b83fc7d4be",
     "source": "Bitcoin Magazine",
     "type": "rss",
-    "title": "Bitcoin Price Rockets Past $81,000 for the First Time Since January",
-    "summary": "1. Bitcoin Magazine\n\nBitcoin Price Rockets Past $81,000 for the First Time Since January\nBitcoin price surged above $81,000 for the first time since January 2026.\n2. This post Bitcoin Price Rockets Past $81,000 for the First Time Since January first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-crosses-81000-january",
+    "title": "Sequans Sells Half Its Bitcoin Holdings as Revenue Falls and Losses Mount",
+    "summary": "1. Bitcoin Magazine\n\nSequans Sells Half Its Bitcoin Holdings as Revenue Falls and Losses Mount\nSequans Communications sold 1,025 bitcoin during the first quarter of 2026, cutting its digital asset reserves nearly in half.\n2. This post Sequans Sells Half Its Bitcoin Holdings as Revenue Falls and Losses Mount first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+    "url": "https://bitcoinmagazine.com/news/sequans-sells-half-its-bitcoin-holdings",
     "author": "Micah Zimmerman",
-    "created_at": "2026-05-05T11:45:24.000Z"
+    "created_at": "2026-05-05T15:03:17.000Z"
   },
   {
-    "id": "d8378904-6f71-4f59-890e-0cfb4636d982",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "📊 Tether says Tether Gold crossed $3.3 billion in market value at the end of Q1 2026, reporting a 36% surge in physical gold reserves during the quarter.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#f1000c99",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-05T11:44:18+00:00"
-  },
-  {
-    "id": "ae9819c0-4757-41ec-9048-4e20ce2a2e14",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Morning Minute: Crypto VC Haun Raises $1B Despite Market Slump",
-    "summary": "1. Bitcoin is firmly over $80k.\n2. The DTCC is about to tokenize everything.\n3. And World Liberty Fi countersues Justin Sun.",
-    "url": "https://decrypt.co/366761/morning-minute-crypto-vc-haun-raises-1b-despite-market-slump",
-    "author": "Tyler Warner",
-    "created_at": "2026-05-05T11:44:08.000Z"
-  },
-  {
-    "id": "dd0a3996-0bfd-467b-b08b-3ed0155eb858",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Toncoin surges 36% as Telegram replaces TON Foundation and slashes fees",
-    "summary": "1. The market is repricing TON as a Telegram-led ecosystem again, not just a foundation-run chain with a messaging app narrative attached.",
-    "url": "https://www.coindesk.com/tech/2026/05/05/ton-jumps-36-as-messaging-giant-telegram-to-take-control-of-network-push",
-    "author": "Shaurya Malwa",
-    "created_at": "2026-05-05T11:39:54.000Z"
-  },
-  {
-    "id": "86fd4143-19d3-41ce-a0cb-09c45cfd8e7e",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Coinbase cuts 14% of staff as AI reshapes how crypto companies operate",
-    "summary": "1. Brian Armstrong, the CEO at Coinbase, announced a workforce reduction of roughly 660 from its current 4,700.",
-    "url": "https://www.coindesk.com/business/2026/05/05/coinbase-cuts-14-of-staff-as-ai-reshapes-how-crypto-companies-operate",
-    "author": "Olivier Acuna",
-    "created_at": "2026-05-05T11:38:59.000Z"
-  },
-  {
-    "id": "9629f4d6-48fd-4b79-9a3c-fff657b9158e",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "TON Surges 36% as Telegram ‘Replaces’ TON Foundation",
-    "summary": "1. Toncoin has jumped on Pavel Durov's pledge to slash fees to near-zero, with TON meme coins piling on gains of up to 150%.",
-    "url": "https://decrypt.co/366754/ton-surges-36-as-telegram-replaces-ton-foundation",
-    "author": "Vismaya V",
-    "created_at": "2026-05-05T11:34:11.000Z"
-  },
-  {
-    "id": "699f8fbb-21cd-498b-9493-2b3acbec20b8",
+    "id": "0272d770-a69c-4172-8d7b-3f36cc862682",
     "source": "Bitcoin Magazine",
     "type": "rss",
-    "title": "Coinbase Cuts 14% of Workforce, Signals AI-Driven Future",
-    "summary": "1. Bitcoin Magazine\n\nCoinbase Cuts 14% of Workforce, Signals AI-Driven Future\nCoinbase CEO Brian Armstrong took to Twitter to announce that Coinbase will cut 14% of its workforce as part of a shift toward an AI-driven operating model.\n2. This post Coinbase Cuts 14% of Workforce, Signals AI-Driven Future first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-    "url": "https://bitcoinmagazine.com/news/coinbase-cuts-14-of-workforce",
+    "title": "Kraken Partners With MoneyGram to Enable Crypto Cash-Outs at 500,000 Locations Worldwide",
+    "summary": "1. Bitcoin Magazine\n\nKraken Partners With MoneyGram to Enable Crypto Cash-Outs at 500,000 Locations Worldwide\nKraken will let users convert crypto into cash at MoneyGram locations across more than 100 countries, expanding access between digital assets and physical cash networks.\n2. This post Kraken Partners With MoneyGram to Enable Crypto Cash-Outs at 500,000 Locations Worldwide first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+    "url": "https://bitcoinmagazine.com/news/kraken-partners-with-moneygram",
     "author": "Micah Zimmerman",
-    "created_at": "2026-05-05T11:28:24.000Z"
+    "created_at": "2026-05-05T14:16:49.000Z"
   },
   {
-    "id": "b332893f-c666-420e-a6af-516389bf627e",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "In collaboration with Canza Finance and Tevau, CMC users can now claim the...",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#a49eabe6",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-05T11:24:40+00:00"
-  },
-  {
-    "id": "3105c8fd-3685-44fd-9be1-28e6bffa16a7",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin taps $81K as long-term holders add 330K BTC: How high can price go?",
-    "summary": "1. Accumulation by long-term Bitcoin holders, buying by institutional investors and a strengthening technical structure could fuel BTC’s price rise to $95,000 or higher.",
-    "url": "https://cointelegraph.com/markets/bitcoin-taps-81k-as-long-term-holders-add-330k-btc-how-high-can-price-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Nancy Lubale",
-    "created_at": "2026-05-05T11:16:09.000Z"
-  },
-  {
-    "id": "7f567c41-becf-46c3-9894-bdda4fb08df1",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "COINBASE CEO ARMSTRONG SAYS TO CUT WORKFORCE BY ABOUT 14% Twitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#0cd4eb60",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-05T11:08:47+00:00"
-  },
-  {
-    "id": "9cee2761-d8a3-419f-a434-32d67349dc96",
+    "id": "9e316154-7c78-4f3f-82ff-45da46e2aed6",
     "source": "Bitcoin Magazine",
     "type": "rss",
-    "title": "Crypto Exchange Bullish Strikes $4.2 Billion Deal for Equiniti to Build Tokenized Securities Infrastructure",
-    "summary": "1. Bitcoin Magazine\n\nCrypto Exchange Bullish Strikes $4.2 Billion Deal for Equiniti to Build Tokenized Securities Infrastructure\nBullish has agreed to acquire global transfer agent Equiniti in a $4.2 billion transaction.\n2. This post Crypto Exchange Bullish Strikes $4.2 Billion Deal for Equiniti to Build Tokenized Securities Infrastructure first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-    "url": "https://bitcoinmagazine.com/news/bullish-strikes-4-2-billion-for-equiniti",
+    "title": "K Wave Abandons Bitcoin Treasury Plan, Shifts to AI Infrastructure Play with $485M War Chest",
+    "summary": "1. Bitcoin Magazine\n\nK Wave Abandons Bitcoin Treasury Plan, Shifts to AI Infrastructure Play with $485M War Chest\nNasdaq-listed K Wave Media is abandoning its high‑profile bitcoin treasury plan and recasting itself as an AI infrastructure company.\n2. This post K Wave Abandons Bitcoin Treasury Plan, Shifts to AI Infrastructure Play with $485M War Chest first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+    "url": "https://bitcoinmagazine.com/news/k-wave-abandons-bitcoin-treasury-plan",
     "author": "Micah Zimmerman",
-    "created_at": "2026-05-05T11:07:55.000Z"
-  },
-  {
-    "id": "6b8a6949-7e53-4f6e-adb1-0165544f7948",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "CMC Live",
-    "summary": "Genius: CEX on Chain.⏰ May 5th, 3pm UTC📍 Set a reminder:  Founders Armaan Kalsi and Ryan Myher reveal how they're bringing CEX-level efficiency and UX to non-custodial trading, fully on-chain.(CMC Launch: Partnership)",
-    "url": "https://t.me/CoinMarketCapAnnouncements#a540233c",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-05T11:05:18+00:00"
-  },
-  {
-    "id": "88e47219-0b46-452a-bac8-98385c62462b",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Ripple to Share North Korean Threat Intelligence With Crypto Industry",
-    "summary": "1. The move follows two nine-figure exploits of DeFi protocols Drift and KelpDAO in April, as DPRK hackers shift to social engineering tactics.",
-    "url": "https://decrypt.co/366751/ripple-to-share-north-korean-threat-intelligence-with-crypto-industry",
-    "author": "Decrypt Agent",
-    "created_at": "2026-05-05T10:56:38.000Z"
-  },
-  {
-    "id": "d76ff426-5f58-4b0c-a0ca-038595a3746b",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "UAE’s RAK Innovation City launches onchain business ID system on OPN Chain, turning licenses for 1,000+ firms into verifiable blockchain credentialsTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#b9d549a3",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-05T10:53:51+00:00"
-  },
-  {
-    "id": "ffd904a3-b2b7-4260-a44e-840314ed8024",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Massive $1.9 Million Loss Nukes 11 Winning Bitcoin Trades for Whale",
-    "summary": "1. A trader closed a 700 bitcoin short position on Tuesday at a $1.94 million loss, erasing all $1.71 million in profits from 11 consecutive winning trades in a single position gone wrong.\n2. Key Takeaways: Wallet 0x004e closed a 700 BTC short on May 5, booking a $1.94M loss on a single trade.\n3. The loss erased […]",
-    "url": "https://news.bitcoin.com/trader-loses-1-94m-700-btc-short-lookonchain-wipeout/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-05T10:50:57.000Z"
-  },
-  {
-    "id": "b5ce6383-68af-41b7-b13d-34d5edd475cb",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "UAE free zone launches blockchain-based business IDs for registered firms",
-    "summary": "1. Innovation City launches a blockchain-based business ID system, giving more than 1,000 firms verifiable onchain credentials for identity and access.",
-    "url": "https://cointelegraph.com/news/uae-innovation-city-introduces-ai-onchain-business-ids?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Christina Comben",
-    "created_at": "2026-05-05T10:36:25.000Z"
-  },
-  {
-    "id": "2132997a-3a91-42d0-8b6a-67ee91f7a9c9",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Telegram to become TON’s largest validator, Durov says",
-    "summary": "1. Toncoin rose 33.8% after Pavel Durov said Telegram would deepen its role in TON, while details on the foundation and validator structure remain unclear.",
-    "url": "https://cointelegraph.com/news/telegram-to-become-tons-largest-validator-durov-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Ezra Reguerra",
-    "created_at": "2026-05-05T10:29:11.000Z"
-  },
-  {
-    "id": "ac0c16ea-985d-40ac-b226-f7e387d12914",
-    "source": "r/ethereum",
-    "type": "reddit",
-    "title": "Crypto noob looking for a guide (and maybe a tiny first step)",
-    "summary": "1. Crypto noob looking for a guide (and maybe a tiny first step)",
-    "url": "https://reddit.com/r/ethereum/comments/1t4bff1/crypto_noob_looking_for_a_guide_and_maybe_a_tiny/",
-    "author": "u/Ill-Protection-5376",
-    "created_at": "2026-05-05T10:27:48.000Z"
-  },
-  {
-    "id": "a97ae4af-e2a7-41fc-a8bf-fbf02df967bb",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Russia’s Moscow Exchange to Launch SOL, XRP, Tron and BNB Crypto Indexes on May 13",
-    "summary": "1. Russia’s Moscow Exchange (Moex) will begin publishing four new cryptocurrency indexes for solana ( SOL), XRP, tron ( TRX), and BNB starting May 13, expanding its regulated crypto benchmark suite beyond bitcoin and ether for the first time.\n2. Key Takeaways: Russia’s Moscow Exchange will launch crypto indexes for SOL, XRP, TRX and BNB within the […]",
-    "url": "https://news.bitcoin.com/moscow-exchange-sol-xrp-tron-bnb-crypto-indexes-may-13-2026/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-05T09:30:56.000Z"
-  },
-  {
-    "id": "bbd4ff3f-8bbb-4626-9629-b84391d0d308",
-    "source": "Politico",
-    "type": "rss",
-    "title": "We’re about to find out whether Trump is kingmaker or lame duck",
-    "summary": "1. So far, his chosen candidates in several May primaries are struggling to dominate their fields.",
-    "url": "https://www.politico.com/news/2026/05/05/trump-revenge-endorsement-may-primaries-00906086",
-    "author": "By Liz Crampton, Lisa Kashinsky and Alec Hernandez",
-    "created_at": "2026-05-05T08:45:00.000Z"
-  },
-  {
-    "id": "672bbd73-71d8-4428-8808-f81cddeacef4",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Hut 8 Taps Falconx for $200M Facility, Drops Rate to 7% and Boosts BTC Access",
-    "summary": "1. Hut 8 Corp.\n2. has entered into a $200 million, 364-day bitcoin-backed credit facility with Falconx, replacing its previous arrangement with Coinbase Credit.\n3. Key Takeaways: Hut 8 secured a $200 million credit facility with Falconx at 7.0%, replacing its prior Coinbase agreement.",
-    "url": "https://news.bitcoin.com/hut-8-taps-falconx-for-200m-facility-drops-rate-to-7-and-boosts-btc-access/",
-    "author": "Terence Zimwara",
-    "created_at": "2026-05-05T08:30:19.000Z"
-  },
-  {
-    "id": "bada0ca6-edc6-4159-abb5-28dd049c9525",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Analysis: BTC has transitioned into an inflation hedge asset",
-    "summary": "An analysis suggests that Bitcoin has successfully shed its label as a risk asset sensitive to interest rates and transitioned into an inflation hedge. According to CoinDesk, while high inflation previously led to interest rate hikes that suppressed Bitcoin's price, rising inflation now drives capital into Bitcoin amid concerns over the declining value of fiat currencies. The outlet argues that Bitcoin has moved out of the Nasdaq's shadow and is beginning to follow the early growth model of gold.",
-    "url": "https://t.me/CoinnessGL#c724b370",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-05T07:29:19+00:00"
-  },
-  {
-    "id": "95b0bc89-e6e3-4f4b-b696-5b8363c04cbb",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🇨🇦 Tetra Trust has launched CADD, Canada's first CAD-pegged stablecoin from a regulated financial institution, backed by Shopify and National Bank of Canada.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#d32426e3",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-05T07:24:41+00:00"
-  },
-  {
-    "id": "ec992c28-a71c-44ed-b651-b88b47389817",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Grayscale: Quantum computers not main driver of Bitcoin volatility",
-    "summary": "Grayscale has stated that while high-performance quantum computers could pose a long-term threat to traditional cryptography, they are not the primary cause of the recent decline in Bitcoin's price. The firm added that it supports all major blockchains in accelerating their quantum resistance upgrades. As evidence, Grayscale noted that Bitcoin recently fell in tandem with quantum computing-related stocks. The firm's analysis suggests the fundamental cause is investors taking profits and avoiding risk across the advanced technology sector, which had become overheated following the AI boom.",
-    "url": "https://t.me/CoinnessGL#6d6f1c1f",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-05T07:16:56+00:00"
-  },
-  {
-    "id": "a53410fc-53e2-4a61-a80b-ce30f023f433",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Bitcoin Breaks $81,000 Behind ETF Inflows, Iran De-escalation and a Short Squeeze",
-    "summary": "1. Bitcoin climbed above $81,000 on Tuesday for the first time since January, powered by $2.44 billion in April ETF inflows, geopolitical relief following the U.S.-Iran de-escalation, and a short squeeze that sent leveraged bears scrambling for the exits.\n2. Key Takeaways: Bitcoin hit $81,000 on May 5, 2026, its highest price since January, as multiple catalysts […]",
-    "url": "https://news.bitcoin.com/bitcoin-breaks-81000-etf-inflows-iran-deescalation-short-squeeze-may-2026/",
-    "author": "Shiraz Jagati",
-    "created_at": "2026-05-05T07:15:57.000Z"
-  },
-  {
-    "id": "4d9ec107-3750-45ab-a199-87014f212b6b",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Polymarket odds for CLARITY Act passage rise to 70%",
-    "summary": "The odds of the CLARITY Act passing this year have climbed to 70% on the prediction market Polymarket.",
-    "url": "https://t.me/CoinnessGL#fe15748c",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-05T07:12:44+00:00"
-  },
-  {
-    "id": "bc6c18bc-eed4-4302-afa5-27a726b151ed",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Stablecoin proposal still ‘falls short’ of protecting bank deposits: US banks",
-    "summary": "1. US Senator Thom Tillis said the current text of the CLARITY Act offers a compromise for the crypto industry and banks and provides a bipartisan path for the bill’s passage.",
-    "url": "https://cointelegraph.com/news/bankers-still-says-new-proposal-in-clarity-act-falls-short-of-protecting-bank-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-05-05T07:07:27.000Z"
-  },
-  {
-    "id": "94250d0d-3370-44b7-b139-3e3bc6e1c7c7",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Bitcoin used to hate inflation. Now it might be the opposite",
-    "summary": "1. Bitcoin is rallying alongside inflation signals, defying the traditional macro playbook.",
-    "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-used-to-hate-inflation-now-it-might-be-the-opposite",
-    "author": "Omkar Godbole",
-    "created_at": "2026-05-05T06:45:26.000Z"
+    "created_at": "2026-05-05T14:09:23.000Z"
   }
 ]
