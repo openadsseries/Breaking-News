@@ -1,5 +1,25 @@
 [
   {
+    "id": "c438edf2-7a52-4e63-aa34-8ea439f86e43",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Uniswap discusses recalling $42M in UNI lent to delegates",
+    "summary": "The Uniswap DAO is discussing a governance proposal to recall 12.5 million UNI, worth $42 million, that was previously lent to its delegates, DL News reported. The tokens were loaned to the Uniswap Foundation and key delegates in 2022 and 2023 to stimulate governance activity. According to the proposal's author, the loaned tokens have served their purpose, as the governance environment is now sufficiently active. DL News added that addressing the practice of delegates voting without their own capital at stake is crucial for ensuring governance health, as it can create a misalignment between economic exposure and voting power.",
+    "url": "https://t.me/CoinnessGL#860abfbb",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-05T12:38:21+00:00"
+  },
+  {
+    "id": "68d587c9-6b08-4710-a0b9-0b5455c9e773",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Coinbase to lay off 14% of staff as part of broader restructuring",
+    "summary": "1. The restructuring is aimed at addressing market volatility and increasing the use of AI tools to improve efficiency.",
+    "url": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/",
+    "author": "Ivan Mehta",
+    "created_at": "2026-05-05T12:35:46.000Z"
+  },
+  {
     "id": "41d48fb2-9684-4a78-9f61-b0327916c834",
     "source": "The Block",
     "type": "rss",
@@ -10,7 +30,7 @@
     "created_at": "2026-05-05T12:23:55.000Z"
   },
   {
-    "id": "2c040649-ade7-4619-86b8-4411c4fe59e2",
+    "id": "b3b8fcb5-f5ce-4cb1-bac5-8c4a5422c8cb",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Hegseth says Iran ceasefire remains in effectTwitter",
@@ -20,7 +40,7 @@
     "created_at": "2026-05-05T12:23:25+00:00"
   },
   {
-    "id": "98ddd88a-e977-472f-8730-a9714b4e1f32",
+    "id": "6da566b8-e291-457f-9837-04dca98e95b4",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Iranian attacks since ceasefire remain below war threshold, Caine says, citing limited drone and missile activity as Tehran reconstitutes forces under US blockade pressureTwitter",
@@ -40,7 +60,7 @@
     "created_at": "2026-05-05T12:18:41.000Z"
   },
   {
-    "id": "b5d49ae8-5d7e-4110-a425-9fdcc0c65925",
+    "id": "ac62ae58-3523-4e17-b2b8-9c745087d1ea",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "US Defense Secretary: Threshold to resume operations against Iran not yet met",
@@ -60,7 +80,7 @@
     "created_at": "2026-05-05T12:16:25+00:00"
   },
   {
-    "id": "563d29c3-f0a8-4306-b0b0-97a8b81d21f2",
+    "id": "bcb7be42-c502-4013-a7e4-7347017b8bff",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Kraken partners with MoneyGram for crypto-to-cash withdrawals in over 100 countries",
@@ -90,7 +110,7 @@
     "created_at": "2026-05-05T12:04:12.000Z"
   },
   {
-    "id": "96523cda-5832-41bd-b6d6-d1e382f6d5c6",
+    "id": "f312261a-8a37-4509-ba03-9656af1c6356",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Kraken to enable crypto cash withdrawals via MoneyGram locations in 100+ countriesTwitter",
@@ -160,7 +180,7 @@
     "created_at": "2026-05-05T11:45:24.000Z"
   },
   {
-    "id": "9b0497d2-1563-4dbb-b709-d44b4a42bb5e",
+    "id": "d8378904-6f71-4f59-890e-0cfb4636d982",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "📊 Tether says Tether Gold crossed $3.3 billion in market value at the end of Q1 2026, reporting a 36% surge in physical gold reserves during the quarter.",
@@ -220,7 +240,7 @@
     "created_at": "2026-05-05T11:28:24.000Z"
   },
   {
-    "id": "ee4e8262-c2b7-4952-bc60-44ea3273fb80",
+    "id": "b332893f-c666-420e-a6af-516389bf627e",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "In collaboration with Canza Finance and Tevau, CMC users can now claim the...",
@@ -260,7 +280,7 @@
     "created_at": "2026-05-05T11:07:55.000Z"
   },
   {
-    "id": "33e77c5c-918e-4245-9e17-e4335e9d829a",
+    "id": "6b8a6949-7e53-4f6e-adb1-0165544f7948",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "CMC Live",
@@ -428,25 +448,5 @@
     "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-used-to-hate-inflation-now-it-might-be-the-opposite",
     "author": "Omkar Godbole",
     "created_at": "2026-05-05T06:45:26.000Z"
-  },
-  {
-    "id": "1d37cd09-2310-4987-9fc2-7d3980320abe",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Bank of Italy urges the EU to consider a tokenized version of Europe’s euro payments systemTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#ee56e2b7",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-05T06:33:18+00:00"
-  },
-  {
-    "id": "07a85363-e75c-477c-8b6b-3e3fdcac4868",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "From Rebels to Banks: Why the Crypto Industry Is Finally Embracing Legacy Finance",
-    "summary": "1. Spencer Bogart, general partner at Blockchain Capital, noted that while years ago fintech companies aimed to be bank-like but not banks, this trend has now reversed, with over 20 companies pursuing Office of the Comptroller of the Currency (OCC) charters in 2026.\n2. Key Takeaways: Blockchain Capital’s Spencer Bogart notes over 20 crypto firms now seek […]",
-    "url": "https://news.bitcoin.com/from-rebels-to-banks-why-the-crypto-industry-is-finally-embracing-legacy-finance/",
-    "author": "Sergio Goschenko",
-    "created_at": "2026-05-05T06:30:19.000Z"
   }
 ]
