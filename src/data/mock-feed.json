@@ -1,5 +1,335 @@
 [
   {
+    "id": "928d996d-39ed-4df8-ab88-a70d25b77b9c",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Newly created address withdraws $15.2M in HYPE from Coinbase",
+    "summary": "An anonymous, newly created address (0x4E53) withdrew 349,999 HYPE, worth $15.21 million, from Coinbase over the past 24 hours and transferred the funds to a staking address, Onchain Lens reported. Withdrawals from exchanges are typically interpreted as an intention to hold.",
+    "url": "https://t.me/CoinnessGL#5bd8916f",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-06T16:04:46+00:00"
+  },
+  {
+    "id": "1ca33dae-ff88-4c91-aefc-b942642db592",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Crypto Long & Short: In quiet crypto markets, yield is the trade",
+    "summary": "1. In this week’s Crypto Long & Short Newsletter, Maxime Seiler notes that weak crypto prices mask adoption, making yield strategies the main trade.\n2. Then, Kavita Maharaj‑Alexander writes on crypto’s next phase being driven by proving compliance in practice, elevating the infrastructure providers that enable it.",
+    "url": "https://www.coindesk.com/coindesk-indices/2026/05/06/crypto-long-and-short-in-quiet-crypto-markets-yield-is-the-trade",
+    "author": "Maxime Seiler",
+    "created_at": "2026-05-06T16:00:00.000Z"
+  },
+  {
+    "id": "48d7bbde-6939-434c-98bc-fb3b371dbae4",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "79% chance Bitcoin hits $85,000 this month.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#b4db0c54",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-06T15:56:07+00:00"
+  },
+  {
+    "id": "9a1b8a1e-5ebd-434c-b2f2-b4b20812d9e2",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "21Shares lists Strategy STRC on London Stock Exchange",
+    "summary": "Crypto asset manager 21Shares has listed preferred shares (STRC) of Strategy (MSTR) on the London Stock Exchange, Decrypt reported. MSTR will pay STRC holders a monthly variable dividend targeting 9% annually. If STRC trades above $100, the dividend rate will decrease, while if it trades below $100, the rate will increase.",
+    "url": "https://t.me/CoinnessGL#f04b4b8b",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-06T15:56:03+00:00"
+  },
+  {
+    "id": "0847d055-ac22-47dd-bb41-36e7acb9683e",
+    "source": "Politico",
+    "type": "rss",
+    "title": "Tennessee unveils new congressional map poised to erase Dem seat",
+    "summary": "1. The proposed map would give the GOP a clean sweep of the state’s nine congressional districts.",
+    "url": "https://www.politico.com/news/2026/05/06/tennessee-new-congressional-map-redistricting-00907831",
+    "author": "By Samuel Benson",
+    "created_at": "2026-05-06T15:54:40.000Z"
+  },
+  {
+    "id": "8c5579d1-a506-4d45-b6b2-3594081fd442",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Chrome on Android now supports approximate instead of precise location sharing",
+    "summary": "1. The new feature is a small win for Android users, as it gives them more control over how much location data they share with websites.",
+    "url": "https://techcrunch.com/2026/05/06/chrome-on-android-now-supports-approximate-instead-of-precise-location-sharing/",
+    "author": "Aisha Malik",
+    "created_at": "2026-05-06T15:54:06.000Z"
+  },
+  {
+    "id": "e842353b-8001-480c-af46-4e72f69cbb56",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Google updates AI search to include ‘expert advice’ from Reddit and other web forums",
+    "summary": "1. While citing web forums and discussion boards can help users find answers to more niche queries, this design choice could also prove chaotic.",
+    "url": "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
+    "author": "Amanda Silberling",
+    "created_at": "2026-05-06T15:49:39.000Z"
+  },
+  {
+    "id": "d09fcc3d-7157-449e-8fa5-49bdce6f79e4",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Kraken launches spot margin trading for US users",
+    "summary": "U.S. crypto exchange Kraken has begun offering spot margin trading services to its users in the country, The Block reported. The move comes less than a month after Kraken acquired Bitnomial, a Chicago-based derivatives exchange and clearinghouse, for $550 million. Previously, U.S. retail investors often had to turn to overseas exchanges for margin trading due to a lack of compliant domestic options. Kraken's physically-settled margin trading service will allow for up to 10x leverage.",
+    "url": "https://t.me/CoinnessGL#1716abe5",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-06T15:49:03+00:00"
+  },
+  {
+    "id": "7df2910c-20d5-49dd-81ec-96b1809030e1",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Khosla-backed robotics startup Genesis AI has gone full-stack, demo shows",
+    "summary": "1. Genesis AI, a startup that raised a $105 million seed round to build foundational AI for robotics, has unveiled its first model, GENE-26.5, but also a demo showcasing a set of robotic hands performing complex tasks.",
+    "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+    "author": "Anna Heim",
+    "created_at": "2026-05-06T15:46:38.000Z"
+  },
+  {
+    "id": "68f4c844-e76a-48ca-ab4d-f0b9b9b17e5a",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Morgan Stanley pilots crypto trading on E*Trade with 50-basis-point fee: Bloomberg",
+    "summary": "1. Morgan Stanley pilots crypto trading at 50 basis points, expanding digital asset push weeks after launching a bitcoin ETF.",
+    "url": "https://www.theblock.co/post/400259/morgan-stanley-pilots-crypto-trading-on-etrade-with-50-basis-point-fee-bloomberg?utm_source=rss&utm_medium=rss",
+    "author": "Brian Danga",
+    "created_at": "2026-05-06T15:44:58.000Z"
+  },
+  {
+    "id": "0f61d85a-5a57-492b-b766-54822128e81d",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Strategy Yield ETN Gives UK Investors Exposure to Bitcoin Giant's STRC Shares",
+    "summary": "1. The 21Shares exchange-traded note gives U.K.\n2. investors exposure to preferred shares of top Bitcoin treasury firm, Strategy.",
+    "url": "https://decrypt.co/366984/strategy-yield-etn-uk-investors-exposure-bitcoin-giant-strc-shares",
+    "author": "Decrypt Agent",
+    "created_at": "2026-05-06T15:40:26.000Z"
+  },
+  {
+    "id": "e883f194-598a-4a36-82a5-325032f8679a",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Kraken launches regulated crypto spot margin trading in US on heels of Bitnomial deal",
+    "summary": "1. The rollout marks the first product built on Payward’s newly acquired Bitnomial licenses, with perpetuals and options expected later.",
+    "url": "https://www.theblock.co/post/400247/kraken-launches-regulated-crypto-spot-margin-trading-us-bitnomial-deal?utm_source=rss&utm_medium=rss",
+    "author": "Kyle Baird",
+    "created_at": "2026-05-06T15:39:50.000Z"
+  },
+  {
+    "id": "64e8ffaf-0d84-42af-a633-5887f5a45a74",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Reform UK’s Farage Claims 'No Obligation' to Declare Tether Billionaire's $6.7M Gift",
+    "summary": "1. Farage insisted that the gift from Christopher Harborne was for his personal security and had been reviewed “from every legal angle.”",
+    "url": "https://decrypt.co/366973/reform-uks-farage-claims-no-obligation-to-declare-tether-billionaires-6-7m-gift",
+    "author": "Vince Dioquino",
+    "created_at": "2026-05-06T15:38:53.000Z"
+  },
+  {
+    "id": "1efa2903-e9de-47ed-9af3-39447974e808",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "The legal risks and practical considerations of digital asset blacklisting",
+    "summary": "1. When digital assets are frozen, holders can suddenly be deprived of access to their legitimate assets or income.\n2. Here’s what to know to keep your digital holdings safe.",
+    "url": "https://www.coindesk.com/opinion/2026/05/06/the-legal-risks-and-practical-considerations-of-digital-asset-blacklisting",
+    "author": "Galen Kast",
+    "created_at": "2026-05-06T15:30:00.000Z"
+  },
+  {
+    "id": "872c7726-4013-44a6-9261-4d0201155260",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Solana Company, Jito Foundation target institutional Solana staking expansion in Asia",
+    "summary": "1. The two companies will build institutional-grade validator infrastructure, optimize yield, and drive Solana adoption in Asia.",
+    "url": "https://www.theblock.co/post/400244/solana-company-jito-foundation-target-institutional-solana-staking-expansion-in-asia?utm_source=rss&utm_medium=rss",
+    "author": "RT Watson",
+    "created_at": "2026-05-06T15:29:59.000Z"
+  },
+  {
+    "id": "b69980a5-5ae3-439f-996b-c53aee0a67d3",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "The Protocol: AI Agents form their own firm",
+    "summary": "1. Also: Alpenglow upgrade update, Ripple on North Korea hacking threat, Cloudflare on AI agents and web economics",
+    "url": "https://www.coindesk.com/tech/2026/05/06/the-protocol-ai-agents-form-their-own-firm",
+    "author": "Margaux Nijkerk",
+    "created_at": "2026-05-06T15:18:23.000Z"
+  },
+  {
+    "id": "e2f7b727-cd4f-48de-9c3d-7e3e4c3cd0ed",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "Zcash Rallies 30% on Multicoin Investment News",
+    "summary": "1. The crypto VC's co-founder said the firm has been buying ZEC since February, and has \"built a significant position.\"",
+    "url": "https://thedefiant.io/news/markets/zec-rallies-30-percent-on-multicoin-investment-news",
+    "author": "Olivia Capozzalo",
+    "created_at": "2026-05-06T15:10:07.000Z"
+  },
+  {
+    "id": "d98469c8-3b8a-472e-836b-7bc5d532aca3",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Morgan Stanley takes on crypto trading rivals with E*Trade pilot",
+    "summary": "1. The Wall Street bank is charging 50 basis points per crypto trade, below basic retail pricing at Coinbase, Robinhood and Charles Schwab.",
+    "url": "https://cointelegraph.com/news/morgan-stanley-emerges-as-crypto-exchange-competitor-with-low-fee-trading-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Zoltan Vardai",
+    "created_at": "2026-05-06T15:08:47.000Z"
+  },
+  {
+    "id": "8f8502d6-0ab0-4e10-b48c-11e5fec725cb",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Lilly commits additional $4.5 billion across Indiana manufacturing sites, opens first dedicated genetic medicine facility:",
+    "url": "https://trumpstruth.org/statuses/38244",
+    "author": "Trump Truth",
+    "created_at": "2026-05-06T15:08:37.000Z"
+  },
+  {
+    "id": "49837924-b02a-45fe-9e1f-d2d861f609c3",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Market Whiplash: Oil Sinks to $88, Then Spikes as Iran Claims Control of Hormuz",
+    "summary": "1. The two international crude benchmarks recovered after falling hard in the early morning when President Trump reiterated that his Administration was nearing a peace agreement with Iran.\n2. The catalyst?\n3. The alleged establishment of the “Persian Gulf Strait Authority” to oversee Hormuz’s transit.",
+    "url": "https://news.bitcoin.com/market-whiplash-oil-sinks-to-88-then-spikes-as-iran-claims-control-of-hormuz/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-06T15:08:27.000Z"
+  },
+  {
+    "id": "7197c807-93c6-47ad-9a81-adc5a41c818c",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📊 Bitwise CIO Matt Hougan says stablecoin pilots by DoorDash and Meta have strengthened his confidence that stablecoin supply can grow to $4 trillion by 2030.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#c525f764",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-06T15:04:50+00:00"
+  },
+  {
+    "id": "a067723b-17ff-40e3-b572-c55dfc4c305c",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📈 Spot Bitcoin ETFs pulled in nearly $1 billion over two trading days as BTC topped $81,000, pushing AUM to a year-high $109 billion, according to SoSoValue.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#1e748095",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-06T15:04:48+00:00"
+  },
+  {
+    "id": "428a36f5-89ec-4c38-9e90-fa343acb1cba",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Ted Turner, one of the Greats of All Time, just died.\n2. He founded CNN, sold it, and was personally devastated by the Deal because the new ownership took CNN, his “baby,” and destroyed it.\n3. It became woke, and everything that he is not all about.",
+    "url": "https://trumpstruth.org/statuses/38243",
+    "author": "Trump Truth",
+    "created_at": "2026-05-06T14:55:51.000Z"
+  },
+  {
+    "id": "f9d3f32a-2866-4461-8100-31adc6ecb868",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Stablecoin industry opposes Bank of England’s unhosted wallet ban",
+    "summary": "1. The crypto industry in the UK has come out against the Bank of England’s proposed policy that would ban custodial wallets for stablecoins.",
+    "url": "https://cointelegraph.com/features/stablecoin-industry-opposes-bank-of-englands-unhosted-wallet-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Aaron Wood",
+    "created_at": "2026-05-06T14:55:00.000Z"
+  },
+  {
+    "id": "c92322e8-f2cf-4fac-91af-22d2fd303ce1",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Anthropic Deploys AI Agents to Tackle Wall Street's Most Tedious Work",
+    "summary": "1. Anthropic released 10 ready-to-run templates targeting some of finance's most time-consuming tasks—from building pitchbooks to closing the books at month-end.",
+    "url": "https://decrypt.co/366977/anthropic-deploys-ai-agents-to-tackle-wall-streets-most-tedious-work",
+    "author": "Decrypt Agent",
+    "created_at": "2026-05-06T14:54:42.000Z"
+  },
+  {
+    "id": "9a623ac2-bb0f-4e6b-897d-600a6d097422",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "TRUMP REMARKS-IRAN WAR HAS GOOD CHANCE OF ENDING-SAYS HE FEELS US CLOSING IN ON A DEAL WITH IRAN-POSSIBLE IRAN DEAL REACHED BEFORE CHINA -FELT DEAL WAS NEAR BEFORE, WILL SEE WHAT HAPPENS THIS TIME-IRAN URANIUM WOULD GO TO THE US UNDER DEAL-IRAN DEAL INCLUDES NOT USING UNDERGROUND FACILITIESTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#96bd661c",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-06T14:47:46+00:00"
+  },
+  {
+    "id": "e58380dc-3ccb-4aa1-ab4c-f1bdd9e69b22",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "Coinbase $COIN to launch 24/7 gold and silver futures.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#0e82811a",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-06T14:34:50+00:00"
+  },
+  {
+    "id": "af2e4882-7c4c-45c0-a16d-e9dad4798686",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Hyperliquid Whale Faces $20.3M Wipeout as Bitcoin Nears $82,236 Liquidation Price",
+    "summary": "1. A trader deposited roughly 500,000 USDC into the decentralized perpetuals platform Hyperliquid early Wednesday and leveraged it 40 times, opening a $20.32 million bitcoin short with a liquidation threshold sitting at $82,236, just over 1% above bitcoin’s current trading level.\n2. Key Takeaways: Trader 0x128e opened a $20.32M, 40x BTC short on Hyperliquid, per Lookonchain.",
+    "url": "https://news.bitcoin.com/hyperliquid-btc-short-20m-40x-liquidation-82236-2026/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-06T14:30:20.000Z"
+  },
+  {
+    "id": "b66d10ea-6826-4f3b-acfe-4d81158c912b",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "💡 CoinMarketCap | API Upgrade 💡Our biggest API upgrade in history is live!More credits.",
+    "summary": "Higher limits. Zero friction.We drastically increased parameters across all tiers:🔷 Free Tier: Boosted to 15,000 monthly credits & 50 calls/min 🔷 Rate Limits: Up to 20x increases (Startup just jumped to 600/min) 🔷 Pro Power: Up to 5M credits, 1,600 calls/min & 24/7 Slack SupportGet the full breakdown bellow 👇",
+    "url": "https://t.me/CoinMarketCapAnnouncements#5d03fbb9",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-06T14:24:13+00:00"
+  },
+  {
+    "id": "d2b8a0a1-160e-4e3c-a6a4-33a6afbbe9c9",
+    "source": "The Defiant",
+    "type": "rss",
+    "title": "Morgan Stanley Launches Crypto Trading for Retail Clients: Report",
+    "summary": "1. The $2 trillion financial services firm has rolled out cryptocurrency trading capabilities on its E*Trade retail brokerage platform.",
+    "url": "https://thedefiant.io/news/tradfi-and-fintech/morgan-stanley-etrade-crypto-trading-launch-rpm4qa",
+    "author": "DefAInt",
+    "created_at": "2026-05-06T14:09:05.000Z"
+  },
+  {
+    "id": "0708421d-dc03-4e79-bd41-7c4c208de885",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "BiggerZ Crypto iGaming Platform: Exploring Fast Payouts, Sports Markets, and Flexible Access in 2026",
+    "summary": "1. This article was written by Bitcoin.com News on behalf of BiggerZ.\n2. This is sponsored content produced by the Bitcoin.com News editorial team.\n3. The continued expansion of cryptocurrency is reshaping digital industries beyond finance, including online casinos and sportsbooks.",
+    "url": "https://news.bitcoin.com/biggerz-crypto-igaming-platform-exploring-fast-payouts-sports-markets-and-flexible-access-in-2026/",
+    "author": "Media",
+    "created_at": "2026-05-06T14:00:13.000Z"
+  },
+  {
+    "id": "dae448bb-34a5-4681-a95f-8ea693a7dc48",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "OpenTrade raises $17M as CEO sees stablecoin yield tailwinds",
+    "summary": "1. OpenTrade raised $17 million to expand its stablecoin yield platform, bringing total funding above $30 million as it scales stablecoin yield infrastructure for global clients.",
+    "url": "https://cointelegraph.com/news/opentrade-17-million-raise-stablecoin-yield-ceo-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Helen Partz",
+    "created_at": "2026-05-06T14:00:00.000Z"
+  },
+  {
+    "id": "08e9d4e5-2f62-4d63-b838-41c84943ed3f",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "ISRAEL WAS UNAWARE TRUMP WAS CLOSE TO DEAL WITH IRAN; ISRAEL WAS PREPARING FOR ESCALATION IN FIGHTINGTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#77ec7cb1",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-06T13:33:03+00:00"
+  },
+  {
     "id": "da239974-abd0-48bd-94fb-2e37a9fef866",
     "source": "CoinDesk",
     "type": "rss",
@@ -130,7 +460,7 @@
     "created_at": "2026-05-06T12:24:08+00:00"
   },
   {
-    "id": "0e1f72cd-5f48-4ae3-bb93-6b89d1605f3a",
+    "id": "2d5e1e3c-0d1b-41b0-8272-1dc983fdd778",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Trump says it is “too soon” to begin preparations for signing a peace deal with IranTwitter",
@@ -220,7 +550,7 @@
     "created_at": "2026-05-06T11:49:26+00:00"
   },
   {
-    "id": "82950c0b-f668-4b2f-9155-9a46e0846ced",
+    "id": "f1e7e05e-2163-4575-b051-b6a254cd9016",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸🇮🇷 President Trump says the Strait of Hormuz will be \"open to all, including Iran\" if they agree to terms.@WatcherGuru",
@@ -348,15 +678,5 @@
     "url": "https://www.theblock.co/post/400171/ethereum-co-founder-lubin-backs-eth-treasury-firms-calls-dats-profound-innovation?utm_source=rss&utm_medium=rss",
     "author": "Naga Avan-Nomayo",
     "created_at": "2026-05-06T10:20:52.000Z"
-  },
-  {
-    "id": "a1a3b337-4a06-455d-b416-4d827b8e090c",
-    "source": "GitHub",
-    "type": "github",
-    "title": "anthropics/claude-code: v2.1.131",
-    "summary": "1. ## What's changed\n\n- Fixed VS Code extension failing to activate on Windows due to a hardcoded build path in the bundled SDK (`createRequire` polyfill bug)\n- Fixed Mantle endpoint authentication failing with missing `x-api-key` header",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.131",
-    "author": "ashwin-ant",
-    "created_at": "2026-05-06T07:47:56Z"
   }
 ]
