@@ -1,6 +1,36 @@
 [
   {
-    "id": "be72a2f5-89b7-42cd-a817-9cbca45da0a9",
+    "id": "da239974-abd0-48bd-94fb-2e37a9fef866",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Colombia wants to mine bitcoin with surplus renewable energy",
+    "summary": "1. President Gustavo Petro said Colombia's Caribbean coast could host bitcoin mining facilities powered by surplus renewable energy, following a path similar to Paraguay.",
+    "url": "https://www.coindesk.com/tech/2026/05/06/colombia-wants-to-mine-bitcoin-with-surplus-renewable-energy",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-05-06T12:56:45.000Z"
+  },
+  {
+    "id": "86fc9eed-0438-4df2-8f5d-e18cd0bc0d2b",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "US private payrolls rose by 109,000 in April, topping the 99,000 estimateTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#b14a5b23",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-06T12:53:55+00:00"
+  },
+  {
+    "id": "091927c3-d2c2-4a3d-b6fe-a94221b18dd5",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Zcash bets turn into second-largest liquidations behind bitcoin as ZEC rockets 30%",
+    "summary": "1. The privacy coin extended its multi-month rally on Tuesday with $46.7 million in shorts liquidated, after Multicoin Capital disclosed a significant ZEC position.",
+    "url": "https://www.coindesk.com/markets/2026/05/06/zcash-bets-turn-into-second-largest-liquidations-behind-bitcoin-as-zec-rockets-30",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-05-06T12:53:44.000Z"
+  },
+  {
+    "id": "3089d9f0-197e-4c81-93db-6cf0eee5ea57",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Iran to convey its stance on US proposal to Pakistan",
@@ -10,7 +40,7 @@
     "created_at": "2026-05-06T12:48:10+00:00"
   },
   {
-    "id": "918f75e9-e42a-46d4-a11c-a13b90292572",
+    "id": "b663d9d2-f38d-4b4a-b4da-93e68ad36c47",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Blockchain.com launches platform for 30-second BTC price bets",
@@ -40,7 +70,7 @@
     "created_at": "2026-05-06T12:38:57.000Z"
   },
   {
-    "id": "8cb8f521-8591-4628-bf3c-d2ac13e7bfc8",
+    "id": "c9e5dfc4-2abf-46a0-b285-b0ac81b9d50a",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "225,860,003 USDT transferred from unknown wallet to Kraken",
@@ -90,7 +120,7 @@
     "created_at": "2026-05-06T12:28:57.000Z"
   },
   {
-    "id": "afc1474e-5c20-48f1-8260-8968a0479a4f",
+    "id": "87c454c8-5b4c-4967-9e72-3f04277d8b3c",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Galaxy head of research Alex Thorn says equities moving onto blockchains will create a \"ripe environment for AI,\" which needs the data and the access to chains.",
@@ -100,7 +130,7 @@
     "created_at": "2026-05-06T12:24:08+00:00"
   },
   {
-    "id": "3cd09f1f-1681-497d-a6f4-e1b7a0832d43",
+    "id": "0e1f72cd-5f48-4ae3-bb93-6b89d1605f3a",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Trump says it is “too soon” to begin preparations for signing a peace deal with IranTwitter",
@@ -118,16 +148,6 @@
     "url": "https://www.coindesk.com/markets/2026/05/06/bullish-s-equiniti-deal-could-remake-it-into-a-tokenization-powerhouse-analysts-say",
     "author": "Helene Braun",
     "created_at": "2026-05-06T12:18:00.000Z"
-  },
-  {
-    "id": "d80ddd2c-291c-411a-9b52-3d4339b5d7f9",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "US private payrolls rose by 109,000 in April, topping the 99,000 estimateTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#b14a5b23",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-06T12:16:52+00:00"
   },
   {
     "id": "1f77a2e7-9b36-4cbf-bfa8-1b5f12ae3e28",
@@ -190,7 +210,7 @@
     "created_at": "2026-05-06T11:54:12+00:00"
   },
   {
-    "id": "a03276e6-fafd-4947-b945-f5eb301a486b",
+    "id": "efde2068-6142-488a-bf5b-e2969831b815",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Franklin Templeton and Apollo executives say legacy financial systems were built for humans and may struggle with machine-speed, 24/7 tokenized trading.",
@@ -200,7 +220,7 @@
     "created_at": "2026-05-06T11:49:26+00:00"
   },
   {
-    "id": "aa72d590-af86-4024-9b44-e75559300a30",
+    "id": "82950c0b-f668-4b2f-9155-9a46e0846ced",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸🇮🇷 President Trump says the Strait of Hormuz will be \"open to all, including Iran\" if they agree to terms.@WatcherGuru",
@@ -250,7 +270,7 @@
     "created_at": "2026-05-06T11:38:43.000Z"
   },
   {
-    "id": "e5dd4eab-f285-4758-bb5c-1b835e68761a",
+    "id": "72f25c40-2cd1-4f8a-a60f-042a5465bca8",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Brent crude oil crashes over 11% to $101.@WatcherGuru",
@@ -260,7 +280,7 @@
     "created_at": "2026-05-06T11:34:15+00:00"
   },
   {
-    "id": "50c1e9b2-742e-41cd-931a-d3511107ea8e",
+    "id": "aabab248-cf6e-4fba-9595-6d3d84eef3f8",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "Introducing the CoinMarketCap AI Agent Hub 🤖Connect live crypto data directly...",
@@ -300,7 +320,7 @@
     "created_at": "2026-05-06T11:10:22.000Z"
   },
   {
-    "id": "6dbb93bf-be07-4d26-b33d-125b724cb0ef",
+    "id": "5c36d41e-a9d8-419e-a3ea-dd7a6ffa0f30",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "$82,000 Bitcoin@WatcherGuru",
