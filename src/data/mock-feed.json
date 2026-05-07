@@ -1,6 +1,56 @@
 [
   {
-    "id": "02342eb3-af1b-4dde-8528-083bdecc0b33",
+    "id": "9d0bc58a-a8df-452e-83ad-f37b3c937ae7",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "🇺🇸 President Donald Trump says jobs and 401(k)s are \"BOOMING.\"@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#f7b735ea",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-07T01:21:46+00:00"
+  },
+  {
+    "id": "97b9a802-6406-4265-b457-20f1ee4c572f",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. New Trump counterterrorism strategy elevates threats from leftist groups like Antifa:",
+    "url": "https://trumpstruth.org/statuses/38250",
+    "author": "Trump Truth",
+    "created_at": "2026-05-07T01:19:17.000Z"
+  },
+  {
+    "id": "0c36942e-f324-48ce-aefb-da97257d5134",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Stock Market hit an ALL-TIME HIGH TODAY.\n2. Jobs & 401-K’s are BOOMING!!!",
+    "url": "https://trumpstruth.org/statuses/38251",
+    "author": "Trump Truth",
+    "created_at": "2026-05-07T01:16:56.000Z"
+  },
+  {
+    "id": "b59a90e9-d2e0-4676-91a8-7962b03482fa",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "ZetaChain integrates xAI's latest AI model 'Grok 4.3'",
+    "summary": "ZetaChain (ZETA), a Layer 1 blockchain project focused on AI interoperability, announced it has integrated xAI's latest model, Grok 4.3, into its proprietary AI layer. Grok 4.3 features upgraded performance in agent tool calling and instruction following, and supports a 1 million token context window. ZetaChain stated that through its Anuma platform, users can run the same prompt on multiple AI models simultaneously and compare the answers instantly, all without switching tabs or creating new accounts. more:",
+    "url": "https://t.me/CoinnessGL#092d2ace",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T01:13:28+00:00"
+  },
+  {
+    "id": "aad64d59-6d91-4587-ab01-d94c3bc44d63",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. Washington D.C.\n2. CRIME is at its lowest point in 30 years, plus!\n3. President DJT",
+    "url": "https://trumpstruth.org/statuses/38249",
+    "author": "Trump Truth",
+    "created_at": "2026-05-07T01:13:04.000Z"
+  },
+  {
+    "id": "29c235e6-8db9-40b6-8af5-b6b6b109b798",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Grant Cardone adds $100M in BTC to real estate fund",
@@ -30,7 +80,7 @@
     "created_at": "2026-05-07T01:05:28.000Z"
   },
   {
-    "id": "59c43c81-965f-4cfa-8f6a-36b5c7448aa9",
+    "id": "02cc326a-5cd1-40a0-9f22-cd3f3c8632ab",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Pudgy Penguins deployer moves 100M PENGU to exchanges, price falls",
@@ -80,7 +130,7 @@
     "created_at": "2026-05-06T22:58:57.000Z"
   },
   {
-    "id": "b0adb99e-0f34-491c-a4c9-ce5a90be2fc8",
+    "id": "cb3865aa-285d-4bcd-933f-c5b0ab2a3ea0",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "💰 Hut 8 shares surged over 35% on Wednesday after the company said it signed a 15-year, $9.8 billion AI data center lease in Texas.",
@@ -140,7 +190,7 @@
     "created_at": "2026-05-06T22:22:49.000Z"
   },
   {
-    "id": "9df48035-c26d-4f3a-9ebc-b6552b727975",
+    "id": "2aab0e3c-6e76-4a2f-9467-a62d17b4a282",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🏦 Swiss bank AMINA has become the first bank to support custody and trading for Canton Coin, giving institutions FINMA-regulated access to the Canton Network.",
@@ -160,7 +210,7 @@
     "created_at": "2026-05-06T22:08:13Z"
   },
   {
-    "id": "82226222-be5b-4975-81b5-a393d7e09514",
+    "id": "e57c5bee-bd0c-4440-8341-eb03c955c0f2",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 White House official Patrick Witt says Bitcoin Strategic Reserve announcement is coming within \"weeks.\"@WatcherGuru",
@@ -210,7 +260,7 @@
     "created_at": "2026-05-06T21:43:24.000Z"
   },
   {
-    "id": "5b6dacf1-1d3b-4b82-8064-8b662b0bfcb6",
+    "id": "bc8cf1b9-02a5-44e4-93cc-ec67b2e381b6",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Ondo Finance, JPMorgan's Kinexys, Mastercard, and Ripple announced they have settled a tokenized US Treasury fund across borders on the XRP Ledger in under five seconds.",
@@ -290,7 +340,7 @@
     "created_at": "2026-05-06T21:12:42+00:00"
   },
   {
-    "id": "a6618d25-76e0-4339-bdb9-a76891a3fd6f",
+    "id": "94b37869-40b0-49ec-9cb2-83d43346c460",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "White House aims for July 4 deadline to pass landmark crypto regulation billTwitter",
@@ -340,7 +390,7 @@
     "created_at": "2026-05-06T21:06:02.000Z"
   },
   {
-    "id": "eab5d7e8-ed48-407c-98c7-bd6ec4b143aa",
+    "id": "83cd0a80-a6fc-4a6b-a815-daa64806f444",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 Elon Musk says he paid over $10,000,000,000 in taxes in a single year.\"Overall, I will probably end up paying trillions in taxes.\"@WatcherGuru",
@@ -470,7 +520,7 @@
     "created_at": "2026-05-06T19:54:16.000Z"
   },
   {
-    "id": "dd7b2cb5-ec57-4a74-b11f-8dcc6dea6393",
+    "id": "210d264f-f558-4c28-b57f-62efe6ba8e5a",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Bitcoin could hit $1 million in five years, VanEck saysTwitter",
@@ -478,25 +528,5 @@
     "url": "https://t.me/SolidIntelX#5d85fe9e",
     "author": "@SolidIntelX",
     "created_at": "2026-05-06T19:52:53+00:00"
-  },
-  {
-    "id": "8a5e47eb-429b-4e72-9d84-fecb8fcdb64c",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "Elon Musk says xAI will be dissolved and become \"SpaceXAI.\"@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#3f1ce83c",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-06T19:23:38+00:00"
-  },
-  {
-    "id": "6601f2f7-b225-4277-b513-b59b181682d8",
-    "source": "Politico",
-    "type": "rss",
-    "title": "The POLITICO Poll - April 2026 SAVE Act",
-    "summary": "1. The POLITICO Poll results on Americans' views of the SAVE America Act.",
-    "url": "https://www.politico.com/f/?id=0000019d-feb0-d64a-a5dd-fefa52fd0000",
-    "author": "Politico",
-    "created_at": "2026-05-06T19:13:55.000Z"
   }
 ]
