@@ -1,6 +1,106 @@
 [
   {
-    "id": "9d0bc58a-a8df-452e-83ad-f37b3c937ae7",
+    "id": "2e16a8da-0baa-475a-b5d4-28004d56d21b",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "TrustedVolumes hacker swaps all stolen funds for ETH",
+    "summary": "Blockchain security firm Beosin reported via X that approximately $5.87 million stolen from TrustedVolumes has been converted to ETH. The funds are now split between two addresses, holding 1,291.07 ETH and 1,222.12 ETH, respectively. Blockaid previously analyzed that the attack exploited a vulnerable smart contract and suggested the perpetrator may be the same hacker behind last year's 1inch exploit. more:",
+    "url": "https://t.me/CoinnessGL#65719921",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T03:08:49+00:00"
+  },
+  {
+    "id": "42a7b019-12f4-4283-a9b8-fb9c5b789c34",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "S&P, Moody's probe South Korean banks on digital asset strategies",
+    "summary": "Global credit rating agencies S&P and Moody's questioned major South Korean banks and financial firms about their perception of and readiness for the digital asset market during regular meetings in March and April, The Herald Business reported. S&P reportedly asked about the potential risks and opportunities for banks as South Korea moves to introduce a CBDC and stablecoins, and what core strategies the banks are preparing in response. Moody's is understood to have included questions assessing digital asset capabilities in its preliminary questionnaire for the first time this year. more:",
+    "url": "https://t.me/CoinnessGL#a2b58ab5",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T03:02:27+00:00"
+  },
+  {
+    "id": "240754b7-3fb8-4682-a40a-3f7ab39de6fe",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. RT @realDonaldTrumpLilly commits additional $4.5 billion across Indiana manufacturing sites, opens first dedicated genetic medicine facility:",
+    "url": "https://trumpstruth.org/statuses/38254",
+    "author": "Trump Truth",
+    "created_at": "2026-05-07T03:00:01.000Z"
+  },
+  {
+    "id": "9257b102-d75e-4668-9d54-109ef480dc35",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "US ETH spot ETFs see net inflows for 4th straight day",
+    "summary": "U.S. Ethereum spot ETFs recorded net inflows of $11.52 million on May 6, marking the fourth consecutive day of positive flows, according to data compiled by Trader T.- BlackRock's ETHA: +$2.07 million- Fidelity's FETH: -$580,000- Grayscale Mini ETH: +$10.03 million",
+    "url": "https://t.me/CoinnessGL#9eadee3a",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T02:50:31+00:00"
+  },
+  {
+    "id": "a300b600-83eb-44cc-87d3-fb5641fff58d",
+    "source": "Trump Truth",
+    "type": "rss",
+    "title": "New post from Donald Trump",
+    "summary": "1. RT @realDonaldTrumpLilly commits additional $4.5 billion across Indiana manufacturing sites, opens first dedicated genetic medicine facility:",
+    "url": "https://trumpstruth.org/statuses/38253",
+    "author": "Trump Truth",
+    "created_at": "2026-05-07T02:41:18.000Z"
+  },
+  {
+    "id": "362debf2-284c-42e0-8b7e-e21bc624cf2d",
+    "source": "The Block",
+    "type": "rss",
+    "title": "California man gets 78 months in prison for role in $250 million crypto theft ring",
+    "summary": "1. Marlon Ferro, also known as 'GothFerrari,' was sentenced to 78 months in prison for his role in a nationwide social engineering conspiracy.",
+    "url": "https://www.theblock.co/post/400337/california-man-78-months-crypto-theft?utm_source=rss&utm_medium=rss",
+    "author": "Timmy Shen",
+    "created_at": "2026-05-07T02:35:17.000Z"
+  },
+  {
+    "id": "5a8ba6ed-b032-47d6-90e2-fd3261294dec",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Prediction Market Fight Deepens as 40 States Push Back on CFTC",
+    "summary": "1. A multistate coalition told the Commodity Futures Trading Commission that sports-related prediction markets should remain under state gambling oversight, arguing the contracts function as wagers rather than financial derivatives.\n2. The attorneys general said these products closely resemble traditional sportsbook wagers on winners, spreads, totals, and player statistics.\n3. States Say Sports Markets Belong Under Gambling Oversight […]",
+    "url": "https://news.bitcoin.com/prediction-market-fight-deepens-as-40-states-push-back-on-cftc/",
+    "author": "Kevin Helms",
+    "created_at": "2026-05-07T02:30:41.000Z"
+  },
+  {
+    "id": "6d1b7681-3321-4621-80ba-8396763fa44c",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "JPMorgan, Mastercard make first cross-border US Treasury transfer via XRP Ledger",
+    "summary": "1. The cross-border tokenized US Treasury transaction using blockchain and banking rails builds on an earlier pilot in which the same fund moved between a public and permissioned blockchain.",
+    "url": "https://cointelegraph.com/news/jpmorgan-mastercard-first-cross-border-us-treasury-settlement-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-05-07T02:05:55.000Z"
+  },
+  {
+    "id": "e0981acb-901d-495d-8f84-1754aea92cad",
+    "source": "The Block",
+    "type": "rss",
+    "title": "1inch liquidity provider TrustedVolumes hit with ongoing exploit, draining nearly $6 million: Blockaid",
+    "summary": "1. Blockaid said the attacker was the same entity that exploited 1inch Fusion V1 in March 2025, which drained around $5 million.",
+    "url": "https://www.theblock.co/post/400332/1inch-trustedvolumes-exploit?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-05-07T02:04:33.000Z"
+  },
+  {
+    "id": "0c7310c5-561a-4168-b71e-dc9352896c54",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Eric Trump’s American Bitcoin reports $82 million loss in Q1 amid ‘record’ mining production",
+    "summary": "1. American Bitcoin mined 817 BTC during the first quarter, marking its highest quarterly production on record.",
+    "url": "https://www.theblock.co/post/400327/eric-trump-american-bitcoin-82-million-loss-q1?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-05-07T01:58:01.000Z"
+  },
+  {
+    "id": "5f4a5e35-60e8-4c6e-860e-51a09b81db0d",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 President Donald Trump says jobs and 401(k)s are \"BOOMING.\"@WatcherGuru",
@@ -100,6 +200,16 @@
     "created_at": "2026-05-07T01:00:38+00:00"
   },
   {
+    "id": "4fc35bf4-b7ce-413c-9072-9d52247d2445",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "🐳 Bitcoin whales on Hyperliquid pushed net long positions to a 2026 high as BTC briefly passed $82K, its highest level in over three months, per Glassnode.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#8f4d83b3",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T00:24:46+00:00"
+  },
+  {
     "id": "61999f8e-3270-442d-a456-9374dc7b344e",
     "source": "CoinTelegraph",
     "type": "rss",
@@ -130,7 +240,7 @@
     "created_at": "2026-05-06T22:58:57.000Z"
   },
   {
-    "id": "cb3865aa-285d-4bcd-933f-c5b0ab2a3ea0",
+    "id": "8691da79-e3fa-40e1-a239-3899df44641e",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "💰 Hut 8 shares surged over 35% on Wednesday after the company said it signed a 15-year, $9.8 billion AI data center lease in Texas.",
@@ -190,7 +300,7 @@
     "created_at": "2026-05-06T22:22:49.000Z"
   },
   {
-    "id": "2aab0e3c-6e76-4a2f-9467-a62d17b4a282",
+    "id": "1117b2a1-2b3b-4fbf-8e55-8869a26df368",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🏦 Swiss bank AMINA has become the first bank to support custody and trading for Canton Coin, giving institutions FINMA-regulated access to the Canton Network.",
@@ -210,7 +320,7 @@
     "created_at": "2026-05-06T22:08:13Z"
   },
   {
-    "id": "e57c5bee-bd0c-4440-8341-eb03c955c0f2",
+    "id": "5873dea7-aadb-44dd-a7b4-728f215b4ac8",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 White House official Patrick Witt says Bitcoin Strategic Reserve announcement is coming within \"weeks.\"@WatcherGuru",
@@ -338,195 +448,5 @@
     "url": "https://t.me/CoinnessGL#37dd1a9f",
     "author": "@CoinnessGL",
     "created_at": "2026-05-06T21:12:42+00:00"
-  },
-  {
-    "id": "94b37869-40b0-49ec-9cb2-83d43346c460",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "White House aims for July 4 deadline to pass landmark crypto regulation billTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#b7a8e205",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-06T21:12:05+00:00"
-  },
-  {
-    "id": "df5c53bd-bd6b-487c-a41a-2a695998baf2",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Dominance of Tether and Circle is a net bad for stablecoins, says Bridge executive",
-    "summary": "1. Circle and Tether are going to make it harder for stablecoins to feel like money, said Ben O'Neill, head of money movement at Bridge.",
-    "url": "https://www.coindesk.com/business/2026/05/06/dominance-of-tether-and-circle-is-net-bad-for-stablecoins-says-bridge",
-    "author": "Ian Allison",
-    "created_at": "2026-05-06T21:11:57.000Z"
-  },
-  {
-    "id": "edc4aa15-68bd-4cdc-b425-e5135f9efe63",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "US Senator says crypto market structure vote could happen by August",
-    "summary": "1. Kirsten Gillibrand said that the US Senate had to address lawmakers potentially getting “rich off of these industries because of their insider status“ before any vote on the CLARITY Act.",
-    "url": "https://cointelegraph.com/news/kirsten-gillibrand-crypto-market-structure-august-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Turner Wright",
-    "created_at": "2026-05-06T21:07:09.000Z"
-  },
-  {
-    "id": "c20365b6-074a-4734-83c5-6f95eca58d85",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Bitcoin, Ethereum 'Q-Day' Quantum Threat Could Arrive as Soon as 2030: Report",
-    "summary": "1. By the time Bitcoin and other networks are ready to defend themselves, it may already be too late, according to a new analysis.",
-    "url": "https://decrypt.co/367047/bitcoin-ethereum-q-day-quantum-threat-could-arrive-2030",
-    "author": "Decrypt Agent",
-    "created_at": "2026-05-06T21:07:08.000Z"
-  },
-  {
-    "id": "e257db75-2e75-4d09-96ff-faa724292f1e",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Panama Player Accuses World Cup Veteran Teammate of Match-Fixing After Own Goal",
-    "summary": "1. A Sporting San Miguelito player publicly accused his own teammate of match-fixing in a series of Instagram posts following a May 2 Liga Panamena de Futbol fixture, triggering a formal league investigation five weeks before Panama plays in the FIFA World Cup.\n2. Gustavo Herrera named goalkeeper Jose Calderón—a 40-year-old veteran with 44 caps for the […]",
-    "url": "https://news.bitcoin.com/panama-player-accuses-world-cup-veteran-teammate-of-match-fixing-after-own-goal/",
-    "author": "Luci Kelemen",
-    "created_at": "2026-05-06T21:06:02.000Z"
-  },
-  {
-    "id": "83cd0a80-a6fc-4a6b-a815-daa64806f444",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸 Elon Musk says he paid over $10,000,000,000 in taxes in a single year.\"Overall, I will probably end up paying trillions in taxes.\"@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#e5e8cbcc",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-06T20:52:49+00:00"
-  },
-  {
-    "id": "6fb13a5f-8a7f-49ea-a797-89422cb1ba0b",
-    "source": "r/cryptocurrency",
-    "type": "reddit",
-    "title": "Husband’s secret $250K crypto bet ends in total loss",
-    "summary": "1. Husband’s secret $250K crypto bet ends in total loss",
-    "url": "https://reddit.com/r/CryptoCurrency/comments/1t5pho0/husbands_secret_250k_crypto_bet_ends_in_total_loss/",
-    "author": "u/TheGreatCryptopo",
-    "created_at": "2026-05-06T20:51:24.000Z"
-  },
-  {
-    "id": "c2fe73ff-f0c8-4797-97aa-b13918b8248b",
-    "source": "The Block",
-    "type": "rss",
-    "title": "White House aims for July 4 deadline to pass landmark crypto regulation bill",
-    "summary": "1. The White House's top crypto adviser, Patrick Witt, set a target date for July 4 to pass broad crypto legislation into law.",
-    "url": "https://www.theblock.co/post/400320/white-house-aims-for-july-4-deadline-to-pass-landmark-crypto-regulation-bill?utm_source=rss&utm_medium=rss",
-    "author": "Sarah Wynn",
-    "created_at": "2026-05-06T20:50:23.000Z"
-  },
-  {
-    "id": "e44f8d9c-a855-4915-b926-e8aba4871a7d",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "BTC skeptic Peter Schiff calls Strategy's STRC a Ponzi scheme",
-    "summary": "Euro Pacific Capital CEO Peter Schiff has criticized Strategy's STRC as a Ponzi scheme that will collapse once its dividend payments cease, BeInCrypto reported. Schiff argued that Strategy will eventually reach a point where its STRC dividend payments become unsustainable. At that juncture, he said, Michael Saylor will have to choose between selling his holdings or the preferred shareholders' stake. Schiff asserted that this structure is destined to collapse and emphasized that Bitcoin itself is a hybrid scam.",
-    "url": "https://t.me/CoinnessGL#1fc2f168",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-06T20:40:04+00:00"
-  },
-  {
-    "id": "831ee140-738a-497e-977a-9e4736c5eeec",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Insurance startup Corgi hits $1.3B valuation 4 months after its Series A",
-    "summary": "1. Corgi announced on Wednesday a $160 million Series B, led by TCV, valuing the startup at $1.3 billion.",
-    "url": "https://techcrunch.com/2026/05/06/insurance-startup-corgi-hits-1-3b-valuation-4-months-after-its-series-a/",
-    "author": "Dominic-Madori Davis",
-    "created_at": "2026-05-06T20:39:16.000Z"
-  },
-  {
-    "id": "991f3897-cd91-49c4-984a-6b6b73cf3d63",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Aave liquidates Kelp DAO attacker’s remaining rsETH positions",
-    "summary": "1. Aave required a governance process to manipulate its rsETH oracle price to generate a deficit in the attacker’s fraudulent position.",
-    "url": "https://www.theblock.co/post/400315/aave-liquidates-kelp-dao-attackers-remaining-rseth-positions?utm_source=rss&utm_medium=rss",
-    "author": "Daniel Kuhn",
-    "created_at": "2026-05-06T20:31:29.000Z"
-  },
-  {
-    "id": "eea98574-a658-4225-b745-a7955fba5c19",
-    "source": "Politico",
-    "type": "rss",
-    "title": "Menin’s Fair Fares push tests Mamdani",
-    "summary": "1. Menin’s Fair Fares push tests Mamdani",
-    "url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/05/06/menins-fair-fares-mamdani-subway-00908731",
-    "author": "By Ry Rivard",
-    "created_at": "2026-05-06T20:31:05.000Z"
-  },
-  {
-    "id": "d0a40926-4dca-426d-8538-f070dc3e15c5",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Strategy says 2.3% annual BTC gain can cover dividends indefinitely",
-    "summary": "Strategy has stated via its official channels that an annual price increase of just 2.3% for Bitcoin is enough to cover its dividend payments indefinitely.",
-    "url": "https://t.me/CoinnessGL#15e55e4d",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-06T20:31:02+00:00"
-  },
-  {
-    "id": "6e6c3ca0-38df-43cb-96b2-57aa29ffd2e3",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Elon Musk's SpaceX Will Help Power Anthropic's Claude in Surprise AI Deal",
-    "summary": "1. Elon Musk’s combined company of SpaceX and xAI will help boost Anthropic with a deal to provide compute for Claude AI models.",
-    "url": "https://decrypt.co/367035/elon-musk-spacex-power-anthropic-claude-surprise-ai-deal",
-    "author": "Jason Nelson",
-    "created_at": "2026-05-06T20:23:19.000Z"
-  },
-  {
-    "id": "ecd3691a-92a8-4e34-9bf3-d26eb0adb3a5",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸 $1 trillion added to the US stock market today.@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#b3daa8cd",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-06T20:18:41+00:00"
-  },
-  {
-    "id": "6acbdbd0-9559-4c05-9f33-045f0590f4f3",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Bitcoin whales on Hyperliquid push net long positions to 2026 high",
-    "summary": "1. Glassnode posted a chart indicating that whales have been aggressively increasing their cumulative long positions in recent weeks.",
-    "url": "https://www.theblock.co/post/400302/bitcoin-whales-hyperliquid-net-long-positions-2026-high?utm_source=rss&utm_medium=rss",
-    "author": "Daniel Kuhn",
-    "created_at": "2026-05-06T20:05:58.000Z"
-  },
-  {
-    "id": "967cc4ca-d297-4581-a60c-a3185a1db47f",
-    "source": "The Defiant",
-    "type": "rss",
-    "title": "Gnosis Treasury Redemption Vote Swings as Whale Counters Cofounder",
-    "summary": "1. Votes in favor of a redemption proposal that would let GNO holders claim roughly $170 per token from a $223M treasury have retaken the lead on Snapshot.",
-    "url": "https://thedefiant.io/news/defi/gnosis-treasury-redemption-vote-swings-as-whale-counters-cofounder",
-    "author": "yyctrader",
-    "created_at": "2026-05-06T19:56:51.000Z"
-  },
-  {
-    "id": "2315c182-0870-4b74-b335-2085b7543764",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Crypto-Native Operators Lead Canada’s Offshore iGaming Surge as World Cup Approaches",
-    "summary": "1. Crypto-native operators Stake and Roobet lead Canada’s online gambling market five weeks before the country co-hosts the FIFA World Cup, with offshore platforms continuing to dominate every province except Ontario.\n2. According to the 2025 USA and Canada iGaming Landscape Report from market analytics firm Blask, the top five Canadian operators capture more than 60% of […]",
-    "url": "https://news.bitcoin.com/crypto-native-operators-lead-canadas-offshore-igaming-surge-as-world-cup-approaches/",
-    "author": "Luci Kelemen",
-    "created_at": "2026-05-06T19:54:16.000Z"
-  },
-  {
-    "id": "210d264f-f558-4c28-b57f-62efe6ba8e5a",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "Bitcoin could hit $1 million in five years, VanEck saysTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#5d85fe9e",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-06T19:52:53+00:00"
   }
 ]
