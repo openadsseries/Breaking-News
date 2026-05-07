@@ -1,5 +1,25 @@
 [
   {
+    "id": "190b972f-0e06-4117-bd70-59cbc77dd57d",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Pakistan begins preparations to host US-Iran talks",
+    "summary": "Pakistan has begun preparing to potentially host negotiations between the United States and Iran, a Pakistani official said on May 7, according to Xinhua News Agency. Relevant government ministries met in the capital, Islamabad, today to plan for the possibility of hosting both the talks and a potential signing ceremony. A Pakistani source also said that military and police officials held a joint meeting in the nearby city of Rawalpindi to discuss security measures for the negotiations, which could be held as early as next week.",
+    "url": "https://t.me/CoinnessGL#6725ab1e",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T09:59:16+00:00"
+  },
+  {
+    "id": "43e270e3-5367-4019-a44d-de5b5130fd6b",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📈 VanEck's Matthew Sigel says Bitcoin could hit $1 million within 5 years, citing demographic trends and the first central bank buying BTC for its reserves.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#f010e7e6",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T09:54:23+00:00"
+  },
+  {
     "id": "1fbd752c-9529-4ca9-bd59-d0501e5fb9dd",
     "source": "Decrypt",
     "type": "rss",
@@ -10,7 +30,7 @@
     "created_at": "2026-05-07T09:42:17.000Z"
   },
   {
-    "id": "b7f01d07-b748-4fb9-a0c8-06df73bf7088",
+    "id": "a7d0bfc5-3e31-4a67-8dfa-79872093b63d",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "💡 CoinMarketCap | Topic Audio Summary 💡Reading takes your eyes off the price...",
@@ -30,7 +50,7 @@
     "created_at": "2026-05-07T09:30:36.000Z"
   },
   {
-    "id": "22e14fa7-1d34-4d92-bae5-11c3a108136c",
+    "id": "52d8f84e-fa0a-4f21-b198-11ccc3e74c2d",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Analysts warn of potential short-term top for BTC",
@@ -40,7 +60,7 @@
     "created_at": "2026-05-07T09:27:28+00:00"
   },
   {
-    "id": "41b02320-edda-4a6e-aeda-95219e503682",
+    "id": "bda8f47e-3a21-4af0-ab3a-63622af282e3",
     "source": "@CoinnessGL",
     "type": "telegram",
     "title": "Mastercard, Yellow Card partner on stablecoin payments in EEMEA",
@@ -80,7 +100,7 @@
     "created_at": "2026-05-07T09:09:38.000Z"
   },
   {
-    "id": "a385993a-fb9b-4979-a256-d7868762be12",
+    "id": "5986016e-2d12-4f70-9efa-5be57dc5dab2",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇺🇸 CFTC chair Michael Selig says the agency plans to codify protections for non-custodial software developers into formal rules, building on last year's Phantom no-action letter.",
@@ -130,7 +150,7 @@
     "created_at": "2026-05-07T08:40:18.000Z"
   },
   {
-    "id": "86e8b875-66f2-49a4-aa0b-def78778e3f2",
+    "id": "f8d0e253-5873-45a3-8e5e-7cdc92d76e78",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "WHO confirms 5 hantavirus cases linked to MV Hondius cruise ship outbreak, including Andes strain with potential human-to-human transmissionTwitter",
@@ -260,6 +280,16 @@
     "created_at": "2026-05-07T06:39:38+00:00"
   },
   {
+    "id": "b2e5338d-35a6-448a-abf3-b4df696cfe96",
+    "source": "r/cryptocurrency",
+    "type": "reddit",
+    "title": "CZ Urges Binance Users To Lock Accounts In Countries With High Crypto Kidnapping Rates",
+    "summary": "1. CZ Urges Binance Users To Lock Accounts In Countries With High Crypto Kidnapping Rates",
+    "url": "https://reddit.com/r/CryptoCurrency/comments/1t62ef7/cz_urges_binance_users_to_lock_accounts_in/",
+    "author": "u/ourcryptotalk",
+    "created_at": "2026-05-07T06:31:26.000Z"
+  },
+  {
     "id": "b0588943-66c3-4bde-9023-828a737f070a",
     "source": "Bitcoin.com",
     "type": "rss",
@@ -300,7 +330,7 @@
     "created_at": "2026-05-07T05:58:12.000Z"
   },
   {
-    "id": "dee874ff-8d3c-4628-9f73-b05b66e33e23",
+    "id": "6a5f06bf-5f14-4cd6-a205-da88f30866d1",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "BNY, the world’s largest custodian bank with ~$59T under custody, plans to launch digital asset custody services in Abu Dhabi focused initially on BTC and ETH.Twitter",
@@ -390,7 +420,7 @@
     "created_at": "2026-05-07T05:14:10+00:00"
   },
   {
-    "id": "e18f5df9-7d86-417b-bf97-23e2f9e9b870",
+    "id": "2171ecbe-c8eb-4c03-84f9-5cf6f0a4af8d",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Saudi Arabia has reportedly suspended U.S.",
