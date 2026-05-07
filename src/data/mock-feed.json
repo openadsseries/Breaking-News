@@ -1,5 +1,135 @@
 [
   {
+    "id": "ed776e40-c858-4c55-83e0-c4ef5f0e263b",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "1inch says it is unaffected by Trusted Volume hack",
+    "summary": "Decentralized exchange (DEX) aggregator 1inch (1INCH) announced on X that it was not affected by the recent hack of Trusted Volume.1inch explained that Trusted Volume is a liquidity provider used by multiple protocols across the industry and is not exclusive to its platform. The company assured that its systems, infrastructure, and user funds remain secure, adding that it is continuously monitoring the situation and collaborating with relevant security organizations. more:",
+    "url": "https://t.me/CoinnessGL#f008f1e9",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T07:42:05+00:00"
+  },
+  {
+    "id": "f99a17f7-8502-4d9d-9734-3bede75c9401",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Consensys CEO Joseph Lubin says \"essentially the entire economy\" will be tokenized, with Ethereum set to benefit most as institutions move assets on-chain.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#ded91ce0",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T07:29:22+00:00"
+  },
+  {
+    "id": "e17dc798-4e72-4c14-b830-0a808574ba54",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Morgan Stanley exec: Traditional finance will absorb DeFi in 5 years",
+    "summary": "Jed Finn, head of Morgan Stanley's Wealth Management division, predicted that DeFi will be treated like traditional finance within five years, causing the term \"DeFi\" itself to disappear. Speaking at the Consensus 2026 conference, he explained that traditional finance will ultimately absorb the DeFi sector.Finn also announced a new crypto-related product from Morgan Stanley. The offering will allow clients to transfer cryptocurrency held on external platforms into their Morgan Stanley accounts, convert it into an ETF, and then take out loans against the ETF without selling the underlying assets. He noted that this structure enables clients to access liquidity without triggering a taxable event.",
+    "url": "https://t.me/CoinnessGL#a617c576",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T07:26:11+00:00"
+  },
+  {
+    "id": "32137583-99eb-4e33-9508-042e2df452ca",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "CME Group to eliminate 'CME gap' with 24-hour crypto futures trading",
+    "summary": "The CME gap is set to disappear as CME Group plans to introduce 24-hour trading for its cryptocurrency futures and options products starting May 29. The CME BTC futures gap refers to the price difference between the Friday closing price and the Monday opening price on the exchange's charts. This phenomenon occurs because while the spot Bitcoin market operates around the clock, CME's markets have traditionally been closed on weekends. Historically, many investors have used this gap as a directional indicator, operating on the assumption that the price of BTC tends to move to fill the gap over time.",
+    "url": "https://t.me/CoinnessGL#74e94c31",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T07:13:21+00:00"
+  },
+  {
+    "id": "c837b73d-eb52-477e-8f30-8b9f3bfaab09",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Samourai Wallet co-founder appeals for donations to pay $2M legal fees",
+    "summary": "1. Samourai Wallet co-founders Keonne Rodriguez and William Lonergan Hill were sentenced to five and four years in prison, respectively, for their involvement in the crypto protocol.",
+    "url": "https://cointelegraph.com/news/samourai-wallet-co-founder-appeals-for-donations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Stephen Katte",
+    "created_at": "2026-05-07T07:10:57.000Z"
+  },
+  {
+    "id": "9716ee67-c283-4792-a285-e789ca3044c1",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Trump-linked American Bitcoin reports $82M Q1 loss, revenue miss",
+    "summary": "1. Donald Trump’s sons’ company, American Bitcoin, missed analyst revenue estimates and posted narrower losses as it ramped up its mining capacity.",
+    "url": "https://cointelegraph.com/news/trump-american-bitcoin-q1-loss-misses-revenue-estimates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Jesse Coghlan",
+    "created_at": "2026-05-07T07:08:10.000Z"
+  },
+  {
+    "id": "ef67df5c-c919-4abb-88b3-53888e2ddca3",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "UAE-regulated stablecoins to develop AED-USD conversion rails for institutional settlement ",
+    "summary": "1. The framework will enable near-instant conversion between dirham- and dollar-denominated stablecoins under the United Arab Emirates’s regulated payment token system.",
+    "url": "https://cointelegraph.com/news/uae-regulated-stablecoins-to-develop-aed-usd-conversion-rails-for-institutional-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Nate Kostar",
+    "created_at": "2026-05-07T07:00:00.000Z"
+  },
+  {
+    "id": "9afbe551-2ccd-4da6-8f9e-95de7dc22ed1",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📊 K33 says Bitcoin is in its longest negative funding streak this decade at 67 days, noting that buying during similar periods has historically led to strong forward returns.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#a9670d3d",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T06:39:38+00:00"
+  },
+  {
+    "id": "b0588943-66c3-4bde-9023-828a737f070a",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Polymarket Odds Hit 20% for the US Government to Confirm Alien Life in 2026",
+    "summary": "1. The possibility of alien disclosure has risen, with Polymarket traders estimating a 20% chance for alien life to be confirmed by the U.S.\n2. government this year.\n3. Recently, reports of meetings between church pastors and intelligence officers have surged, allegedly to prepare for an upcoming reveal event.",
+    "url": "https://news.bitcoin.com/polymarket-odds-hit-20-for-the-us-government-to-confirm-alien-life-in-2026/",
+    "author": "Sergio Goschenko",
+    "created_at": "2026-05-07T06:30:32.000Z"
+  },
+  {
+    "id": "d188db4d-b6ad-4567-9f62-ac66bc51c675",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Bitcoin lenders say institutions want crypto credit to look more like TradFi",
+    "summary": "1. At Consensus 2026 in Miami, executives from Two Prime, Ledn and Lygos Finance said institutional borrowers increasingly prioritize custody, transparency and standardized lending structures over complex DeFi products after the crypto credit collapses of 2022.",
+    "url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-lenders-say-institutions-want-crypto-credit-to-look-more-like-tradfi",
+    "author": "Sam Reynolds",
+    "created_at": "2026-05-07T06:23:47.000Z"
+  },
+  {
+    "id": "543572cf-d64a-42ac-8491-b28a83b50a37",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Trump family-backed American Bitcoin's costs dropped 23% in Q1 as mining industry pivots to AI",
+    "summary": "1. The Trump family-linked miner cut its cost per Bitcoin to roughly $36,200 from $46,900 in Q4 2025, putting it among the lowest-cost public mining operations at a moment when most of its peers are toning down business.",
+    "url": "https://www.coindesk.com/markets/2026/05/07/trump-backed-american-bitcoin-s-costs-dropped-23-in-q1-as-mining-industry-pivots-to-ai",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-05-07T06:21:56.000Z"
+  },
+  {
+    "id": "b4c27407-cecc-40f1-aafd-39f0ac5594b6",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Bithumb eyes Vietnam expansion under new partnership with SSID",
+    "summary": "1. Bithumb said it may make direct investments in the upcoming exchange, contingent on local regulatory approval.",
+    "url": "https://www.theblock.co/post/400341/bithumb-vietnam-ssid?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-05-07T05:58:12.000Z"
+  },
+  {
+    "id": "4ff0c2cf-12a0-4248-b16f-ced3642789fb",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "BNY, the world’s largest custodian bank with ~$59T under custody, plans to launch digital asset custody services in Abu Dhabi focused initially on BTC and ETH.Twitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#ddba91af",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-07T05:51:18+00:00"
+  },
+  {
     "id": "4c9872a8-d8cc-4cf1-8c50-cff1cf94e3cc",
     "source": "CoinDesk",
     "type": "rss",
@@ -20,7 +150,7 @@
     "created_at": "2026-05-07T05:36:51+00:00"
   },
   {
-    "id": "9dffc871-104a-453b-b5c6-fb848bb39cf5",
+    "id": "08594299-d345-4e0e-b98c-14ce5ef8cd50",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇺🇸 White House crypto adviser Patrick Witt says a Strategic Bitcoin Reserve announcement is coming \"in the next few weeks.\"",
@@ -80,7 +210,7 @@
     "created_at": "2026-05-07T05:14:10+00:00"
   },
   {
-    "id": "1a4fc547-d495-4cbd-bb11-f39d21d7d876",
+    "id": "de8aac11-e978-48fe-92f0-0dcf43dcff60",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Saudi Arabia has reportedly suspended U.S.",
@@ -258,115 +388,5 @@
     "url": "https://www.theblock.co/post/400327/eric-trump-american-bitcoin-82-million-loss-q1?utm_source=rss&utm_medium=rss",
     "author": "Danny Park",
     "created_at": "2026-05-07T01:58:01.000Z"
-  },
-  {
-    "id": "fc2838d0-895c-4107-a31c-38d7235ddf12",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸 President Donald Trump says jobs and 401(k)s are \"BOOMING.\"@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#f7b735ea",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-07T01:21:46+00:00"
-  },
-  {
-    "id": "97b9a802-6406-4265-b457-20f1ee4c572f",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. New Trump counterterrorism strategy elevates threats from leftist groups like Antifa:",
-    "url": "https://trumpstruth.org/statuses/38250",
-    "author": "Trump Truth",
-    "created_at": "2026-05-07T01:19:17.000Z"
-  },
-  {
-    "id": "0c36942e-f324-48ce-aefb-da97257d5134",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Stock Market hit an ALL-TIME HIGH TODAY.\n2. Jobs & 401-K’s are BOOMING!!!",
-    "url": "https://trumpstruth.org/statuses/38251",
-    "author": "Trump Truth",
-    "created_at": "2026-05-07T01:16:56.000Z"
-  },
-  {
-    "id": "b59a90e9-d2e0-4676-91a8-7962b03482fa",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "ZetaChain integrates xAI's latest AI model 'Grok 4.3'",
-    "summary": "ZetaChain (ZETA), a Layer 1 blockchain project focused on AI interoperability, announced it has integrated xAI's latest model, Grok 4.3, into its proprietary AI layer. Grok 4.3 features upgraded performance in agent tool calling and instruction following, and supports a 1 million token context window. ZetaChain stated that through its Anuma platform, users can run the same prompt on multiple AI models simultaneously and compare the answers instantly, all without switching tabs or creating new accounts. more:",
-    "url": "https://t.me/CoinnessGL#092d2ace",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-07T01:13:28+00:00"
-  },
-  {
-    "id": "aad64d59-6d91-4587-ab01-d94c3bc44d63",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Washington D.C.\n2. CRIME is at its lowest point in 30 years, plus!\n3. President DJT",
-    "url": "https://trumpstruth.org/statuses/38249",
-    "author": "Trump Truth",
-    "created_at": "2026-05-07T01:13:04.000Z"
-  },
-  {
-    "id": "29c235e6-8db9-40b6-8af5-b6b6b109b798",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Grant Cardone adds $100M in BTC to real estate fund",
-    "summary": "U.S. real estate investor Grant Cardone announced that he has added $100 million in BTC to a $235 million income-producing real estate investment. According to CoinDesk, he explained that the strategy combines income-generating real estate and BTC into a single LLC structure to target higher returns than traditional REITs. Cardone said the structure is designed to capture both the stable cash flow from real estate and the upside potential of BTC, with expected annual returns between 22% and 32%. Cardone Capital's total BTC exposure is now approximately $200 million.",
-    "url": "https://t.me/CoinnessGL#443cd843",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-07T01:09:08+00:00"
-  },
-  {
-    "id": "56fdae1c-4149-486f-93e8-480ac3c39af1",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Chuck Devore, Army Intelligence, was fantastic tonight on Jesse Watters.\n2. Thank you Chuck!!!\n3. President DJT",
-    "url": "https://trumpstruth.org/statuses/38248",
-    "author": "Trump Truth",
-    "created_at": "2026-05-07T01:08:56.000Z"
-  },
-  {
-    "id": "eba781bf-e092-4877-9ce5-bbabc5a773a3",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Evernorth Adding Ripple Legal Chief to Board Ahead of XRP Treasury Push",
-    "summary": "1. Evernorth is expanding its leadership team as it moves toward a planned public listing.\n2. The company said the strategy is designed to support institutional adoption of XRP through a regulated public-company structure.\n3. Evernorth Expands Leadership Team Evernorth Holdings Inc.",
-    "url": "https://news.bitcoin.com/evernorth-adding-ripple-legal-chief-to-board-ahead-of-xrp-treasury-push/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-07T01:05:28.000Z"
-  },
-  {
-    "id": "02cc326a-5cd1-40a0-9f22-cd3f3c8632ab",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Pudgy Penguins deployer moves 100M PENGU to exchanges, price falls",
-    "summary": "The Pudgy Penguins token deployment address transferred 100 million PENGU to multiple exchanges, including OKX, about six hours ago, according to EmberCN. This was part of a larger outflow of 137 million PENGU, worth approximately $1.5 million. Following the move, the price of PENGU fell from $0.01147 to $0.0106.",
-    "url": "https://t.me/CoinnessGL#8f96dab7",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-07T01:01:05+00:00"
-  },
-  {
-    "id": "a935a047-a6c7-46b1-a233-161667b4d30a",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Aave completes liquidation of Kelp DAO hacker's remaining rsETH position",
-    "summary": "Aave announced that it has completed the liquidation of the remaining rsETH position from the Kelp DAO hacker. According to The Block, the liquidated collateral has been moved to \"Recovery Guardian,\" a multisig wallet managed by the hacking victim relief fund DeFi United. The funds will be used to compensate affected users and recover the rsETH collateral.Previously, Kelp DAO suffered a loss of approximately $292 million from a hack that exploited a vulnerability in a LayerZero-based bridge. At the time, the hacker minted 116,500 uncollateralized rsETH and swapped it for ETH on platforms including Aave and Compound.",
-    "url": "https://t.me/CoinnessGL#02842b21",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-07T01:00:38+00:00"
-  },
-  {
-    "id": "61999f8e-3270-442d-a456-9374dc7b344e",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Three reasons why Ether price rallies fizzle near $2.4K ",
-    "summary": "1. Ether rallies are abruptly capped at $2,400 and multiple data points suggest this pattern will remain in play for the foreseeable future.",
-    "url": "https://cointelegraph.com/markets/3-reasons-why-Ether-price-rallies-fizzle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Marcel Pechman",
-    "created_at": "2026-05-07T00:03:22.000Z"
   }
 ]
