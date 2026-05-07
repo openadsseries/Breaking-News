@@ -1,5 +1,175 @@
 [
   {
+    "id": "1fbd752c-9529-4ca9-bd59-d0501e5fb9dd",
+    "source": "Decrypt",
+    "type": "rss",
+    "title": "Hardware Wallet Thief Gets 78 Months in Prison Over $250M Crypto 'Heist'",
+    "summary": "1. ‘GothFerrari’ was sentenced for his part in a criminal enterprise that stole crypto through social engineering and physical break-ins.",
+    "url": "https://decrypt.co/367066/hardware-wallet-thief-gets-78-months-in-prison-over-250m-crypto-heist",
+    "author": "Decrypt Agent",
+    "created_at": "2026-05-07T09:42:17.000Z"
+  },
+  {
+    "id": "b7f01d07-b748-4fb9-a0c8-06df73bf7088",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "💡 CoinMarketCap | Topic Audio Summary 💡Reading takes your eyes off the price...",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#85d764f0",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T09:34:19+00:00"
+  },
+  {
+    "id": "9b568c45-9e92-43fa-b860-898b885ad3f0",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Hut 8 Surges 30% After Landing Second AI Data Center Lease Worth $9.8 Billion",
+    "summary": "1. Hut 8 (NASDAQ: HUT) shares jumped 30% in pre-market trading on Wednesday after the company announced a new 15-year AI infrastructure lease that expands its push into hyperscale data center development.\n2. This article first appeared in The Energy Mag.\n3. The original article can be viewed here.",
+    "url": "https://news.bitcoin.com/hut-8-surges-30-after-landing-second-ai-data-center-lease-worth-9-8-billion/",
+    "author": "Guest Author",
+    "created_at": "2026-05-07T09:30:36.000Z"
+  },
+  {
+    "id": "22e14fa7-1d34-4d92-bae5-11c3a108136c",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Analysts warn of potential short-term top for BTC",
+    "summary": "Despite Bitcoin surpassing $80,000, experts are warning of a potential short-term top, CryptoPotato reported. According to Santiment, market optimism is currently at its highest level in four months. However, the analysis notes that historically, such overheated FOMO has often preceded a market decline. Analyst IT Tech stated that a true bull market confirmation would require a break above $89,000, forecasting strong resistance from a sell wall built up during the second half of 2025.",
+    "url": "https://t.me/CoinnessGL#ed20b670",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T09:27:28+00:00"
+  },
+  {
+    "id": "41b02320-edda-4a6e-aeda-95219e503682",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Mastercard, Yellow Card partner on stablecoin payments in EEMEA",
+    "summary": "Global payments company Mastercard and African stablecoin exchange Yellow Card have formed a strategic partnership to innovate stablecoin payments in the Eastern Europe, Middle East, and Africa (EEMEA) region, according to a PR Newswire press release. The two companies will focus on driving innovation in four key areas: cross-border transfers, B2B settlements, digital loyalty ecosystems, and financial management. They also plan to collaborate with banks and regulators to implement compliant stablecoin pilot solutions.",
+    "url": "https://t.me/CoinnessGL#1160fc71",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T09:26:35+00:00"
+  },
+  {
+    "id": "2e7b3050-69b4-4563-8e6d-4c959e0df939",
+    "source": "The Block",
+    "type": "rss",
+    "title": "BNY expands crypto custody push in Abu Dhabi",
+    "summary": "1. BNY announced Thursday that it is expanding its crypto custody business to the UAE through partnerships with Finstreet and ADI Foundation.",
+    "url": "https://www.theblock.co/post/400370/bny-expands-abu-dhabi?utm_source=rss&utm_medium=rss",
+    "author": "Timmy Shen",
+    "created_at": "2026-05-07T09:23:25.000Z"
+  },
+  {
+    "id": "4ccb46db-8760-4a8b-ae52-c8383a7009c9",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Korean tax academics urge delay of crypto tax, citing flaws",
+    "summary": "With South Korea's virtual asset tax set to take effect next year, academics have raised concerns about the system's flaws, Money Today reported. The main argument is that both the justification and the means for taxation are insufficient, which could lead to taxpayer resistance.Oh Moon-seong, president of the Korean Tax Policy Association, said at an emergency review seminar on virtual asset taxation today that \"the consistency of the taxation needs to be re-examined\" and that \"it is still too early.\" The event was hosted by People Power Party lawmaker Park Soo-young and the association.Oh explained that it would violate tax fairness to proceed with taxing virtual assets, as the same arguments used to abolish the financial investment income tax in December 2024—such as potential market contraction, inadequate infrastructure, and double taxation—apply equally to crypto.He also pointed out that the technical infrastructure for identifying tax obligations is lacking. While domestic centralized exchanges (CEX) like Upbit and Bithumb can submit data to tax authorities, gaps remain for overseas CEXs, decentralized exchanges (DEX), and decentralized finance (DeFi) platforms. more:",
+    "url": "https://t.me/CoinnessGL#b4715ea3",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T09:19:37+00:00"
+  },
+  {
+    "id": "1377698a-0635-4e9a-8e86-5232366cc1d7",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "The metaverse isn't a place: Why Animoca’s Yat Siu says the future is 100 billion AI agents",
+    "summary": "1. Yat Siu said the metaverse is evolving beyond immersive digital worlds, with AI agents increasingly handling commerce, payments and coordination through blockchain infrastructure in the background.",
+    "url": "https://www.coindesk.com/markets/2026/05/07/animoca-pivots-from-virtual-worlds-to-an-ai-driven-metaverse-at-consensus-2026",
+    "author": "Sam Reynolds",
+    "created_at": "2026-05-07T09:09:38.000Z"
+  },
+  {
+    "id": "a385993a-fb9b-4979-a256-d7868762be12",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "🇺🇸 CFTC chair Michael Selig says the agency plans to codify protections for non-custodial software developers into formal rules, building on last year's Phantom no-action letter.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#2003fd72",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T09:04:44+00:00"
+  },
+  {
+    "id": "32042495-c6ef-4c3e-91c5-2cb12d3538a9",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Luffa unveils major brand upgrade: Repositioned as AI × Web3 Super Connector",
+    "summary": "1. Luffa, the global leader in intelligent ecosystem platforms, today officially announced a major brand upgrade, repositioning itself as the AI × Web3 Super Connector.",
+    "url": "https://cointelegraph.com/press-releases/luffa-unveils-major-brand-upgrade-repositioned-as-ai-web3-super-connector?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Advertorial",
+    "created_at": "2026-05-07T09:00:00.000Z"
+  },
+  {
+    "id": "12ea6922-fc0b-4db9-a254-ac25e392c056",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bithumb enters Vietnam crypto license race with SSI Digital deal",
+    "summary": "1. Bithumb’s tie-up with SSI Digital positions it for Vietnam’s strict crypto exchange pilot as competition for scarce licenses heats up and scrutiny mounts at home.",
+    "url": "https://cointelegraph.com/news/bithumb-moves-vietnams-crypto-exchange-race-ssi-digital-tie-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Christina Comben",
+    "created_at": "2026-05-07T08:58:53.000Z"
+  },
+  {
+    "id": "671e23c3-de82-4a38-bc9f-0703f17a5d1c",
+    "source": "Politico",
+    "type": "rss",
+    "title": "Poll: SAVE America Act meets voter skepticism",
+    "summary": "1. The POLITICO Poll finds that a plurality of Americans neither support nor oppose the bill, or are unsure, even as the president makes it a top priority.",
+    "url": "https://www.politico.com/news/2026/05/07/poll-trump-save-america-act-voters-uncertain-00908224",
+    "author": "By Erin Doherty",
+    "created_at": "2026-05-07T08:45:00.000Z"
+  },
+  {
+    "id": "72db0f06-febc-443e-8b30-f3fbb0b2d55b",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Core Scientific shares slip after bitcoin miner swings to Q1 net loss despite higher revenue",
+    "summary": "1. Core Scientific reported higher Q1 revenue and gross profit, though the company swung to a net loss driven largely by impairment charges.",
+    "url": "https://www.theblock.co/post/400346/core-scientific-q1-earnings?utm_source=rss&utm_medium=rss",
+    "author": "Timmy Shen",
+    "created_at": "2026-05-07T08:40:18.000Z"
+  },
+  {
+    "id": "86e8b875-66f2-49a4-aa0b-def78778e3f2",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "WHO confirms 5 hantavirus cases linked to MV Hondius cruise ship outbreak, including Andes strain with potential human-to-human transmissionTwitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#c7fc141c",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-07T08:24:07+00:00"
+  },
+  {
+    "id": "249621be-f712-4d78-a94d-2c845612114d",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Toncoin Jumps 32% in 24 Hours as Pavel Durov Pushes Telegram Deeper Into TON",
+    "summary": "1. Toncoin jumped 32% to $2.89, marking a 110% increase since Telegram founder Pavel Durov announced a major strategic shift and a sixfold fee reduction.\n2. The ‘Regime Change’: Bringing TON Back in-House The native token of The Open Network, Toncoin (TON), rose to $2.89, surging by nearly 32% in 24 hours.\n3. The jump continued an ascent […]",
+    "url": "https://news.bitcoin.com/toncoin-jumps-32-in-24-hours-as-pavel-durov-pushes-telegram-deeper-into-ton/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-05-07T08:20:27.000Z"
+  },
+  {
+    "id": "0eea6d1c-6f65-46c0-9c60-444174346d9f",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Eric Trump says TradFi giants have lost their fight against crypto, pointing to JPMorgan now allowing Bitcoin-backed home mortgages.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#026d72a2",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T08:19:39+00:00"
+  },
+  {
+    "id": "5d65d535-c9f6-4794-a79a-123e3239441c",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Spot bitcoin ETFs post five-day inflow streak totaling nearly $1.7 billion",
+    "summary": "1. The ETFs are on their way to report their sixth consecutive week of net inflows, which would be the longest weekly streak since July 2025.",
+    "url": "https://www.theblock.co/post/400349/spot-bitcoin-etfs-five-day-inflow-streak?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-05-07T07:58:15.000Z"
+  },
+  {
     "id": "ed776e40-c858-4c55-83e0-c4ef5f0e263b",
     "source": "@CoinnessGL",
     "type": "telegram",
@@ -8,6 +178,16 @@
     "url": "https://t.me/CoinnessGL#f008f1e9",
     "author": "@CoinnessGL",
     "created_at": "2026-05-07T07:42:05+00:00"
+  },
+  {
+    "id": "db71b865-9cfa-42c2-b30f-8d09fe2e9308",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Quantum attacks could worsen without proof of ownership: Near One",
+    "summary": "1. Near One says blockchains may need new ownership verification systems if quantum attacks compromise wallet keys and expose private assets.",
+    "url": "https://cointelegraph.com/news/quantum-threat-not-just-about-stolen-funds-near?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-05-07T07:30:57.000Z"
   },
   {
     "id": "f99a17f7-8502-4d9d-9734-3bede75c9401",
@@ -120,7 +300,7 @@
     "created_at": "2026-05-07T05:58:12.000Z"
   },
   {
-    "id": "4ff0c2cf-12a0-4248-b16f-ced3642789fb",
+    "id": "dee874ff-8d3c-4628-9f73-b05b66e33e23",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "BNY, the world’s largest custodian bank with ~$59T under custody, plans to launch digital asset custody services in Abu Dhabi focused initially on BTC and ETH.Twitter",
@@ -210,7 +390,7 @@
     "created_at": "2026-05-07T05:14:10+00:00"
   },
   {
-    "id": "de8aac11-e978-48fe-92f0-0dcf43dcff60",
+    "id": "e18f5df9-7d86-417b-bf97-23e2f9e9b870",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Saudi Arabia has reportedly suspended U.S.",
@@ -278,115 +458,5 @@
     "url": "https://news.bitcoin.com/kraken-launches-us-spot-margin-trading-with-up-to-10x-leverage/",
     "author": "Kevin Helms",
     "created_at": "2026-05-07T04:05:40.000Z"
-  },
-  {
-    "id": "c207a7a4-fe80-415a-a8e4-7f19697b6632",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🐳 Bitcoin whales on Hyperliquid pushed net long positions to a 2026 high as BTC briefly passed $82K, its highest level in over three months, per Glassnode.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#8f4d83b3",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-07T03:09:34+00:00"
-  },
-  {
-    "id": "2e16a8da-0baa-475a-b5d4-28004d56d21b",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "TrustedVolumes hacker swaps all stolen funds for ETH",
-    "summary": "Blockchain security firm Beosin reported via X that approximately $5.87 million stolen from TrustedVolumes has been converted to ETH. The funds are now split between two addresses, holding 1,291.07 ETH and 1,222.12 ETH, respectively. Blockaid previously analyzed that the attack exploited a vulnerable smart contract and suggested the perpetrator may be the same hacker behind last year's 1inch exploit. more:",
-    "url": "https://t.me/CoinnessGL#65719921",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-07T03:08:49+00:00"
-  },
-  {
-    "id": "42a7b019-12f4-4283-a9b8-fb9c5b789c34",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "S&P, Moody's probe South Korean banks on digital asset strategies",
-    "summary": "Global credit rating agencies S&P and Moody's questioned major South Korean banks and financial firms about their perception of and readiness for the digital asset market during regular meetings in March and April, The Herald Business reported. S&P reportedly asked about the potential risks and opportunities for banks as South Korea moves to introduce a CBDC and stablecoins, and what core strategies the banks are preparing in response. Moody's is understood to have included questions assessing digital asset capabilities in its preliminary questionnaire for the first time this year. more:",
-    "url": "https://t.me/CoinnessGL#a2b58ab5",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-07T03:02:27+00:00"
-  },
-  {
-    "id": "240754b7-3fb8-4682-a40a-3f7ab39de6fe",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. RT @realDonaldTrumpLilly commits additional $4.5 billion across Indiana manufacturing sites, opens first dedicated genetic medicine facility:",
-    "url": "https://trumpstruth.org/statuses/38254",
-    "author": "Trump Truth",
-    "created_at": "2026-05-07T03:00:01.000Z"
-  },
-  {
-    "id": "9257b102-d75e-4668-9d54-109ef480dc35",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "US ETH spot ETFs see net inflows for 4th straight day",
-    "summary": "U.S. Ethereum spot ETFs recorded net inflows of $11.52 million on May 6, marking the fourth consecutive day of positive flows, according to data compiled by Trader T.- BlackRock's ETHA: +$2.07 million- Fidelity's FETH: -$580,000- Grayscale Mini ETH: +$10.03 million",
-    "url": "https://t.me/CoinnessGL#9eadee3a",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-07T02:50:31+00:00"
-  },
-  {
-    "id": "a300b600-83eb-44cc-87d3-fb5641fff58d",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. RT @realDonaldTrumpLilly commits additional $4.5 billion across Indiana manufacturing sites, opens first dedicated genetic medicine facility:",
-    "url": "https://trumpstruth.org/statuses/38253",
-    "author": "Trump Truth",
-    "created_at": "2026-05-07T02:41:18.000Z"
-  },
-  {
-    "id": "362debf2-284c-42e0-8b7e-e21bc624cf2d",
-    "source": "The Block",
-    "type": "rss",
-    "title": "California man gets 78 months in prison for role in $250 million crypto theft ring",
-    "summary": "1. Marlon Ferro, also known as 'GothFerrari,' was sentenced to 78 months in prison for his role in a nationwide social engineering conspiracy.",
-    "url": "https://www.theblock.co/post/400337/california-man-78-months-crypto-theft?utm_source=rss&utm_medium=rss",
-    "author": "Timmy Shen",
-    "created_at": "2026-05-07T02:35:17.000Z"
-  },
-  {
-    "id": "5a8ba6ed-b032-47d6-90e2-fd3261294dec",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Prediction Market Fight Deepens as 40 States Push Back on CFTC",
-    "summary": "1. A multistate coalition told the Commodity Futures Trading Commission that sports-related prediction markets should remain under state gambling oversight, arguing the contracts function as wagers rather than financial derivatives.\n2. The attorneys general said these products closely resemble traditional sportsbook wagers on winners, spreads, totals, and player statistics.\n3. States Say Sports Markets Belong Under Gambling Oversight […]",
-    "url": "https://news.bitcoin.com/prediction-market-fight-deepens-as-40-states-push-back-on-cftc/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-07T02:30:41.000Z"
-  },
-  {
-    "id": "6d1b7681-3321-4621-80ba-8396763fa44c",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "JPMorgan, Mastercard make first cross-border US Treasury transfer via XRP Ledger",
-    "summary": "1. The cross-border tokenized US Treasury transaction using blockchain and banking rails builds on an earlier pilot in which the same fund moved between a public and permissioned blockchain.",
-    "url": "https://cointelegraph.com/news/jpmorgan-mastercard-first-cross-border-us-treasury-settlement-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Brayden Lindrea",
-    "created_at": "2026-05-07T02:05:55.000Z"
-  },
-  {
-    "id": "e0981acb-901d-495d-8f84-1754aea92cad",
-    "source": "The Block",
-    "type": "rss",
-    "title": "1inch liquidity provider TrustedVolumes hit with ongoing exploit, draining nearly $6 million: Blockaid",
-    "summary": "1. Blockaid said the attacker was the same entity that exploited 1inch Fusion V1 in March 2025, which drained around $5 million.",
-    "url": "https://www.theblock.co/post/400332/1inch-trustedvolumes-exploit?utm_source=rss&utm_medium=rss",
-    "author": "Danny Park",
-    "created_at": "2026-05-07T02:04:33.000Z"
-  },
-  {
-    "id": "0c7310c5-561a-4168-b71e-dc9352896c54",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Eric Trump’s American Bitcoin reports $82 million loss in Q1 amid ‘record’ mining production",
-    "summary": "1. American Bitcoin mined 817 BTC during the first quarter, marking its highest quarterly production on record.",
-    "url": "https://www.theblock.co/post/400327/eric-trump-american-bitcoin-82-million-loss-q1?utm_source=rss&utm_medium=rss",
-    "author": "Danny Park",
-    "created_at": "2026-05-07T01:58:01.000Z"
   }
 ]
