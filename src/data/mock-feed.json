@@ -1,5 +1,165 @@
 [
   {
+    "id": "4c9872a8-d8cc-4cf1-8c50-cff1cf94e3cc",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Three signals pointing to a possible bitcoin move to $85,000",
+    "summary": "1. Bitcoin is showing a rare alignment across on-chain data, futures positioning, and options flows that points to further upside.",
+    "url": "https://www.coindesk.com/markets/2026/05/07/three-signals-pointing-to-a-possible-bitcoin-move-to-usd85-000",
+    "author": "Omkar Godbole",
+    "created_at": "2026-05-07T05:36:52.000Z"
+  },
+  {
+    "id": "5886226e-0346-48b9-ae61-fac3aa2c260f",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "BNY to launch BTC, ETH custody in UAE with local partners",
+    "summary": "BNY, the world's largest custodian bank with $59 trillion in client assets, is expanding its digital asset custody business to the Middle East in partnership with local firms in the United Arab Emirates (UAE), CoinDesk reported. According to an announcement from BNY, the bank will collaborate with Finstreet and the ADI Foundation to establish a regulated digital asset infrastructure within the Abu Dhabi Global Market (ADGM), a financial free zone that has become a hub for crypto companies entering the region. The initiative will initially focus on custody services for cryptocurrencies such as Bitcoin (BTC) and Ethereum (ETH), with plans to gradually expand its scope to include stablecoins and tokenized assets (RWA).",
+    "url": "https://t.me/CoinnessGL#92258b93",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T05:36:51+00:00"
+  },
+  {
+    "id": "9dffc871-104a-453b-b5c6-fb848bb39cf5",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "🇺🇸 White House crypto adviser Patrick Witt says a Strategic Bitcoin Reserve announcement is coming \"in the next few weeks.\"",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#defee743",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T05:34:40+00:00"
+  },
+  {
+    "id": "7f0467ba-b60c-4cf6-8b40-15e8beaddbd5",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Ondo Finance Clears First XRP Ledger Treasury Redemption Into Singapore Bank",
+    "summary": "1. Ondo Finance has successfully piloted the first near-real-time, cross-border redemption of a tokenized U.S.\n2. Treasury fund, leveraging the XRP Ledger and Mastercard’s Multi-Token Network to bridge public blockchain and traditional banking.\n3. Integration of Public and Private Infrastructure Ondo Finance, a leader in the tokenized asset space, announced May 6 the successful completion of the first […]",
+    "url": "https://news.bitcoin.com/ondo-finance-clears-first-xrp-ledger-treasury-redemption-into-singapore-bank/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-05-07T05:30:33.000Z"
+  },
+  {
+    "id": "67b392c2-d0f1-4db4-b3df-29cf18739918",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "BNY, world's largest custody bank, expands crypto services in Abu Dhabi",
+    "summary": "1. The Wall Street giant, which oversees $59 trillion in client assets, teamed up with Finstreet and ADI Foundation for digital asset infrastructure.",
+    "url": "https://www.coindesk.com/business/2026/05/07/bny-world-s-largest-custody-bank-expands-crypto-services-in-abu-dhabi",
+    "author": "Krisztian Sandor",
+    "created_at": "2026-05-07T05:30:00.000Z"
+  },
+  {
+    "id": "516c39fa-dee2-4858-b2fe-5661f179edfe",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Switzerland says it is ready to host US-Iran talks",
+    "summary": "Switzerland is prepared to host negotiations aimed at resolving the conflict between the United States and Iran, Foreign Ministry spokesperson Melanie Gögelmann said today. The statement follows earlier discussions that named Geneva as a potential venue for follow-up talks after the two nations signed a memorandum of understanding (MOU). Gögelmann added that Switzerland is always ready to serve as a mediator, is willing to support any diplomatic initiatives aimed at promoting peace, and is maintaining contact with all relevant parties to the conflict.",
+    "url": "https://t.me/CoinnessGL#5539b4e4",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T05:27:32+00:00"
+  },
+  {
+    "id": "f9042bd2-4b02-449c-b48b-15165b563b90",
+    "source": "TechCrunch",
+    "type": "rss",
+    "title": "Five architects of the AI economy explain where the wheels are coming off",
+    "summary": "1. Earlier this week, five people who touch every layer of the AI supply chain sat down at the Milken Global Conference in Beverly Hills, where they talked with TechCrunch about everything from chip shortages to orbital data centers to the possibility that the whole architecture that undergirds the tech is wrong.",
+    "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
+    "author": "Connie Loizos",
+    "created_at": "2026-05-07T05:25:10.000Z"
+  },
+  {
+    "id": "4dff2b1c-4f71-4006-8b7c-b6dcd7e0cd9f",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Grayscale adds ENA, removes AERO from DeFi Fund in Q1 rebalance",
+    "summary": "Grayscale announced it has adjusted the composition of its DeFi Fund as part of its first-quarter rebalancing, removing Aerodrome Finance (AERO) and adding Ethena (ENA).As of May 1, the DeFi Fund's holdings are as follows:- Uniswap (UNI): 35.22%- Aave (AAVE): 21.36%- Ondo (ONDO): 19.83%- Ethena (ENA): 13.59%- Curve (CRV): 5.27%- Lido DAO (LDO): 4.73%The firm also rebalanced its Smart Contract Platform Fund, though no new assets were added or removed.",
+    "url": "https://t.me/CoinnessGL#431b7139",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-07T05:14:10+00:00"
+  },
+  {
+    "id": "1a4fc547-d495-4cbd-bb11-f39d21d7d876",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Saudi Arabia has reportedly suspended U.S.",
+    "summary": "access to military bases and restricted use of its airspace, prompting Trump to reverse plans for shipping operations through the Strait of Hormuz: NBC citing anonymous U.S. officialsTwitter",
+    "url": "https://t.me/SolidIntelX#47c3a73e",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-07T05:11:05+00:00"
+  },
+  {
+    "id": "316e581f-4743-4b2e-9f77-eab4a4a55227",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Aave liquidates Kelp DAO hacker's rsETH positions on Ethereum, Arbitrum",
+    "summary": "1. Galaxy Digital’s Thaddeus Pinakiewicz noted that Aave is now only 10% short of recovering from the bad debt that hit its lending protocol after the Kelp DAO hack.",
+    "url": "https://cointelegraph.com/news/aave-liquidates-kelp-dao-hackers-rseth-stash-ethereum-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-05-07T05:08:55.000Z"
+  },
+  {
+    "id": "ad46c367-fd0e-445a-806d-539202c47930",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Ripple, JPMorgan settle first cross-border tokenized Treasury redemption on XRP Ledger",
+    "summary": "1. The pilot, run with Ondo Finance and Mastercard, processed the redemption of Ondo's OUSG tokenized Treasury fund in under five seconds.",
+    "url": "https://www.coindesk.com/markets/2026/05/07/ripple-jpmorgan-settle-first-cross-border-tokenized-treasury-redemption-on-xrp-ledger",
+    "author": "Shaurya Malwa",
+    "created_at": "2026-05-07T04:58:55.000Z"
+  },
+  {
+    "id": "f2283f40-5fd7-405a-957c-72709eacd689",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "🇺🇸 The White House is targeting July 4 for passage of the CLARITY Act, says crypto adviser Patrick Witt, who called it \"a tremendous birthday present for America.\"",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#25bc9014",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T04:49:27+00:00"
+  },
+  {
+    "id": "917af958-e530-4f38-b9b1-fafa3a647f5f",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Kenyan Court Detains Man 7 Days Over $440,000 Crypto App Fraud Probe",
+    "summary": "1. A Kenyan court has ordered the weeklong detention of a man accused of operating a fraudulent cryptocurrency investment platform.\n2. Suspicious App Triggered Investigation A Kenyan court ordered the weeklong detention of the alleged operator of a fraudulent cryptocurrency-themed investment platform, as detectives investigate a multilayered scheme that collected about $440,000 from unsuspecting investors.\n3. The order […]",
+    "url": "https://news.bitcoin.com/kenyan-court-detains-man-7-days-over-440000-crypto-app-fraud-probe/",
+    "author": "Terence Zimwara",
+    "created_at": "2026-05-07T04:30:58.000Z"
+  },
+  {
+    "id": "7bc32895-a607-4f2e-8658-908bf796e3cd",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Stablecoin adoption to scale on back of ‘very large’ tech firms: Bitwise",
+    "summary": "1. Bitwise investment chief Matt Hougan says projections tipping stablecoins to hit $4 trillion in value by 2030 could happen if major tech firms continue to adopt them.",
+    "url": "https://cointelegraph.com/news/stablecoin-scale-adoption-by-tech-giants-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Jesse Coghlan",
+    "created_at": "2026-05-07T04:16:33.000Z"
+  },
+  {
+    "id": "d864faf9-15dc-49c2-b1a7-4872694e1e13",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Kraken Launches US Spot Margin Trading With up to 10x Leverage",
+    "summary": "1. Kraken has launched regulated crypto spot margin trading for eligible U.S.\n2. users on Kraken Pro, offering up to 10x leverage without accredited investor status.\n3. The service runs through Kraken Derivatives US and includes collateral controls, liquidation levels, and risk disclosures.",
+    "url": "https://news.bitcoin.com/kraken-launches-us-spot-margin-trading-with-up-to-10x-leverage/",
+    "author": "Kevin Helms",
+    "created_at": "2026-05-07T04:05:40.000Z"
+  },
+  {
+    "id": "c207a7a4-fe80-415a-a8e4-7f19697b6632",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "🐳 Bitcoin whales on Hyperliquid pushed net long positions to a 2026 high as BTC briefly passed $82K, its highest level in over three months, per Glassnode.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#8f4d83b3",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-07T03:09:34+00:00"
+  },
+  {
     "id": "2e16a8da-0baa-475a-b5d4-28004d56d21b",
     "source": "@CoinnessGL",
     "type": "telegram",
@@ -100,7 +260,7 @@
     "created_at": "2026-05-07T01:58:01.000Z"
   },
   {
-    "id": "5f4a5e35-60e8-4c6e-860e-51a09b81db0d",
+    "id": "fc2838d0-895c-4107-a31c-38d7235ddf12",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 President Donald Trump says jobs and 401(k)s are \"BOOMING.\"@WatcherGuru",
@@ -200,16 +360,6 @@
     "created_at": "2026-05-07T01:00:38+00:00"
   },
   {
-    "id": "4fc35bf4-b7ce-413c-9072-9d52247d2445",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🐳 Bitcoin whales on Hyperliquid pushed net long positions to a 2026 high as BTC briefly passed $82K, its highest level in over three months, per Glassnode.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#8f4d83b3",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-07T00:24:46+00:00"
-  },
-  {
     "id": "61999f8e-3270-442d-a456-9374dc7b344e",
     "source": "CoinTelegraph",
     "type": "rss",
@@ -218,235 +368,5 @@
     "url": "https://cointelegraph.com/markets/3-reasons-why-Ether-price-rallies-fizzle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "author": "Cointelegraph by Marcel Pechman",
     "created_at": "2026-05-07T00:03:22.000Z"
-  },
-  {
-    "id": "8bd5b740-7323-480e-9175-3174afa01eb0",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Circle Urges OCC to Finalize Strong GENIUS Act Stablecoin Rules",
-    "summary": "1. Circle urged the OCC to finalize clear, consistently applied GENIUS Act rules for payment stablecoin issuers.\n2. The company said the proposed framework should support reliable redemption and strong risk controls for regulated digital payment instruments.\n3. Circle Backs National Stablecoin Licensing Standards Circle Internet Group (NYSE: CRCL) revealed May 5 that it had submitted comments on […]",
-    "url": "https://news.bitcoin.com/circle-urges-occ-to-finalize-strong-genius-act-stablecoin-rules/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-06T23:32:54.000Z"
-  },
-  {
-    "id": "dc3e1492-da55-4710-939d-3f6e0bac52de",
-    "source": "Bitcoin Magazine",
-    "type": "rss",
-    "title": "Why eBay Should Ignore GameStop and Use Bitcoin to Save $1.2 Billion in Transaction Costs",
-    "summary": "1. Bitcoin Magazine\n\nWhy eBay Should Ignore GameStop and Use Bitcoin to Save $1.2 Billion in Transaction Costs\nWhy eBay should reject GameStop and launch Bitcoin payments: A $1.2B annual opportunity cost that returns massive fee savings directly to global sellers.\n2. This post Why eBay Should Ignore GameStop and Use Bitcoin to Save $1.2 Billion in Transaction Costs first appeared on Bitcoin Magazine and is written by Nick Ward.",
-    "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/ebay-ignore-gamestop-bitcoin",
-    "author": "Nick Ward",
-    "created_at": "2026-05-06T22:58:57.000Z"
-  },
-  {
-    "id": "8691da79-e3fa-40e1-a239-3899df44641e",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "💰 Hut 8 shares surged over 35% on Wednesday after the company said it signed a 15-year, $9.8 billion AI data center lease in Texas.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#17f283c6",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-06T22:54:25+00:00"
-  },
-  {
-    "id": "2dda84e1-1b33-4dd5-9991-85e01373b47d",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "AI agents becoming more relevant than humans by 2035 has Big Tech 'terrified', says Hoskinson",
-    "summary": "1. The founder and CEO of Cardano’s Input Output said Google, Amazon and Facebook are terrified because AI agents will not behave like humans when confronted with ads.",
-    "url": "https://www.coindesk.com/business/2026/05/06/ai-agents-will-become-more-relevant-than-humans-by-2035-says-charles-hoskinson",
-    "author": "Olivier Acuna",
-    "created_at": "2026-05-06T22:35:57.000Z"
-  },
-  {
-    "id": "24998032-a2d0-4d10-a50c-27259c5f41fe",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Grant Cardone says bitcoin-real estate strategy could outperform REITs, adds more BTC to treasury",
-    "summary": "1. The real-estate mogul said the hybrid model brings new users into crypto and challenges traditional real estate structures.",
-    "url": "https://www.coindesk.com/business/2026/05/06/bitcoin-real-estate-strategy-could-outperform-reits-says-grant-cardone-he-adds-btc-to-treasury",
-    "author": "Olivier Acuna",
-    "created_at": "2026-05-06T22:32:30.000Z"
-  },
-  {
-    "id": "0d7186a8-53fd-4aea-8cc0-496cac059f81",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
-    "summary": "1. Nasdaq’s Tal Cohen said a friendlier SEC is giving crypto firms and exchanges room to experiment with tokenization and digital market infrastructure.",
-    "url": "https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again",
-    "author": "Helene Braun",
-    "created_at": "2026-05-06T22:31:09.000Z"
-  },
-  {
-    "id": "7bf38f7e-0dca-4562-81ad-aa11c6895684",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "A 20-minute pitch wins Indian startup Pronto backing from Lachy Groom",
-    "summary": "1. The investment comes as Pronto scales to 26,000 daily bookings and the market heads toward a potential $18 billion size.",
-    "url": "https://techcrunch.com/2026/05/06/a-20-minute-pitch-wins-indian-startup-pronto-backing-from-lachy-groom/",
-    "author": "Jagmeet Singh",
-    "created_at": "2026-05-06T22:30:00.000Z"
-  },
-  {
-    "id": "04ec1d09-06c8-4853-9e51-bb3b5cedb16c",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Coinbase Adds Gold and Silver Perps With USDC Settlement and up to 25x Leverage",
-    "summary": "1. Coinbase has expanded its derivatives lineup with gold and silver perpetual futures for eligible traders outside the United States, giving eligible users access to precious metals exposure through crypto-based market infrastructure.\n2. Crypto Exchange Adds Gold and Silver Perpetual Futures Crypto exchange Coinbase (Nasdaq: COIN) announced on May 6 that it began offering gold and silver […]",
-    "url": "https://news.bitcoin.com/coinbase-adds-gold-and-silver-perps-with-usdc-settlement-and-up-to-25x-leverage/",
-    "author": "Kevin Helms",
-    "created_at": "2026-05-06T22:22:49.000Z"
-  },
-  {
-    "id": "1117b2a1-2b3b-4fbf-8e55-8869a26df368",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🏦 Swiss bank AMINA has become the first bank to support custody and trading for Canton Coin, giving institutions FINMA-regulated access to the Canton Network.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#2fd543c0",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-06T22:14:10+00:00"
-  },
-  {
-    "id": "087d7edd-85a9-430c-873f-54b0ef3ea8cf",
-    "source": "GitHub",
-    "type": "github",
-    "title": "anthropics/claude-code: v2.1.132",
-    "summary": "1. ## What's changed\n\n- Added `CLAUDE_CODE_SESSION_ID` environment variable to the Bash tool subprocess environment, matching the `session_id` passed to hooks\n- Added `CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN=1` env var to opt out of the fullscreen alternate-screen renderer and keep the conversation in the terminal's native scrollback\n- Added a \"Pasting…\" footer hint while a Ctrl+V image paste is being read from the clipboard\n- Fixed external SIGINT (e.g.\n2. IDE stop button, `kill -INT`) not running graceful shutdown — terminal modes are now restored and the `--resume` hint is printed instead of an abrupt exit\n- Fixed an uncaught exception when the terminal is closed or SSH disconnects mid-session under the native build\n- Fixed `--resume` failing with `no low surrogate in string` when a tool error truncation split an emoji; pre-corrupted sessions are sanitized on load\n- Fixed `--permission-mode` flag being ignored when resuming a plan-mode session with `-p --continue`/`--resume`, and plan mode not being re-applied after `ExitPlanMode` within the same session\n- Fixed fullscreen mode showing a blank screen after laptop sleep/wake or Ctrl+Z/`fg` until the next keystroke or stream output\n- Fixed cursor landing mid-grapheme on Ctrl+E/A/K/U/arrow keys when an Indic conjunct or ZWJ emoji wraps across lines\n- Fixed vim operators corrupting text containing decomposed (NFD) accented characters\n- Fixed pasting text starting with `/` silently swallowing the input or triggering an unknown-command reply\n- Fixed pasting dumping stray escape sequences into the prompt when focus events or mouse-tracking reports interleave with the bracketed paste\n- Fixed mouse wheel scrolling being too fast in Cursor and VS Code 1.92–1.104 due to an upstream xterm.js bug\n- Fixed scroll-wheel handling in JetBrains IDE 2025.2 terminals (spurious arrow keys, wrong-direction events, runaway acceleration)\n- Fixed `/usage` Ctrl+S hanging when copying the stats screenshot to the clipboard on Linux/X11\n- Fixed `/terminal-setup` showing a contradictory error in Windows Terminal — Shift+Enter is natively supported there\n- Fixed `/effort` picker not reflecting the `CLAUDE_CODE_EFFORT_LEVEL` env var override\n- Fixed `/status` showing the wrong default model for some users\n- Fixed slash command autocomplete popup being capped at ~3–5 visible commands instead of scaling with terminal height\n- Fixed statusline `context_window` token counts reflecting cumulative session totals instead of current context usage\n- Fixed Alt+T (thinking toggle) not working on macOS terminals without \"Option as Meta\" enabled (iTerm2, Terminal.app defaults)\n- Fixed dead keyboard input on Windows after re-opening a background session from `claude agents`\n- Fixed unbounded memory growth (10GB+ RSS) when a stdio MCP server writes non-protocol data to stdout\n- Fixed MCP servers that connect but fail `tools/list` silently showing 0 tools — they now retry once and show \"connected · tools fetch failed\" in `/mcp`\n- Fixed unauthorized claude.ai MCP connectors showing as \"failed\" instead of \"needs auth\", and headless `-p` mode retrying non-transient 4xx connection failures\n- Improved visual consistency in slash command dialogs and `/login`, `/upgrade`, `/extra-usage` dialog spacing\n- Updated the `/tui fullscreen` startup banner to describe additional renderer benefits (lower memory usage, mouse support, auto-copy on select)\n- Fixed Bedrock and Vertex 400 errors when `ENABLE_PROMPT_CACHING_1H` is set",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
-    "author": "ashwin-ant",
-    "created_at": "2026-05-06T22:08:13Z"
-  },
-  {
-    "id": "5873dea7-aadb-44dd-a7b4-728f215b4ac8",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸 White House official Patrick Witt says Bitcoin Strategic Reserve announcement is coming within \"weeks.\"@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#92ce2836",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-06T22:01:42+00:00"
-  },
-  {
-    "id": "14d63393-9b91-4521-a43e-ccdf283ce6e6",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "Chrome Is Quietly Installing a 4GB AI Model on Your Computer—And Putting It Back If You Delete It",
-    "summary": "1. Google Chrome silently downloads a 4GB Gemini Nano model to eligible devices, re-downloads it if deleted, and the AI Mode button users actually see doesn't even use it.",
-    "url": "https://decrypt.co/367060/chrome-quietly-installing-4gb-ai-model-computer",
-    "author": "Jose Antonio Lanz",
-    "created_at": "2026-05-06T22:01:02.000Z"
-  },
-  {
-    "id": "49d90c99-86e6-4a8a-8080-388fe7f848a2",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin market dominance moves above 61%: Will altcoins follow?",
-    "summary": "1. Bitcoin's market dominance climbed above 61% as BTC led crypto market flows.\n2. Data also showed Binance-listed altcoins' share of volume hitting 49% in March.",
-    "url": "https://cointelegraph.com/markets/bitcoin-market-dominance-moves-above-61-will-altcoins-follow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Biraajmaan Tamuly",
-    "created_at": "2026-05-06T22:00:25.000Z"
-  },
-  {
-    "id": "f1928d85-9138-47a3-91be-2cb5b78576a3",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says.",
-    "summary": "1. Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
-    "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
-    "author": "Sarah Perez",
-    "created_at": "2026-05-06T21:57:56.000Z"
-  },
-  {
-    "id": "49161191-4c5a-43f3-925b-1f4a1532538f",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Snap says its $400M deal with Perplexity ‘amicably ended’",
-    "summary": "1. The deal, announced last November, would have seen Perplexity's AI search engine integrated directly into Snapchat.",
-    "url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/",
-    "author": "Aisha Malik",
-    "created_at": "2026-05-06T21:43:24.000Z"
-  },
-  {
-    "id": "bc8cf1b9-02a5-44e4-93cc-ec67b2e381b6",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "⚡ Ondo Finance, JPMorgan's Kinexys, Mastercard, and Ripple announced they have settled a tokenized US Treasury fund across borders on the XRP Ledger in under five seconds.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#d27ee81c",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-06T21:39:41+00:00"
-  },
-  {
-    "id": "ee8ab16c-15f6-4df4-9043-12848f50d495",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🇰🇷 Samsung SDS won the contract to build the Korea Securities Depository's blockchain platform, set to go live by February 2027.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#5ec099da",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-06T21:39:39+00:00"
-  },
-  {
-    "id": "cf150d17-c618-4e88-90ab-1c32f2ea9adf",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "⚡ CME Group has made Avalanche and Sui futures available for trading and announced that crypto futures and options can be traded 24/7 starting May 29.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#8b499884",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-06T21:39:37+00:00"
-  },
-  {
-    "id": "921cfbf4-32bd-4d32-b1cd-b1a9623898a9",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "💰 OpenTrade has raised $17 million to expand its stablecoin yield infrastructure, bringing total funding to over $30 million.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#8376002a",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-06T21:39:35+00:00"
-  },
-  {
-    "id": "8e17d800-b821-4f7a-8697-a047507b6b03",
-    "source": "TechCrunch",
-    "type": "rss",
-    "title": "Is xAI a neocloud now?",
-    "summary": "1. xAI's real business may be more about building data centers than training AI models.",
-    "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
-    "author": "Russell Brandom",
-    "created_at": "2026-05-06T21:32:55.000Z"
-  },
-  {
-    "id": "5ad3788a-cf63-4ad8-a0e8-a3e99601a98b",
-    "source": "Decrypt",
-    "type": "rss",
-    "title": "This AI Reads Your Chemistry Instructions and Finds the Best Way to Build You a Molecule",
-    "summary": "1. Researchers at EPFL built a framework that lets chemists describe what they want in plain language—and have AI sift through thousands of synthesis routes to find the right one.",
-    "url": "https://decrypt.co/367048/ai-chemistry-instructions-build-molecule",
-    "author": "Jose Antonio Lanz",
-    "created_at": "2026-05-06T21:31:03.000Z"
-  },
-  {
-    "id": "921d2d8a-5863-4c68-8461-d3840567be88",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "White House targets July 4 for Clarity Act passage, says crypto adviser Patrick Witt",
-    "summary": "1. The executive director of the President's Council of Advisors for Digital Assets said the Senate Banking Committee hearing will happen this month on market structure.",
-    "url": "https://www.coindesk.com/policy/2026/05/06/white-house-targets-july-4-for-clarity-act-passage-says-crypto-adviser-patrick-witt",
-    "author": "Jeffrey Albus",
-    "created_at": "2026-05-06T21:16:54.000Z"
-  },
-  {
-    "id": "1c0835c2-564b-448c-a4cf-3eadf3bcfd2b",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Aave liquidates KelpDAO hacker's remaining rsETH position",
-    "summary": "Aave (AAVE) announced it has liquidated the remaining rsETH position belonging to the KelpDAO hacker. According to The Block, the move was part of a previously disclosed recovery plan that required a governance process to temporarily adjust the rsETH oracle price. The liquidation was executed on the Ethereum and Arbitrum networks.",
-    "url": "https://t.me/CoinnessGL#37dd1a9f",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-06T21:12:42+00:00"
   }
 ]
