@@ -1,5 +1,35 @@
 [
   {
+    "id": "bab4ff22-1ab7-4307-9b21-53c2303fb69c",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Multi Investment raises $616M to expand blockchain, Web3 investments",
+    "summary": "Asset management firm Multi Investment will pursue a portfolio diversification strategy after raising 480 million Swiss francs ($615.89 million), according to a PR Newswire press release. The firm has designated fintech, deep tech, blockchain, Web3, and biotechnology as its key next-generation investment areas.",
+    "url": "https://t.me/CoinnessGL#a25dc8ba",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T08:03:33+00:00"
+  },
+  {
+    "id": "56a1cf7a-393f-410a-be35-86d3e1d4ff31",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Bithumb to suspend BCH deposits and withdrawals on May 15",
+    "summary": "South Korean crypto exchange Bithumb has announced it will temporarily suspend deposits and withdrawals for Bitcoin Cash (BCH) starting at 8:00 a.m. UTC on May 15. The suspension is to support an upcoming network upgrade for the cryptocurrency.",
+    "url": "https://t.me/CoinnessGL#bd0d01aa",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T08:01:43+00:00"
+  },
+  {
+    "id": "fac1f378-ddeb-4657-ab39-a28174050e20",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "BTC accumulation accelerates as ETH sentiment lags, analyst says",
+    "summary": "Crypto analyst MorenoDV, citing CryptoQuant data, has analyzed a growing divergence in the recovery of institutional sentiment between Bitcoin (BTC) and Ethereum (ETH). According to the analyst, Bitcoin is rapidly regaining market confidence as institutional capital inflows and accumulation trends recover, while Ethereum continues to show signs of weakened sentiment among institutional investors. He added that strong structural buying pressure is flowing into BTC, driven by expanding demand from ETFs and Digital Asset Treasury (DAT) strategies, whereas capital inflows into ETH remain comparatively limited.",
+    "url": "https://t.me/CoinnessGL#e95f934c",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T07:54:16+00:00"
+  },
+  {
     "id": "dd54a1bd-6aca-435b-a0c4-58ff234aa019",
     "source": "@CoinnessGL",
     "type": "telegram",
@@ -10,7 +40,27 @@
     "created_at": "2026-05-08T07:39:28+00:00"
   },
   {
-    "id": "a32c5855-2216-43b5-a7d2-0358ca66e0e9",
+    "id": "e536fd93-f5cc-46e2-a2b7-2d5b25b43dd9",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": " CLARITY Act support carries electoral boost, HarrisX poll finds",
+    "summary": "1. The poll found 52% of registered voters support the CLARITY Act, with 47% willing to cross party lines for a candidate who backs the bill.",
+    "url": "https://cointelegraph.com/news/supporting-clarity-act-provides-a-plus-20-electoral-benefit-survey?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brian Quarmby",
+    "created_at": "2026-05-08T07:37:51.000Z"
+  },
+  {
+    "id": "e86c4e13-013e-4441-9697-b0a099266edd",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Zcash gains 70% in a week amid growing interest in crypto privacy",
+    "summary": "1. Swyftx’s Pav Hundal says Zcash is surging amid concerns about artificial intelligence, quantum computing and financial surveillance.",
+    "url": "https://cointelegraph.com/news/zcash-price-surges-privacy-coins-ai-surveillance-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Stephen Katte",
+    "created_at": "2026-05-08T07:35:07.000Z"
+  },
+  {
+    "id": "8f905e19-9fc7-4c1a-9c15-513c41cbc809",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Samson Mow defended Strategy’s potential Bitcoin sales, saying “never selling limits optionality” and that companies with more tools are harder for short sellers to target.",
@@ -18,6 +68,16 @@
     "url": "https://t.me/CoinMarketCapAnnouncements#864e51cc",
     "author": "@CoinMarketCapAnnouncements",
     "created_at": "2026-05-08T07:34:43+00:00"
+  },
+  {
+    "id": "f5aed070-5c61-4892-b62d-e6673e1d5873",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "US sentences ‘laptop farmers’ who assisted North Korean IT workers",
+    "summary": "1. The US Justice Department said it recently secured two sentences against men hosting laptops for North Korean workers, marking a total of eight sentences in five months.",
+    "url": "https://cointelegraph.com/news/us-sentences-eight-in-five-months-laptop-farmers-north-korea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Jesse Coghlan",
+    "created_at": "2026-05-08T07:31:46.000Z"
   },
   {
     "id": "d1c3f419-d11c-4814-a199-a697d114706d",
@@ -60,7 +120,7 @@
     "created_at": "2026-05-08T07:08:24+00:00"
   },
   {
-    "id": "70507621-ba97-4820-851b-a35c2ab3e78b",
+    "id": "3b614144-540e-4010-8085-5d7407ec9472",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Germany could end its tax-free crypto holding period in push for higher digital asset tax revenue.Twitter",
@@ -80,7 +140,7 @@
     "created_at": "2026-05-08T07:04:52+00:00"
   },
   {
-    "id": "86734980-5aa6-44f2-ab99-b865f9d66907",
+    "id": "c99c4eca-1d89-488b-ad73-3803a3d81506",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "📊 Bitcoin's 37% rally since April is still a bear market rally, CryptoQuant says, noting profit-taking is accelerating with traders sitting on an 18% unrealized profit margin.",
@@ -100,7 +160,7 @@
     "created_at": "2026-05-08T06:44:34.000Z"
   },
   {
-    "id": "beefb0cc-c98a-4354-89c1-bf4dcea93c4a",
+    "id": "c587bae4-8b5a-444b-99d2-565c4044f2ba",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "Saudi Arabia’s $1 trillion wealth fund expands in China with second mainland office.Twitter",
@@ -120,7 +180,7 @@
     "created_at": "2026-05-08T06:30:37.000Z"
   },
   {
-    "id": "cbdd4614-ab8c-4b26-bf58-04cc6b62dba3",
+    "id": "cef5dcfe-c571-48f3-b373-5d844223db0e",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Coinbase crypto trading remains down for over 5 hours as outage continues.@WatcherGuru",
@@ -330,7 +390,7 @@
     "created_at": "2026-05-08T02:58:12+00:00"
   },
   {
-    "id": "cb9f22eb-1bfd-4b91-ad3a-cfe231ae3008",
+    "id": "b3dc0272-81b9-44f6-a827-f6236b885a36",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Bitwise launched its first tokenized fund, the Bitwise Crypto Carry Fund, taking it over from Superstate and capturing the spread between crypto spot and futures prices.",
