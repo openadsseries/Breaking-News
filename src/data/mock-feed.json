@@ -1,5 +1,55 @@
 [
   {
+    "id": "38042d7c-68b0-4412-adc6-1306f1b01e8e",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Suspected Matrixport address sells another $4.3M in HYPE",
+    "summary": "A suspected Matrixport-affiliated address has sold an additional 100,000 HYPE, worth approximately $4.26 million, Onchain Lens reported. According to on-chain data, the address is estimated to have sold a total of 200,000 HYPE to date, monetizing 8.447 million USDC.",
+    "url": "https://t.me/CoinnessGL#083f0ccd",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T01:07:43+00:00"
+  },
+  {
+    "id": "fe6d3c0b-3f2e-4f0f-999c-883d0bbd9a62",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Hyperliquid Strategies posts $165.4M net loss over nine months",
+    "summary": "Hyperliquid Strategies disclosed a net loss of $165.4 million for the nine months ending March 31. The company attributed the result primarily to $64 million in unrealized losses on its HYPE token holdings, a $35.6 million one-time write-off related to its acquisition of Sonnet BioTherapeutics, and $60.5 million in deferred income taxes. For the three-month period, the firm recorded $2.6 million in staking revenue and $1 million in interest income, against operating expenses of $7.2 million. Its current cash holdings stand at $103 million. Founded in December 2025, Hyperliquid Strategies currently holds approximately 20 million HYPE tokens.",
+    "url": "https://t.me/CoinnessGL#a36e273e",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T00:46:08+00:00"
+  },
+  {
+    "id": "6812380a-54b7-4156-a8ad-50b653f8b824",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "🇺🇸 President Trump says US has a lot of oil and is not facing any energy crisis.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#5a1aad43",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-08T00:44:48+00:00"
+  },
+  {
+    "id": "f33dab98-78d3-4137-a81a-df7d28b20ff2",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Block reports $173M Bitcoin impairment loss in Q1",
+    "summary": "Block, the blockchain and mobile payments company led by Jack Dorsey, posted a $173 million impairment loss on its Bitcoin holdings in the first quarter, The Block reported. The company's total corporate and customer Bitcoin holdings amounted to 28,355 BTC, valued at approximately $2.2 billion.Despite the Bitcoin-related loss, Block's overall financial performance was strong. First-quarter gross profit rose 27% year-over-year to $2.91 billion, while adjusted operating income increased by 56% to $728 million. The Cash App division saw its gross profit climb 38% to $1.91 billion, driven by growth in lending, banking, and commerce, though its Bitcoin-related revenue declined by 31% from the previous year. In the Square division, Bitcoin-related revenue was around $28 million, but similar costs resulted in a minimal contribution to profit.Block raised its full-year guidance, citing business execution and future expectations.",
+    "url": "https://t.me/CoinnessGL#c2028795",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T00:32:51+00:00"
+  },
+  {
+    "id": "32e13189-3fec-417c-b2df-2de2dc209df0",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Hyperliquid Strategies posts $165 million net loss for nine months ended March 31 as HYPE treasury grows",
+    "summary": "1. The firm has deployed $216 million to acquire approximately 7.3 million HYPE tokens since its inception in December 2025.",
+    "url": "https://www.theblock.co/post/400512/hyperliquid-strategies-net-loss?utm_source=rss&utm_medium=rss",
+    "author": "Daniel Kuhn",
+    "created_at": "2026-05-08T00:19:55.000Z"
+  },
+  {
     "id": "2c1bc23c-3ff5-4e44-ad75-abfaf626df6c",
     "source": "@CoinnessGL",
     "type": "telegram",
@@ -28,6 +78,16 @@
     "url": "https://t.me/CoinnessGL#ac04f824",
     "author": "@CoinnessGL",
     "created_at": "2026-05-08T00:01:18+00:00"
+  },
+  {
+    "id": "fff805c0-90d4-4852-9030-5d94888ff09d",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Bitcoin bulls target $115K by December: Does data back the expectation?",
+    "summary": "1. Bitcoin options show bulls targeting $115,000 by year-end but are traders becoming overly optimistic?",
+    "url": "https://cointelegraph.com/markets/bitcoin-bulls-target-115k-by-december-does-data-back-the-expectation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Marcel Pechman",
+    "created_at": "2026-05-07T23:56:15.000Z"
   },
   {
     "id": "ed5f3176-8f92-4a6c-9bb4-463a19552ee3",
@@ -120,7 +180,7 @@
     "created_at": "2026-05-07T22:24:50.000Z"
   },
   {
-    "id": "dbbd4aa3-cb08-4ed3-97f0-e695418a5f11",
+    "id": "40520eda-87b1-4842-a863-5cae1e87d502",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 Robinhood CEO Vlad Tenev says US is very close to passing the Crypto Clarity Act \"to ensure American dominance in digital finance.\"@WatcherGuru",
@@ -130,7 +190,7 @@
     "created_at": "2026-05-07T22:24:01+00:00"
   },
   {
-    "id": "c1363838-fd59-42e0-a6e3-2d3b1aa42f23",
+    "id": "72a56aa1-5906-48ea-97f5-0b0ae323fa3c",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Coinbase buys $88,000,000 worth of Bitcoin in Q1 2026.@WatcherGuru",
@@ -150,7 +210,7 @@
     "created_at": "2026-05-07T22:01:03.000Z"
   },
   {
-    "id": "242b261b-6706-4e92-8ebb-d1259900b4e1",
+    "id": "bdb48a90-9eef-4131-b339-c71d2f23558b",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ AWS is partnering with Coinbase and Stripe to let AI agents make payments using USDC stablecoins via the x402 protocol.",
@@ -250,7 +310,7 @@
     "created_at": "2026-05-07T21:14:23.000Z"
   },
   {
-    "id": "e8c9475c-8f9f-4796-b932-0e65b38022d5",
+    "id": "4769f555-50d4-41cf-8552-8bce4a5eed3d",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡️ Kraken's parent company will acquire Asian stablecoin firm Reap for $600 million to expand into cross-border payments infrastructure.",
@@ -280,7 +340,7 @@
     "created_at": "2026-05-07T21:10:50.000Z"
   },
   {
-    "id": "6d7a87f0-9b51-4e65-a175-50490c135f3b",
+    "id": "2cd3f5c8-a7f0-4647-a8be-24a1075144c9",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "IRAN'S TOP JOINT MILITARY COMMAND SAYS US VIOLATED CEASEFIREIRAN WILL RESPOND POWERFULLY AND WITHOUT THE SLIGHTEST HESITATION TO ANY ATTACK- IRAN'S TOP JOINT MILITARY COMMANDTwitter",
@@ -290,7 +350,7 @@
     "created_at": "2026-05-07T21:07:55+00:00"
   },
   {
-    "id": "5e3ac037-72e8-47ab-98c3-fae903478a65",
+    "id": "87d56e05-9c0b-470f-af29-42a0de37157a",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "US TRADE COURT RULES AGAINST TRUMP'S 10% GLOBAL TARIFFTwitter",
@@ -300,7 +360,7 @@
     "created_at": "2026-05-07T20:59:46+00:00"
   },
   {
-    "id": "7d74c76a-d8ce-4792-909b-4cb8578e24ab",
+    "id": "8ac3d536-3b98-4060-9205-72e36413f18d",
     "source": "@SolidIntelX",
     "type": "telegram",
     "title": "US SAYS CEASEFIRE WITH IRAN STILL INTACTIRAN CLAIMS IT FIRED MISSILES AT THREE US DESTORYERSTwitter",
@@ -320,7 +380,7 @@
     "created_at": "2026-05-07T20:51:42.000Z"
   },
   {
-    "id": "fff1ca3d-7e3b-4885-ae8b-7825bc4b3380",
+    "id": "fa51b393-ce23-460a-b966-618219d1d042",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "🇩🇪 Germany is weighing an end to its 1-year tax-free crypto holding period as it targets $2.3 billion in extra revenue from crypto in 2027.",
@@ -358,25 +418,5 @@
     "url": "https://thedefiant.io/news/defi/tydro-keeps-markets-paused-after-chaos-labs-flags-suspected-nation-state-attack",
     "author": "yyctrader",
     "created_at": "2026-05-07T19:23:52.000Z"
-  },
-  {
-    "id": "bdcb6d4e-b453-4354-8131-385fae04dd69",
-    "source": "Politico",
-    "type": "rss",
-    "title": "Tennessee Republicans pass new gerrymander following Supreme Court's Voting Rights Act ruling",
-    "summary": "1. The map aims to give the GOP a clean sweep of the state’s nine congressional districts by fracturing Black-majority Memphis between three districts.",
-    "url": "https://www.politico.com/news/2026/05/07/tennessee-republicans-redistricting-voting-rights-act-midterms-00910430",
-    "author": "By Samuel Benson",
-    "created_at": "2026-05-07T18:45:22.000Z"
-  },
-  {
-    "id": "c1cfc405-ad2a-4947-a883-4b4564eaeb92",
-    "source": "The Defiant",
-    "type": "rss",
-    "title": "Amazon Builds AI Agent Payments With Coinbase and Stripe",
-    "summary": "1. Bedrock AgentCore Payments turns Amazon's agent platform into a transactional layer, with Coinbase supplying x402 stablecoin rails and Stripe contributing wallet infrastructure via Privy.",
-    "url": "https://thedefiant.io/news/infrastructure/amazon-builds-ai-agent-payments-with-coinbase-and-stripe",
-    "author": "yyctrader",
-    "created_at": "2026-05-07T18:20:55.000Z"
   }
 ]
