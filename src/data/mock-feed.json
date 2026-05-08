@@ -1,5 +1,75 @@
 [
   {
+    "id": "7ba298dc-deca-4ae3-99c0-1aa8e987144e",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "24-hour crypto futures liquidations",
+    "summary": "The following shows estimated liquidation volumes and position ratios for major crypto perpetual futures over the past 24 hours:- BTC: $109.15 million liquidated (88.76% longs)- ETH: $80.53 million liquidated (91.49% longs)- TON: $25.46 million liquidated (51.82% longs)",
+    "url": "https://t.me/CoinnessGL#ca825c6a",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T03:13:40+00:00"
+  },
+  {
+    "id": "b0b6ee41-9a70-4482-b8d2-9057504e7445",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "US spot ETH ETFs see $103.5M in net outflows",
+    "summary": "U.S. spot Ethereum ETFs recorded a total net outflow of $103.51 million on May 7, according to data compiled by Trader T. This marks a shift to net outflows after four consecutive days of net inflows.- BlackRock's ETHA: -$26.31 million- Fidelity's FETH: -$62.26 million- 21Shares' TETH: -$2.86 million- Grayscale's ETHE: -$8.38 million- Grayscale's Mini ETH: -$3.70 million",
+    "url": "https://t.me/CoinnessGL#461600c5",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T03:12:21+00:00"
+  },
+  {
+    "id": "2d7483a8-2355-45f8-b80f-62b140171339",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Democrats may pull support for Clarity Act over ethics rules",
+    "summary": "U.S. Senate Democrats are considering withdrawing their support for the Clarity Act if it does not include ethics provisions for public officials regarding cryptocurrency, Politico reported, citing three sources. The key point of contention is whether to add the provisions during the Senate Banking Committee's vote. Republicans argue the matter is outside the committee's jurisdiction and propose adding the rules at the full floor stage, a position Democrats have rejected. Sen. Ruben Gallego of Arizona, who has been leading the ethics negotiations for the Democrats, reportedly stated in a private meeting on April 29 that the provisions must be incorporated at the committee level. The push for these ethics rules is reportedly fueled by concerns surrounding the Trump family's cryptocurrency business. Meanwhile, industry observers expect the bill's markup to proceed next week.",
+    "url": "https://t.me/CoinnessGL#81f46e4e",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T02:58:12+00:00"
+  },
+  {
+    "id": "8ab9cf19-6685-4e27-a39d-6dd4c9755367",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Bitwise launched its first tokenized fund, the Bitwise Crypto Carry Fund, taking it over from Superstate and capturing the spread between crypto spot and futures prices.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#95157fe5",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-08T02:44:27+00:00"
+  },
+  {
+    "id": "96ada89a-106f-4cff-9fb6-dfe56bfd72c2",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Bitcoin Must Hold $88.88K to Confirm a BTC Bottom, Analysis",
+    "summary": "1. An analysis shared by Cryptoquant indicates bitcoin must reclaim and hold $88,880 before traders can confirm a BTC bottom.\n2. UTXO age bands identified several realized price levels where trapped buyers could add resistance during recovery attempts.\n3. Bitcoin UTXO Age Bands Show What Could Confirm a BTC Bottom Cryptoquant, an on-chain and market data analytics firm, […]",
+    "url": "https://news.bitcoin.com/bitcoin-must-hold-88-88k-to-confirm-a-btc-bottom-analysis/",
+    "author": "Kevin Helms",
+    "created_at": "2026-05-08T02:30:08.000Z"
+  },
+  {
+    "id": "e54c1d14-a837-442a-a1c1-57087fdb42e0",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Solv Protocol drops LayerZero in favor of Chainlink for $700 million tokenized bitcoin",
+    "summary": "1. It cited security as the core reason for the migration, in an apparent response to the recent exploit of LayerZero-powered Kelp DAO.",
+    "url": "https://www.theblock.co/post/400520/solv-protocol-layerzero-chainlink?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-05-08T02:17:09.000Z"
+  },
+  {
+    "id": "09513291-ded4-4f83-8bfe-0777c66fb91c",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Genius Sports Absorbs key iGaming Affiliates as Q2 Forecast Doubles EBITDA",
+    "summary": "1. Genius Sports reported first-quarter 2026 results after absorbing three of the largest iGaming and sports betting affiliate properties into its sports-data platform, with Casino.org, Casino Guru, and Covers.com now inside the company’s combined media and advertising operation following the May 1 close of the $1.2bn Legend acquisition.\n2. The London-based, NYSE-listed sports tech company beat consensus […]",
+    "url": "https://news.bitcoin.com/genius-sports-absorbs-key-igaming-affiliates-as-q2-forecast-doubles-ebitda/",
+    "author": "Luci Kelemen",
+    "created_at": "2026-05-08T01:30:50.000Z"
+  },
+  {
     "id": "38042d7c-68b0-4412-adc6-1306f1b01e8e",
     "source": "@CoinnessGL",
     "type": "telegram",
@@ -20,7 +90,7 @@
     "created_at": "2026-05-08T00:46:08+00:00"
   },
   {
-    "id": "6812380a-54b7-4156-a8ad-50b653f8b824",
+    "id": "bcb06c05-2a92-451d-b9e7-bd77de5b0cc6",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 President Trump says US has a lot of oil and is not facing any energy crisis.@WatcherGuru",
@@ -180,7 +250,7 @@
     "created_at": "2026-05-07T22:24:50.000Z"
   },
   {
-    "id": "40520eda-87b1-4842-a863-5cae1e87d502",
+    "id": "242c1dc4-367a-4f68-9b2b-70e1e80d3698",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "🇺🇸 Robinhood CEO Vlad Tenev says US is very close to passing the Crypto Clarity Act \"to ensure American dominance in digital finance.\"@WatcherGuru",
@@ -190,7 +260,7 @@
     "created_at": "2026-05-07T22:24:01+00:00"
   },
   {
-    "id": "72a56aa1-5906-48ea-97f5-0b0ae323fa3c",
+    "id": "cd95ea84-515f-4d8a-b870-1c6a1f8cf477",
     "source": "@WatcherGuru",
     "type": "telegram",
     "title": "Coinbase buys $88,000,000 worth of Bitcoin in Q1 2026.@WatcherGuru",
@@ -210,7 +280,7 @@
     "created_at": "2026-05-07T22:01:03.000Z"
   },
   {
-    "id": "bdb48a90-9eef-4131-b339-c71d2f23558b",
+    "id": "2e3bf992-05a6-4fa3-b98d-b929b4e9d814",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ AWS is partnering with Coinbase and Stripe to let AI agents make payments using USDC stablecoins via the x402 protocol.",
@@ -298,125 +368,5 @@
     "url": "https://www.theblock.co/post/400500/dorseys-block-raises-full-year-guidance-after-strong-q1-records-173-million-bitcoin-remeasurement-loss?utm_source=rss&utm_medium=rss",
     "author": "Daniel Kuhn",
     "created_at": "2026-05-07T21:16:19.000Z"
-  },
-  {
-    "id": "0004e5d8-a15b-47a2-88c9-cce182c08909",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "Privacy and accountability can coexist onchain, say panelists at Consensus Miami",
-    "summary": "1. Public blockchains make transactions traceable, but that transparency can come at the expense of user privacy.\n2. Speakers from Moody’s Ratings and ChangeNOW said that hybrid blockchain architecture and address-level monitoring can help solve both problems simultaneously.",
-    "url": "https://www.coindesk.com/tech/2026/05/07/privacy-and-accountability-can-coexist-onchain-say-panelists-at-consensus-miami",
-    "author": "Jeffrey Albus",
-    "created_at": "2026-05-07T21:14:23.000Z"
-  },
-  {
-    "id": "4769f555-50d4-41cf-8552-8bce4a5eed3d",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "⚡️ Kraken's parent company will acquire Asian stablecoin firm Reap for $600 million to expand into cross-border payments infrastructure.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#7f21fa38",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-07T21:14:16+00:00"
-  },
-  {
-    "id": "f89a799b-d2ab-460c-834b-13f7b17ed1ea",
-    "source": "The Block",
-    "type": "rss",
-    "title": "IREN stock surges as Nvidia backs AI expansion with warrants tied to 30 million shares",
-    "summary": "1. Alongside the AI infrastructure expansion, Nvidia took warrants that may eventually convert into a $2.1 billion stake in IREN.",
-    "url": "https://www.theblock.co/post/400498/iren-stock-surges-as-nvidia-backs-ai-expansion-with-warrants-tied-to-30-million-shares?utm_source=rss&utm_medium=rss",
-    "author": "Jason Shubnell",
-    "created_at": "2026-05-07T21:11:09.000Z"
-  },
-  {
-    "id": "680bc447-ea90-488d-9480-5fb7f39ecf2f",
-    "source": "CoinDesk",
-    "type": "rss",
-    "title": "AI agents and large corporates will lead the next stablecoin boom, executives say",
-    "summary": "1. Stablecoins are entering a new phase of adoption, with large corporations using them for cross-border treasury flows while AI agents begin using blockchain rails for autonomous payments, Bridge and Deus X Capital executives said at Consensus 2026.",
-    "url": "https://www.coindesk.com/business/2026/05/07/ai-agents-and-large-corporates-will-lead-the-next-stablecoin-boom-executives-say",
-    "author": "Krisztian Sandor",
-    "created_at": "2026-05-07T21:10:50.000Z"
-  },
-  {
-    "id": "2cd3f5c8-a7f0-4647-a8be-24a1075144c9",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "IRAN'S TOP JOINT MILITARY COMMAND SAYS US VIOLATED CEASEFIREIRAN WILL RESPOND POWERFULLY AND WITHOUT THE SLIGHTEST HESITATION TO ANY ATTACK- IRAN'S TOP JOINT MILITARY COMMANDTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#036b622f",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-07T21:07:55+00:00"
-  },
-  {
-    "id": "87d56e05-9c0b-470f-af29-42a0de37157a",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "US TRADE COURT RULES AGAINST TRUMP'S 10% GLOBAL TARIFFTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#5b9b4217",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-07T20:59:46+00:00"
-  },
-  {
-    "id": "8ac3d536-3b98-4060-9205-72e36413f18d",
-    "source": "@SolidIntelX",
-    "type": "telegram",
-    "title": "US SAYS CEASEFIRE WITH IRAN STILL INTACTIRAN CLAIMS IT FIRED MISSILES AT THREE US DESTORYERSTwitter",
-    "summary": "",
-    "url": "https://t.me/SolidIntelX#3abb04ca",
-    "author": "@SolidIntelX",
-    "created_at": "2026-05-07T20:53:54+00:00"
-  },
-  {
-    "id": "b818aa00-bf6f-4f97-8ef8-b45c7cd86ba2",
-    "source": "Politico",
-    "type": "rss",
-    "title": "Hochul’s Mission Accomplished",
-    "summary": "1. Hochul’s Mission Accomplished",
-    "url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/05/07/hochul-albany-budget-carl-heastie-00910538",
-    "author": "By Nick Reisman",
-    "created_at": "2026-05-07T20:51:42.000Z"
-  },
-  {
-    "id": "fa51b393-ce23-460a-b966-618219d1d042",
-    "source": "@CoinMarketCapAnnouncements",
-    "type": "telegram",
-    "title": "🇩🇪 Germany is weighing an end to its 1-year tax-free crypto holding period as it targets $2.3 billion in extra revenue from crypto in 2027.",
-    "summary": "",
-    "url": "https://t.me/CoinMarketCapAnnouncements#4c8bd9c3",
-    "author": "@CoinMarketCapAnnouncements",
-    "created_at": "2026-05-07T20:44:14+00:00"
-  },
-  {
-    "id": "0d444ad0-ef67-4312-a440-22186a0556e1",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. Congressman Mike Lawler is doing a terrific job for New York’s 17th Congressional District!\n2. Mike will most likely be running against a Radical Left Democrat named Effie Phillips-Staley, who loves High Taxes, Open Borders, Anti-Semitism, Men in Women’s Sports, and Transgender for Everybody, among other CRAZY ideas.\n3. Effie Phillips-Staley’s campaign has just been caught CHEATING, RED-HANDED, trying to file hundreds of fraudulent signatures to get on the ballot.",
-    "url": "https://trumpstruth.org/statuses/38264",
-    "author": "Trump Truth",
-    "created_at": "2026-05-07T19:33:41.000Z"
-  },
-  {
-    "id": "c02bb978-cc7b-4b1e-8da7-fdca5a1faa1e",
-    "source": "Trump Truth",
-    "type": "rss",
-    "title": "New post from Donald Trump",
-    "summary": "1. It is my Great Honor to endorse MAGA Warrior, Jackson Lahmeyer, who is running to represent the fantastic people of Oklahoma’s 1st Congressional District, and has been with me from the very beginning of our Movement to, MAKE AMERICA GREAT AGAIN!\n2. Jackson was the Founder of “Pastors For Trump,” a Nationwide Coalition of Faith Leaders committed to advancing our America First agenda, and defending Religious Liberty!\n3. A very successful Pastor, Businessman, and Civic Leader, Jackson has dedicated his life to serving his Community.",
-    "url": "https://trumpstruth.org/statuses/38265",
-    "author": "Trump Truth",
-    "created_at": "2026-05-07T19:31:43.000Z"
-  },
-  {
-    "id": "84c493de-2fde-4398-8e46-de6bdb279bf2",
-    "source": "The Defiant",
-    "type": "rss",
-    "title": "Tydro Keeps Markets Paused After Chaos Labs Flags Suspected Nation-State Attack",
-    "summary": "1. The largest DeFi protocol on Kraken's Ink Layer 2 network is onboarding Chainlink and RedStone feeds before resuming its lending markets.",
-    "url": "https://thedefiant.io/news/defi/tydro-keeps-markets-paused-after-chaos-labs-flags-suspected-nation-state-attack",
-    "author": "yyctrader",
-    "created_at": "2026-05-07T19:23:52.000Z"
   }
 ]
