@@ -1,5 +1,145 @@
 [
   {
+    "id": "dd54a1bd-6aca-435b-a0c4-58ff234aa019",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "LayerZero default security setting flaw leaves $178M in assets exposed",
+    "summary": "A security vulnerability in the default code LayerZero uses to validate cross-chain messages has reportedly exposed over $3 billion in Omnichain Fungible Tokens (OFTs) to potential theft. According to the X account Fishy Catfish, the code could be instantly replaced by developer LayerZero Labs without any time delay, creating a structure that could be exploited to forge messages.The issue sparked a heated debate between LayerZero CEO Bryan Pellegrino and security researchers in the ETHSecurity community's Telegram channel. Banteg, a researcher with 220,000 followers, noted that major projects like Ethena and EtherFi were using this default setting until a few weeks ago and that $178 million in assets remain exposed.Fishy Catfish added that on-chain data suggests operational multi-signature keys were used for routine activities like memecoin trading, raising questions about the project's overall security management, particularly given its history of being targeted by North Korean hackers.",
+    "url": "https://t.me/CoinnessGL#f2670997",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T07:39:28+00:00"
+  },
+  {
+    "id": "a32c5855-2216-43b5-a7d2-0358ca66e0e9",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "⚡ Samson Mow defended Strategy’s potential Bitcoin sales, saying “never selling limits optionality” and that companies with more tools are harder for short sellers to target.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#864e51cc",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-08T07:34:43+00:00"
+  },
+  {
+    "id": "d1c3f419-d11c-4814-a199-a697d114706d",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Coinbase Buys $88 Million Worth of Bitcoin in Q1 2026",
+    "summary": "1. Coinbase disclosed during its Q1 2026 earnings call that it purchased $88 million worth of bitcoin during the quarter, marking a significant addition to the publicly listed exchange’s corporate treasury.\n2. Strong Accumulation Signal Coinbase, the only major U.S.-listed cryptocurrency exchange, added bitcoin to its corporate treasury during the first quarter of 2026, disclosing a purchase […]",
+    "url": "https://news.bitcoin.com/coinbase-buys-88-million-bitcoin-q1-2026/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-08T07:30:26.000Z"
+  },
+  {
+    "id": "e08a721f-eca4-4ff5-90f2-fa8ca9fca61e",
+    "source": "The Block",
+    "type": "rss",
+    "title": "Arbitrum DAO approves $70 million ETH release for Kelp DAO recovery",
+    "summary": "1. However, a May 1 court order restricted Arbitrum DAO from moving the recovered funds, prompting Aave to file an emergency motion against it.",
+    "url": "https://www.theblock.co/post/400527/arbitrum-dao-approves-eth-release?utm_source=rss&utm_medium=rss",
+    "author": "Danny Park",
+    "created_at": "2026-05-08T07:25:40.000Z"
+  },
+  {
+    "id": "94a880ac-4f58-4aa7-97ba-346973af7be4",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Aptos Foundation, Aptos Labs commit $50M to development as it eyes AI agent future",
+    "summary": "1. The Aptos Foundation said building infrastructure that enables sub-second finality without the need for human intervention is a key to supporting the next wave of AI agent adoption.",
+    "url": "https://cointelegraph.com/news/aptos-foundation-labs-commit-50m-sees-opportunity-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Brayden Lindrea",
+    "created_at": "2026-05-08T07:08:53.000Z"
+  },
+  {
+    "id": "84886029-039f-4a74-83cd-d1087340c5cc",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Over half of US voters support the CLARITY Act, survey finds",
+    "summary": "A majority of U.S. voters from both major parties support the Cryptocurrency and Lummis-Gillibrand Responsible Financial Innovation Act (CLARITY), according to a new poll. The survey also suggests that supporting the bill could be an electoral advantage for members of Congress.According to market research firm HarrisX, a national survey of 2,008 U.S. voters showed that 52% support the bill, while only 11% oppose it. Net support, calculated as the percentage of supporters minus opponents, was 48% among Democrats, 43% among Republicans, and 32% among independents.HarrisX reported that 37% of respondents would be more likely to support a member of Congress who votes for the CLARITY Act, compared to 17% who would be less likely. The survey also found that 70% believe the U.S. should have already passed crypto legislation, and 60% prefer the establishment of clear federal laws over litigation-focused regulation. Additionally, 47% said they would consider supporting a candidate from another party if their own party opposed the CLARITY Act.Meanwhile, 56% of respondents believe that digital payment systems built in foreign countries would weaken U.S. national security, indicating that digital finance is widely viewed as a national security issue.",
+    "url": "https://t.me/CoinnessGL#82df1453",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T07:08:24+00:00"
+  },
+  {
+    "id": "70507621-ba97-4820-851b-a35c2ab3e78b",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Germany could end its tax-free crypto holding period in push for higher digital asset tax revenue.Twitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#dcaa4cf6",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-08T07:05:34+00:00"
+  },
+  {
+    "id": "3670b647-25b8-478f-ac3a-9caeaa2242be",
+    "source": "@CoinnessGL",
+    "type": "telegram",
+    "title": "Binance to support Chiliz fan token contract swap",
+    "summary": "Binance has announced its support for a contract swap of fan tokens based on the Chiliz Chain (CHZ) CAP20 standard. The tokens affected include ACM, ASR, ATM, and BAR. Consequently, deposits and withdrawals for these Chiliz Chain-based tokens will be temporarily suspended starting at 1:00 a.m. UTC on May 11.",
+    "url": "https://t.me/CoinnessGL#ee1fa5b9",
+    "author": "@CoinnessGL",
+    "created_at": "2026-05-08T07:04:52+00:00"
+  },
+  {
+    "id": "86734980-5aa6-44f2-ab99-b865f9d66907",
+    "source": "@CoinMarketCapAnnouncements",
+    "type": "telegram",
+    "title": "📊 Bitcoin's 37% rally since April is still a bear market rally, CryptoQuant says, noting profit-taking is accelerating with traders sitting on an 18% unrealized profit margin.",
+    "summary": "",
+    "url": "https://t.me/CoinMarketCapAnnouncements#372d88f5",
+    "author": "@CoinMarketCapAnnouncements",
+    "created_at": "2026-05-08T06:44:40+00:00"
+  },
+  {
+    "id": "86955f28-2c1b-4308-bacb-22c0ba4b9f2a",
+    "source": "CoinDesk",
+    "type": "rss",
+    "title": "Consensus panelists explain why Perp DEXes remain a tough sell for institutional investors",
+    "summary": "1. Panelists at Consensus Miami said institutional investors are still largely absent from perp DEXs, citing security risks and KYC friction as key barriers.",
+    "url": "https://www.coindesk.com/markets/2026/05/08/perp-dexs-still-don-t-work-for-institutions-consensus-panelists-explain-why",
+    "author": "Omkar Godbole",
+    "created_at": "2026-05-08T06:44:34.000Z"
+  },
+  {
+    "id": "beefb0cc-c98a-4354-89c1-bf4dcea93c4a",
+    "source": "@SolidIntelX",
+    "type": "telegram",
+    "title": "Saudi Arabia’s $1 trillion wealth fund expands in China with second mainland office.Twitter",
+    "summary": "",
+    "url": "https://t.me/SolidIntelX#fca552f3",
+    "author": "@SolidIntelX",
+    "created_at": "2026-05-08T06:39:21+00:00"
+  },
+  {
+    "id": "0c49b3da-5518-41dd-9a26-d364bc78097d",
+    "source": "Bitcoin.com",
+    "type": "rss",
+    "title": "Coinbase Exchange Experiences “Degraded Performance” for Over Two Hours After AWS Outage",
+    "summary": "1. Coinbase’s exchange went dark for over two hours on Friday after an Amazon Web Services (AWS) outage disrupted trading access for thousands of users worldwide.\n2. Major Disruption Affects Withdrawals, Trades Coinbase, one of the world’s largest cryptocurrency exchanges by trading volume, experienced a significant service disruption Friday morning after an outage at Amazon Web Services […]",
+    "url": "https://news.bitcoin.com/coinbase-exchange-outage-aws-may-2026/",
+    "author": "Shiraz Jagati",
+    "created_at": "2026-05-08T06:30:37.000Z"
+  },
+  {
+    "id": "cbdd4614-ab8c-4b26-bf58-04cc6b62dba3",
+    "source": "@WatcherGuru",
+    "type": "telegram",
+    "title": "Coinbase crypto trading remains down for over 5 hours as outage continues.@WatcherGuru",
+    "summary": "",
+    "url": "https://t.me/WatcherGuru#e6674391",
+    "author": "@WatcherGuru",
+    "created_at": "2026-05-08T06:26:43+00:00"
+  },
+  {
+    "id": "b37c4536-e1be-4c8e-bb0c-1c02435341d9",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "AWS Northern Virginia data center overheats, impacting Coinbase",
+    "summary": "1. Coinbase said on Friday its markets are being placed in “cancel only” mode but will begin to re-enable trading “shortly.”",
+    "url": "https://cointelegraph.com/news/aws-data-center-overheating-impacting-coinbase-others?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Felix Ng",
+    "created_at": "2026-05-08T06:25:52.000Z"
+  },
+  {
     "id": "4ee69b89-135d-4b22-9374-b4d4c1dd3b79",
     "source": "@CoinnessGL",
     "type": "telegram",
@@ -48,6 +188,16 @@
     "url": "https://t.me/CoinnessGL#5d9c760c",
     "author": "@CoinnessGL",
     "created_at": "2026-05-08T05:19:40+00:00"
+  },
+  {
+    "id": "1fefd2c8-ff75-4673-9fec-e9f87d92c0b4",
+    "source": "CoinTelegraph",
+    "type": "rss",
+    "title": "Chaos Labs says oracles secure after attempted ‘nation-state’ wallet attack",
+    "summary": "1. Chaos Labs said on Thursday it has rotated all keys since the attempted attack over the weekend and hasn't detected any suspicious activity since.",
+    "url": "https://cointelegraph.com/news/chaos-labs-nation-state-wallet-attack-oracles-secure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "author": "Cointelegraph by Stephen Katte",
+    "created_at": "2026-05-08T05:16:42.000Z"
   },
   {
     "id": "acf0128c-67d2-4486-ae8a-f47b0b14ffdc",
@@ -180,7 +330,7 @@
     "created_at": "2026-05-08T02:58:12+00:00"
   },
   {
-    "id": "50760fb4-154d-4cf6-86bd-3dc736346aa8",
+    "id": "cb9f22eb-1bfd-4b91-ad3a-cfe231ae3008",
     "source": "@CoinMarketCapAnnouncements",
     "type": "telegram",
     "title": "⚡ Bitwise launched its first tokenized fund, the Bitwise Crypto Carry Fund, taking it over from Superstate and capturing the spread between crypto spot and futures prices.",
@@ -208,115 +358,5 @@
     "url": "https://www.theblock.co/post/400520/solv-protocol-layerzero-chainlink?utm_source=rss&utm_medium=rss",
     "author": "Danny Park",
     "created_at": "2026-05-08T02:17:09.000Z"
-  },
-  {
-    "id": "09513291-ded4-4f83-8bfe-0777c66fb91c",
-    "source": "Bitcoin.com",
-    "type": "rss",
-    "title": "Genius Sports Absorbs key iGaming Affiliates as Q2 Forecast Doubles EBITDA",
-    "summary": "1. Genius Sports reported first-quarter 2026 results after absorbing three of the largest iGaming and sports betting affiliate properties into its sports-data platform, with Casino.org, Casino Guru, and Covers.com now inside the company’s combined media and advertising operation following the May 1 close of the $1.2bn Legend acquisition.\n2. The London-based, NYSE-listed sports tech company beat consensus […]",
-    "url": "https://news.bitcoin.com/genius-sports-absorbs-key-igaming-affiliates-as-q2-forecast-doubles-ebitda/",
-    "author": "Luci Kelemen",
-    "created_at": "2026-05-08T01:30:50.000Z"
-  },
-  {
-    "id": "38042d7c-68b0-4412-adc6-1306f1b01e8e",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Suspected Matrixport address sells another $4.3M in HYPE",
-    "summary": "A suspected Matrixport-affiliated address has sold an additional 100,000 HYPE, worth approximately $4.26 million, Onchain Lens reported. According to on-chain data, the address is estimated to have sold a total of 200,000 HYPE to date, monetizing 8.447 million USDC.",
-    "url": "https://t.me/CoinnessGL#083f0ccd",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-08T01:07:43+00:00"
-  },
-  {
-    "id": "fe6d3c0b-3f2e-4f0f-999c-883d0bbd9a62",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Hyperliquid Strategies posts $165.4M net loss over nine months",
-    "summary": "Hyperliquid Strategies disclosed a net loss of $165.4 million for the nine months ending March 31. The company attributed the result primarily to $64 million in unrealized losses on its HYPE token holdings, a $35.6 million one-time write-off related to its acquisition of Sonnet BioTherapeutics, and $60.5 million in deferred income taxes. For the three-month period, the firm recorded $2.6 million in staking revenue and $1 million in interest income, against operating expenses of $7.2 million. Its current cash holdings stand at $103 million. Founded in December 2025, Hyperliquid Strategies currently holds approximately 20 million HYPE tokens.",
-    "url": "https://t.me/CoinnessGL#a36e273e",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-08T00:46:08+00:00"
-  },
-  {
-    "id": "a37b0241-d639-46f2-9a53-4a23300da76e",
-    "source": "@WatcherGuru",
-    "type": "telegram",
-    "title": "🇺🇸 President Trump says US has a lot of oil and is not facing any energy crisis.@WatcherGuru",
-    "summary": "",
-    "url": "https://t.me/WatcherGuru#5a1aad43",
-    "author": "@WatcherGuru",
-    "created_at": "2026-05-08T00:44:48+00:00"
-  },
-  {
-    "id": "f33dab98-78d3-4137-a81a-df7d28b20ff2",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Block reports $173M Bitcoin impairment loss in Q1",
-    "summary": "Block, the blockchain and mobile payments company led by Jack Dorsey, posted a $173 million impairment loss on its Bitcoin holdings in the first quarter, The Block reported. The company's total corporate and customer Bitcoin holdings amounted to 28,355 BTC, valued at approximately $2.2 billion.Despite the Bitcoin-related loss, Block's overall financial performance was strong. First-quarter gross profit rose 27% year-over-year to $2.91 billion, while adjusted operating income increased by 56% to $728 million. The Cash App division saw its gross profit climb 38% to $1.91 billion, driven by growth in lending, banking, and commerce, though its Bitcoin-related revenue declined by 31% from the previous year. In the Square division, Bitcoin-related revenue was around $28 million, but similar costs resulted in a minimal contribution to profit.Block raised its full-year guidance, citing business execution and future expectations.",
-    "url": "https://t.me/CoinnessGL#c2028795",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-08T00:32:51+00:00"
-  },
-  {
-    "id": "32e13189-3fec-417c-b2df-2de2dc209df0",
-    "source": "The Block",
-    "type": "rss",
-    "title": "Hyperliquid Strategies posts $165 million net loss for nine months ended March 31 as HYPE treasury grows",
-    "summary": "1. The firm has deployed $216 million to acquire approximately 7.3 million HYPE tokens since its inception in December 2025.",
-    "url": "https://www.theblock.co/post/400512/hyperliquid-strategies-net-loss?utm_source=rss&utm_medium=rss",
-    "author": "Daniel Kuhn",
-    "created_at": "2026-05-08T00:19:55.000Z"
-  },
-  {
-    "id": "2c1bc23c-3ff5-4e44-ad75-abfaf626df6c",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "BTC/USDT spot CVD chart as of 12:00 a.m. UTC",
-    "summary": "This is an order book analysis chart for the BTC/USDT spot pair, showing the Volume Heatmap in the top section and the Cumulative Volume Delta (CVD) in the bottom section.- The top Volume Heatmap tracks the volume of trades at specific price levels. The background color becomes brighter when the price lingers in a certain range or moves significantly. Areas with brighter colors may act as support or resistance levels.- The bottom Cumulative Volume Delta (CVD) indicator represents buy and sell orders categorized by trade size. As buy orders increase, the corresponding colored line rises. The yellow line tracks orders between $100 and $1,000, while the brown line tracks large orders between $1 million and $10 million.",
-    "url": "https://t.me/CoinnessGL#4b984b49",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-08T00:05:47+00:00"
-  },
-  {
-    "id": "855ddb46-c2ca-42b3-a158-25525c8b914c",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Bitcoin options worth $1.6B set to expire today",
-    "summary": "Bitcoin options with a notional value of $1.59 billion are set to expire at 8:00 a.m. UTC today, May 8, according to data from crypto options exchange Deribit. The put/call ratio is 0.74, indicating a prevalence of bullish bets, while the max pain price—the point at which the most option holders would see their contracts expire worthless—is $79,500. Additionally, Ethereum options worth $410 million will expire at the same time. These have a put/call ratio of 0.94 and a max pain price of $2,350.",
-    "url": "https://t.me/CoinnessGL#1c0ad9ca",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-08T00:04:10+00:00"
-  },
-  {
-    "id": "4ce5933f-f073-44e6-8fa4-af14e7203c5b",
-    "source": "@CoinnessGL",
-    "type": "telegram",
-    "title": "Crypto Fear & Greed Index falls to 47, remains neutral",
-    "summary": "The Fear & Greed Index from cryptocurrency data provider CoinMarketCap stands at 47, down three points from yesterday. The index remains in the neutral phase. The index indicates extreme market fear as it approaches zero and extreme optimism as it nears 100. CoinMarketCap's index is calculated based on the price movements of the top 10 cryptocurrencies by market capitalization, market volatility, derivatives market data such as put/call ratios, the Stablecoin Supply Ratio (SSR), and the platform's own search data.",
-    "url": "https://t.me/CoinnessGL#ac04f824",
-    "author": "@CoinnessGL",
-    "created_at": "2026-05-08T00:01:18+00:00"
-  },
-  {
-    "id": "fff805c0-90d4-4852-9030-5d94888ff09d",
-    "source": "CoinTelegraph",
-    "type": "rss",
-    "title": "Bitcoin bulls target $115K by December: Does data back the expectation?",
-    "summary": "1. Bitcoin options show bulls targeting $115,000 by year-end but are traders becoming overly optimistic?",
-    "url": "https://cointelegraph.com/markets/bitcoin-bulls-target-115k-by-december-does-data-back-the-expectation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "author": "Cointelegraph by Marcel Pechman",
-    "created_at": "2026-05-07T23:56:15.000Z"
-  },
-  {
-    "id": "ed5f3176-8f92-4a6c-9bb4-463a19552ee3",
-    "source": "GitHub",
-    "type": "github",
-    "title": "anthropics/claude-code: v2.1.133",
-    "summary": "1. ## What's changed\n\n- Added `worktree.baseRef` setting (`fresh` | `head`) to choose whether `--worktree`, `EnterWorktree`, and agent-isolation worktrees branch from `origin/` or local `HEAD`.\n2. **Note:** the default `fresh` changes `EnterWorktree`'s base back to `origin/` (it has been local `HEAD` since 2.1.128) — set `worktree.baseRef: \"head\"` to keep unpushed commits in new worktrees\n- Added `sandbox.bwrapPath` and `sandbox.socatPath` managed settings (Linux/WSL) to specify custom bubblewrap and socat binary locations\n- Added `parentSettingsBehavior` admin-tier key (`'first-wins' | 'merge'`) to let admins opt SDK `managedSettings` (parent tier) into the policy merge\n- Hooks now receive the active effort level via the `effort.level` JSON input field and the `$CLAUDE_EFFORT` environment variable, and Bash tool commands can read `$CLAUDE_EFFORT`\n- Improved focus mode behavior\n- Improved memory usage by releasing warm-spare background workers under memory pressure\n- Fixed parallel sessions all dead-ending at 401 after a refresh-token race wiped shared credentials\n- Fixed `Edit`/`Write` allow rules scoped to a drive root (`C:\\`) or POSIX `/` matching incorrectly and always prompting\n- Fixed an unhandled rejection (`ECOMPROMISED`) when a history or session-log file lock is compromised by clock skew or slow disk\n- Fixed pressing Esc during conversation compaction showing a spurious \"Error compacting conversation\" notification\n- Fixed `HTTP(S)_PROXY` / `NO_PROXY` / mTLS not being respected for the full MCP OAuth flow including discovery, dynamic client registration, token exchange, and token refresh\n- Fixed Read/Write/Edit being denied on mapped network drives passed via `--add-dir` / SDK `additionalDirectories`\n- Fixed Remote Control stop/interrupt from claude.ai not fully canceling the CLI session the same way local Esc does, causing queued messages to never advance after interrupting a stuck tool or prompt\n- Fixed `/effort` in one session unexpectedly changing the effort level of other concurrent sessions, and a related issue where an IDE effort change could be silently dropped\n- Fixed subagents not discovering project, user, or plugin skills via the Skill tool\n- `claude --help` now lists `--remote-control` alongside `--remote-control-session-name-prefix`\n- [VSCode] Fixed `claudeCode.claudeProcessWrapper` failing with \"Unsupported platform\" when the extension build doesn't bundle a Claude binary",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
-    "author": "ashwin-ant",
-    "created_at": "2026-05-07T23:49:04Z"
   }
 ]
